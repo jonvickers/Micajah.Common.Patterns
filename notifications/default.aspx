@@ -10,14 +10,51 @@
             <div class="head-notice attention">
 				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
 				<div>
-					Attention notification. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. 
+					<strong>Attention notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. 
 				</div>
 			</div>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<h1>Notifications</h1>
+<h1>MC3 Notifications</h1>
+            
+            <div class="mc3_notification mc3_attention">
+				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+				<div>
+					<h4>Attention notification.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.</p> 
+				</div>
+			</div>
+			
+			<div class="mc3_notification mc3_information">
+				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+				<div>
+					<h4>Information notification.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.</p>
+				</div>
+			</div>
+			
+			<div class="mc3_notification mc3_success">
+				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+				<div>
+					<h4>Success notification.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.</p>
+				</div>
+			</div>
+			
+			<div class="mc3_notification mc3_error">
+				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+				<div>
+					<h4>Error notification.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.</p>
+				</div>
+			</div>
 
+            
+            <br />
+            <hr />
+            <br />
+            <h1>Other Notifications</h1>
             <div class="notification attention">
 				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
 				<div>

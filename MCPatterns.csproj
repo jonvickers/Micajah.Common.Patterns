@@ -71,6 +71,10 @@
     <Content Include="notifications\img\cross_small.png" />
     <Content Include="notifications\img\exclamation.png" />
     <Content Include="notifications\img\information.png" />
+    <Content Include="notifications\img\mc3_error.png" />
+    <Content Include="notifications\img\mc3_info.png" />
+    <Content Include="notifications\img\mc3_sucess.png" />
+    <Content Include="notifications\img\mc3_warning.png" />
     <Content Include="notifications\img\tick_circle.png" />
     <Content Include="notifications\js\notifications.js" />
     <Content Include="startup\css\startup.css" />
