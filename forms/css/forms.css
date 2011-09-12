@@ -15,19 +15,6 @@
 
 /*--- form CSS  ---*/
 
-form label 
-{
-    display: block;
-    padding: 0 0 5px;
-    font-weight: bold;
-    }
-                
-form p small 
-{
-    font-size: 0.75em;
-    color: #777;
-    }		
-       
 form input,
 form select, 
 form textarea
@@ -57,6 +44,11 @@ form .large-input
 {
     width: 97.5% !important;
     }
+    
+form .large-input-left /*-- for left side input --*/
+{
+    width: 80% !important;
+    }
                 
 form textarea 
 {
@@ -78,6 +70,12 @@ form input[type="radio"]
 	border: 0;
     }
 
+form .submitbutton
+{
+    font-weight: bold;
+    font-size: 1.2em;
+    }
+
 form input:hover, form textarea:hover,
 form select:hover {
 	border-color: #80BFFF;
@@ -86,3 +84,40 @@ form select:hover {
 form select:focus, form input:focus, form textarea:focus {
 	border-color: #0053A6;
 	}
+
+/* ---- Form Labels ----*/
+
+form label
+{
+    display: block;
+    padding: 0 0 5px;
+    font-weight: bold;
+    }
+                
+form p small 
+{
+    font-size: 0.75em;
+    color: #777;
+    }
+
+form .labelleft 
+{
+    float: left;
+    font-size: 1.2em;
+    padding: 0.45em 1.6em 0 0;
+    }
+    
+form .labelleftdesc 
+{
+    float: left;
+    font-size: 1.2em;
+    padding: 0px 10px 0 0;
+    }    
+
+form .labelleftdesc small 
+{
+    font-size: 0.6em;
+    font-weight: normal;
+    }
+    
+ 
