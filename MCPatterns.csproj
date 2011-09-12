@@ -50,6 +50,31 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="buttons\css\buttons.css" />
+    <Content Include="buttons\default.aspx" />
+    <Content Include="css\960.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\text.css" />
+    <Content Include="default.aspx" />
+    <Content Include="forms\css\forms.css" />
+    <Content Include="forms\default.aspx" />
+    <Content Include="grids\css\grids.css" />
+    <Content Include="grids\default.aspx" />
+    <Content Include="css\style.css" />
+    <Content Include="grids\js\grid.js" />
+    <Content Include="notifications\css\notifications.css" />
+    <Content Include="notifications\default.aspx" />
+    <Content Include="notifications\img\bullet_black.png" />
+    <Content Include="notifications\img\cross.png" />
+    <Content Include="notifications\img\cross_circle.png" />
+    <Content Include="notifications\img\cross_grey_small.png" />
+    <Content Include="notifications\img\cross_small.png" />
+    <Content Include="notifications\img\exclamation.png" />
+    <Content Include="notifications\img\information.png" />
+    <Content Include="notifications\img\tick_circle.png" />
+    <Content Include="notifications\js\notifications.js" />
+    <Content Include="startup\css\startup.css" />
+    <Content Include="startup\default.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -59,16 +84,62 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="buttons\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buttons\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.Master.cs">
       <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.Master.designer.cs">
       <DependentUpon>Default.Master</DependentUpon>
     </Compile>
+    <Compile Include="forms\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="grids\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="grids\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notifications\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notifications\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="startup\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="startup\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="forms\img\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

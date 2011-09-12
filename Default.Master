@@ -1,20 +1,47 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="MCPatterns.Default" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Micajah.Common.UIPatterns</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/text.css" rel="stylesheet" type="text/css" />
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    
+        <div id="head-notice">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
         
-        </asp:ContentPlaceHolder>
-    </div>
+            </asp:ContentPlaceHolder>
+        </div>
+
+       <div id="sidebar">
+        <h3 style="text-align: center;">Micajah.Common.UI</h3>
+       
+            <ul id="main-nav">
+                <li><a href="../">Home</a></li>
+                <li><a href="../forms">Forms</a></li>
+                <li><a href="../buttons">Buttons</a></li>
+                <li><a href="../grids">Grids</a></li>
+                <li><a href="../notifications">Notifications</a></li>
+                <li><a href="../startup">Start Up Page</a></li>
+            </ul>
+        </div>
+
+        <div id="main-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
     </form>
 </body>
 </html>
