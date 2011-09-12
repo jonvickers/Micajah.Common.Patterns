@@ -1,23 +1,38 @@
 ﻿
-#startup 
+.startup 
 {
-    border: 1px solid #d9d9d9;
-    background-color: #ebebeb;
+    border: 1px solid #7daac8;
+    background: #1b6eaf url('../../startup/img/Mountain_File.png') no-repeat bottom center;
     min-height: 50px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px 10px 10px 10px;
-    color: #000;
+    color: #fff;
     padding: 10px;
     overflow: hidden; 
     max-width: 800px;
     margin: 0 auto 40px;   
     }
 
+.startup p
+{
+    text-align: center;
+    font-size: 1.2em;
+    }
+
+.startup h1 
+{
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 2.5em;
+    }
+
 .startupstep 
 {
     background-color: #f6f6f6;
     border: 1px solid #d9d9d9;
+    color: #004174;
     float: left;
     margin: 10px;
     min-height: 20px;
@@ -26,11 +41,12 @@
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
     }
 
 .startupstep ul li 
 {
-    background-color: #d9d9d9;
+    background-color: #eaeaea;
     font-weight: bold;
     margin: 0 10px;
     padding: 5px 15px;

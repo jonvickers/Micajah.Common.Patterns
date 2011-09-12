@@ -79,6 +79,7 @@
     <Content Include="notifications\js\notifications.js" />
     <Content Include="startup\css\startup.css" />
     <Content Include="startup\default.aspx" />
+    <Content Include="startup\img\Mountain_File.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

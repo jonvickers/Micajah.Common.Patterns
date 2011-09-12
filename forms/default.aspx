@@ -98,7 +98,7 @@
 <hr />
 <br />
 
-<h3>2 Column Layout</h3>
+<h1>2 Column Layout</h1>
      <form action="" method="post">
          <fieldset class="column-left"><!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
             <p>
