@@ -7,62 +7,96 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<h1>Standard Forms</h1>
+<h1>Standard Forms - Left Labels</h1>
+    
+    <form action="" method="post">
 
-<form action="" method="post">
+        <fieldset>
+            <p>
+                <input class="text-input small-input" type="text" id="Text7" name="small-input" /> <span class="input-notification success png_bg">Successful message (Pulls from notification CSS file)</span> <!-- Classes for input-notification: success, error, information, attention -->
+				<label class="labelleft">Small form input</label>	
+			</p>
+
+            <p><input class="text-input small-input" type="text" id="Text8" name="small-input" /> <span class="input-notification success png_bg">Successful message</span> <!-- Classes for input-notification: success, error, information, attention -->
+				
+				<label class="labelleftdesc">Small form input
+                <br /><small>A small description of the field</small></label>	
+			</p>
+            <p>
+                <input class="text-input medium-input input-error" type="text" id="Text9" name="medium-input" /> <span class="input-notification error png_bg">Error message</span>
+				<label class="labelleft">Medium form input</label>				
+			</p>
+								
+			<p>
+                <label class="labelleft">Large form input</label>	
+                <input class="text-input large-input-left" type="text" id="Text10" name="large-input" />
 							
-							<fieldset> 
-								
-								<p>
-									<label>Small form input</label>
-										<input class="text-input small-input" type="text" id="Text2" name="small-input" /> <span class="input-notification success png_bg">Successful message (Pulls from notification CSS file)</span> <!-- Classes for input-notification: success, error, information, attention -->
-										<br /><small>A small description of the field</small>
-								</p>
-								
-								<p>
-									<label>Medium form input</label>
-									<input class="text-input medium-input input-error" type="text" id="medium-input" name="medium-input" /> <span class="input-notification error png_bg">Error message</span>
-								</p>
-								
-								<p>
-									<label>Large form input</label>
-									<input class="text-input large-input" type="text" id="large-input" name="large-input" />
-								</p>
-								
-								<p>
-									<label>Checkboxes</label>
-									<input type="checkbox" name="checkbox1" /> This is a checkbox <input type="checkbox" name="checkbox2" /> And this is another checkbox
-								</p>
-								
-								<p>
-									<label>Radio buttons</label>
-									<input type="radio" name="radio1" /> This is a radio button<br />
-									<input type="radio" name="radio1" /> This is another radio button
-								</p>
-								
-								<p>
-									<label>This is a drop down list</label>              
-									<select name="dropdown" class="small-input">
-										<option value="option1">Option 1</option>
-										<option value="option2">Option 2</option>
-										<option value="option3">Option 3</option>
-										<option value="option4">Option 4</option>
-									</select> 
-								</p>
-								
-								<p>
-									<input class="buttons" type="submit" value="Submit" /> or <a href="#">Cancel</a> - (button info pulling from the 'buttons.css' file)
-								</p>
-								
-							</fieldset>
+			</p>
+
+            <input class="buttons submitbutton" type="submit" value="Submit the Left Side Form" /> or <a href="#">Cancel</a> - (button info pulling from the 'buttons.css' file)
+
+        </fieldset>
+
+    </form>
+    <br />
+<hr />
+<br />
+<h1>Standard Forms - Top Labels</h1>
+
+    <form action="" method="post">
 							
-							<div class="clear"></div><!-- End .clear -->
+		<fieldset> 
+								
+			<p>
+				<label>Small form input</label>
+					<input class="text-input small-input" type="text" id="Text2" name="small-input" /> <span class="input-notification success png_bg">Successful message (Pulls from notification CSS file)</span> <!-- Classes for input-notification: success, error, information, attention -->
+					<br /><small>A small description of the field</small>
+			</p>
+								
+			<p>
+				<label>Medium form input</label>
+				<input class="text-input medium-input input-error" type="text" id="medium-input" name="medium-input" /> <span class="input-notification error png_bg">Error message</span>
+			</p>
+								
+			<p>
+				<label>Large form input</label>
+				<input class="text-input large-input" type="text" id="large-input" name="large-input" />
+			</p>
+								
+			<p>
+				<label>Checkboxes</label>
+				<input type="checkbox" name="checkbox1" /> This is a checkbox <input type="checkbox" name="checkbox2" /> And this is another checkbox
+			</p>
+								
+			<p>
+				<label>Radio buttons</label>
+				<input type="radio" name="radio1" /> This is a radio button<br />
+				<input type="radio" name="radio1" /> This is another radio button
+			</p>
+								
+			<p>
+				<label>This is a drop down list</label>              
+				<select name="dropdown" class="small-input">
+					<option value="option1">Option 1</option>
+					<option value="option2">Option 2</option>
+					<option value="option3">Option 3</option>
+					<option value="option4">Option 4</option>
+				</select> 
+			</p>
+								
+			<p>
+				<input class="buttons submitbutton" type="submit" value="Submit" /> or <a href="#">Cancel</a>
+			</p>
+								
+		</fieldset>
 							
-						</form>
+		<div class="clear"></div><!-- End .clear -->
+							
+	</form>
 
-
-
-
+<br />
+<hr />
+<br />
 
 <h3>2 Column Layout</h3>
      <form action="" method="post">
@@ -99,7 +133,13 @@
 				<input class="text-input medium-input input-error" type="text" id="Text4" name="small-input" /> <span class="input-notification error">Error message</span>
 				<br /><small>A small description of the field</small>
 			</p> 
-         </fieldset>      
-     </form>
 
+            
+         </fieldset>
+         <input class="buttons submitbutton" type="submit" value="Submit the 2 column form" /> or <a href="#">Cancel</a>      
+     </form>
+     <br />
+     <br />
+<hr />
+<br />
 </asp:Content>

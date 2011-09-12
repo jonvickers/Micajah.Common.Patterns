@@ -1,4 +1,71 @@
-﻿.notification 
+﻿
+/*-- MC3 Notifications --*/
+
+.mc3_notification 
+{
+    background-position: 5px 5px !important;
+    background-repeat: no-repeat !important;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    font-size: 13px;
+    margin: 0 0 15px;
+    min-height: 50px;
+    padding: 0;
+    position: relative;
+    width: 99.8%;
+    }
+ 
+.mc3_notification h4
+{
+    padding: 0;
+    margin: 0;
+    }
+
+.mc3_notification  p
+{
+    margin-bottom: 5px;
+    }
+
+.mc3_attention 
+{
+    background: #fffbcc url('../../notifications/img/mc3_warning.png') 40px 40px no-repeat;
+    border-color: #e6db55;
+    color: #666452;
+    }
+
+.mc3_information 
+{
+    background: #dbe3ff url('../../notifications/img/mc3_info.png');
+    border-color: #a2b4ee;
+    color: #585b66;
+    }
+
+.mc3_success 
+{
+    background: #d5ffce url('../../notifications/img/mc3_sucess.png');
+    border-color: #9adf8f;
+    color: #556652;
+    }
+
+.mc3_error 
+{
+    background: #ffcece url('../../notifications/img/mc3_error.png');
+    border-color: #df8f8f;
+    color: #665252;
+    }
+
+.mc3_notification div  
+{
+    display: block;
+    font-style: normal;
+    line-height: 1.5em;
+    padding: 10px 10px 10px 55px;    
+    }
+    
+
+/*-- Other Notifications --*/
+
+.notification 
 {
     position: relative;
     margin: 0 0 15px 0;
@@ -57,7 +124,7 @@
     color: #665252;
     }
 
-.head-notice div, .notification div 
+.head-notice div, .notification div
 {
     display:block;
     font-style:normal;
@@ -65,7 +132,7 @@
     line-height: 1.5em;
     }
 
-.head-notice .close, .notification .close 
+.head-notice .close, .notification .close, .mc3_notification .close 
 {
     color:#990000;
     font-size:9px;
@@ -73,6 +140,7 @@
     right:5px;
     top:5px;
     }
+
 .input-notification 
 {
 	background-position: left 2px;
