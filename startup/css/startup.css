@@ -1,4 +1,16 @@
 ﻿
+.startupwrapper
+{
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+
 .startup 
 {
     border: 1px solid #7daac8;
@@ -11,7 +23,12 @@
     padding: 10px;
     overflow: hidden; 
     max-width: 800px;
-    margin: 0 auto 40px;   
+    margin: 0 0 40px;   
+    }
+
+#startup-bottom 
+{
+    padding:0 20px 20px;
     }
 
 .startup p
@@ -25,7 +42,7 @@
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
-    font-size: 2.5em;
+    font-size: 3.5em;
     }
 
 .startupstep 

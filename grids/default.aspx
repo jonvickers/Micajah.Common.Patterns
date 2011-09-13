@@ -21,7 +21,7 @@
         </thead>
 
         <tbody>
-            <tr>
+            <tr class="edit-row">
                 <td>data</td>
                 <td>data</td>
                 <td>data</td>
