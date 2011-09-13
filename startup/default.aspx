@@ -19,7 +19,7 @@
     <div class="startupwrapper">
     <div class="startup">
         <h1>Welcome to SherpaDesk!</h1>
-        <p>Use SherpDesk as much as you want for 30-days, for free!<br />When the trial is over, your first Agent will be free forever.<br />Start making your support personal.</p>
+        <p>Use SherpDesk as much as you want for 30-days, for free!<br />When the trial is over, your <strong>first Technician will always be free.</strong><br />Start making your support personal.</p>
         <div class="startupstep">
             <h3>Step Description</h3>
             <ul>

@@ -33,7 +33,7 @@
 							
 			</p>
 
-            <input class="buttons submitbutton" type="submit" value="Submit the Left Side Form" /> or <a href="#">Cancel</a> - (button info pulling from the 'buttons.css' file)
+            <input class="buttons submitbutton leftlabelbutton" type="submit" value="Submit the Left Side Label Form" /> or <a href="#">Cancel</a> - (button info pulling from the 'buttons.css' file)
 
         </fieldset>
 

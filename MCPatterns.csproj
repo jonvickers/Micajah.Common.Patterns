@@ -61,7 +61,9 @@
     <Content Include="grids\css\grids.css" />
     <Content Include="grids\default.aspx" />
     <Content Include="css\style.css" />
+    <Content Include="grids\img\move.png" />
     <Content Include="grids\js\grid.js" />
+    <Content Include="grids\js\jquery.tablednd_0_5.js" />
     <Content Include="notifications\css\notifications.css" />
     <Content Include="notifications\default.aspx" />
     <Content Include="notifications\img\bullet_black.png" />
@@ -77,6 +79,14 @@
     <Content Include="notifications\img\mc3_warning.png" />
     <Content Include="notifications\img\tick_circle.png" />
     <Content Include="notifications\js\notifications.js" />
+    <Content Include="signup1\css\signup1.css" />
+    <Content Include="signup1\default.aspx" />
+    <Content Include="signup2\css\signup2.css" />
+    <Content Include="signup2\default.aspx" />
+    <Content Include="signup2\img\bwa-logo.png" />
+    <Content Include="signup2\img\logo.png" />
+    <Content Include="signup2\img\Mountain_File.png" />
+    <Content Include="signup2\img\required.png" />
     <Content Include="startup\css\startup.css" />
     <Content Include="startup\default.aspx" />
     <Content Include="startup\img\Mountain_File.png" />
@@ -132,6 +142,20 @@
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="signup1\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signup1\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signup2\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signup2\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="startup\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

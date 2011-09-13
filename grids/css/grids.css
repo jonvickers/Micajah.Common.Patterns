@@ -38,9 +38,22 @@ table th
     line-height: 1.3em;
     }    
     
+
+.editable 
+{
+    }
+
 .edit-row 
 {
+    padding-left: 30px;
+    } 
     
-    }    
+.showDragHandle:hover
+{
+    background: #cbffcf url('../../grids/img/move.png') 5px 11px no-repeat;
+    cursor: move;
+    } 
+    
+
 				
  
