@@ -76,6 +76,13 @@ body
     font-size: 12px;
     margin: 0;
     }
+
+#home li.home a, /*--Home Page > Home Link--*/
+#grids #sidebar #main-nav li.grids a 
+{
+	background-color: #567c91;
+}
+
                 
 p {
 	clear: both;
@@ -107,7 +114,7 @@ p {
 
 #sub-heading 
 {
-    padding: 0 0 50px;
+    padding: 0 0 30px;
     margin: 0;
     }
 

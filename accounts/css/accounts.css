@@ -1,0 +1,103 @@
+﻿h2, h5 
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
+
+h5 a 
+{
+    text-decoration: none;
+    color: #43b9ef;
+    }
+
+small 
+{
+    color: #999999;
+    } 
+
+.accountwrap 
+{
+    float: left;
+    margin: 0 45px 10px 0;
+    }
+
+table.accounts, table.yourprofile 
+{
+    width: 450px;
+    vertical-align: middle;
+    }
+
+/* ---table.accounts tr td:first-child , table.accounts tr td:last-child  
+{
+    padding-top: 15px;
+    }----*/
+
+table.accounts tr td:last-child 
+{
+    text-align: right;
+    font-weight: bold;
+    }
+
+.yourplan 
+{
+    background-color: #fffcc4;
+    border: 1px solid #d2c05e;
+    color: #837211;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.6em 1em;
+    }
+    
+tbody tr.currentplan:hover
+{
+    background: #fffbdf;
+    border-top: 1px solid #d2c05e;
+    border-bottom: 1px solid #d2c05e;
+    } 
+
+tbody tr.yourprofile:hover
+{
+    background-color: #fff;
+    border: none;
+    }
+
+.gravatar 
+{
+    padding: 2px;
+    border: 1px solid #dadada;
+    background-color: #ededed;
+    width: 60px;
+    margin: 0;
+    float: left;
+    }    
+
+.youraccount
+{
+    width: 450px;
+    }
+
+.youraccount .featurelabel h4 
+{
+    float: left;
+    padding: 0;
+    margin: 3px 0;
+    }
+    
+.youraccount .featurelabel h5 
+{
+    float: right;
+    padding: 0;
+    margin: 3px 0;
+    }
+.youraccount .featurelabel
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    }

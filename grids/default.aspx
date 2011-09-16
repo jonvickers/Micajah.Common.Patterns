@@ -5,6 +5,15 @@
     <script src="js/jquery.tablednd_0_5.js" type="text/javascript"></script>
     <script src="js/grid.js" type="text/javascript"></script>
 
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("body").attr("id", "grids");
+        });
+
+    
+    </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <h1>Standard Grids</h1>

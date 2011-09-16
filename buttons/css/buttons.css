@@ -1,4 +1,4 @@
-﻿.buttons {
+﻿.buttons, input[type="submit"].buttons {
    min-width: 30px;
    background: #6bb135;
    background: -webkit-gradient(linear, left top, left bottom, from(#91c929), to(#6bb135));
@@ -6,10 +6,10 @@
    background: -moz-linear-gradient(top, #91c929, #6bb135);
    background: -ms-linear-gradient(top, #91c929, #6bb135);
    background: -o-linear-gradient(top, #91c929, #6bb135);
-   padding: 0.7em 1.3em;
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px 10px 10px 10px;   
+   padding: 0.6em 1em;
+   -webkit-border-radius: 8px 8px 8px 8px;
+   -moz-border-radius: 8px 8px 8px 8px;
+   border-radius: 8px 8px 8px 8px;   
    color: white;
    text-decoration: none;
    vertical-align: middle;
@@ -27,8 +27,32 @@
 	border-color: #39F;
 	background: #39F;
    }
+ 
+ input[type="submit"].buttons 
+ {
+     color: #ffffff;
+     }
    
+ /* ----  Micajah button CSS   ----- */
+ 
+ 
+a.buttonAlt {color: #1874CD; padding: 7px;}
+a.buttonAlt:hover {background-color: #1874CD; color: white;}
+a.buttonAlt:focus {background-color: #1874CD; color: white;}
 
+a.delete {color: Maroon;}
+a.delete:hover {background-color: Maroon;}
+a.delete:focus {background-color: Maroon;}
+
+a.cancel {color: gray;}
+a.cancel:hover {background-color: gray;}
+a.cancel:focus {background-color: gray;}
+
+input[type="submit"]{font-weight: bold; color:#333333;padding:6px 30px 6px 30px;cursor: hand;}
+input[type="submit"].small {padding: 5px 30px 5px 30px; font-size: 8pt;}
+input[type="submit"].large {padding: 8px 35px 8px 35px; font-weight: bold; color: #333333; font-size: medium;}
+input[type="submit"]:hover {color:green; cursor: hand;}
+ 
 
  /* ----  Non-Button CSS - wrap to seperate buttons   ----- */
  

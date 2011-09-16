@@ -1,0 +1,56 @@
+﻿	.sdform p, .sdform-top p {
+		margin-bottom: 0;
+		}
+		
+	.clearfix {
+		clear: both;
+		}
+		
+	.wrapper {
+		width: 960px;
+		margin: 0 auto;
+		padding: 0;
+		font-family: "Arial", Gadget, sans-serif;
+		color: #333333;
+		}
+	
+	.sdform {
+		display: block;
+		margin: 0 auto;		
+		}
+		
+	.sdform-top {
+		display: block;
+		margin: 0 auto;
+		width: 500px;
+		}
+		
+	.sdformwrap {
+		max-width: 850px;
+		margin: 10px auto 50px;
+		overflow: hidden;
+		padding: 30px 0 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+
+#logo {
+	width: 800px;
+	margin: 50px auto 0;	
+	}
+		
+.shadow {
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08);
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08); 
+	}
+	
+.signup-page-button {
+	margin-left: 290px;
+	}
+	.signup-page-button p{
+		line-height: 100px;
+		vertical-align: middle;
+		}
+

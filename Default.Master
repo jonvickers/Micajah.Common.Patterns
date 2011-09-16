@@ -1,7 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="MCPatterns.Default" %>
-
-<!DOCTYPE>
-
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Micajah.Common.UIPatterns</title>
@@ -28,22 +26,25 @@
         <h3 style="text-align: center;">Micajah.Common.UI</h3>
        
             <ul id="main-nav">
-                <li><a href="../">Home</a></li>
-                <li><a href="../forms">Forms</a></li>
-                <li><a href="../buttons">Buttons</a></li>
-                <li><a href="../grids">Grids</a></li>
-                <li><a href="../notifications">Notifications</a></li>
-                <li><a href="../signup1">Sign Up Start Page</a></li>
-                <li><a href="../signup2">One Time Sign Up Page</a></li>
-                <li><a href="../startup">Start Up Page</a></li>
+                <li class="home"><a href="../">Home</a></li>
+                <li class="forms"><a href="../forms">Forms</a></li>
+                <li class="button"><a href="../buttons">Buttons</a></li>
+                <li class="grids"><a href="../grids">Grids</a></li>
+                <li class="notifications"><a href="../notifications">Notifications</a></li>
+                <li class="accounts"><a href="../accounts">Accounts</a></li>
+                <li class="sdlogin"><a href="../sdlogin">Login</a></li>
+                <li class="signup1"><a href="../signup1">Sign Up Start Page</a></li>
+                <li class="signup2"><a href="../signup2">One Time Sign Up Page</a></li>
+                <li class="startup"><a href="../startup">Start Up Page</a></li>
             </ul>
         </div>
 
         <div id="main-content">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
-            </asp:ContentPlaceHolder>
+            </asp:ContentPlaceHolder> 
         </div>
-    </form>
+
+</form>
 </body>
 </html>

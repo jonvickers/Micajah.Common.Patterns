@@ -1,2 +1,112 @@
-﻿body {
-}
+﻿	.form p, .form-top p {
+		margin-bottom: 0;
+		}
+		
+	.clearfix {
+		clear: both;
+		}
+		
+	.wrapper {
+		width: 960px;
+		margin: 0 auto;
+		padding: 0;
+		font-family: "Arial", Gadget, sans-serif;
+		color: #333333;
+		}
+	
+	.form {
+		display: block;
+		margin: 0 auto;		
+		}
+		
+	.form-top {
+		display: block;
+		margin: 0 auto;
+		width: 500px;
+		}
+		
+	.formwrap {
+		max-width: 800px;
+		margin: 10px auto 50px;
+		overflow: hidden;
+		padding: 30px 0 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+
+#logo {
+	width: 800px;
+	margin: 50px auto 0;	
+	}
+		
+.shadow {
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08);
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08); 
+	}
+
+.portalwrap {
+	background-color: #e9eff5;
+	padding: 10px 20px 10px 15px;
+	overflow: hidden;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: left;
+	width: 340px;
+	}
+.portal-input 
+{
+    width: 150px;
+    }
+.portal {
+	margin-top: 24px;
+	}
+
+.portal-message 
+{
+    margin-left: 290px;
+    }
+
+
+.signup-page-button {
+	margin-left: 290px;
+	}
+	.signup-page-button p{
+		line-height: 55px;
+		vertical-align: middle;
+		}
+
+/*----------------------------------------------------------------------*/
+
+.login-from-here{
+	background-color: #64A2BF;
+	color: #fff;
+	margin: 40px auto;
+	padding: 0;
+	}
+	.login-from-here p{
+		margin: 0;
+		padding: 20px 0 20px 40px;
+		width: 450px;
+		float:left;		
+		}
+	.login-from-here a{
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+		margin-left: 10px;
+		}
+		.login-from-here a:hover{
+		text-decoration: underline;
+		}
+	.login-from-here img {
+		float: right;
+		vertical-align: middle;
+		padding: 20px 25px 0 0;
+		}
+		.login-from-here a img {
+			border: none;
+			}
