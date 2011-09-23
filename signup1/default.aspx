@@ -8,6 +8,12 @@
 
     <script src="js/signup1.js" type="text/javascript"></script>
 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").attr("id", "signup1");
+        });    
+    </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 </asp:Content>

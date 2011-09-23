@@ -5,6 +5,12 @@
     <link href="../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
     <script src="../notifications/js/notifications.js" type="text/javascript"></script>
 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").attr("id", "startup1");
+        });    
+    </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 </asp:Content>

@@ -1,10 +1,12 @@
-﻿h2, h5 
+﻿
+h1, h2, h3, h4, h5 
 {
     margin-bottom: 0;
     padding-bottom: 0;
     }
 
-h5 a 
+
+a 
 {
     text-decoration: none;
     color: #43b9ef;
@@ -15,27 +17,46 @@ small
     color: #999999;
     } 
 
-.accountwrap 
+.account-heading 
 {
-    float: left;
-    margin: 0 45px 10px 0;
+    margin: 40px 0 20px;
+    padding: 10px 15px 10px 0;    
+    border-bottom: 2px solid #417da6;
     }
 
-table.accounts, table.yourprofile 
+
+#planinfo 
 {
-    width: 450px;
-    vertical-align: middle;
+    margin: 0;
     }
 
-/* ---table.accounts tr td:first-child , table.accounts tr td:last-child  
+#planinfo, 
+#payment-type, 
+#payment-history, 
+#training-consulting,
+#cancel_account,
+.accountwrap
 {
-    padding-top: 15px;
-    }----*/
+    width: 600px;    
+    overflow: hidden;    
+    }
 
-table.accounts tr td:last-child 
+
+table td,
+table th 
 {
-    text-align: right;
-    font-weight: bold;
+    padding: 10px;
+    line-height: 1.3em;
+    } 
+
+tbody 
+{
+    border-bottom: 1px solid #ddd;
+    }
+
+tbody tr 
+{
+    border-top: 1px solid #ddd;
     }
 
 .yourplan 
@@ -60,44 +81,483 @@ tbody tr.currentplan:hover
     border-bottom: 1px solid #d2c05e;
     } 
 
-tbody tr.yourprofile:hover
+/* -- Payment Type -- */
+
+#account-head 
 {
-    background-color: #fff;
+    overflow:hidden;
+    }
+
+.account-type 
+{
+    width: 15%;
+    max-width: 150px;
+    border-right: 1px solid #417da6;
+    overflow: hidden;
+    float: left;
+    padding: 7px 0;
+    }
+#payment-set
+{
+    padding-top: 2px; 
+    float: right;
+    width: 79.8%;  
+    }
+#payment-set h4 
+{
+    line-height: 1em;
+    }
+
+#payment-update 
+{
+    float: right;
+    margin-top: 9px;
+    }
+#payment-status 
+{
+    margin-top: 6px;
+    padding-top: 1px;
+    padding-left: 40px;
+    background: url('../../accounts/img/credit_card.png') center left no-repeat; 
+    min-height: 32px;
+    }
+    
+    
+/* -- Plan Info -- */
+
+#planinfo h2 
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    }
+#planinfo small.plandescsm
+{
+    float: left;
+    }
+
+
+/* -- Account Settings Tabs content -- */
+
+
+/* --  Asset Auditor -- */
+
+#asset-auditor h4 
+{
+    padding-left: 40px;
+    background: url('../../accounts/img/assets.png') top left no-repeat; 
+    line-height: 32px;
+    padding-top: 2px; 
+    float: left;  
+    }
+
+/* --  Billing and Invoicing -- */
+
+#billing-invoicing h4 
+{
+    padding-left: 40px;
+    background: url('../../accounts/img/billing.png') top left no-repeat; 
+    line-height: 32px;
+    padding-top: 2px; 
+    float: left;  
+    }
+    
+/* --  LDAP Integration -- */
+
+#ldap-integration h4 
+{
+    padding-left: 40px;
+    background: url('../../accounts/img/ldap.png') top left no-repeat; 
+    line-height: 32px;
+    padding-top: 2px; 
+    float: left;  
+    }
+
+/* --  Remote Assistance -- */
+
+#remote-assistance h4 
+{
+    padding-left: 40px;
+    background: url('../../accounts/img/remote.png') top left no-repeat; 
+    line-height: 32px;
+    padding-top: 2px; 
+    float: left;  
+    }
+
+/* --  SSL -- */
+
+#ssl-security h4 
+{
+    padding-left: 40px;
+    background: url('../../accounts/img/ssl.png') top left no-repeat; 
+    line-height: 32px;
+    padding-top: 2px; 
+    float: left;  
+    }
+
+
+#asset-auditor,
+#billing-invoicing,
+#ldap-integration,
+#remote-assistance,
+#ssl-security
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 16px 0;
+    }
+
+
+.feature-toggle 
+{
+    float: right;
+    margin-top: 5px;
+    }
+
+/* --  Account Usage -- */
+
+#progressbar1,
+#progressbar2,
+#progressbar3,
+#progressbar4,
+#progressbar5,
+#progressbar6,
+#progressbar7,
+#progressbar8,
+#progressbar9,
+#progressbar10 
+{
+    height: 20px;
+    }
+
+.account-usage
+{
+    width: 100%;
+    }
+
+.account-usage tbody tr, .account-usage tbody 
+{
     border: none;
     }
 
-.gravatar 
-{
-    padding: 2px;
-    border: 1px solid #dadada;
-    background-color: #ededed;
-    width: 60px;
-    margin: 0;
-    float: left;
-    }    
-
-.youraccount
-{
-    width: 450px;
-    }
-
-.youraccount .featurelabel h4 
-{
-    float: left;
-    padding: 0;
-    margin: 3px 0;
-    }
-    
-.youraccount .featurelabel h5 
+.account-usage .featurelabel h4 
 {
     float: right;
     padding: 0;
     margin: 3px 0;
     }
-.youraccount .featurelabel
+    
+.account-usage .featurelabel h5 
+{
+    float: left;
+    padding: 0;
+    margin: 3px 0;
+    }
+.account-usage .featurelabel
 {
     width: 100%;
     overflow: hidden;
     padding: 0;
     margin: 0;
     }
+
+.under 
+{
+    color: Green;
+    }
+.over 
+{
+    color: Red;
+    }
+
+
+/* --  Payment History -- */
+
+table#payhistory 
+{
+    margin-top: 10px;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    }
+
+table#payhistory a 
+{
+    text-decoration:  none;
+    }
+  
+table#payhistory th 
+{
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #CCCCCC;
+    color: #333333;
+    padding: 0.4em;
+    font-weight: bold;
+    text-align: center;
+    }
+
+table#payhistory tr.paysuccess td.amount 
+{
+    color: #00AA00;
+    font-weight: bold;
+    }
+
+table#payhistory tr.payfail td.amount,
+table#payhistory tr.payfail td.receipt a 
+{
+    color: #bf0000;
+    font-weight: bold;
+    }
+
+/* --  Support Options -- */
+
+#support
+{
+    margin-bottom: 40px;
+    }
+
+#emailsupport h4 
+{
+    padding-left: 40px;
+    background: url('../../accounts/img/help.png') top left no-repeat; 
+    line-height: 32px;
+    padding-top: 2px; 
+    float: left;  
+    }
+
+.email-emailsupport 
+{
+    float: right;
+    font-size: 1.2em;
+    }
+
+#phonesupport h4 
+{
+    padding-left: 40px;
+    background: url('../../accounts/img/phone.png') top left no-repeat; 
+    line-height: 32px;
+    padding-top: 2px; 
+    float: left;  
+    }
+
+#phonesupport h4 span
+{
+    color: #e9e9e9;
+    }
+
+#emailsupport,
+#phonesupport
+{
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px 0;
+    } 
+
+
+
+
+/* --  CC Update Pop -- */
+
+
+#credit_card_form 
+{
+    min-width: 350px;
+    overflow: hidden;
+    padding: 10px;
+    }
+
+#credit_card_form .content
+{
+    color: #333333;
+    font-size: 12px;
+    width: 380px;
+    
+    }
+
+#credit_card_form .content h2 {
+    border-bottom: 1px solid #DDDDDD !important;
+    font-size: 16px;
+    margin: 0 0 10px -10px;
+    padding: 0 10px 10px;
+    width: 100%;
+}  
+
+ul.cards {
+    height: 32px;
+    margin: 0 0 25px !important;
+}
+
+ul.cards li {
+    float: left;
+    list-style-type: none;
+    margin: 0 7px 0 0 !important;
+}
+
+ul.cards .card.visa {
+    background-image: url("../../accounts/img/cc-icons/visa.png");
+}
+ul.cards .card.master {
+    background-image: url("../../accounts/img/cc-icons/mastercard.png");
+}
+ul.cards .card.american-express {
+    background-image: url("../../accounts/img/cc-icons/amex.png");
+}
+ul.cards .card.discover {
+    background-image: url("../../accounts/img/cc-icons/discover.png");
+}
+
+ul.cards .card {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    height: 32px;
+    text-indent: -9999px;
+    width: 51px;
+}
+ul.cards li.text {
+    color: #999999;
+    font-size: 11px;
+    position: relative;
+    top: 9px;
+}
+
+dl.form dt {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input#credit-card-number.text-input, input#credit-card-exp.text-input 
+{
+    width: 94%;
+    padding: .75em;  
+	border: solid 1px #CCC; 
+	-webkit-appearance: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;  
+	-webkit-border-radius: 5px; 
+	outline: 0;  
+	font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+	background-color: #ffffff; 
+    }
+
+input#credit-card-number.text-input:hover, input#credit-card-exp.text-input:hover
+{
+	border-color: #80BFFF;
+	}  
+      
+input#credit-card-number.text-input:focus, input#credit-card-exp.text-input:focus 
+{
+	border-color: #0053A6;
+}
+
+.ccformsubmit 
+{
+    float: right;
+    }
+
+button, .buttons, input[type="submit"].buttons, a.buttons 
+{
+   -moz-border-colors: none;
+   -moz-border-image: none; 
+   min-width: 30px;
+   background: #6bb135;
+   background: -webkit-gradient(linear, left top, left bottom, from(#91c929), to(#6bb135));
+   background: -webkit-linear-gradient(top, #91c929, #6bb135);
+   background: -moz-linear-gradient(top, #91c929, #6bb135);
+   background: -ms-linear-gradient(top, #91c929, #6bb135);
+   background: -o-linear-gradient(top, #91c929, #6bb135);
+   padding: 0.6em 1em;
+   margin: 5px;
+   -webkit-border-radius: 5px 5px 5px 5px;
+   -moz-border-radius: 5px 5px 5px 5px;
+   border-radius: 5px 5px 5px 5px;   
+   border: none;
+   color: white;
+   text-decoration: none;
+   vertical-align: middle;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   overflow: hidden;
+   }
+ul.actions li a.buttons 
+{
+    font-size: 1.25em;
+    }
+ button:hover, .buttons:hover, input[type="submit"].buttons:hover {
+   border-color: #28597a;
+   background: #28597a;
+   color: #fff;
+   }
+
+ button:active, .buttons:active, input[type="submit"].buttons:active {
+	border-color: #39F;
+	background: #39F;
+   }
+ 
+ input[type="submit"].buttons, input[type="submit"].buttons:active, input[type="submit"].buttons:hover 
+ {
+     color: #ffffff;
+     font-weight: bold;
+}
+
+/*-- Tabs Stuff --*/
+
+#accounts-tabs 
+{
+    margin: 40px 0 0;
+    }
+
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #d2d2d2;
+	border-left: 1px solid #d2d2d2;
+	width: 100%;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #d2d2d2;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #333;
+	display: block;
+	font-size: 1.1em;
+	padding: 0 20px;
+	border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #fff;
+	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+
+.tab_container {	
+	overflow: hidden;
+	clear: both;
+	float: left; 
+	width: 100%;
+}
+.tab_content {
+	padding: 20px 10px;
+}

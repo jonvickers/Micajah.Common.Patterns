@@ -77,10 +77,21 @@ body
     margin: 0;
     }
 
-#home li.home a, /*--Home Page > Home Link--*/
-#grids #sidebar #main-nav li.grids a 
+#home #sidebar #main-nav li.home a, /*--Home Page > Home Link--*/
+#forms #sidebar #main-nav li.forms a,
+#button #sidebar #main-nav li.button a,
+#grids #sidebar #main-nav li.grids a,
+#notifications #sidebar #main-nav li.notifications a,
+#accounts #sidebar #main-nav li.accounts a,
+#profile #sidebar #main-nav li.profile a,
+#sdlogin #sidebar #main-nav li.sdlogin a,
+#signup1 #sidebar #main-nav li.signup1 a,
+#signup2 #sidebar #main-nav li.signup2 a,
+#startup1 #sidebar #main-nav li.startup1 a 
 {
 	background-color: #567c91;
+	color: #ffffff;
+	font-weight: bold;
 }
 
                 
@@ -94,8 +105,8 @@ p {
     border-right: 1px solid #8ab0c6;
     border-left: 1px solid #8ab0c6;
     height: 100%;
-    position: absolute;
     left: 0;
+    position: absolute;
     }
 
 /*-- main content --*/

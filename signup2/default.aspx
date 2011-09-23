@@ -1,9 +1,16 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="MCPatterns.signup2._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="css/signup2.css" rel="stylesheet" type="text/css" />
     <link href="../forms/css/forms.css" rel="stylesheet" type="text/css" />
+    <link href="css/signup2.css" rel="stylesheet" type="text/css" />
+    
     <link href="../buttons/css/buttons.css" rel="stylesheet" type="text/css" />
     <link href="../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").attr("id", "signup2");
+        });    
+    </script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -21,7 +28,7 @@
 
 
     <form class="form">  
-      <div class="formsection">Company Address</div>
+      <div class="formsection"><p>Company Address</p></div>
         <p> 
         	<label class="labelleft required-txt">Company Name</label>  
             <input class="text-input medium-input" type="text" name="name" id="name" /><span class="input-notification success png_bg">Success</span>                         
@@ -76,7 +83,7 @@
       
       <div class="clearfix"></div>
       
-      <div class="formsection">Local Settings</div>
+      <div class="formsection"><p>Local Settings</p></div>
         <p>  
             <label class="labelleft">Timezone</label>
             <select class="text-input medium-input" name="droplist">
@@ -96,7 +103,7 @@
       
       <div class="clearfix"></div>
       
-      <div class="formsection">Occupation</div>
+      <div class="formsection"><p>Occupation</p></div>
       	<p>
             <label class="labelleft">Job Description</label>
             <input class="text-input medium-input" type="text" name="web" id="web" />
@@ -108,7 +115,7 @@
       
       <div class="clearfix"></div>
       
-      <div class="formsection">Email and Password</div> 
+      <div class="formsection"><p>Email and Password</p></div> 
       
       	<p>  
             <label class="labelleft required-txt">E-mail</label> 
@@ -125,7 +132,7 @@
       
       <div class="clearfix"></div>
       
-      <div class="formsection">Complete Your Setup</div>
+      <div class="formsection"><p>Complete Your Setup</p></div>
       
         <p>  
             <input class="buttons" type="submit" value="Create a Ticket" />  

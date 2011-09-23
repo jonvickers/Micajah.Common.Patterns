@@ -4,6 +4,12 @@
     <link href="css/notifications.css" rel="stylesheet" type="text/css" />
     <script src="js/notifications.js" type="text/javascript"></script>
 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").attr("id", "notifications");
+        });    
+    </script>
+
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -21,7 +27,7 @@
             <div class="mc3_notification mc3_attention">
 				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
 				<div>
-					<h4>Attention notification.</h4>
+					<h4><span>Heads Up!</span> Attention notification.</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.</p> 
 				</div>
 			</div>
@@ -29,7 +35,7 @@
 			<div class="mc3_notification mc3_information">
 				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
 				<div>
-					<h4>Information notification.</h4>
+					<h4><span>FYI</span> Information notification.</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.</p>
 				</div>
 			</div>
@@ -37,7 +43,7 @@
 			<div class="mc3_notification mc3_success">
 				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
 				<div>
-					<h4>Success notification.</h4>
+					<h4><span>Yeah!</span> Success notification.</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.</p>
 				</div>
 			</div>
@@ -45,7 +51,7 @@
 			<div class="mc3_notification mc3_error">
 				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
 				<div>
-					<h4>Error notification.</h4>
+					<h4><span>OOPS!</span> Error notification.</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.</p>
 				</div>
 			</div>

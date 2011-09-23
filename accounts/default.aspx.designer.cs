@@ -11,14 +11,5 @@ namespace MCPatterns.accounts {
     
     
     public partial class _default {
-        
-        /// <summary>
-        /// Gravatar1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::FreshClickMedia.Web.UI.WebControls.Gravatar Gravatar1;
     }
 }

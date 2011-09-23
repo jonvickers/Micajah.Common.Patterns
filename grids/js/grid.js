@@ -18,8 +18,11 @@ $(document).ready(function () {
 
 });
 
+/*-----
 $.ajax({
         success: function () {
            $('tbody tr:even').addClass("even-row");
         }
    });
+
+   -----*/

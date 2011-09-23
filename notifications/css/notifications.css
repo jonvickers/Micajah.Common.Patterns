@@ -3,7 +3,7 @@
 
 .mc3_notification 
 {
-    background-position: 5px 5px !important;
+    background-position: 7px 12px !important;
     background-repeat: no-repeat !important;
     border-bottom: 1px solid;
     border-top: 1px solid;
@@ -32,12 +32,20 @@
     border-color: #e6db55;
     color: #666452;
     }
+ .mc3_attention span 
+ {
+     color: #e8ad07;
+     }
 
 .mc3_information 
 {
     background: #dbe3ff url('../../notifications/img/mc3_info.png');
     border-color: #a2b4ee;
     color: #585b66;
+    }
+.mc3_information span 
+{
+    color: Blue;
     }
 
 .mc3_success 
@@ -47,11 +55,20 @@
     color: #556652;
     }
 
+.mc3_success span 
+{
+    color: Green;
+    }
+
 .mc3_error 
 {
     background: #ffcece url('../../notifications/img/mc3_error.png');
     border-color: #df8f8f;
     color: #665252;
+    }
+.mc3_error span 
+{
+    color: Red;
     }
 
 .mc3_notification div  
@@ -92,7 +109,7 @@
 .attention 
 {
     background: #fffbcc url('../../notifications/img/exclamation.png') 10px 11px no-repeat;
-    border-color: #e6db55;
+    border-color: #e6b855;
     color: #666452;
     }
 

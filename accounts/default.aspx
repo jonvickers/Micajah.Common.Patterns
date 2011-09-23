@@ -4,142 +4,245 @@
     TagPrefix="fcm" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <link href="../forms/css/forms.css" rel="stylesheet" type="text/css" />
-    <link href="../buttons/css/buttons.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/accounts.css" rel="stylesheet" type="text/css" />
-    <link href="../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
-
+    <link href="../../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/on-off-checkboxes.css" rel="stylesheet" type="text/css" />
-    <link href="../grids/css/grids.css" rel="stylesheet" type="text/css" />
-    
     <link href="../../accounts/css/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+    <link href="../../accounts/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/960.css" rel="stylesheet" type="text/css" />
 
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-    <script src="../notifications/js/notifications.js" type="text/javascript"></script>
+    <script src="../../notifications/js/notifications.js" type="text/javascript"></script>
     <script src="../../accounts/js/on-off-checkboxes.js" type="text/javascript"></script>
     <script src="../../accounts/js/accounts.js" type="text/javascript"></script>
-    
-    <script>
-        $(document).ready(function () {
-            $("#progressbar1").progressbar({ value: 60 });
-            $("#progressbar2").progressbar({ value: 50 });
-            $("#progressbar3").progressbar({ value: 04 });
-            $("#progressbar4").progressbar({ value: 40 });
-            $("#progressbar5").progressbar({ value: 25 });
-            $("#progressbar6").progressbar({ value: 100 });
-            $("#progressbar7").progressbar({ value: 50 });
-        });
-    </script>
+    <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
     
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div class="accountwrap">
-<h2>Your Profile:</h2>
-    <table class="yourprofile">
-        <tr>
-            <td>
-            <div class="gravatar"><fcm:Gravatar ID="Gravatar1" runat="server" Email="benpfohl@hotmail.com" OutputGravatarSiteLink="true" Size="60" /></div>
-            </td>        
-            <td><h5>Change your avatar at <a href="http://www.gravatar.com">Gravatar.com</a></h5><small>We're using benpfohl@hotmail.com</small></td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td><h5>Account Type: Free</h5></td>
-        </tr>
-    </table>
 
-  <h2>Accounts Settings</h2>
-    <table class="accounts">
-    <thead>
-        <tr>
-            <th>Feature</th>
-            <th>on/off</th>
-            <th>&nbsp;</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Asset Auditor</td>
-            <td class="on_off"><input id="asset-auditor" type="checkbox" disabled="disabled" /></td>
-            <td class="description"><a href="#" class="buttons">Upgrade</a></td>
-        </tr>
-        <tr>
-            <td>Billing / Invoicing</td>
-            <td class="on_off"><input id="Checkbox1" type="checkbox" disabled="disabled" /></td>
-            <td class="description"><a href="#" class="buttons">Upgrade</a></td>
-        </tr>
-        <tr>
-            <td>LDAP Integration</td>
-            <td class="on_off"><input id="Checkbox2" type="checkbox" disabled="disabled" /></td>
-            <td class="description"><a href="#" class="buttons">Upgrade</a></td>
-        </tr>
-        <tr>
-            <td>Phone Support</td>
-            <td class="on_off"><input id="Checkbox3" type="checkbox" disabled="disabled" /></td>
-            <td class="description"><a href="#" class="buttons">Upgrade</a></td>
-        </tr>
-        <tr>
-            <td>Remote Assistance</td>
-            <td class="on_off"><input id="Checkbox4" type="checkbox" disabled="disabled" /></td>
-            <td class="description"><a href="#" class="buttons">Upgrade</a></td>
-        </tr>
-        <tr class="currentplan">
-            <td>SSL <small>(sample default on)</small></td>
-            <td class="on_off"><input id="Checkbox5" type="checkbox" checked="checked" /></td>
-            <td class="description"><a href="#" class="yourplan">Your Plan</a></td>
-        </tr>
-    </tbody>
-   </table>
+<div id="planinfo">
+<div class="account-heading"><h1>Account Settings</h1></div>
+<div id="account-head">
+    <div class="account-type">
+        <h2>FREE</h2><small class="plandescsm">$0 / Month</small>
+    </div>
+
+    <div id="payment-set">
+        <div id="payment-update">
+            <a id="inline" class="buttons" rel="facebox" href="#credit_card_form">Update credit card</a>
+        </div>
+        <div id="payment-status">
+            <h4>No Credit Card on File.</h4><small class="plandescsm">Next billed on 8 October 2011</small>
+        </div>
+    </div>
+</div>
+                     <div class="account-heading"><h2>Account Options</h2></div>           
+                        <div id="asset-auditor">
+                            <h4>Asset Auditor</h4>
+                            <div class="feature-toggle on_off">
+                                <input id="assetauditor" type="checkbox" onclick="alert('Hello!');return false" />
+                            </div>
+                        </div>
+                        <div id="billing-invoicing">
+                            <h4>Billing / Invoicing</h4>
+                            <div class="feature-toggle on_off">
+                                <input id="billinginvoicing" type="checkbox" />
+                            </div>
+                        </div>
+                        <div id="ldap-integration">
+                            <h4>LDAP Integration</h4>
+                            <div class="feature-toggle on_off">
+                                <input id="ldapintegration" type="checkbox" />
+                            </div>
+                        </div>
+                        <div id="remote-assistance">
+                            <h4>Remote Assistance</h4>
+                            <div class="feature-toggle on_off">
+                                <input id="remoteassistance" type="checkbox" />
+                            </div>
+                        </div>
+                        <div id="ssl-security">
+                            <h4>SSL</h4>
+                            <div class="feature-toggle on_off">
+                                <input id="sslsecurity" type="checkbox" />
+                            </div>
+                        </div>                        
+                                        
+                    <div class="account-heading"><h2>Account Usage</h2></div> 
+                        <table class="account-usage">
+                            <tr>
+                                <td class="feature">
+                                    <div class="featurelabel"><h4><span class="under">3</span><small> of 5</small></h4><h5>Accounts</h5></div>
+                                    <div id="progressbar1"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="feature">
+                                    <div class="featurelabel"><h4><span class="under">1</span><small> of 2</small></h4><h5>Locations</h5></div>
+                                    <div id="progressbar2"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="feature">
+                                    <div class="featurelabel"><h4><span class="under">1</span><small> of 25</small></h4><h5>Assets</h5></div>
+                                    <div id="progressbar3"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="feature">
+                                    <div class="featurelabel"><h4><span class="under">4</span><small> of 10</small></h4><h5>Knowledgebase Articles</h5></div>
+                                    <div id="progressbar4"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="feature">
+                                    <div class="featurelabel"><h4><span class="under">1</span><small> of 4</small></h4><h5>Projects</h5></div>
+                                    <div id="progressbar5"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="feature">
+                                    <div class="featurelabel"><h4><span class="over">1</span><small> of 1</small></h4><h5>Technicians</h5></div>
+                                    <div id="progressbar6"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="feature">
+                                    <div class="featurelabel"><h4><span class="under">.05</span><small> of .10 GB</small></h4><h5>Storage</h5></div>
+                                    <div id="progressbar7"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    
+                    <div class="account-heading"><h2>Payment History</h2></div>
+                        <table id="payhistory">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Card</th>
+                                    <th>Payment</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="paysuccess">
+                                    <td class="date">08-Jun-2011</td>
+                                    <td class="card">546700******1670</td>
+                                    <td class="receipt"><a href="#">Download Receipt</a></td>
+                                    <td class="amount">USD $49.00</td>
+                                </tr>
+                                <tr class="paysuccess">
+                                    <td class="date">08-Jul-2011</td>
+                                    <td class="card">546700******1670</td>
+                                    <td class="receipt"><a href="#">Download Receipt</a></td>
+                                    <td class="amount">USD $49.00</td>
+                                </tr>
+                                <tr class="paysuccess">
+                                    <td class="date">08-Aug-2011</td>
+                                    <td class="card">546700******1670</td>
+                                    <td class="receipt"><a href="#">Download Receipt</a></td>
+                                    <td class="amount">USD $49.00</td>
+                                </tr>
+                                <tr class="paysuccess">
+                                    <td class="date">08-Sep-2011</td>
+                                    <td class="card">546700******1670</td>
+                                    <td class="receipt"><a href="#">Download Receipt</a></td>
+                                    <td class="amount">USD $49.00</td>
+                                </tr>
+                                <tr class="payfail">
+                                    <td class="date">08-Oct-2011</td>
+                                    <td class="card">546700******1670</td>
+                                    <td class="receipt"><a href="#">Payment Failed - Resubmit</a></td>
+                                    <td class="amount">USD $49.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+<div class="account-heading"><h2>Support Options</h2></div>
+<div id="support">
+    <div id="emailsupport">
+        <div class="email-emailsupport"><a href="#" class="buttons"><strong>Submit a Ticket</strong></a></div>
+        <h4>Online Support</h4>
+    </div>
+    <div id="phonesupport">
+        <h4>Phone Support - disabled <span>(404) xxx-xxxx</span></h4>
+        <div class="feature-toggle on_off">
+            <input id="phone-enable" type="checkbox" />
+        </div>
+    </div>
 </div>
 
-<div class="accountwrap">
-<h2>Your Plan</h2>
-    <table class="youraccount">
-        <tr>
-            <td class="feature">
-                <div class="featurelabel"><h4><span style="color: Red;">3</span>/5</h4><h5>Accounts</h5></div>
-                <div id="progressbar1"></div>
-            </td>
-        </tr>
-        <tr>
-            <td class="feature">
-                <div class="featurelabel"><h4><span style="color: Red;">1</span>/2</h4><h5>Locations</h5></div>
-                <div id="progressbar2"></div>
-            </td>
-        </tr>
-        <tr>
-            <td class="feature">
-                <div class="featurelabel"><h4><span style="color: Red;">1</span>/25</h4><h5>Assets</h5></div>
-                <div id="progressbar3"></div>
-            </td>
-        </tr>
-        <tr>
-            <td class="feature">
-                <div class="featurelabel"><h4><span style="color: Red;">4</span>/10</h4><h5>Knowledgebase Articles</h5></div>
-                <div id="progressbar4"></div>
-            </td>
-        </tr>
-        <tr>
-            <td class="feature">
-                <div class="featurelabel"><h4><span style="color: Red;">1</span>/4</h4><h5>Projects</h5></div>
-                <div id="progressbar5"></div>
-            </td>
-        </tr>
-        <tr>
-            <td class="feature">
-                <div class="featurelabel"><h4><span style="color: Red;">1</span>/1</h4><h5>Technicians</h5></div>
-                <div id="progressbar6"></div>
-            </td>
-        </tr>
-        <tr>
-            <td class="feature">
-                <div class="featurelabel"><h4><span style="color: Red;">.05</span>/.10 GB</h4><h5>Storage</h5></div>
-                <div id="progressbar7"></div>
-            </td>
-        </tr>
-    </table>
+<div class="account-heading"><h2>Training and Consulting</h2></div>
+<div id="training-consulting">
+    
+</div>
+
+<div class="account-heading cancel-account"><h2>Cancel Account</h2></div>
+<div id="cancel-account">
+    
+</div>
+
+</div> <!-- End Plan Info Div -->
+
+<!-- Pop ups from here down -->
+
+
+<div style="display: none;">
+<div id="credit_card_form">
+    
+<div class="content">
+  <h2>Credit card information</h2>
+  <form method="post" autocomplete="off" action="">
+     
+       <p class="js-thanks">
+         
+       </p>     
+
+     <div class="cards_select">
+  
+        <ul class="cards">
+            <li>
+            <span data-name="visa" title="Visa" class="card visa">Visa</span>
+            </li>    
+            <li>
+            <span data-name="master" title="Mastercard" class="card master">Mastercard</span>
+            </li>    
+            <li>
+            <span data-name="american-express" title="American Express" class="card american-express">American Express</span>
+            </li>    
+            <li>
+            <span data-name="discover" title="Discover" class="card discover">Discover</span>
+            </li>    
+               
+            <li class="text">Accepted Payment Methods</li>
+        </ul>
+    </div>
+
+
+     <dl class="form">
+       <dt><label>Card Number</label></dt>
+       <dd><input class="text-input large-input" type="text" id="credit-card-number" name="large-input" /></dd>
+     </dl>
+
+     <dl class="form expiration">
+       <dt><label>Expiration (MM/YYYY)</label></dt>
+       <dd><input class="text-input large-input" type="text" id="credit-card-exp" name="large-input" /></dd>
+     </dl>
+     <p class="legal">
+       Please review the <a target="_blank" href="#">terms of service</a>, and <a target="_blank" href="#">privacy policy</a>.
+     </p>
+
+     <div class="ccformsubmit">
+		<button data-afterclick="Processing…" class="cc-submit" id="cc-submit" type="submit">
+         <span>Process Credit Card</span>
+       </button>
+	</div>
+  </form>
+</div>
+
+</div>
 </div>
 </asp:Content>

@@ -15,7 +15,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    
+    <div id="body-wrapper">
         <div id="head-notice">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
         
@@ -31,11 +31,12 @@
                 <li class="button"><a href="../buttons">Buttons</a></li>
                 <li class="grids"><a href="../grids">Grids</a></li>
                 <li class="notifications"><a href="../notifications">Notifications</a></li>
-                <li class="accounts"><a href="../accounts">Accounts</a></li>
+                <li class="accounts"><a href="../accounts">Account Settings</a></li>
+                <li class="profile"><a href="../profile">Your Profile</a></li>
                 <li class="sdlogin"><a href="../sdlogin">Login</a></li>
                 <li class="signup1"><a href="../signup1">Sign Up Start Page</a></li>
                 <li class="signup2"><a href="../signup2">One Time Sign Up Page</a></li>
-                <li class="startup"><a href="../startup">Start Up Page</a></li>
+                <li class="startup1"><a href="../startup">Start Up Page</a></li>
             </ul>
         </div>
 
@@ -44,7 +45,7 @@
         
             </asp:ContentPlaceHolder> 
         </div>
-
+    </div>
 </form>
 </body>
 </html>

@@ -73,13 +73,52 @@
     <Content Include="accounts\css\jquery-ui-1.8.16.custom.css" />
     <Content Include="accounts\css\on-off-checkboxes.css" />
     <Content Include="accounts\default.aspx" />
+    <Content Include="accounts\img\assets.png" />
+    <Content Include="accounts\img\billing.png" />
+    <Content Include="accounts\img\cc-icons\amex.png" />
+    <Content Include="accounts\img\cc-icons\discover.png" />
+    <Content Include="accounts\img\cc-icons\mastercard.png" />
+    <Content Include="accounts\img\cc-icons\paypal.png" />
+    <Content Include="accounts\img\cc-icons\visa.png" />
+    <Content Include="accounts\img\credit_card.png" />
+    <Content Include="accounts\img\email.png" />
+    <Content Include="accounts\img\help.png" />
+    <Content Include="accounts\img\ldap.png" />
     <Content Include="accounts\img\off.png" />
     <Content Include="accounts\img\on.png" />
+    <Content Include="accounts\img\phone.png" />
+    <Content Include="accounts\img\remote.png" />
     <Content Include="accounts\img\slider.png" />
     <Content Include="accounts\img\slider_center.png" />
     <Content Include="accounts\img\slider_left.png" />
     <Content Include="accounts\img\slider_right.png" />
+    <Content Include="accounts\img\ssl.png" />
     <Content Include="accounts\js\accounts.js" />
+    <Content Include="accounts\js\fancybox\blank.gif" />
+    <Content Include="accounts\js\fancybox\fancybox-x.png" />
+    <Content Include="accounts\js\fancybox\fancybox-y.png" />
+    <Content Include="accounts\js\fancybox\fancybox.png" />
+    <Content Include="accounts\js\fancybox\fancy_close.png" />
+    <Content Include="accounts\js\fancybox\fancy_loading.png" />
+    <Content Include="accounts\js\fancybox\fancy_nav_left.png" />
+    <Content Include="accounts\js\fancybox\fancy_nav_right.png" />
+    <Content Include="accounts\js\fancybox\fancy_shadow_e.png" />
+    <Content Include="accounts\js\fancybox\fancy_shadow_n.png" />
+    <Content Include="accounts\js\fancybox\fancy_shadow_ne.png" />
+    <Content Include="accounts\js\fancybox\fancy_shadow_nw.png" />
+    <Content Include="accounts\js\fancybox\fancy_shadow_s.png" />
+    <Content Include="accounts\js\fancybox\fancy_shadow_se.png" />
+    <Content Include="accounts\js\fancybox\fancy_shadow_sw.png" />
+    <Content Include="accounts\js\fancybox\fancy_shadow_w.png" />
+    <Content Include="accounts\js\fancybox\fancy_title_left.png" />
+    <Content Include="accounts\js\fancybox\fancy_title_main.png" />
+    <Content Include="accounts\js\fancybox\fancy_title_over.png" />
+    <Content Include="accounts\js\fancybox\fancy_title_right.png" />
+    <Content Include="accounts\js\fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="accounts\js\fancybox\jquery.fancybox-1.3.4.css" />
+    <Content Include="accounts\js\fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="accounts\js\fancybox\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="accounts\js\fancybox\jquery.mousewheel-3.0.4.pack.js" />
     <Content Include="accounts\js\on-off-checkboxes.js" />
     <Content Include="accounts\testing\images\iphone-style-checkboxes\off.png" />
     <Content Include="accounts\testing\images\iphone-style-checkboxes\on.png" />
@@ -119,6 +158,8 @@
     <Content Include="notifications\img\mc3_warning.png" />
     <Content Include="notifications\img\tick_circle.png" />
     <Content Include="notifications\js\notifications.js" />
+    <Content Include="profile\css\profile.css" />
+    <Content Include="profile\default.aspx" />
     <Content Include="sdlogin\css\login.css" />
     <Content Include="sdlogin\default.aspx" />
     <Content Include="sdlogin\img\bwa-logo.png" />
@@ -195,6 +236,13 @@
     <Compile Include="notifications\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="profile\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profile\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sdlogin\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -229,6 +277,7 @@
     <Content Include="Default.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="css\img\" />
     <Folder Include="forms\img\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

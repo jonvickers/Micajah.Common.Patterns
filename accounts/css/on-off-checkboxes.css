@@ -3,16 +3,18 @@
   height: 27px;
   cursor: pointer;
   overflow: hidden; }
+  
   .iPhoneCheckContainer input {
     position: absolute;
     top: 5px;
     left: 30px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
+    
   .iPhoneCheckContainer label {
     white-space: nowrap;
     font-size: 17px;
-    line-height: 17px;
+    line-height: 18px;
     font-weight: bold;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -24,6 +26,7 @@
     top: 0;
     padding-top: 5px;
     overflow: hidden; }
+    
   .iPhoneCheckContainer, .iPhoneCheckContainer label {
     user-select: none;
     -moz-user-select: none;
@@ -35,10 +38,11 @@
 
 label.iPhoneCheckLabelOn {
   color: white;
-  background: url('../../accounts/img/on.png') no-repeat;
+  background: url('../../accounts/img/on-blue.png') no-repeat;
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   left: 0;
-  padding-top: 5px; }
+  padding-top: 5px;
+  padding-left: 4px; }
   
   label.iPhoneCheckLabelOn span {
     padding-left: 8px; }

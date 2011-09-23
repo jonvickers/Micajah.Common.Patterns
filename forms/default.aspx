@@ -5,6 +5,12 @@
     <link href="../buttons/css/buttons.css" rel="stylesheet" type="text/css" />
     <link href="../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").attr("id", "forms");
+        });    
+    </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <h1>Standard Forms - Left Labels</h1>

@@ -1,9 +1,13 @@
-﻿/* --- Header Section --- */
+﻿form .labelleft {
+    width: 200px;
+}
+
+/* --- Header Section --- */
 
 #headtop {
 	color: #fff;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 960px;
 	margin: 0;
 	padding: 0;
 	overflow:hidden;
@@ -23,16 +27,21 @@
 
 .formsection 
 {
-    width: 95%;
+    width: 100%;
     max-width: 960px;
     border: 0;
     background-color: #EBEBEB;
-    padding: 10px 20px;
-    margin: 50px auto;
+    padding: 0;
+    margin: 50px 0;
     color: #8B8B8B;
     font-size: 1.2em;
     border-radius: 5px;
     text-shadow: 0 1px 0 #FFFFFF;
+    }
+
+.formsection p
+{
+    padding: 10px;
     }
 
 .container 
@@ -48,3 +57,4 @@
 {
     display: block;
     }
+    
