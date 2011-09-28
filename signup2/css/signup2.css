@@ -23,6 +23,7 @@
 		margin: 0;
 		}
 		
+
 /*-- Section Header --*/
 
 .formsection 
@@ -34,7 +35,7 @@
     padding: 0;
     margin: 50px 0;
     color: #8B8B8B;
-    font-size: 1.2em;
+    font-size: 1.4em;
     border-radius: 5px;
     text-shadow: 0 1px 0 #FFFFFF;
     }
@@ -46,15 +47,18 @@
 
 .container 
 {
-    width: 100%;
+    width: 850px;
     margin: 0 auto;
     padding: 0;
     font-family: "Arial", Gadget, sans-serif;
     color: #333333;
     }
 	
-.form 
+.complete-signup
 {
-    display: block;
+    float: right;
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
     }
-    
+

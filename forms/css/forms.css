@@ -70,12 +70,6 @@ form input[type="radio"]
 	border: 0;
     }
 
-form .submitbutton
-{
-    font-weight: bold;
-    font-size: 1.2em;
-    }
-
 form input:hover, form textarea:hover,
 form select:hover {
 	border-color: #80BFFF;

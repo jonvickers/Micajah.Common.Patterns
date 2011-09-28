@@ -4,7 +4,7 @@
 <head runat="server">
     <title>Micajah.Common.UIPatterns</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    
+
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/text.css" rel="stylesheet" type="text/css" />
@@ -35,12 +35,13 @@
                 <li class="profile"><a href="../profile">Your Profile</a></li>
                 <li class="sdlogin"><a href="../sdlogin">Login</a></li>
                 <li class="signup1"><a href="../signup1">Sign Up Start Page</a></li>
-                <li class="signup2"><a href="../signup2">One Time Sign Up Page</a></li>
+                <li class="signup2"><a href="../signup2">Org Sign Up (options)</a></li>
                 <li class="startup1"><a href="../startup">Start Up Page</a></li>
             </ul>
         </div>
 
         <div id="main-content">
+            <div class="clearfix"></div>
            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
             </asp:ContentPlaceHolder> 

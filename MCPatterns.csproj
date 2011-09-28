@@ -132,6 +132,7 @@
     <Content Include="buttons\css\buttons.css" />
     <Content Include="buttons\default.aspx" />
     <Content Include="css\960.css" />
+    <Content Include="css\img\bg-body.png" />
     <Content Include="css\reset.css" />
     <Content Include="css\text.css" />
     <Content Include="default.aspx" />
@@ -140,9 +141,20 @@
     <Content Include="grids\css\grids.css" />
     <Content Include="grids\default.aspx" />
     <Content Include="css\style.css" />
+    <Content Include="grids\img\datatable\back_disabled.png" />
+    <Content Include="grids\img\datatable\back_enabled.png" />
+    <Content Include="grids\img\datatable\forward_disabled.png" />
+    <Content Include="grids\img\datatable\forward_enabled.png" />
+    <Content Include="grids\img\datatable\sort_asc.png" />
+    <Content Include="grids\img\datatable\sort_asc_disabled.png" />
+    <Content Include="grids\img\datatable\sort_both.png" />
+    <Content Include="grids\img\datatable\sort_desc.png" />
+    <Content Include="grids\img\datatable\sort_desc_disabled.png" />
     <Content Include="grids\img\move.png" />
     <Content Include="grids\js\grid.js" />
+    <Content Include="grids\js\jquery.dataTables.min.js" />
     <Content Include="grids\js\jquery.tablednd_0_5.js" />
+    <Content Include="jquery-1.4.2.min.js" />
     <Content Include="notifications\css\notifications.css" />
     <Content Include="notifications\default.aspx" />
     <Content Include="notifications\img\bullet_black.png" />
@@ -156,6 +168,7 @@
     <Content Include="notifications\img\mc3_info.png" />
     <Content Include="notifications\img\mc3_sucess.png" />
     <Content Include="notifications\img\mc3_warning.png" />
+    <Content Include="notifications\img\tick.png" />
     <Content Include="notifications\img\tick_circle.png" />
     <Content Include="notifications\js\notifications.js" />
     <Content Include="profile\css\profile.css" />
@@ -277,7 +290,6 @@
     <Content Include="Default.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\img\" />
     <Folder Include="forms\img\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

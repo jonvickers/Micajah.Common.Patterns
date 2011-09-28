@@ -2,8 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <link href="css/forms.css" rel="stylesheet" type="text/css" />
-    <link href="../buttons/css/buttons.css" rel="stylesheet" type="text/css" />
-    <link href="../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
+    <link href="../../buttons/css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="../../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -39,7 +39,7 @@
 							
 			</p>
 
-            <input class="buttons submitbutton leftlabelbutton" type="submit" value="Submit the Left Side Label Form" /> or <a href="#">Cancel</a> - (button info pulling from the 'buttons.css' file)
+            <input class="buttons leftlabelbutton" type="submit" value="Submit the Left Side Label Form" /> or <a href="#">Cancel</a> - (button info pulling from the 'buttons.css' file)
 
         </fieldset>
 
@@ -91,7 +91,7 @@
 			</p>
 								
 			<p>
-				<input class="buttons submitbutton" type="submit" value="Submit" /> or <a href="#">Cancel</a>
+				<input class="buttons" type="submit" value="Submit" /> or <a href="#">Cancel</a>
 			</p>
 								
 		</fieldset>
@@ -142,7 +142,7 @@
 
             
          </fieldset>
-         <input class="buttons submitbutton" type="submit" value="Submit the 2 column form" /> or <a href="#">Cancel</a>      
+         <input class="buttons" type="submit" value="Submit the 2 column form" /> or <a href="#">Cancel</a>      
      </form>
      <br />
      <br />

@@ -18,11 +18,15 @@ $(document).ready(function () {
 
 });
 
-/*-----
-$.ajax({
-        success: function () {
-           $('tbody tr:even').addClass("even-row");
+$(document).ready(function () {
+    $('#example').dataTable({
+        "fnInitComplete": function () {
+            var 
+                that = this,
+                nTrs = this.fnGetNodes();
+            $('td', nTrs).click(function () {
+                that.fnFilter(this.innerHTML);
+            });
         }
-   });
-
-   -----*/
+    });
+});

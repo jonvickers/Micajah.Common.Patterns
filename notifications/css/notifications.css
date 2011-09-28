@@ -122,14 +122,14 @@
 
 .success 
 {
-    background: #d5ffce url('../../notifications/img/tick_circle.png');
+    background: #d5ffce url('../../notifications/img/tick.png');
     border-color: #9adf8f;
     color: #556652;
     }
 
 .error 
 {
-    background: #ffcece url('../../notifications/img/cross_circle.png');
+    background: #ffcece url('../../notifications/img/cross.png');
     border-color: #df8f8f;
     color: #665252;
     }

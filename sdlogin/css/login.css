@@ -1,12 +1,8 @@
-﻿	.sdform p, .sdform-top p {
+﻿	.form p, .form-top p {
 		margin-bottom: 0;
 		}
 		
-	.clearfix {
-		clear: both;
-		}
-		
-	.wrapper {
+	.login-wrapper {
 		width: 960px;
 		margin: 0 auto;
 		padding: 0;
@@ -14,19 +10,19 @@
 		color: #333333;
 		}
 	
-	.sdform {
+	.form {
 		display: block;
 		margin: 0 auto;		
 		}
 		
-	.sdform-top {
+	.form-top {
 		display: block;
 		margin: 0 auto;
 		width: 500px;
 		}
 		
-	.sdformwrap {
-		max-width: 850px;
+	.formwrap {
+		max-width: 800px;
 		margin: 10px auto 50px;
 		overflow: hidden;
 		padding: 30px 0 10px;
@@ -37,20 +33,17 @@
 
 #logo {
 	width: 800px;
-	margin: 50px auto 0;	
+	margin: 50px auto 0;
+	text-align: center;	
 	}
-		
-.shadow {
-	-webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08);
-	-moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08);
-	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08); 
-	}
-	
-.signup-page-button {
+
+.login-button {
 	margin-left: 290px;
+	width: 38% !important;
+	text-align: right;
 	}
-	.signup-page-button p{
-		line-height: 100px;
-		vertical-align: middle;
+	.login-button p{
+		line-height: 55px;
+		vertical-align: middle;		
 		}
 

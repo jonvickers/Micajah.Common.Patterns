@@ -2,11 +2,7 @@
 		margin-bottom: 0;
 		}
 		
-	.clearfix {
-		clear: both;
-		}
-		
-	.wrapper {
+	.login-wrapper {
 		width: 960px;
 		margin: 0 auto;
 		padding: 0;
@@ -86,6 +82,11 @@
 	color: #fff;
 	margin: 40px auto;
 	padding: 0;
+	max-width: 800px;
+		overflow: hidden;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
 	}
 	.login-from-here p{
 		margin: 0;

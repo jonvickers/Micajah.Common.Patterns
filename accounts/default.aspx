@@ -5,11 +5,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <link href="../../accounts/css/accounts.css" rel="stylesheet" type="text/css" />
+    <link href="../../buttons/css/buttons.css" rel="stylesheet" type="text/css" />
     <link href="../../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/on-off-checkboxes.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
-    <link href="../../css/960.css" rel="stylesheet" type="text/css" />
+
 
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
     <script src="../../notifications/js/notifications.js" type="text/javascript"></script>
@@ -22,9 +23,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+<h1>Account Settings</h1>
 <div id="planinfo">
-<div class="account-heading"><h1>Account Settings</h1></div>
+
 <div id="account-head">
     <div class="account-type">
         <h2>FREE</h2><small class="plandescsm">$0 / Month</small>
@@ -152,23 +153,17 @@
                                     <td class="receipt"><a href="#">Download Receipt</a></td>
                                     <td class="amount">USD $49.00</td>
                                 </tr>
-                                <tr class="payfail">
-                                    <td class="date">08-Oct-2011</td>
-                                    <td class="card">546700******1670</td>
-                                    <td class="receipt"><a href="#">Payment Failed - Resubmit</a></td>
-                                    <td class="amount">USD $49.00</td>
-                                </tr>
                             </tbody>
                         </table>
 
 <div class="account-heading"><h2>Support Options</h2></div>
 <div id="support">
     <div id="emailsupport">
-        <div class="email-emailsupport"><a href="#" class="buttons"><strong>Submit a Ticket</strong></a></div>
+        <div class="email-emailsupport"><a href="#" class="buttons">Submit a Ticket</a></div>
         <h4>Online Support</h4>
     </div>
     <div id="phonesupport">
-        <h4>Phone Support - disabled <span>(404) xxx-xxxx</span></h4>
+        <h4>Phone Support <span>(404) xxx-xxxx disabled</span></h4>
         <div class="feature-toggle on_off">
             <input id="phone-enable" type="checkbox" />
         </div>
@@ -177,12 +172,20 @@
 
 <div class="account-heading"><h2>Training and Consulting</h2></div>
 <div id="training-consulting">
-    
+    <div id="training-1">Training Plan A</div>
+    <div id="training-2">Training Plan B</div>
+    <div id="training-3">Training Plan C</div>
+    <div id="consulting">Consulting</div>
 </div>
 
 <div class="account-heading cancel-account"><h2>Cancel Account</h2></div>
 <div id="cancel-account">
-    
+<div style="width: 225px; float: right; margin-top: 16px;">
+    <a class="buttons negative large bold" href="#">Cancel My Account</a>
+</div>
+<div>
+    <strong>Cancel Your Account</strong><br />Please note that you will lose information stored on our servers once you delete your account.</div>
+
 </div>
 
 </div> <!-- End Plan Info Div -->
@@ -236,7 +239,7 @@
      </p>
 
      <div class="ccformsubmit">
-		<button data-afterclick="Processing…" class="cc-submit" id="cc-submit" type="submit">
+		<button data-afterclick="Processing…" class="gbutton positive" id="cc-submit" type="submit">
          <span>Process Credit Card</span>
        </button>
 	</div>

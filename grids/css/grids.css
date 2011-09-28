@@ -56,6 +56,242 @@ table th
     cursor: move;
     } 
     
+/* -- Datatables - Plugin -- */
 
+.dataTables_wrapper {
+	position: relative;
+	margin:1em 0 2em;
+	min-height: 302px;
+	clear: both;
+	overflow: hidden;
+}
+
+.dataTables_processing {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 30px;
+	margin-left: -125px;
+	margin-top: -15px;
+	padding: 14px 0 2px 0;
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	background-color: white;
+}
+
+.dataTables_length {
+	width: 40%;
+	float: left;
+	padding: 5px 0;
+}
+
+.dataTables_filter {
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding: 5px 0;
+}
+
+.dataTables_info {
+	width: 60%;
+	float: left;
+}
+
+.dataTables_paginate {
+	width: 42px;
+	float: right;
+	text-align: right;
+	cursor: pointer;
+}
+
+/* Pagination nested */
+.paginate_disabled_previous, .paginate_enabled_previous, .paginate_disabled_next, .paginate_enabled_next {
+	height: 19px;
+	width: 19px;
+	margin-left: 1px;
+	float: left;
+}
+
+.paginate_disabled_previous {
+	background-image: url('../img/datatable/back_disabled.png');
+}
+
+.paginate_enabled_previous {
+	background-image: url('../img/datatable/back_enabled.png');
+}
+
+.paginate_disabled_next {
+	background-image: url('../img/datatable/forward_disabled.png');
+}
+
+.paginate_enabled_next {
+	background-image: url('../img/datatable/forward_enabled.png');
+}
+
+table.display {
+	margin: 4px auto;
+	width: 100%;
+	clear: both;
+}
+
+table.display thead th {
+	cursor: pointer;
+}
+
+table.display tfoot th {
+	padding: 3px 10px;
+}
+
+table.display tr.heading2 td {
+	border-bottom: 1px solid #aaa;
+}
+
+table.display td {
+	/*padding: 3px 10px;*/
+}
+
+table.display td.center {
+	text-align: center;
+}
+
+.sorting_asc {
+	background: url('../img/datatable/sort_asc.png') no-repeat center right;
+}
+
+.sorting_desc {
+	background: url('../img/datatable/sort_desc.png') no-repeat center right;
+}
+
+.sorting {
+	background: url('../img/datatable/sort_both.png') no-repeat center right;
+}
+
+.sorting_asc_disabled {
+	background: url('../img/datatable/sort_asc_disabled.png') no-repeat center right;
+}
+
+.sorting_desc_disabled {
+	background: url('../img/datatable/sort_desc_disabled.png') no-repeat center right;
+}
+
+table.display tr.odd {
+	background-color: #ddffdd;
+}
+
+table.display tr.even {
+	background-color: #eeffee;
+}
+
+/* Sorting classes for columns */
+/* For the standard odd/even */
+
+tr.odd td.sorting_1 {
+	background-color: #D3D6FF;
+}
+
+tr.odd td.sorting_2 {
+	background-color: #DADCFF;
+}
+
+tr.odd td.sorting_3 {
+	background-color: #E0E2FF;
+}
+
+tr.even td.sorting_1 {
+	background-color: #EAEBFF;
+}
+
+tr.even td.sorting_2 {
+	background-color: #F2F3FF;
+}
+
+tr.even td.sorting_3 {
+	background-color: #F9F9FF;
+}
+
+
+
+table.stylized td.highlighted {
+	background-color: #E2EFFF !important;
+}
+
+table.stylized td.title > div {
+	position:relative;
+	display:block;
+	background:url("../img/toggle-small-expand.png") 0 2px no-repeat;
+	padding:0 0 0 16px;
+}
+
+table.stylized td.title div.listingDetails {
+	background-color:#FFF;
+	border-color:#E2EFFF;
+	border-style:solid;
+	border-width:1px 1px 3px;
+	left:-12px;
+	position:absolute;
+	text-align:left;
+	top:26px;
+	display:none;
+	-moz-box-shadow:0 0 8px rgba(82, 168, 236, 0.5);
+	-webkit-box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+}
+table.stylized td.title div.listingDetails div.pad{
+	padding:8px 10px;
+}
+
+table.stylized {
+	border-collapse:collapse;
+	position:relative;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+table.stylized th,table.stylized td {
+	line-height:18px;
+	padding:8px 12px;
+}
+table.stylized th {
+	background-color:#46a3ca !important;
+	color:#fff;
+	text-align:left;
+}
+table.stylized tr.high {
+	background-color:#ffa !important;
+}
+table.stylized tbody th,table.stylized tbody td,table.stylized tfoot th,table.stylized tfoot td {
+	border-bottom:solid 1px #eee;
+}
+table.stylized tfoot td {
+	background-color:#f2f2f2 !important;
+	border-bottom:2px solid #ddd;
+}
+table.stylized tr:nth-child(even) td {
+}
+table.stylized tbody tr:nth-child(odd) th,table.stylized tbody tr:nth-child(odd) td {
+	background:#FAFDFE;
+}
+table.stylized caption {
+	margin-bottom:1em;
+	text-align:left;
+	font-size:11px;
+	text-transform:uppercase;
+}
+table.no-style th,table.no-style td {
+	line-height:18px;
+	padding:4px 8px 4px 0;
+}
+table.no-style td,table.no-style th {
+	background:none !important;
+	color:#666;
+	border-bottom:0 none;
+	border-bottom:1px dotted #ddd !important;
+}
+table.no-style caption {
+	margin-bottom:0;
+	text-align: left;
+}
 				
  

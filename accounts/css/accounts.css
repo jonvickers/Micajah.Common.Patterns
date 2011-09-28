@@ -1,5 +1,5 @@
 ﻿
-h1, h2, h3, h4, h5 
+.account-heading h2, h1, h4 
 {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -24,6 +24,43 @@ small
     border-bottom: 2px solid #417da6;
     }
 
+.account-heading.cancel-account
+{
+    background: #f97171;
+    background: -moz-linear-gradient(top, #f97171 0%, #df3e3e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f97171), color-stop(100%,#df3e3e));
+    background: -webkit-linear-gradient(top, #f97171 0%,#df3e3e 100%);
+    background: -o-linear-gradient(top, #f97171 0%,#df3e3e 100%);
+    background: -ms-linear-gradient(top, #f97171 0%,#df3e3e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f97171', endColorstr='#df3e3e',GradientType=0 );
+    background: linear-gradient(top, #f97171 0%,#df3e3e 100%);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #990000;
+    padding-left: 15px;
+    border: none;
+    }
+
+.account-heading.cancel-account h2 
+{
+    font-size: .98em;
+    }
+
+#cancel-account
+{
+   overflow: hidden;
+   padding: 0 10px 10px; 
+    }
+
+#cancel-account a 
+{
+    float: right;
+    }
+
+#cancel-account p 
+{
+    width: 70%;
+    float: left;
+    }
 
 #planinfo 
 {
@@ -86,6 +123,7 @@ tbody tr.currentplan:hover
 #account-head 
 {
     overflow:hidden;
+    margin-top: 30px;
     }
 
 .account-type 
@@ -111,7 +149,7 @@ tbody tr.currentplan:hover
 #payment-update 
 {
     float: right;
-    margin-top: 9px;
+    margin-top: 11px;
     }
 #payment-status 
 {
@@ -328,7 +366,7 @@ table#payhistory tr.payfail td.receipt a
 .email-emailsupport 
 {
     float: right;
-    font-size: 1.2em;
+    margin-top: 8px;
     }
 
 #phonesupport h4 
@@ -458,51 +496,6 @@ input#credit-card-number.text-input:focus, input#credit-card-exp.text-input:focu
     float: right;
     }
 
-button, .buttons, input[type="submit"].buttons, a.buttons 
-{
-   -moz-border-colors: none;
-   -moz-border-image: none; 
-   min-width: 30px;
-   background: #6bb135;
-   background: -webkit-gradient(linear, left top, left bottom, from(#91c929), to(#6bb135));
-   background: -webkit-linear-gradient(top, #91c929, #6bb135);
-   background: -moz-linear-gradient(top, #91c929, #6bb135);
-   background: -ms-linear-gradient(top, #91c929, #6bb135);
-   background: -o-linear-gradient(top, #91c929, #6bb135);
-   padding: 0.6em 1em;
-   margin: 5px;
-   -webkit-border-radius: 5px 5px 5px 5px;
-   -moz-border-radius: 5px 5px 5px 5px;
-   border-radius: 5px 5px 5px 5px;   
-   border: none;
-   color: white;
-   text-decoration: none;
-   vertical-align: middle;
-   text-align: center;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: bold;
-   overflow: hidden;
-   }
-ul.actions li a.buttons 
-{
-    font-size: 1.25em;
-    }
- button:hover, .buttons:hover, input[type="submit"].buttons:hover {
-   border-color: #28597a;
-   background: #28597a;
-   color: #fff;
-   }
-
- button:active, .buttons:active, input[type="submit"].buttons:active {
-	border-color: #39F;
-	background: #39F;
-   }
- 
- input[type="submit"].buttons, input[type="submit"].buttons:active, input[type="submit"].buttons:hover 
- {
-     color: #ffffff;
-     font-weight: bold;
-}
 
 /*-- Tabs Stuff --*/
 
@@ -547,7 +540,7 @@ ul.tabs li a {
 ul.tabs li a:hover {
 	background: #ccc;
 }
-html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
 	background: #fff;
 	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
 }
