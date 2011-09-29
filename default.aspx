@@ -21,8 +21,8 @@
     <p>Paragraph: <a href="#">this is a link</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla enim, tincidunt ac convallis ac, mollis at libero. Nam at enim lorem. Nullam pulvinar velit sit amet magna fermentum vel hendrerit est mollis. Etiam odio tellus, accumsan ac sollicitudin sed, suscipit quis orci. Duis cursus leo in risus hendrerit fermentum. Donec ultrices porta erat, in fringilla arcu cursus at. Vestibulum varius magna quis leo sodales interdum.</p>
 </div>
 <div class="clear"></div>
-<div id="georgia">
-    <h1>Georgia</h1>
+<div id="tahoma">
+    <h1>Tahoma</h1>
     <h1>H1 Tag</h1>
     <h2>H2 Tag</h2>
     <h3>H3 Tag</h3>
@@ -30,8 +30,8 @@
     <h5>H5 Tag</h5>
     <p>Paragraph: <a href="#">this is a link</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla enim, tincidunt ac convallis ac, mollis at libero. Nam at enim lorem. Nullam pulvinar velit sit amet magna fermentum vel hendrerit est mollis. Etiam odio tellus, accumsan ac sollicitudin sed, suscipit quis orci. Duis cursus leo in risus hendrerit fermentum. Donec ultrices porta erat, in fringilla arcu cursus at. Vestibulum varius magna quis leo sodales interdum.</p>
 </div>
-<div id="times">
-    <h1>Times New Roman</h1>
+<div id="verdana">
+    <h1>Verdana</h1>
     <h1>H1 Tag</h1>
     <h2>H2 Tag</h2>
     <h3>H3 Tag</h3>

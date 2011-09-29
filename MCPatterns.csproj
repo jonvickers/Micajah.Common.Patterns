@@ -129,10 +129,10 @@
     <Content Include="accounts\testing\jquery\iphone-style-checkboxes.js" />
     <Content Include="accounts\testing\on-off.html" />
     <Content Include="accounts\testing\style.css" />
-    <Content Include="buttons\css\buttons.css" />
     <Content Include="buttons\default.aspx" />
     <Content Include="css\960.css" />
     <Content Include="css\img\bg-body.png" />
+    <Content Include="css\img\button-add.gif" />
     <Content Include="css\reset.css" />
     <Content Include="css\text.css" />
     <Content Include="default.aspx" />

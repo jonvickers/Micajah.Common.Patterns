@@ -1,8 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="MCPatterns.grids._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <link href="css/grids.css" rel="stylesheet" type="text/css" />
-
     <script src="js/jquery.dataTables.min.js" type="text/javascript"></script>
     <script src="js/jquery.tablednd_0_5.js" type="text/javascript"></script>
     <script src="js/grid.js" type="text/javascript"></script>

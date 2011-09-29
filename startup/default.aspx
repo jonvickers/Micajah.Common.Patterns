@@ -14,13 +14,7 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="mc3_notification mc3_information">
-		<a href="#" class="close"><img src="../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
-		<div>
-			<h3>Welcome notification.</h3>
-            <p>This should show up the first time only. Place the rest of message here.</p> 
-		</div>
-	</div>    
+      
     <div class="startupwrapper">
     <div class="startup">
         <h1>Welcome to SherpaDesk!</h1>

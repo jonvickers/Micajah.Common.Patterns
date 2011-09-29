@@ -4,10 +4,10 @@
 <head runat="server">
     <title>Micajah.Common.UIPatterns</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/text.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -27,13 +27,19 @@
        
             <ul id="main-nav">
                 <li class="home"><a href="../">Home</a></li>
+                <li><hr /></li>
+                <li><strong>Elements&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="forms"><a href="../forms">Forms</a></li>
                 <li class="button"><a href="../buttons">Buttons</a></li>
                 <li class="grids"><a href="../grids">Grids</a></li>
                 <li class="notifications"><a href="../notifications">Notifications</a></li>
+                <li><hr /></li>
+                <li><strong>App Settings&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="accounts"><a href="../accounts">Account Settings</a></li>
                 <li class="profile"><a href="../profile">Your Profile</a></li>
                 <li class="sdlogin"><a href="../sdlogin">Login</a></li>
+                <li><hr /></li>
+                <li><strong>Sign up process&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="signup1"><a href="../signup1">Sign Up Start Page</a></li>
                 <li class="signup2"><a href="../signup2">Org Sign Up (options)</a></li>
                 <li class="startup1"><a href="../startup">Start Up Page</a></li>

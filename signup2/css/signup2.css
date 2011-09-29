@@ -33,7 +33,7 @@
     border: 0;
     background-color: #EBEBEB;
     padding: 0;
-    margin: 50px 0;
+    margin: 40px 0 30px;
     color: #8B8B8B;
     font-size: 1.4em;
     border-radius: 5px;
@@ -56,9 +56,9 @@
 	
 .complete-signup
 {
-    float: right;
     overflow: hidden;
     margin-bottom: 50px;
     padding-bottom: 50px;
+    margin-left: 295px;
     }
 

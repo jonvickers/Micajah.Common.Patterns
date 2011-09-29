@@ -5,8 +5,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <link href="../../accounts/css/accounts.css" rel="stylesheet" type="text/css" />
-    <link href="../../buttons/css/buttons.css" rel="stylesheet" type="text/css" />
-    <link href="../../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/on-off-checkboxes.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
@@ -118,6 +116,38 @@
                             </tr>
                         </table>
                     
+<div class="account-heading"><h2>Support Options</h2></div>
+<div id="support">
+    <div id="emailsupport">
+        <div class="email-emailsupport"><a href="#" class="buttons">Submit a Ticket</a></div>
+        <h4>Online Support</h4>
+    </div>
+    <div id="phonesupport">
+        <h4>Phone Support <span>(404) xxx-xxxx disabled</span></h4>
+        <div class="feature-toggle on_off">
+            <input id="phone-enable" type="checkbox" />
+        </div>
+    </div>
+</div>
+
+<div class="account-heading"><h2>Training and Consulting</h2></div>
+<div id="training-consulting">
+    <div id="training-1">Training Plan A</div>
+    <div id="training-2">Training Plan B</div>
+    <div id="training-3">Training Plan C</div>
+    <div id="consulting">Consulting</div>
+</div>
+
+<div class="account-heading cancel-account"><h2>Cancel Account</h2></div>
+<div id="cancel-account">
+<div style="width: 225px; float: right; margin-top: 16px;">
+    <a class="buttons negative" href="#">Cancel My Account</a>
+</div>
+<div>
+    <strong>Cancel Your Account</strong><br />Please note that you will lose information stored on our servers once you delete your account.</div>
+
+</div>
+
                     <div class="account-heading"><h2>Payment History</h2></div>
                         <table id="payhistory">
                             <thead>
@@ -155,38 +185,6 @@
                                 </tr>
                             </tbody>
                         </table>
-
-<div class="account-heading"><h2>Support Options</h2></div>
-<div id="support">
-    <div id="emailsupport">
-        <div class="email-emailsupport"><a href="#" class="buttons">Submit a Ticket</a></div>
-        <h4>Online Support</h4>
-    </div>
-    <div id="phonesupport">
-        <h4>Phone Support <span>(404) xxx-xxxx disabled</span></h4>
-        <div class="feature-toggle on_off">
-            <input id="phone-enable" type="checkbox" />
-        </div>
-    </div>
-</div>
-
-<div class="account-heading"><h2>Training and Consulting</h2></div>
-<div id="training-consulting">
-    <div id="training-1">Training Plan A</div>
-    <div id="training-2">Training Plan B</div>
-    <div id="training-3">Training Plan C</div>
-    <div id="consulting">Consulting</div>
-</div>
-
-<div class="account-heading cancel-account"><h2>Cancel Account</h2></div>
-<div id="cancel-account">
-<div style="width: 225px; float: right; margin-top: 16px;">
-    <a class="buttons negative large bold" href="#">Cancel My Account</a>
-</div>
-<div>
-    <strong>Cancel Your Account</strong><br />Please note that you will lose information stored on our servers once you delete your account.</div>
-
-</div>
 
 </div> <!-- End Plan Info Div -->
 
@@ -239,7 +237,7 @@
      </p>
 
      <div class="ccformsubmit">
-		<button data-afterclick="Processing…" class="gbutton positive" id="cc-submit" type="submit">
+		<button data-afterclick="Processing…" class="buttons large" id="cc-submit" type="submit">
          <span>Process Credit Card</span>
        </button>
 	</div>

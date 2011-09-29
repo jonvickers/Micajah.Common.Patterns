@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="MCPatterns.notifications._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
-    <link href="css/notifications.css" rel="stylesheet" type="text/css" />
     <script src="js/notifications.js" type="text/javascript"></script>
 
     <script type="text/javascript">

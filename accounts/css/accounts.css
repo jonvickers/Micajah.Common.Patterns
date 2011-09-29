@@ -1,4 +1,12 @@
 ﻿
+/*-- Reset Table Hover --*/
+
+tbody tr:hover, tbody tr.even-row:hover {
+    background: none;
+}
+
+
+/* ------------------------------------------------------------*/
 .account-heading h2, h1, h4 
 {
     margin-bottom: 0;
@@ -149,7 +157,7 @@ tbody tr.currentplan:hover
 #payment-update 
 {
     float: right;
-    margin-top: 11px;
+    margin-top: 15px;
     }
 #payment-status 
 {

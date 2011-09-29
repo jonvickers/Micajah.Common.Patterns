@@ -2,9 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <link href="css/signup2.css" rel="stylesheet" type="text/css" />
-    <link href="../../forms/css/forms.css" rel="stylesheet" type="text/css" />    
-    <link href="../../buttons/css/buttons.css" rel="stylesheet" type="text/css" />
-    <link href="../../notifications/css/notifications.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -29,7 +26,7 @@
 
 <div id="toggle-menu">
     <ul>
-        <li class="buttons" id="member">Toggle Form</li>
+        <li id="member"><a href="#" class="buttons">Toggle Form</a></li>
     </ul>
 </div>
 <div class="section1">
@@ -40,7 +37,13 @@
 </div>
 <div class="container">
     <form class="form">  
+      <div class="section1">
       <div class="formsection"><p>Company Address</p></div>
+      </div>
+      <div class="section1" style="display: none;">
+      <div class="formsection"><p>Personal Information</p></div>
+      </div>
+      
         <div class="section1">
             <p> 
         	    <label class="labelleft required-txt">Company Name</label>  
@@ -149,10 +152,12 @@
       <div class="clearfix"></div>
       
       <div class="formsection"><p>Complete Your Setup</p></div>
+
+      <p style="text-align: center;">By clicking the button below I agree to <strong style="font-size: 1.2em;">SherpaDesk's</strong> <a href="#">Terms of Use</a> and <a href="#">Privacy Policy.</a></p>
       
-        <div class="complete-signup">  
-            <input class="buttons large" type="submit" value="Create Your SherpaDesk" />  
-        </div>  
+        <p style="text-align: center;">  
+            <input class="buttons x-large" type="submit" value="Create Your SherpaDesk" />  
+        </p>  
       
     </form>  
 </div>

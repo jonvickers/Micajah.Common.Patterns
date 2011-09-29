@@ -34,7 +34,7 @@
                     </p>
                                        
            
-                    <p class="login-button"><input type="submit" value="Login" class="gbutton active large" /></p>
+                    <p class="login-button"><input type="submit" value="Login" class="buttons large" /></p>
             </div>
     </div>
 

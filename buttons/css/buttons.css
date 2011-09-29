@@ -1,5 +1,5 @@
 ﻿
- /* ----  Micajah button CSS   ----- */
+/* ----  Standard buttons CSS   ----- */
  
 a {font-size: 1.3em; font-family: "arial", Sans-Serif;} 
 
@@ -17,6 +17,7 @@ a.cancel:focus {background-color: gray;}
 
 input[type="submit"]
 {
+    font-family: arial, sans-serif; 
     font-weight: bold; 
     color:#333333; 
     padding:0.5em 1.5em; 
@@ -82,7 +83,7 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
 	background: #39F;
    }
 
-/* -- Negative -- */
+/* -- Negative Button -- */
 .buttons.negative
 {  
 	border: 1px solid #d4d4d4;
