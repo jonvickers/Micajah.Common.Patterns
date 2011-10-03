@@ -1,0 +1,90 @@
+﻿#startup-wrapper 
+{
+    width: 575px;
+    float: left;
+    }
+
+.get-started 
+{
+   padding: 10px; 
+    }
+
+.get-started a, .summary-ammount a
+{
+    text-decoration: none;
+    margin: 0;
+    } 
+    
+.get-started a:hover
+{
+    color: #138BBF;
+    }  
+
+#startup-wrapper h1 
+{
+    font-size: 18px;
+    margin-bottom: 5px;
+    }
+    
+#startup-wrapper p, #startup-wrapper h2
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    }
+
+#startup-wrapper p, #startup-wrapper h2, #startup-wrapper h1
+{
+    font-weight: normal;
+    }
+
+#startup-wrapper p 
+{
+    font-size: 12px;
+    margin-top: 4px;
+    color: #999999;
+    }
+
+#startup-wrapper li
+{
+    padding: 10px 0 10px 30px;
+    margin: 0;
+    background-image: url("../../startup/img/startup-arrow.png");
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    }
+
+/*-- Right Sidebar --*/
+#status-wrapper 
+{
+    width: 250px;
+    float: left;
+    overflow: hidden;
+    margin: 55px 10px;
+    }
+#status-wrapper li 
+{
+    border-bottom: 1px solid #e3d9b5;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 1.1em;  
+    }
+#status-wrapper li:last-child 
+{
+    border: none;
+    }
+    
+.summary-desc 
+{
+    float: left;
+    max-width: 200px;
+    overflow: hidden;
+    }
+    
+.summary-ammount 
+{
+    float: right;
+    max-width: 45px;
+    overflow: hidden;
+    font-weight: bold;
+    }

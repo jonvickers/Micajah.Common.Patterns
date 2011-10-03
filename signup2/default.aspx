@@ -12,7 +12,7 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
-            $('#member').click(function () {
+            $('#toggler').click(function () {
                 $('.section1').toggle();
             });
         });
@@ -21,14 +21,17 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+
+            <div class="head-notice information">
+				<a href="#" class="close"><img src="../../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>				
+                <div id="toggler" style="padding: 30px 50px;"><a href="#" class="buttons">Form Toggle</a>&nbsp;&nbsp;&nbsp; <== Toggles between <strong>Organization</strong> sign up and <strong>Individual</strong> sign forms</div>
+			</div>
+
+
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<div id="toggle-menu">
-    <ul>
-        <li id="member"><a href="#" class="buttons">Toggle Form</a></li>
-    </ul>
-</div>
+
 <div class="section1">
     <h1>Standard Organization Signup</h1>
 </div>
@@ -151,14 +154,14 @@
       
       <div class="clearfix"></div>
       
-      <div class="formsection"><p>Complete Your Setup</p></div>
-
-      <p style="text-align: center;">By clicking the button below I agree to <strong style="font-size: 1.2em;">SherpaDesk's</strong> <a href="#">Terms of Use</a> and <a href="#">Privacy Policy.</a></p>
-      
-        <p style="text-align: center;">  
+      <!-- <div class="formsection"><p>Complete Your Setup</p></div> -->
+      <hr />
+        <div class="complete-signup">  
             <input class="buttons x-large" type="submit" value="Create Your SherpaDesk" />  
-        </p>  
-      
+            <div class="clearfix"></div>
+            <p>By clicking the button above I agree to SherpaDesk's<br />
+            <a href="#">Terms of Use</a> and <a href="#">Privacy Policy.</a></p>
+        </div>
     </form>  
 </div>
 

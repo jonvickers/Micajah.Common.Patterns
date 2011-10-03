@@ -188,9 +188,12 @@
     <Content Include="signup2\img\logo.png" />
     <Content Include="signup2\img\Mountain_File.png" />
     <Content Include="signup2\img\required.png" />
-    <Content Include="startup\css\startup.css" />
+    <Content Include="startup\css\3step-startup.css" />
+    <Content Include="startup\3step-startup.aspx" />
+    <Content Include="startup\css\startup1.css" />
     <Content Include="startup\default.aspx" />
     <Content Include="startup\img\Mountain_File.png" />
+    <Content Include="startup\img\startup-arrow.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -277,6 +280,13 @@
     </Compile>
     <Compile Include="signup2\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="startup\3step-startup.aspx.cs">
+      <DependentUpon>3step-startup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="startup\3step-startup.aspx.designer.cs">
+      <DependentUpon>3step-startup.aspx</DependentUpon>
     </Compile>
     <Compile Include="startup\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>

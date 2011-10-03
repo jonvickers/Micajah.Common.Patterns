@@ -17,16 +17,16 @@
     <p id="sub-heading">One class + :hover and :active that can be applied to any 'a' tag or 'submit' button</p>
 
     <div class="wrap">
-        <a href="#" class="buttons small">Link: Small</a> <a href="#" class="buttons">Link: Standard</a> <a href="#" class="buttons large">Link: Large</a> <a href="#" class="buttons x-large">Link: X-Large</a>
+        <a href="#" class="buttons small">Link: Small</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="buttons">Link: Standard</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="buttons large">Link: Large</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="buttons x-large">Link: X-Large</a>
     </div>
    
    <br />
 
     <hr />
 
-    <h3>Add Button</h3>
+    <h3>Add Link Button</h3>
         <div class="wrap">
-            <p><a href="#" class="buttons addproperty">Add Button Link</a></p>
+            <p><a href="#" class="buttons addproperty">Add New User</a></p>
         </div>
     <br />
 
@@ -42,13 +42,13 @@
 
 <div class="micajah">
     <h3>Standard Button and Link Groups</h3>
-        <input type="submit" value="Save" class="large" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?custom" class="buttonAlt">Custom Link</a>&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>&nbsp;or&nbsp;<a href="javascript:confirmDelete('?delete=true')" class="buttonAlt delete">Delete</a>
+        <input type="submit" value="Save" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?custom" class="buttonAlt">Custom Link</a>&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>&nbsp;or&nbsp;<a href="javascript:confirmDelete('?delete=true')" class="buttonAlt delete">Delete</a>
         <br /><br />
-        <input type="submit" value="Save" class="large" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>&nbsp;or&nbsp;<a href="javascript:confirmDelete('?delete=true')" class="buttonAlt delete">Delete</a>
+        <input type="submit" value="Save" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>&nbsp;or&nbsp;<a href="javascript:confirmDelete('?delete=true')" class="buttonAlt delete">Delete</a>
         <br /><br />
-        <input type="submit" value="Save" class="large" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>
+        <input type="submit" value="Save" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>
         <br /><br />
-        <input type="submit" value="Save" class="large" />
+        <input type="submit" value="Save" />
 
         <br/><br/>
         <hr />

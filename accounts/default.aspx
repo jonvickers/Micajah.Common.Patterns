@@ -138,7 +138,7 @@
     <div id="consulting">Consulting</div>
 </div>
 
-<div class="account-heading cancel-account"><h2>Cancel Account</h2></div>
+<div class="account-heading"><h2>Cancel Account</h2></div>
 <div id="cancel-account">
 <div style="width: 225px; float: right; margin-top: 16px;">
     <a class="buttons negative" href="#">Cancel My Account</a>

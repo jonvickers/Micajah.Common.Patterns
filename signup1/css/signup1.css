@@ -1,4 +1,9 @@
-﻿	.form p, .form-top p {
+﻿/*-- Reset Medium width for signup form --*/
+.formwrap p input.text-input {
+    width: 350px !important;
+}
+
+	.form p, .form-top p {
 		margin-bottom: 0;
 		}
 		
@@ -68,12 +73,18 @@
 
 
 .signup-page-button {
-	margin-left: 290px;
+	margin-left: 270px;
 	}
 	.signup-page-button p{
 		line-height: 55px;
 		vertical-align: middle;
 		}
+
+
+form .labelleft, form .labelleftdesc 
+{
+    width: 255px;
+    }
 
 /*----------------------------------------------------------------------*/
 

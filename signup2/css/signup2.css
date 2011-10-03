@@ -1,5 +1,5 @@
 ﻿form .labelleft {
-    width: 200px;
+    width: 220px;
 }
 
 /* --- Header Section --- */
@@ -56,9 +56,25 @@
 	
 .complete-signup
 {
-    overflow: hidden;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
-    margin-left: 295px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin-left: 239px;
+    }
+
+.complete-signup p
+{
+    margin: 20px 0;
+    }
+
+.complete-signup a 
+{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    }
+    
+hr 
+{
+    margin: 30px 0 50px;
     }
 

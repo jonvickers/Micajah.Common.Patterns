@@ -11,7 +11,7 @@ namespace MCPatterns.startup
 {
 
 
-    public partial class _default1
+    public partial class _default
     {
     }
 }

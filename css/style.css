@@ -13,8 +13,15 @@ html, body
     font-family: arial, helvetica, sans-serif;
     color: #555;
     background:#ffffff url("../../css/img/bg-body.png") repeat-y scroll left top;    
-    font-size: 13px;
+    font-size: 14px;
     }
+
+
+h1, h2, h3, h4, h5, xx-large, x-large, large, p
+{
+    font-weight: normal;
+    }
+
 
 /*-- Top Notification Area --*/
 
@@ -106,7 +113,7 @@ p {
 #main-content 
 {
     margin: 15px 30px 50px 260px;
-    padding: 0;
+    padding: 0 0 40px 0;
     }
 
 #top-heading 
@@ -126,7 +133,7 @@ p {
 #arial, #calibri, #tahoma, #verdana 
 {
     float: left;
-    width: 400px;
+    width: 18%;
     margin: 20px 50px 20px 0;    
     }
 
@@ -220,7 +227,7 @@ Buttons CSS
 
 /* ----  Standard buttons CSS   ----- */
  
-a {font-size: 1.2em; font-family: arial, Sans-Serif; color: #43B9EF;} 
+a {font-size: 1.15em; font-family: arial, Sans-Serif; color: #43B9EF;} 
 
 a.buttonAlt {color: #1874CD; padding: 7px; font-size: 1.3em;}
 a.buttonAlt:hover {background-color: #1874CD; color: white;}
@@ -248,7 +255,7 @@ input[type="submit"]
     }
 input[type="submit"].small, input[type="submit"].buttons.small, .buttons.small {font-size: .9em;}
 input[type="submit"].large, input[type="submit"].buttons.large, .buttons.large, .buttons .large .negative {font-weight: bold; font-size: 1.3em;}
-input[type="submit"].x-large, input[type="submit"].buttons.x-large, .buttons.x-large, .buttons .x-large .negative {font-weight: bold; font-size: 1.8em;}
+input[type="submit"].x-large, input[type="submit"].buttons.x-large, .buttons.x-large, .buttons .x-large .negative {font-family: calibri; font-weight: bold; font-size: 1.5em;}
 input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #1874CD;}
 
 
@@ -266,7 +273,7 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
     font-size: 1.05em;
     font-weight: bold;
     overflow: visible;
-    padding: 10px 20px 9px;
+    padding: 0.6em 2.3em;
     text-decoration: none;
 }
  
@@ -348,9 +355,9 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
 
 .addproperty {
     background-image: url("../../css/img/button-add.gif");
-    background-position: 10px center;
+    background-position: 13px center;
     background-repeat: no-repeat;
-    padding-left: 28px;
+    padding-left: 34px;
 }
 
 .addproperty:hover 

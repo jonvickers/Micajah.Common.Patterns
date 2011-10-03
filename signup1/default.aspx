@@ -36,7 +36,7 @@
                     </p>
                     
            
-                    <p class="signup-page-button"><input type="submit" value="Create Your Account" class="buttons large" />&nbsp; &nbsp; or &nbsp; <a href="#" class="buttonAlt cancel">Cancel</a></p>
+                    <p class="signup-page-button"><input type="submit" value="Create Your Account" class="buttons large" />&nbsp; &nbsp; We value your privacy.</p>
             </div>
     </div>
 
