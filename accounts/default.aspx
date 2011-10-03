@@ -132,10 +132,48 @@
 
 <div class="account-heading"><h2>Training and Consulting</h2></div>
 <div id="training-consulting">
-    <div id="training-1">Training Plan A</div>
-    <div id="training-2">Training Plan B</div>
-    <div id="training-3">Training Plan C</div>
-    <div id="consulting">Consulting</div>
+    <table>
+        <tr>
+            <td>
+                <div class="training">
+                    <p><strong>1 Hour of Training</strong><br />Description: yada yada yada</p>
+                </div>
+                <div class="purchase">
+                    <a href="#" class="buttons">Purchase</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="training">
+                    <p><strong>3 Hours of Training</strong><br />Description: yada yada yada</p>
+                </div>
+                <div class="purchase">
+                    <a href="#" class="buttons">Purchase</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="training">
+                    <p><strong>5 Hours of Training</strong><br />Description: yada yada yada</p>
+                </div>
+                <div class="purchase">
+                    <a href="#" class="buttons">Purchase</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="training">
+                    <p><strong>Private Consultation</strong><br />Description: $1,000,000</p>
+                </div>
+                <div class="purchase">
+                    <a href="#" class="buttons">Purchase</a>
+                </div>
+            </td>
+        </tr>
+    </table>
 </div>
 
 <div class="account-heading"><h2>Cancel Account</h2></div>

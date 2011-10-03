@@ -403,6 +403,28 @@ table#payhistory tr.payfail td.receipt a
 
 
 
+/* -- Training Section -- */
+
+#training-consulting table tbody tr, #training-consulting table tbody td, #training-consulting table tbody
+{
+    border: none;
+    }
+
+.training
+{
+    float: left;
+    }
+
+.training strong 
+{
+    font-size: 1.2em;
+    }
+    
+.purchase 
+{
+    float: right;
+    margin-top: 12px;
+    }
 
 /* --  CC Update Pop -- */
 
