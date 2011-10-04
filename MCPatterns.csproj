@@ -136,9 +136,7 @@
     <Content Include="css\reset.css" />
     <Content Include="css\text.css" />
     <Content Include="default.aspx" />
-    <Content Include="forms\css\forms.css" />
     <Content Include="forms\default.aspx" />
-    <Content Include="grids\css\grids.css" />
     <Content Include="grids\default.aspx" />
     <Content Include="css\style.css" />
     <Content Include="grids\img\datatable\back_disabled.png" />
@@ -150,12 +148,14 @@
     <Content Include="grids\img\datatable\sort_both.png" />
     <Content Include="grids\img\datatable\sort_desc.png" />
     <Content Include="grids\img\datatable\sort_desc_disabled.png" />
+    <Content Include="grids\img\editbg.png" />
     <Content Include="grids\img\move.png" />
+    <Content Include="grids\img\pencil_edit.png" />
+    <Content Include="grids\img\trash_box.png" />
     <Content Include="grids\js\grid.js" />
     <Content Include="grids\js\jquery.dataTables.min.js" />
     <Content Include="grids\js\jquery.tablednd_0_5.js" />
     <Content Include="jquery-1.4.2.min.js" />
-    <Content Include="notifications\css\notifications.css" />
     <Content Include="notifications\default.aspx" />
     <Content Include="notifications\img\bullet_black.png" />
     <Content Include="notifications\img\cross.png" />

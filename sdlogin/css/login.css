@@ -9,7 +9,15 @@
 		font-family: "Arial", Gadget, sans-serif;
 		color: #333333;
 		}
-	
+		.login-wrapper input
+        { 
+	        padding: 12px;        
+	        font: normal 16px/100% Verdana, Tahoma, sans-serif;
+	        }
+	    .login-wrapper label.labelleft
+	    {
+	        padding-top: 12px;
+	        }
 	.form {
 		display: block;
 		margin: 0 auto;		
@@ -40,7 +48,6 @@
 .login-button {
 	margin-left: 290px;
 	width: 38% !important;
-	text-align: right;
 	}
 	.login-button p{
 		line-height: 55px;

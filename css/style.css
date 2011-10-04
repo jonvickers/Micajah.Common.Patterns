@@ -357,13 +357,13 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
     background-image: url("../../css/img/button-add.gif");
     background-position: 13px center;
     background-repeat: no-repeat;
-    padding-left: 34px;
+    padding-left: 36px;
 }
 
 .addproperty:hover 
 {
     background-image: url("../../css/img/button-add.gif");
-    background-position: 10px center;
+    background-position: 13px center;
     background-repeat: no-repeat;    
     background-color: #39F;
     border-color: #39F;
@@ -371,7 +371,7 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
 
 .addproperty:active, .a-button:focus {
     background-image: url("../../css/img/button-add.gif");
-    background-position: 10px center;
+    background-position: 13px center;
     background-repeat: no-repeat;
     background-color: #28597a;
     border-color: #28597a;
@@ -413,14 +413,14 @@ form input,
 form select, 
 form textarea
 { 
-	padding: .75em;  
+	padding: 10px;  
 	border: solid 1px #CCC; 
 	-webkit-appearance: none;
 	border-radius: 5px;
 	-moz-border-radius: 5px;  
 	-webkit-border-radius: 5px; 
 	outline: 0;  
-	font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+	font: normal 14px/100% Verdana, Tahoma, sans-serif; 
 	background-color: #ffffff;  
 	}
 	
@@ -492,22 +492,22 @@ form p small
 
 form .labelleft 
 {
-    float: left;
-    font-size: 1.2em;
-    padding: 0.45em 15px 0 0;
-    
     color: #676767;
-	width: 275px;
-	margin-bottom: 10px;
-	text-align: right;
+    float: left;
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding: 8px 15px 0 0;
+    text-align: right;
+    width: 275px;
+    
     }
     
 form .labelleftdesc 
 {
     color: #676767;
     float: left;
-    font-size: 1.2em;
-    padding: 0.15em 15px 0 0;
+    font-size: 17px;
+    padding: 6px 15px 0 0;
     text-align: right;
     padding-right: 15px;
     width: 275px;
@@ -560,7 +560,7 @@ tbody tr
 
 tbody tr:hover,  tbody tr.even-row:hover
 {
-    background: #cbffcf;
+    background: #f2fff3;
     } 
               
 tbody tr.even-row 
@@ -568,6 +568,14 @@ tbody tr.even-row
     background: #f3f3f3;
     }
                 
+table thead th 
+{
+    background-color: #46A3CA !important;
+    color: #FFFFFF;
+    text-align: left;
+    }
+
+
 table td,
 table th 
 {
@@ -575,6 +583,52 @@ table th
     line-height: 1.3em;
     }    
     
+#grids h1 
+{
+    float: left;
+    }
+    
+.addbutton 
+{
+    float: right;
+    margin-top: 7px;
+    }
+
+#standardtable 
+{
+    margin: 10px;
+    }
+
+span.hoverlabel
+{
+    background: url('../../grids/img/editbg.png') no-repeat right center;
+    background-color: #e7e7e7;
+    margin: -5px 0 0 -90px;
+    padding: 5px 15px 5px 5px;
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    text-align: center;
+    -moz-border-radius-topleft: 8px;
+     -moz-border-radius-topright: 0px;
+     -moz-border-radius-bottomright: 0px;
+     -moz-border-radius-bottomleft: 8px;
+     -webkit-border-radius: 8px 0px 0px 8px;
+     border-radius: 8px 0px 0px 8px; 
+    }
+
+span.hoverlabel a 
+{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    }
+
+span.hoverlabel img 
+{
+    float: left;
+    margin: 0 5px 0 0;
+    }
 
 .editable 
 {
@@ -587,7 +641,6 @@ table th
     
 .showDragHandle:hover
 {
-    background: #cbffcf url('../../grids/img/move.png') 5px 11px no-repeat;
     cursor: move;
     } 
     

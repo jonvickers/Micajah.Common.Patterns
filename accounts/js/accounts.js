@@ -12,14 +12,14 @@ $(window).load(function () {
 
 
 
-$(document).ready(function() {
-	
+$(document).ready(function () {
+
     // Popup Box
     $("#inline").fancybox({
-		'titlePosition': 'inside',
-		'transitionIn': 'none',
-		'transitionOut': 'none'
-	});
+        'titlePosition': 'inside',
+        'transitionIn': 'none',
+        'transitionOut': 'none'
+    });
 
     // Progress bars - set values
     $("#progressbar1").progressbar({ value: 60 });
@@ -48,6 +48,10 @@ $(document).ready(function() {
         var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
         $(activeTab).fadeIn(); //Fade in the active ID content
         return false;
+    });
+
+    $("#phone-enable").change(function () {
+        $("#phone-service").toggle();
     });
 
 });    

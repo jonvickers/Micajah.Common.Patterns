@@ -331,7 +331,7 @@ table#payhistory a
 {
     text-decoration:  none;
     }
-  
+/*--   
 table#payhistory th 
 {
     background-color: #EEEEEE;
@@ -340,7 +340,7 @@ table#payhistory th
     padding: 0.4em;
     font-weight: bold;
     text-align: center;
-    }
+    } --*/
 
 table#payhistory tr.paysuccess td.amount 
 {
@@ -386,9 +386,14 @@ table#payhistory tr.payfail td.receipt a
     float: left;  
     }
 
-#phonesupport h4 span
+#phone-service
 {
-    color: #e9e9e9;
+    display: none;
+    color: #006792;
+    }
+#phone-service h4
+{
+    background: none;
     }
 
 #emailsupport,
@@ -410,6 +415,11 @@ table#payhistory tr.payfail td.receipt a
     border: none;
     }
 
+#training-consulting table tbody tr, #training-consulting table tbody td
+{
+    padding: 10px 0 10px 10px;
+    }
+
 .training
 {
     float: left;
@@ -424,6 +434,7 @@ table#payhistory tr.payfail td.receipt a
 {
     float: right;
     margin-top: 12px;
+    
     }
 
 /* --  CC Update Pop -- */

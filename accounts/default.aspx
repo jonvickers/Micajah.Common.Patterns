@@ -11,7 +11,6 @@
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-    <script src="../../notifications/js/notifications.js" type="text/javascript"></script>
     <script src="../../accounts/js/on-off-checkboxes.js" type="text/javascript"></script>
     <script src="../../accounts/js/accounts.js" type="text/javascript"></script>
     <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
@@ -123,7 +122,7 @@
         <h4>Online Support</h4>
     </div>
     <div id="phonesupport">
-        <h4>Phone Support <span>(404) xxx-xxxx disabled</span></h4>
+        <h4>Phone Support</h4><span id="phone-service"><h4>(866) 996-1200</h4></span>
         <div class="feature-toggle on_off">
             <input id="phone-enable" type="checkbox" />
         </div>
@@ -157,16 +156,6 @@
             <td>
                 <div class="training">
                     <p><strong>5 Hours of Training</strong><br />Description: yada yada yada</p>
-                </div>
-                <div class="purchase">
-                    <a href="#" class="buttons">Purchase</a>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="training">
-                    <p><strong>Private Consultation</strong><br />Description: $1,000,000</p>
                 </div>
                 <div class="purchase">
                     <a href="#" class="buttons">Purchase</a>

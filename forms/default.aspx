@@ -45,7 +45,7 @@
 								
 			<p>
 				<label>Small form input</label>
-					<input class="text-input small-input" type="text" id="Text2" name="small-input" /> <span class="input-notification success png_bg">Successful message (Pulls from notification CSS file)</span> <!-- Classes for input-notification: success, error, information, attention -->
+					<input class="text-input small-input" type="text" id="Text2" name="small-input" /> <span class="input-notification success png_bg">Successful message</span>
 					<br /><small>A small description of the field</small>
 			</p>
 								
@@ -81,7 +81,7 @@
 			</p>
 								
 			<p>
-				<input class="buttons large" type="submit" value="Submit" />&nbsp; &nbsp; or &nbsp;<a href="#" class="buttonAlt cancel">Cancel</a>
+				<input class="buttons" type="submit" value="Submit" />&nbsp; &nbsp; or &nbsp;<a href="#" class="buttonAlt cancel">Cancel</a>
 			</p>
 								
 		</fieldset>		
@@ -97,12 +97,12 @@
          <div class="twocolumn"><!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
             <p>
 				<label>Left Column Input</label>
-				<input class="text-input twocolumn-input input-error" type="text"  name="medium-input" /> <span class="input-notification error">Error message</span>
+				<input class="text-input twocolumn-input input-error" type="text"  name="medium-input" /> <span class="input-notification error"></span>
 				<br /><small>A small description of the field</small>
 			</p>
             <p>
 				<label>Left Column Input</label>
-				<input class="text-input twocolumn-input" type="text"  name="medium-input" /> <span class="input-notification success">Successful message</span> 
+				<input class="text-input twocolumn-input" type="text"  name="medium-input" /> <span class="input-notification success"></span> 
 				<br /><small>A small description of the field</small>
 			</p>
             <p>
@@ -129,7 +129,7 @@
          </div>
 
          <div class="clearfix"></div>
-         <input class="buttons large" type="submit" value="Submit the 2 column form" />&nbsp; &nbsp; or &nbsp;<a href="#" class="buttonAlt cancel">Cancel</a>      
+         <input class="buttons" type="submit" value="Submit the 2 column form" />&nbsp; &nbsp; or &nbsp;<a href="#" class="buttonAlt cancel">Cancel</a>      
      </form>
      <br />
      <br />
