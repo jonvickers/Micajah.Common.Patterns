@@ -45,15 +45,54 @@
     color: #999999;
     }
 
-#startup-wrapper li
+#startup-wrapper li:hover 
 {
-    padding: 10px 0 10px 30px;
+    background-color: #ffffe8;
+    border-top: 1px solid #ffffb8;
+    border-bottom: 1px solid #ffffb8;
+    
+    }    
+
+#get-started li
+{
+    padding: 10px 0 10px 45px;
     margin: 0;
-    background-image: url("../../startup/img/startup-arrow.png");
+    background-image: url("../../startup/img/startup-box.png");
     background-position: 5px center;
     background-repeat: no-repeat;
+    border: 1px solid #fff;
     }
 
+#startup-wrapper #get-started li.startup-afterclick
+{
+    padding-left: 45px;
+    background-image: url("../../startup/img/finish-check.png");
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    }
+
+#brand-system li
+{
+    padding: 10px 0 10px 45px;
+    margin: 0;
+    background-image: url("../../startup/img/startup-arrow.png");
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    }
+
+#hide-page 
+{
+    float: right;
+    }
+    
+#hide-page a
+{
+    text-decoration: none;
+    }
+    
+    
 /*-- Right Sidebar 
 #status-wrapper 
 {

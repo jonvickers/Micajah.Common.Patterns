@@ -36,14 +36,13 @@
                     </p>
                     
            
-                    <p class="signup-page-button"><input type="submit" value="Create Your Account" class="buttons large" />&nbsp; &nbsp; We value your privacy.</p>
+                    <p class="signup-page-button"><input type="submit" value="Create Your Account" class="buttons large" /></p>
             </div>
     </div>
 
 </form>
 
 <div class="login-from-here">
-	<p>Already have an account? <a href="http://login.bigwebapps.com">Login into your admin account.</a></p>
 	<a href="http://www.bigwebapps.com" target="_blank"><img src="img/bwa-logo.png" /></a>
 </div>
 

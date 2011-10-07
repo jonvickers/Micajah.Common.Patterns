@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, xx-large, x-large, large, p
 #signup1 #sidebar #main-nav li.signup1 a,
 #signup2 #sidebar #main-nav li.signup2 a,
 #signup2a #sidebar #main-nav li.signup2a a,
+#successpage #sidebar #main-nav li.successpage a,
 #startup1 #sidebar #main-nav li.startup1 a 
 {
 	background-color: #567c91;
@@ -221,23 +222,23 @@ body {
 
 /*------------------------------------------------------------ 
 
-Buttons CSS 
+Buttons and Links CSS 
 
 -------------------------------------------------------------- */
 
 /* ----  Standard buttons CSS   ----- */
  
-a {font-size: 1.15em; font-family: arial, Sans-Serif; color: #43B9EF;} 
+a {font-size: 1.15em; font-family: arial, Sans-Serif; color: #42657C;} 
 
-a.buttonAlt {color: #1874CD; padding: 7px; font-size: 1.3em;}
-a.buttonAlt:hover {background-color: #1874CD; color: white;}
-a.buttonAlt:focus {background-color: #1874CD; color: white;}
+a.buttonAlt {color: #28597a; padding: 7px; font-size: 1.2em;}
+a.buttonAlt:hover {background-color: #28597a; color: white;}
+a.buttonAlt:focus {background-color: #28597a; color: white;}
 
-a.delete {color: Maroon; font-size: 1.3em;}
+a.delete {color: Maroon;}
 a.delete:hover {background-color: Maroon;}
 a.delete:focus {background-color: Maroon;}
 
-a.cancel {color: gray; font-size: 1.3em;}
+a.cancel {color: gray;}
 a.cancel:hover {background-color: gray;}
 a.cancel:focus {background-color: gray;}
 
@@ -259,7 +260,7 @@ input[type="submit"].x-large, input[type="submit"].buttons.x-large, .buttons.x-l
 input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #1874CD;}
 
 
-/* -- Gree Buttons  Here on Down -- */
+/* -- Green Buttons  Here on Down -- */
 
 .buttons, input[type="submit"].buttons 
 { 
@@ -397,14 +398,14 @@ Forms CSS
 
 .twocolumn
 {
-    width: 450px;
+    width: 420px;
     float: left;
     margin-right: 20px;
     }
                 
 .twocolumn-input
 {
-    width: 60%;
+    width: 80%;
     }
 
 /*--- form CSS  ---*/
@@ -437,6 +438,7 @@ form .medium-input
 form .large-input 
 {
     width: 97.5% !important;
+    max-width: 800px;
     }
     
 form .large-input-left /*-- for left side input --*/
@@ -570,7 +572,7 @@ tbody tr.even-row
                 
 table thead th 
 {
-    background-color: #46A3CA !important;
+    background-color: #42657C !important;
     color: #FFFFFF;
     text-align: left;
     }
@@ -842,7 +844,7 @@ table.stylized th,table.stylized td {
 	padding:8px 12px;
 }
 table.stylized th {
-	background-color:#46a3ca !important;
+	background-color:#42657C !important;
 	color:#fff;
 	text-align:left;
 }
@@ -992,15 +994,30 @@ Notifications CSS
     margin:0;
     padding: 0;
     border-bottom: 2px solid;
+    width: 100%;
+    overflow: hidden;
+    }
+
+.head-notice-inside 
+{
+    margin: 0 auto;
     background-position: 10px center !important;
     background-repeat: no-repeat !important;
     font-size: 13px;
-    width: 100%;
+    width: 80%;
+    text-align: center;
     }
                 
 .attention 
 {
     background: #fffbcc url('../../notifications/img/exclamation.png') 10px 11px no-repeat;
+    border-color: #e6b855;
+    color: #666452;
+    }
+
+.attention-head
+{
+    background: #fffbcc;
     border-color: #e6b855;
     color: #666452;
     }
@@ -1012,6 +1029,13 @@ Notifications CSS
     color: #585b66;
     }
 
+.information-head 
+{
+    background: #dbe3ff;
+    border-color: #a2b4ee;
+    color: #585b66;
+    }
+
 .success 
 {
     background: #d5ffce url('../../notifications/img/tick.png');
@@ -1019,9 +1043,23 @@ Notifications CSS
     color: #556652;
     }
 
+.success-head 
+{
+    background: #d5ffce;
+    border-color: #9adf8f;
+    color: #556652;
+    }
+    
 .error 
 {
     background: #ffcece url('../../notifications/img/cross.png');
+    border-color: #df8f8f;
+    color: #665252;
+    }
+
+.error-head 
+{
+    background: #ffcece;
     border-color: #df8f8f;
     color: #665252;
     }

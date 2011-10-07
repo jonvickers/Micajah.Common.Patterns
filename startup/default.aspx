@@ -5,15 +5,22 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
+            //add body tag for menu
             $("body").attr("id", "startup1");
-        });    
-    </script>
 
-    <script type="text/javascript">
-
-        $(document).ready(function () {
+            //Toggle for sidebar
             $('#toggler').click(function () {
                 $('#status-wrapper').toggle();
+            });
+
+            //Get started -> add checkmark and background
+            $('#startup-wrapper #get-started li').click(function () {
+                $(this).addClass('startup-afterclick');
+            });
+
+            //Hide Startup List
+            $('#hide-startup').click(function () {
+                $('#startup-wrapper').hide();
             });
         });
     
@@ -31,7 +38,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 <div id="startup-wrapper">
-    <div class="get-started">
+    <div id="get-started">
         <h1>Get Started</h1>
             <ul>
                 <li>
@@ -53,7 +60,7 @@
             </ul>    
     </div>
     <div id="brand-system">
-        <div class="get-started">
+
             <h1>Brand Your System</h1>
                 <ul>
                     <li>
@@ -69,10 +76,15 @@
                         <p>Import your users and invite contrators to your account.</p>
                     </li>   
                 </ul>    
-        </div>
-    </div>
-</div>
 
+    </div>
+
+
+    <div id="hide-page">
+        <a id="hide-startup" class="buttonAlt" href="#">Hide Start-up Page</a>
+    </div>
+
+</div>
 
 
 <!-- <div id="status-wrapper" style="display: none;">

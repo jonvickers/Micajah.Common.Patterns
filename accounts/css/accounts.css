@@ -17,7 +17,6 @@ tbody tr:hover, tbody tr.even-row:hover {
 a 
 {
     text-decoration: none;
-    color: #43b9ef;
     }
 
 small 
@@ -274,12 +273,42 @@ tbody tr.currentplan:hover
 #progressbar9,
 #progressbar10 
 {
-    height: 20px;
+    height: 8px;
+    }
+
+.ui-progressbar .ui-progressbar-value
+{
+    background: #417DA6;
+    border: 1px solid #417DA6;
+    }
+
+#progressbar6.ui-progressbar .ui-progressbar-value
+{
+    background: #951F2B;
+    border: 1px solid #951F2B;
     }
 
 .account-usage
 {
     width: 100%;
+    }
+    
+.account-usage-amount
+{
+    width: 40%;
+    float: right;
+    text-align: right;
+    }
+
+.account-usage-amount h4
+{
+    font-size: 26px;
+    margin: 2px 0;
+    }
+.account-usage-amount p 
+{
+    margin: 0;
+    color: #999999;
     }
 
 .account-usage tbody tr, .account-usage tbody 
@@ -287,34 +316,40 @@ tbody tr.currentplan:hover
     border: none;
     }
 
+/* --  
 .account-usage .featurelabel h4 
 {
     float: right;
     padding: 0;
     margin: 3px 0;
     }
-    
+-- */
+
+
 .account-usage .featurelabel h5 
 {
     float: left;
     padding: 0;
-    margin: 3px 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5em;
     }
 .account-usage .featurelabel
 {
-    width: 100%;
+    width: 40%;
     overflow: hidden;
     padding: 0;
-    margin: 0;
+    margin: 12px 0 0;
+    float: left;
     }
 
 .under 
 {
-    color: Green;
+    color: #79A541;
     }
 .over 
 {
-    color: Red;
+    color: #951F2B;
     }
 
 

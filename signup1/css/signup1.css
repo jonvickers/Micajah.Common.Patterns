@@ -38,7 +38,8 @@
 
 #logo {
 	width: 800px;
-	margin: 50px auto 0;	
+	margin: 50px auto 0;
+	text-align: center;	
 	}
 		
 .shadow {
@@ -54,7 +55,7 @@
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	margin-top: 5px;
+
 	float: left;
 	width: 340px;
 	}
@@ -63,7 +64,7 @@
     width: 150px;
     }
 .portal {
-	margin-top: 24px;
+	margin-top: 10px;
 	}
 
 .portal-message 
@@ -89,9 +90,9 @@ form .labelleft, form .labelleftdesc
 /*----------------------------------------------------------------------*/
 
 .login-from-here{
-	background-color: #64A2BF;
-	color: #fff;
-	margin: 40px auto;
+	background-color: #fff;
+	color: #999;
+	margin: 0 auto;
 	padding: 0;
 	max-width: 800px;
 		overflow: hidden;

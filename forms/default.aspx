@@ -97,17 +97,18 @@
          <div class="twocolumn"><!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
             <p>
 				<label>Left Column Input</label>
-				<input class="text-input twocolumn-input input-error" type="text"  name="medium-input" /> <span class="input-notification error"></span>
+				<input class="text-input twocolumn-input" type="text"  name="medium-input" />
 				<br /><small>A small description of the field</small>
 			</p>
             <p>
 				<label>Left Column Input</label>
-				<input class="text-input twocolumn-input" type="text"  name="medium-input" /> <span class="input-notification success"></span> 
+				<input class="text-input twocolumn-input" type="text"  name="medium-input" />
 				<br /><small>A small description of the field</small>
 			</p>
             <p>
 				<label>Left Column Input</label>
 				<input class="text-input twocolumn-input" type="text"  name="small-input" />
+                <br /><small>A small description of the field</small>
 			</p>     
          </div>
          <div class="twocolumn">

@@ -39,7 +39,7 @@
 		border-radius: 10px;
 	}
 
-#logo {
+.login-logo {
 	width: 800px;
 	margin: 50px auto 0;
 	text-align: center;	

@@ -22,7 +22,15 @@ $(document).ready(function () {
     });
 
     // Progress bars - set values
-    $("#progressbar1").progressbar({ value: 60 });
+    $("#progressbar1").progressbar({
+
+        value: 60,
+        barImage: {
+            0: '../../accounts/css/images/ui-bg_gloss-wave_50_6eac2c_500x100.png',
+            50: '../../accounts/css/images/ui-bg_gloss-wave_50_6eac2c_500x100.png',
+            100: '../../accounts/css/images/ui-bg_gloss-wave_45_e14f1c_500x100.png'
+        },
+    });
     $("#progressbar2").progressbar({ value: 50 });
     $("#progressbar3").progressbar({ value: 04 });
     $("#progressbar4").progressbar({ value: 40 });
@@ -50,8 +58,43 @@ $(document).ready(function () {
         return false;
     });
 
-    $("#phone-enable").change(function () {
-        $("#phone-service").toggle();
-    });
+    //Turn Phone Service On
+    $("#phone-enable").change(
+        function () {
+            var r = confirm("By clicking OK, you will incure a monthly charge of $29.95.");
+            if (r == true) {
+                $("#phone-service").show();
+            }
+            else {
+                $('input[id=phone-enable]').attr('checked', false);
+                $("#phone-service").hide();
+            }
+        });
+
+    //Turn Asset Auditor
+    $("#assetauditor").change(
+
+        function () {
+            var r = confirm("By clicking OK, you will turn on the Asset Auditor and incure a monthly charge of $29.95.");
+            if (r == true) {
+                $('input[id=assetauditor]').attr('checked', true);
+            }
+            else {
+                $('input[id=assetauditor]').attr('checked', false);
+            }
+        });
+
+    //Turn Asset Auditor
+    $("#billinginvoicing").change(
+
+        function () {
+            var r = confirm("By clicking OK, you will turn on the Asset Auditor and incure a monthly charge of $20.00.");
+            if (r == true) {
+                $('input[id=billinginvoicing]').attr('checked', true);
+            }
+            else {
+                $('input[id=billinginvoicing]').attr('checked', false);
+            }
+        });
 
 });    

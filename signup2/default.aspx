@@ -21,17 +21,11 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-
-            <div class="head-notice information">
-				<a href="#" class="close"><img src="../../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>				
-                <div id="toggler" style="padding: 30px 50px;"><a href="#" class="buttons">Form Toggle</a>&nbsp;&nbsp;&nbsp; <== Toggles between <strong>Organization</strong> sign up and <strong>Individual</strong> sign forms</div>
-			</div>
-
-
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-
+<div id="toggler" style="padding: 30px 50px;"><a href="#">Form Toggle</a>&nbsp;&nbsp;&nbsp; <== Toggles between <strong>Organization</strong> sign up and <strong>Individual</strong> sign forms</div>
+			
 <div class="section1">
     <h1>Standard Organization Signup</h1>
 </div>
@@ -100,7 +94,11 @@
         </div>
             <p>  
                 <label class="labelleft">Phone</label>
-                <input class="text-input medium-input" type="text" name="web" id="web" />  
+                <input class="text-input medium-input" type="text" name="phone" id="phone" />  
+            </p>
+            <p>  
+                <label class="labelleft">Mobile Phone</label>
+                <input class="text-input medium-input" type="text" name="mobilephone" id="mobilephone" />  
             </p>         
       
       <div class="clearfix"></div>
@@ -125,16 +123,17 @@
       
       <div class="clearfix"></div>
       
-      <div class="formsection"><p>Occupation</p></div>
+      <div class="formsection"><p>A Little More</p></div>
       	<p>
             <label class="labelleft">Job Description</label>
             <input class="text-input medium-input" type="text" name="web" id="web" />
         </p>
+        <div class="section1">
         <p>
             <label class="labelleft">How'd You Hear About Us</label>
             <input class="text-input medium-input" type="text" name="web" id="web" />
         </p> 
-      
+        </div>
       <div class="clearfix"></div>
       
       <div class="formsection"><p>Email and Password</p></div> 

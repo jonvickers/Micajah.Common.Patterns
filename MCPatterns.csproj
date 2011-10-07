@@ -192,8 +192,12 @@
     <Content Include="startup\3step-startup.aspx" />
     <Content Include="startup\css\startup1.css" />
     <Content Include="startup\default.aspx" />
+    <Content Include="startup\img\finish-check.png" />
     <Content Include="startup\img\Mountain_File.png" />
     <Content Include="startup\img\startup-arrow.png" />
+    <Content Include="startup\img\startup-box.png" />
+    <Content Include="success\css\success.css" />
+    <Content Include="success\default.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -293,6 +297,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="startup\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="success\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="success\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="MCPatterns.notifications._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
-    <script src="js/notifications.js" type="text/javascript"></script>
+
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -12,10 +12,28 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-            <div class="head-notice attention">
+            <div class="head-notice attention-head">
 				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
-				<div>
-					<strong>Attention notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. 
+				<div class="head-notice-inside">
+					<img src="../../notifications/img/exclamation.png" alt="attention" /> <strong>Attention notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. 
+				</div>
+			</div>
+            <div class="head-notice information-head">
+				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+				<div class="head-notice-inside">
+					<img src="../../notifications/img/information.png" alt="attention" /> <strong>Information notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. 
+				</div>
+			</div>
+            <div class="head-notice success-head">
+				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+				<div class="head-notice-inside">
+					<img src="../../notifications/img/tick.png" alt="attention" /> <strong>Success notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. 
+				</div>
+			</div>
+            <div class="head-notice error-head">
+				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+				<div class="head-notice-inside">
+					<img src="../../notifications/img/cross.png" alt="attention" /> <strong>Error notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. 
 				</div>
 			</div>
 </asp:Content>

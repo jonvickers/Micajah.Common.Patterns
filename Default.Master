@@ -20,11 +20,11 @@
 <body>
     <form id="form1" runat="server">
     <div id="body-wrapper">
-        <div id="head-notice">
+        
             <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
         
             </asp:ContentPlaceHolder>
-        </div>
+        
 
        <div id="sidebar">
         <h3 style="text-align: center;">Micajah.Common.UI</h3>
@@ -46,6 +46,7 @@
                 <li><strong>Sign up process&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="signup1"><a href="../signup1">Sign Up Start Page</a></li>
                 <li class="signup2"><a href="../signup2">Org Sign Up (options)</a></li>
+                <li class="successpage"><a href="../success">Success!</a></li>
                 <li class="startup1"><a href="../startup">Start Up Page</a></li>
             </ul>
         </div>

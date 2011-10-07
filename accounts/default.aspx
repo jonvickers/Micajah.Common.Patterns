@@ -4,10 +4,11 @@
     TagPrefix="fcm" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <link href="../../accounts/css/accounts.css" rel="stylesheet" type="text/css" />
+    
     <link href="../../accounts/css/on-off-checkboxes.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+    <link href="../../accounts/css/accounts.css" rel="stylesheet" type="text/css" />
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
@@ -41,7 +42,7 @@
                         <div id="asset-auditor">
                             <h4>Asset Auditor</h4>
                             <div class="feature-toggle on_off">
-                                <input id="assetauditor" type="checkbox" onclick="alert('Hello!');return false" />
+                                <input id="assetauditor" type="checkbox" />
                             </div>
                         </div>
                         <div id="billing-invoicing">
@@ -73,43 +74,58 @@
                         <table class="account-usage">
                             <tr>
                                 <td class="feature">
-                                    <div class="featurelabel"><h4><span class="under">3</span><small> of 5</small></h4><h5>Accounts</h5></div>
+                                    <div class="featurelabel"><h5>Accounts</h5></div>
+                                    <div class="account-usage-amount"><h4><span class="under">3</span> of 5</h4><p>$0.00/mo</p></div>
+                                    
+                                    <div class="clearfix"></div>
                                     <div id="progressbar1"></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="feature">
-                                    <div class="featurelabel"><h4><span class="under">1</span><small> of 2</small></h4><h5>Locations</h5></div>
+                                    <div class="account-usage-amount"><h4><span class="under">1</span> of 2</h4><p>$0.00/mo</p></div>
+                                    <div class="featurelabel"><h5>Locations</h5></div>
+                                    <div class="clearfix"></div>
                                     <div id="progressbar2"></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="feature">
-                                    <div class="featurelabel"><h4><span class="under">1</span><small> of 25</small></h4><h5>Assets</h5></div>
+                                    <div class="account-usage-amount"><h4><span class="under">1</span> of 25</h4><p>$0.00/mo</p></div>
+                                    <div class="featurelabel"><h5>Assets</h5></div>
+                                    <div class="clearfix"></div>
                                     <div id="progressbar3"></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="feature">
-                                    <div class="featurelabel"><h4><span class="under">4</span><small> of 10</small></h4><h5>Knowledgebase Articles</h5></div>
+                                    <div class="account-usage-amount"><h4><span class="under">4</span> of 10</h4><p>$0.00/mo</p></div>
+                                    <div class="featurelabel"><h5>Knowledgebase Articles</h5></div>
+                                    <div class="clearfix"></div>
                                     <div id="progressbar4"></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="feature">
-                                    <div class="featurelabel"><h4><span class="under">1</span><small> of 4</small></h4><h5>Projects</h5></div>
+                                    <div class="account-usage-amount"><h4><span class="under">1</span> of 4</h4><p>$0.00/mo</p></div>
+                                    <div class="featurelabel"><h5>Projects</h5></div>
+                                    <div class="clearfix"></div>
                                     <div id="progressbar5"></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="feature">
-                                    <div class="featurelabel"><h4><span class="over">1</span><small> of 1</small></h4><h5>Technicians</h5></div>
+                                    <div class="account-usage-amount"><h4><span class="over">1</span> of 1</h4><p>$0.00/mo</p></div>
+                                    <div class="featurelabel"><h5>Technicians</h5></div>
+                                    <div class="clearfix"></div>
                                     <div id="progressbar6"></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="feature">
-                                    <div class="featurelabel"><h4><span class="under">.05</span><small> of .10 GB</small></h4><h5>Storage</h5></div>
+                                    <div class="account-usage-amount"><h4><span class="under">.05</span> of .10 GB</h4><p>$0.00/mo</p></div>
+                                    <div class="featurelabel"><h5>Storage</h5></div>
+                                    <div class="clearfix"></div>
                                     <div id="progressbar7"></div>
                                 </td>
                             </tr>
@@ -167,12 +183,12 @@
 
 <div class="account-heading"><h2>Cancel Account</h2></div>
 <div id="cancel-account">
-<div style="width: 225px; float: right; margin-top: 16px;">
-    <a class="buttons negative" href="#">Cancel My Account</a>
-</div>
-<div>
-    <strong>Cancel Your Account</strong><br />Please note that you will lose information stored on our servers once you delete your account.</div>
-
+    <div style="width: 225px; float: right;">
+        <a class="buttons negative" href="#">Cancel My Account</a>
+    </div>
+    <div>
+        Note that you will lose information stored on our servers once you delete your account.
+    </div>
 </div>
 
                     <div class="account-heading"><h2>Payment History</h2></div>
