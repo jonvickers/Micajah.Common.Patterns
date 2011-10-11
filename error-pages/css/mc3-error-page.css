@@ -1,0 +1,45 @@
+﻿.catch-error 
+{
+    width: 650px;
+    min-height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px 10px 10px 10px;
+     border: 1px solid #ebebeb; 
+     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
+     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2); 
+     background: url('../../error-pages/img/error-background.png') no-repeat 0 60px;
+     overflow: hidden;
+    }
+    
+  .catch-error-send-message 
+  {
+      float: left;
+      width: 225px;
+      margin: 375px 0 0 35px;
+      }
+  .catch-error-description 
+  {
+      width: 390px;
+      float: right;
+      }
+  
+  .catch-error-description #return-button 
+  {
+      text-align: center;
+      margin: 40px 0;
+      }
+  
+  .catch-error h1 
+  {
+      font-size: 36px;
+      text-align: center;
+      }
+  
+  .catch-error-description h2 
+  {
+      color: #951f2b;
+      }

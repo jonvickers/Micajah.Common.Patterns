@@ -6,6 +6,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $("body").attr("id", "signup2");
+            $("#web").focus();
         });    
     </script>
 
@@ -14,6 +15,7 @@
         $(document).ready(function () {
             $('#toggler').click(function () {
                 $('.section1').toggle();
+                $("#firstname").focus();
             });
         });
     
@@ -22,51 +24,41 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 </asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">           
+    <div id="top-toggle-area">
+        <div id="toggler" style="padding: 30px 50px;"><a href="#">Form Toggle</a>&nbsp;&nbsp;&nbsp; <== Toggles between <strong>Organization</strong> sign up and <strong>Individual</strong> sign forms</div>
+    </div>
+</asp:Content>
+
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<div id="toggler" style="padding: 30px 50px;"><a href="#">Form Toggle</a>&nbsp;&nbsp;&nbsp; <== Toggles between <strong>Organization</strong> sign up and <strong>Individual</strong> sign forms</div>
 			
 <div class="section1">
     <h1>Standard Organization Signup</h1>
 </div>
 <div class="section1" style="display: none;">
-    <h1>Standard Org Member Signup</h1>
+    <h1>Standard Individual Signup</h1>
 </div>
 <div class="container">
     <form class="form">  
       <div class="section1">
       <div class="formsection"><p>Company Address</p></div>
-      </div>
-      <div class="section1" style="display: none;">
-      <div class="formsection"><p>Personal Information</p></div>
-      </div>
-      
-        <div class="section1">
             <p> 
         	    <label class="labelleft required-txt">Company Name</label>  
-                <input class="text-input medium-input" type="text" name="name" id="name" />                         
+                <input class="text-input medium-input" type="text" name="name" id="companyname" value="ACME Widgets" />                         
             </p>
-        </div>
-            <p> 
-        	    <label class="labelleft required-txt">First Name</label> 
-                <input class="text-input medium-input" type="text" name="name" id="name" />                
-            </p> 
-            <p> 
-        	    <label class="labelleft required-txt">Last Name</label> 
-                <input class="text-input medium-input" type="text" name="name" id="name" />                
-            </p> 
-        <div class="section1">
             <p>  
                 <label class="labelleft">Website</label>
                 <input class="text-input medium-input" type="text" name="web" id="web" />  
             </p>
             <p>  
                 <label class="labelleft">Address</label>
-                <input class="text-input medium-input" type="text" name="web" id="web" />  
+                <input class="text-input medium-input" type="text" name="web" id="address1" />  
             </p>
             <p>  
                 <label class="labelleft">&nbsp;</label>
-                <input class="text-input medium-input" type="text" name="web" id="web" />  
+                <input class="text-input medium-input" type="text" name="web" id="address2" />  
             </p>
             <p>  
                 <label class="labelleft">Country</label>
@@ -88,10 +80,28 @@
             </p>
             <p>  
                 <label class="labelleft">Postal Code</label>
-                <input class="text-input medium-input" type="text" name="web" id="web" />  
+                <input class="text-input medium-input" type="text" name="zip" id="zipcode" />  
+            </p>
+            <p>
+                <label class="labelleft">How'd You Hear About Us</label>
+                <input class="text-input medium-input" type="text" name="learn" id="learn" />
             </p>
 
         </div>
+
+        <div class="formsection"><p>Personal Information</p></div>
+            <p> 
+        	    <label class="labelleft required-txt">First Name</label> 
+                <input class="text-input medium-input" type="text" name="name" id="firstname" />                
+            </p> 
+            <p> 
+        	    <label class="labelleft required-txt">Last Name</label> 
+                <input class="text-input medium-input" type="text" name="name" id="lastname" />                
+            </p>
+            <p>
+                <label class="labelleft">Job Description</label>
+                <input class="text-input medium-input" type="text" name="job" id="jobdescription" />
+            </p>
             <p>  
                 <label class="labelleft">Phone</label>
                 <input class="text-input medium-input" type="text" name="phone" id="phone" />  
@@ -119,36 +129,22 @@
                 </select>  
             </p>
         </div>
-            
       
-      <div class="clearfix"></div>
-      
-      <div class="formsection"><p>A Little More</p></div>
-      	<p>
-            <label class="labelleft">Job Description</label>
-            <input class="text-input medium-input" type="text" name="web" id="web" />
-        </p>
-        <div class="section1">
-        <p>
-            <label class="labelleft">How'd You Hear About Us</label>
-            <input class="text-input medium-input" type="text" name="web" id="web" />
-        </p> 
-        </div>
       <div class="clearfix"></div>
       
       <div class="formsection"><p>Email and Password</p></div> 
       
       	<p>  
             <label class="labelleft required-txt">E-mail</label> 
-            <input class="text-input medium-input" type="email" name="email" id="email" />  
+            <input class="text-input medium-input" type="email" name="email" id="email" value="your@email.com" />  
         </p>
         <p>  
             <label class="labelleft required-txt">Password</label> 
-            <input class="text-input medium-input" type="password" name="email" id="email" value="123456" />  
+            <input class="text-input medium-input" type="password" name="epass1" id="epass1" value="123456" />  
         </p>
         <p>  
             <label class="labelleft required-txt">Confirm Password</label> 
-            <input class="text-input medium-input" type="password" name="email" id="email" value="123456" /> 
+            <input class="text-input medium-input" type="password" name="epass2" id="epass2" value="123456" /> 
         </p>
       
       <div class="clearfix"></div>
@@ -156,12 +152,15 @@
       <!-- <div class="formsection"><p>Complete Your Setup</p></div> -->
       <hr />
         <div class="complete-signup">  
-            <input class="buttons x-large" type="submit" value="Create Your SherpaDesk" />  
+            <a href="../../success" class="buttons x-large">Login to SherpaDesk</a> 
             <div class="clearfix"></div>
-            <p>By clicking the button above I agree to SherpaDesk's<br />
-            <a href="#">Terms of Use</a> and <a href="#">Privacy Policy.</a></p>
+            
         </div>
-    </form>  
+    </form>
+        <div class="complete-signup-tac">  
+            <p>By clicking the button above I agree to SherpaDesk's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy.</a></p>
+        </div>
+      
 </div>
 
 </asp:Content>

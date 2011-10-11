@@ -1,5 +1,5 @@
 ﻿form .labelleft {
-    width: 220px;
+    width: 260px;
 }
 
 /* --- Header Section --- */
@@ -58,24 +58,28 @@
 {
     margin-bottom: 30px;
     padding-bottom: 30px;
-    margin-left: 239px;
+    margin-left: 279px;
+    padding-top: 10px;
     }
 
-.complete-signup p
+.complete-signup-tac p
 {
-    margin: 40px 0;
+    font-family: Calibri, Arial, Sans-Serif;
+    margin: 40px auto;
     color: #999999;
+    text-align: center;
     }
 
-.complete-signup a 
+.complete-signup-tac a 
 {
     text-decoration: none;
+    font-family: Calibri, Arial, Sans-Serif;    
     font-size: 1em;
     font-weight: bold;
     color: #999999;
     }
 
-.complete-signup a:hover 
+.complete-signup-tac a:hover 
 {
     text-decoration: underline;
     } 

@@ -26,16 +26,17 @@
 
     <h3>Add Link Button</h3>
         <div class="wrap">
-            <p><a href="#" class="buttons addproperty">Add New User</a></p>
+            <p><a href="#" class="buttons"><span>+</span>Add New User</a></p>
         </div>
     <br />
 
     <hr />
 
-    <h3>Negative Button</h3>
+    <h3>Negative Link Button</h3>
         <div class="wrap">
-            <p><a href="#" class="buttons negative">button link: standard (negative)</a> <a href="#" class="buttons large negative">button link: large (negative)</a></p>
+            <p><a href="#" class="buttons negative">Cancel</a> &nbsp;&nbsp; <a href="#" class="buttons negative">Delete</a> &nbsp;&nbsp; <a href="#" class="buttons negative">Inactivate</a></p>
         </div>
+        
     <br />
 
     <hr />

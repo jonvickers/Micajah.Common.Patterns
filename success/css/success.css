@@ -1,1 +1,38 @@
-﻿
+﻿#signup-success h1
+{
+
+    margin: 0;
+    font-size: 2.5em;
+    color: #174071;
+    margin: 30px 0;
+    }
+    
+@font-face 
+{
+    font-family: 'HarabaraRegular';
+    src: url('../../success/harabara-font/harabara-webfont.eot');
+    src: url('../../success/harabara-font/harabara-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../../success/harabara-font/harabara-webfont.woff') format('woff'),
+            url('../../success/harabara-font/harabara-webfont.ttf') format('truetype'),
+            url('../../success/harabara-font/harabara-webfont.svg#HarabaraRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+#signup-success 
+{
+    width: 650px;
+    margin: 50px auto 0;
+    text-align: center;
+    padding: 40px 40px 60px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px 10px 10px 10px; 
+    border: 2px solid #88abc2;
+    background-color: #fff;
+    overflow: hidden;
+-webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+-moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);  
+    }

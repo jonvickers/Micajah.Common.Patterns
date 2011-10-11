@@ -21,22 +21,21 @@
 	    <div id="logo"><img src="img/logo.png" /></div>
     	    <div class="formwrap">
                     <p>                      
-                        <input class="text-input medium-input" type="text" name="company" id="company" />
+                        <input class="text-input medium-input" type="text" name="company" id="company" value="ACME Widgets" />
                         <label class="labelleftdesc">Company Name
-                        <br /><small>i.e. Acme Inc. or Your Name</small></label>                                
+                        <br /><small>Acme Inc. or Your Name</small></label>                                
                     </p>
                     <p> 
-                        <input  class="text-input medium-input" type="email" name="email" id="email" />
+                        <input  class="text-input medium-input" type="email" name="email" id="email" value="your@email.com" />
                         <label class="labelleft">E-mail</label>             
                     </p>
                     <p> 
-                        <label class="labelleftdesc portal">Company Portal Page
-                        <br /><small>i.e. acmeinc <strong>(No spaces Allowed)</strong></small></label>
-                        <div class="portalwrap">https:// <input onKeyUp="this.value=replaceSpaces(this.value);" class="text-input portal-input" type="text" name="portal" id="portal" /> .sherpadesk.com</div>
+                        <label class="labelleftdesc portal">Company Portal Page                        
+                        <div class="portalwrap">https:// <input onKeyUp="this.value=replaceSpaces(this.value);" class="text-input portal-input" type="text" name="portal" id="portal" value="acmewidgets" /> .sherpadesk.com</div>
                     </p>
                     
            
-                    <p class="signup-page-button"><input type="submit" value="Create Your Account" class="buttons large" /></p>
+                    <p class="signup-page-button"><a href="../../signup2" class="buttons large">Create Your Account</a></p>
             </div>
     </div>
 

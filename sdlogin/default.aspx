@@ -27,13 +27,18 @@
 
 </asp:Content>
 
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">           
+    <div id="top-toggle-area">
+        <div id="logo-toggler" style="float:left; padding: 20px;"><a href="#" class="buttonAlt">Logo Toggle</a></div>
+        <div id="error-toggler" style="float:left; padding: 20px;"><a href="#" class="buttonAlt">Error Toggle</a></div>
+        <div class="clearfix"></div>
+    </div>
+</asp:Content>
+
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 <form class="form" action="" method="post">
-           
-<div id="logo-toggler" style="float:left; padding: 20px;"><a href="#" class="buttonAlt">Logo Toggle</a></div>
-<div id="error-toggler" style="float:left; padding: 20px;"><a href="#" class="buttonAlt">Error Toggle</a></div>
-<div class="clearfix"></div>
+
  
     <div class="login-wrapper">	
 	    <div class="login-logo"><img src="img/logo.png" /></div>

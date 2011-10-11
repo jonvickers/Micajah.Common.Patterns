@@ -142,6 +142,8 @@ tbody tr.currentplan:hover
     float: left;
     padding: 7px 0;
     }
+    
+    
 #payment-set
 {
     padding-top: 2px; 
@@ -463,8 +465,14 @@ table#payhistory tr.payfail td.receipt a
 .training strong 
 {
     font-size: 1.2em;
+    margin-right: 20px;
     }
     
+#training-consulting td p
+{
+    padding: 15px 0 0;
+    }
+
 .purchase 
 {
     float: right;
@@ -474,6 +482,10 @@ table#payhistory tr.payfail td.receipt a
 
 /* --  CC Update Pop -- */
 
+#credit_card_form .content .cards_select
+{
+    margin: 0 74px;
+    }
 
 #credit_card_form 
 {
@@ -541,11 +553,11 @@ dl.form dt {
     color: #333333;
     font-size: 14px;
     font-weight: bold;
+    margin-bottom: 3px;
 }
 
-input#credit-card-number.text-input, input#credit-card-exp.text-input 
+input#credit-card-number.text-input, input#credit-card-month.text-input, input#credit-card-year.text-input 
 {
-    width: 94%;
     padding: .75em;  
 	border: solid 1px #CCC; 
 	-webkit-appearance: none;
@@ -555,6 +567,24 @@ input#credit-card-number.text-input, input#credit-card-exp.text-input
 	outline: 0;  
 	font: normal 13px/100% Verdana, Tahoma, sans-serif; 
 	background-color: #ffffff; 
+    }
+
+input#credit-card-number.text-input 
+{
+    width: 94%;   
+    }
+
+input#credit-card-month.text-input 
+{
+    width: 30px;
+    text-align: center;
+    margin-right: 20px;
+    }
+
+input#credit-card-year.text-input
+{
+    width: 80px;
+    text-align: center;
     }
 
 input#credit-card-number.text-input:hover, input#credit-card-exp.text-input:hover
@@ -569,7 +599,7 @@ input#credit-card-number.text-input:focus, input#credit-card-exp.text-input:focu
 
 .ccformsubmit 
 {
-    float: right;
+    text-align: center;
     }
 
 

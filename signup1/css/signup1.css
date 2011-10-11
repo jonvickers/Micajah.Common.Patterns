@@ -75,6 +75,7 @@
 
 .signup-page-button {
 	margin-left: 270px;
+	margin-top: 40px;
 	}
 	.signup-page-button p{
 		line-height: 55px;
@@ -95,10 +96,11 @@ form .labelleft, form .labelleftdesc
 	margin: 0 auto;
 	padding: 0;
 	max-width: 800px;
-		overflow: hidden;
-		-webkit-border-radius: 10px;
-		-moz-border-radius: 10px;
-		border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	height:100px;
 	}
 	.login-from-here p{
 		margin: 0;
@@ -116,7 +118,6 @@ form .labelleft, form .labelleftdesc
 		text-decoration: underline;
 		}
 	.login-from-here img {
-		float: right;
 		vertical-align: middle;
 		padding: 20px 25px 0 0;
 		}

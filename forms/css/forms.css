@@ -1,16 +1,22 @@
-﻿
+﻿/*------------------------------------------------------------ 
+
+Forms CSS 
+
+-------------------------------------------------------------- */
+
+
 /*---  2+ column layout  ---*/
 
-.column-left 
+.twocolumn
 {
-    width: 48%;
+    width: 420px;
     float: left;
+    margin-right: 20px;
     }
                 
-.column-right 
+.twocolumn-input
 {
-    width: 48%;
-    float: right;
+    width: 80%;
     }
 
 /*--- form CSS  ---*/
@@ -19,14 +25,14 @@ form input,
 form select, 
 form textarea
 { 
-	padding: .75em;  
+	padding: 10px;  
 	border: solid 1px #CCC; 
 	-webkit-appearance: none;
 	border-radius: 5px;
 	-moz-border-radius: 5px;  
 	-webkit-border-radius: 5px; 
 	outline: 0;  
-	font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+	font: normal 14px/100% Verdana, Tahoma, sans-serif; 
 	background-color: #ffffff;  
 	}
 	
@@ -43,6 +49,7 @@ form .medium-input
 form .large-input 
 {
     width: 97.5% !important;
+    max-width: 800px;
     }
     
 form .large-input-left /*-- for left side input --*/
@@ -98,22 +105,22 @@ form p small
 
 form .labelleft 
 {
-    float: left;
-    font-size: 1.2em;
-    padding: 0.45em 15px 0 0;
-    
     color: #676767;
-	width: 275px;
-	margin-bottom: 10px;
-	text-align: right;
+    float: left;
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding: 8px 15px 0 0;
+    text-align: right;
+    width: 275px;
+    
     }
     
 form .labelleftdesc 
 {
     color: #676767;
     float: left;
-    font-size: 1.2em;
-    padding: 0.15em 15px 0 0;
+    font-size: 17px;
+    padding: 6px 15px 0 0;
     text-align: right;
     padding-right: 15px;
     width: 275px;
@@ -131,7 +138,93 @@ form .labelleftdesc small
 
 form .leftlabelbutton 
 {
-    margin-left: 285px;
+    margin-left: 290px;
+    }
+
+
+
+/*------------------------------------------------------------ 
+
+Form inside table layout W/ 100% on the inputs and 
+variable padding and text size
+
+-------------------------------------------------------------- */ 
+
+.form-example
+{
+    overflow: hidden;
+    }
+.form-example table, .form-example table tr, .form-example table tr:hover, .form-example table tbody, 
+.form-example-top table, .form-example-top table tr, .form-example-top table tr:hover, .form-example-top table tbody 
+{
+    border: none;
+    padding: 0;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 0 20px;
+    background-color:transparent;    
+    }    
+
+.form-example table tbody td:first-child 
+{
+    width: 30%;
+    text-align: right;
+    vertical-align: middle;
+    }
+
+.form-example input, .form-example-top input
+{
+    width: 97%;
+    }
+
+ .form-example-top select 
+ {
+     width: 50%;
+     }
+
+.form-example label
+{
+    font-weight: bold;
+    margin-bottom:0;
+    padding-bottom: 0;
+    line-height: 1em;
+    }
+                
+
+
+.form-example small 
+{
+    font-size: 0.75em;
+    color: #777;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    }
+
+/* --  Top and bottom labels -- */
+
+.form-example-top table tbody td:first-child 
+{
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
     }
     
- 
+.form-example-top form input[type="checkbox"],
+.form-example-top form input[type="radio"] 
+{
+	padding: 0;
+	width: auto;
+    }
+
+.large-txtinput 
+{
+    padding: 12px 10px;        
+	font: normal 18px/100% Verdana, Tahoma, sans-serif;
+    }
+
+.form-example-top form label span 
+{
+    float: right;
+    font-weight: normal;
+    }

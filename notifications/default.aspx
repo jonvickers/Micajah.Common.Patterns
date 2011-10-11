@@ -6,6 +6,17 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $("body").attr("id", "notifications");
+
+            //Toggle Success Message
+
+            $("#toggle-message").click(function () {
+                $('#success-message-example').show().delay(2500).fadeTo(400, 0, function(){
+                    $(this).slideUp(400);
+                });
+
+                
+            });
+
         });    
     </script>
 
@@ -105,5 +116,24 @@
 					<strong>Error notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.
 				</div>
 			</div>
+
+            <br />
+            <hr />
+            <br />
+
+            <a href="#success-message-example" id="toggle-message">Toggle Success Message</a>
+
+            <div class="clearfix"></div>
+            <br />
+
+            <div id="success-message-example" class="notification attention" style="display: none;">
+				<a href="#" class="close"><img src="img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+				<div>
+					<strong>Attention notification.</strong> You have successfully saved something or another.
+				</div>
+			</div>
+
+<br />
+<br />
 
 </asp:Content>

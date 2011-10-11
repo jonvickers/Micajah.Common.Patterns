@@ -7,6 +7,10 @@
     
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/text.css" rel="stylesheet" type="text/css" />
+    <link href="buttons/css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="forms/css/forms.css" rel="stylesheet" type="text/css" />
+    <link href="grids/css/grids.css" rel="stylesheet" type="text/css" />
+    <link href="notifications/css/notifications.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 
@@ -31,6 +35,7 @@
        
             <ul id="main-nav">
                 <li class="home"><a href="../">Home</a></li>
+                <li class="error-page"><a href="../error-pages/mc3-error-page.aspx">Standard Error Page</a></li>
                 <li><hr /></li>
                 <li><strong>Elements&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="forms"><a href="../forms">Forms</a></li>
@@ -49,6 +54,12 @@
                 <li class="successpage"><a href="../success">Success!</a></li>
                 <li class="startup1"><a href="../startup">Start Up Page</a></li>
             </ul>
+        </div>
+
+        <div id="temp-top">        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        
+            </asp:ContentPlaceHolder>
         </div>
 
         <div id="main-content">

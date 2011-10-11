@@ -26,7 +26,7 @@
 
 <div id="account-head">
     <div class="account-type">
-        <h2>FREE</h2><small class="plandescsm">$0 / Month</small>
+        <h2>FREE</h2><small class="plandescsm">per Month</small>
     </div>
 
     <div id="payment-set">
@@ -147,11 +147,12 @@
 
 <div class="account-heading"><h2>Training and Consulting</h2></div>
 <div id="training-consulting">
+<p>Choose one of our training packages for a comprehensive set up and training session, including configuring your emails, setting up your business rules (SLA's), and creating your custom searches. Plus we'll help you make basic changes to your customer portal to reflect your brand, as well as walk you through the crucial parts of your SherpaDesk admin.</p>
     <table>
         <tr>
             <td>
                 <div class="training">
-                    <p><strong>1 Hour of Training</strong><br />Description: yada yada yada</p>
+                    <p><strong>1 Hour of Training</strong> $175</p>
                 </div>
                 <div class="purchase">
                     <a href="#" class="buttons">Purchase</a>
@@ -161,7 +162,7 @@
         <tr>
             <td>
                 <div class="training">
-                    <p><strong>3 Hours of Training</strong><br />Description: yada yada yada</p>
+                    <p><strong>3 Hours of Training</strong> $475</p>
                 </div>
                 <div class="purchase">
                     <a href="#" class="buttons">Purchase</a>
@@ -171,7 +172,7 @@
         <tr>
             <td>
                 <div class="training">
-                    <p><strong>5 Hours of Training</strong><br />Description: yada yada yada</p>
+                    <p><strong>5 Hours of Training</strong> $675</p>
                 </div>
                 <div class="purchase">
                     <a href="#" class="buttons">Purchase</a>
@@ -238,7 +239,6 @@
 <div id="credit_card_form">
     
 <div class="content">
-  <h2>Credit card information</h2>
   <form method="post" autocomplete="off" action="">
      
        <p class="js-thanks">
@@ -259,9 +259,7 @@
             </li>    
             <li>
             <span data-name="discover" title="Discover" class="card discover">Discover</span>
-            </li>    
-               
-            <li class="text">Accepted Payment Methods</li>
+            </li>
         </ul>
     </div>
 
@@ -272,12 +270,11 @@
      </dl>
 
      <dl class="form expiration">
-       <dt><label>Expiration (MM/YYYY)</label></dt>
-       <dd><input class="text-input large-input" type="text" id="credit-card-exp" name="large-input" /></dd>
+       <dt><label>Expiration </label></dt>
+       <dd><input class="text-input large-input" type="text" id="credit-card-month" name="large-input" maxlength="2" value="mm" /><input class="text-input large-input" type="text" id="credit-card-year" name="large-input" maxlength="4" value="yyyy" /></dd>
+     
+     
      </dl>
-     <p class="legal">
-       Please review the <a target="_blank" href="#">terms of service</a>, and <a target="_blank" href="#">privacy policy</a>.
-     </p>
 
      <div class="ccformsubmit">
 		<button data-afterclick="Processing…" class="buttons large" id="cc-submit" type="submit">

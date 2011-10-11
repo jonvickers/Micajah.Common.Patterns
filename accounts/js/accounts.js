@@ -71,7 +71,7 @@ $(document).ready(function () {
             }
         });
 
-    //Turn Asset Auditor
+    //Turn on Asset Auditor
     $("#assetauditor").change(
 
         function () {
@@ -84,7 +84,7 @@ $(document).ready(function () {
             }
         });
 
-    //Turn Asset Auditor
+    //Turn on Billing and Invoicing
     $("#billinginvoicing").change(
 
         function () {
