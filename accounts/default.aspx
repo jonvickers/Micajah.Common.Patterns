@@ -278,7 +278,7 @@
 
      <div class="ccformsubmit">
 		<button data-afterclick="Processing…" class="buttons large" id="cc-submit" type="submit">
-         <span>Process Credit Card</span>
+         Update Credit Card
        </button>
 	</div>
   </form>

@@ -75,6 +75,7 @@ form input[type="radio"]
 	padding: 0;
     background: none;
 	border: 0;
+	width: auto;
     }
 
 form input:hover, form textarea:hover,
@@ -150,11 +151,8 @@ variable padding and text size
 
 -------------------------------------------------------------- */ 
 
-.form-example
-{
-    overflow: hidden;
-    }
-.form-example table, .form-example table tr, .form-example table tr:hover, .form-example table tbody, 
+
+.form-example-left table, .form-example-left table tr, .form-example-left table tr:hover, .form-example-left table tbody, 
 .form-example-top table, .form-example-top table tr, .form-example-top table tr:hover, .form-example-top table tbody 
 {
     border: none;
@@ -165,14 +163,14 @@ variable padding and text size
     background-color:transparent;    
     }    
 
-.form-example table tbody td:first-child 
+.form-example-left table tbody td:first-child 
 {
     width: 30%;
     text-align: right;
     vertical-align: middle;
     }
 
-.form-example input, .form-example-top input
+.form-example-left input, .form-example-top input
 {
     width: 97%;
     }
@@ -182,7 +180,7 @@ variable padding and text size
      width: 50%;
      }
 
-.form-example label
+.form-example-left label
 {
     font-weight: bold;
     margin-bottom:0;
@@ -192,7 +190,7 @@ variable padding and text size
                 
 
 
-.form-example small 
+.form-example-left small 
 {
     font-size: 0.75em;
     color: #777;
@@ -210,12 +208,7 @@ variable padding and text size
     vertical-align: middle;
     }
     
-.form-example-top form input[type="checkbox"],
-.form-example-top form input[type="radio"] 
-{
-	padding: 0;
-	width: auto;
-    }
+
 
 .large-txtinput 
 {
@@ -223,7 +216,7 @@ variable padding and text size
 	font: normal 18px/100% Verdana, Tahoma, sans-serif;
     }
 
-.form-example-top form label span 
+.form-example-top label span 
 {
     float: right;
     font-weight: normal;

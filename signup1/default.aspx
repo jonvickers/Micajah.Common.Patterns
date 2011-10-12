@@ -15,7 +15,7 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<form class="form" action="" method="post">
+
 
     <div class="login-wrapper">	
 	    <div id="logo"><img src="img/logo.png" /></div>
@@ -30,7 +30,7 @@
                         <label class="labelleft">E-mail</label>             
                     </p>
                     <p> 
-                        <label class="labelleftdesc portal">Company Portal Page                        
+                        <label class="labelleft portal">Company Portal Page</label>                         
                         <div class="portalwrap">https:// <input onKeyUp="this.value=replaceSpaces(this.value);" class="text-input portal-input" type="text" name="portal" id="portal" value="acmewidgets" /> .sherpadesk.com</div>
                     </p>
                     
@@ -39,7 +39,7 @@
             </div>
     </div>
 
-</form>
+
 
 <div class="login-from-here">
 	<a href="http://www.bigwebapps.com" target="_blank"><img src="img/bwa-logo.png" /></a>

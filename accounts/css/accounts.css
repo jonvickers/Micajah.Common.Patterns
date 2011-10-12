@@ -578,7 +578,7 @@ input#credit-card-month.text-input
 {
     width: 30px;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 10px;
     }
 
 input#credit-card-year.text-input

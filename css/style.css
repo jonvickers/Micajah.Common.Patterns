@@ -6,7 +6,7 @@ Main Layout CSS
 -------------------------------------------------------------- */
 
 
-html, body 
+html, body, form 
 {
     height: 100%;
     margin-bottom: 1px; /* Always show a scrollbar to avoid jumping when the scrollbar appears  */
@@ -125,9 +125,6 @@ p {
 {
     margin: 15px 30px -100px 260px;
     padding: 0 0 40px 0;
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
     }
 
 #top-heading 

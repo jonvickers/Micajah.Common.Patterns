@@ -25,7 +25,7 @@
         <div class="catch-error-description">
             
             <h2>Server Error in '/' Application</h2>
-            <h3>Access is denied.  You do not have permission to view this page.</h3>
+            <h3>The INSERT statement conflicted with the FOREIGN KEY constraint "fk_ticket_Levels".  The conflict occured in database "BWD", table "dbo.TktLevels". <br /> Cannot insert the value null into column 'TicketID', table lasdflkjhsafgjkhgfsljhsjkgfd<br />The statement has been terminated<br />The statement has been terminated<br />The statement has been terminated<br />something something something</h3>
             <p id="return-button"><a href="previous.html" onClick="history.back();return false;" class="buttons large">Return from wence thy came!</a></p>
             <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis turpis sed velit mattis a congue risus convallis. Curabitur quis erat augue</p>
             <p><strong>Exception Details:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

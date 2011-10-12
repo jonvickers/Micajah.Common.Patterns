@@ -12,8 +12,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <h1>Standard Forms - Left Labels</h1>
     
-    <div class="form-example">
-       <form action="#" method="post">
+    <div class="form-example-left">
            <table>
                 <tr>
                     <td><label>Standard Form input</label></td>
@@ -26,18 +25,18 @@
                 </tr>
                 <tr>
                     <td>&nbsp;</td>                    
-                    <td><input class="buttons large" type="submit" value="Submit Standard Form" /> &nbsp; &nbsp;or &nbsp;<a href="#" class="buttonAlt cancel">Cancel</a></td>
+                    <td><input class="buttons" type="submit" value="Submit Standard Form" /> &nbsp; &nbsp;or &nbsp;<a href="#" class="buttonAlt cancel">Cancel</a></td>
                 </tr>
            </table>    
-       </form>
     </div>
-<div class="clearfix"></div>
+<br />
+<br />
 <hr />
 <br />
 <h1>Standard Forms - Top Labels</h1>
 
     <div class="form-example-top">
-       <form action="#" method="post">
+
            <table>
                 <tr>
                     <td>
@@ -85,7 +84,7 @@
                     </td>
                 </tr>
             </table>
-        </form>
+
     </div>
 <br />
 <hr />
@@ -93,7 +92,7 @@
 
 <h1>Standard form messages</h1>
     <div class="form-example-top"> 
-    <form action="#" method="post">       
+  
         <table>
             <tr>
                 <td>
@@ -111,7 +110,7 @@
                 <td></td>
             </tr>
         </table>
-    </form>
+
     </div>
 
 <br />
@@ -119,7 +118,7 @@
 <br />
 
 <h1>2 Column Layout</h1>
-     <form action="" method="post">
+
          <div class="twocolumn"><!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
             <p>
 				<label>Left Column Input</label>
@@ -157,7 +156,7 @@
 
          <div class="clearfix"></div>
          <input class="buttons" type="submit" value="Submit the 2 column form" />&nbsp; &nbsp; or &nbsp;<a href="#" class="buttonAlt cancel">Cancel</a>      
-     </form>
+
      <br />
      <br />
 <hr />
