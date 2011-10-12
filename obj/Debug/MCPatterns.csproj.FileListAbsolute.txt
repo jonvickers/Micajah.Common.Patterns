@@ -1,0 +1,6 @@
+C:\Users\Ben\GitRepos\Micajah.Common.Patterns\Micajah.Common.Patterns\bin\MCPatterns.dll
+C:\Users\Ben\GitRepos\Micajah.Common.Patterns\Micajah.Common.Patterns\bin\MCPatterns.pdb
+C:\Users\Ben\GitRepos\Micajah.Common.Patterns\Micajah.Common.Patterns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ben\GitRepos\Micajah.Common.Patterns\Micajah.Common.Patterns\obj\Debug\MCPatterns.dll
+C:\Users\Ben\GitRepos\Micajah.Common.Patterns\Micajah.Common.Patterns\obj\Debug\MCPatterns.pdb
+C:\Users\Ben\GitRepos\Micajah.Common.Patterns\Micajah.Common.Patterns\bin\FreshClickmedia.Web.pdb
