@@ -14,7 +14,7 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" ></script>
     <script src="../../notifications/js/notifications.js" type="text/javascript"></script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -35,7 +35,7 @@
        
             <ul id="main-nav">
                 <li class="home"><a href="../">Home</a></li>
-                <li class="error-page"><a href="../error-pages/mc3-error-page.aspx">Standard Error Page</a></li>
+                <li class="error-page"><a href="../error/oops.aspx">Error Page</a></li>
                 <li><hr /></li>
                 <li><strong>Elements&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="forms"><a href="../forms">Forms</a></li>

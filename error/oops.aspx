@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="mc3-error-page.aspx.cs" Inherits="MCPatterns.error_pages.mc3_error_page" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="oops.aspx.cs" Inherits="MCPatterns.error_pages.mc3_error_page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <link href="css/mc3-error-page.css" rel="stylesheet" type="text/css" />
