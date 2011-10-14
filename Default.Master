@@ -35,7 +35,14 @@
        
             <ul id="main-nav">
                 <li class="home"><a href="../">Home</a></li>
-                <li class="error-page"><a href="../error/oops.aspx">Error Page</a></li>
+                <li class="error-page">
+                    <a href="../error/oops.aspx">Error Page</a>
+                    <ul>
+                        <li class="misc-error">
+                            <a href="../error/misc-error.aspx">Misc Error</a>
+                        </li>
+                    </ul>                
+                </li>
                 <li><hr /></li>
                 <li><strong>Elements&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="forms"><a href="../forms">Forms</a></li>

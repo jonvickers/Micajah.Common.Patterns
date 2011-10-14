@@ -136,9 +136,10 @@
     <Content Include="css\reset.css" />
     <Content Include="css\text.css" />
     <Content Include="default.aspx" />
-    <Content Include="error\css\mc3-error-page.css" />
+    <Content Include="error\css\mc-error-page.css" />
     <Content Include="error\generate.aspx" />
     <Content Include="error\img\error-background.png" />
+    <Content Include="error\misc-error.aspx" />
     <Content Include="error\oops.aspx" />
     <Content Include="forms\css\forms.css" />
     <Content Include="forms\default.aspx" />
@@ -244,6 +245,13 @@
     </Compile>
     <Compile Include="Default.Master.designer.cs">
       <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="error\misc-error.aspx.cs">
+      <DependentUpon>misc-error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error\misc-error.aspx.designer.cs">
+      <DependentUpon>misc-error.aspx</DependentUpon>
     </Compile>
     <Compile Include="error\oops.aspx.cs">
       <DependentUpon>oops.aspx</DependentUpon>

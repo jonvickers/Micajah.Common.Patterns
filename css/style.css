@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, xx-large, x-large, large, p
 
 #home #sidebar #main-nav li.home a, /*--Home Page > Home Link--*/
 #error-page #sidebar #main-nav li.error-page a,
+#misc-error #sidebar #main-nav li ul li.misc-error a,
 #forms #sidebar #main-nav li.forms a,
 #button #sidebar #main-nav li.button a,
 #grids #sidebar #main-nav li.grids a,
