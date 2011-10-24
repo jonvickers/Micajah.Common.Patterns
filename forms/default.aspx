@@ -21,7 +21,7 @@
                 <tr>
                     <td><label>Large input<br /><small>A small description of the field</small></label></td>
                     
-                    <td><input class="large-txtinput " type="text" id="Sample2" name="sample-input" /></td>
+                    <td><input class="large-txtinput" type="text" id="Sample2" name="sample-input" /></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>                    

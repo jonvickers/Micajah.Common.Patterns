@@ -18,6 +18,11 @@
             $('#error-toggler').click(function () {
                 $('.login-errors').toggle();
             });
+
+            // Toggle new user sign-up
+            $('#sign-up-toggler').click(function () {
+                $('#new-user-signup').toggle();
+            });
         });
     </script>
 
@@ -31,6 +36,7 @@
     <div id="top-toggle-area">
         <div id="logo-toggler" style="float:left; padding: 20px;"><a href="#" class="buttonAlt">Logo Toggle</a></div>
         <div id="error-toggler" style="float:left; padding: 20px;"><a href="#" class="buttonAlt">Error Toggle</a></div>
+        <div id="sign-up-toggler" style="float:left; padding: 20px;"><a href="#" class="buttonAlt">New User Signup Toggle</a></div>
         <div class="clearfix"></div>
     </div>
 </asp:Content>
@@ -47,25 +53,26 @@
             <div class="formwrap">
                     <div class="login-errors">
                         <p> 
-                            <input class="text-input medium-input" type="email" name="email" id="email" />
+                            <input class="text-input large-txtinput" type="email" name="email" id="email" />
                             <label class="labelleft">E-mail</label>             
                         </p> 
                         <p>                      
-                            <input class="text-input medium-input" type="password" name="company" id="company" />
+                            <input class="text-input large-txtinput" type="password" name="company" id="company" />
                             <label class="labelleft">Password</label>                                
                         </p>
                     </div>
                     <div class="login-errors" style="display: none;">
                         <p> 
-                            <input class="text-input medium-input input-error" type="email" name="email" id="email1" /><span class="input-notification error png_bg">Error message</span>
+                            <input class="text-input large-txtinput input-error" type="email" name="email" id="email" /><span class="input-notification error png_bg">Error message</span>
                             <label class="labelleft">E-mail</label>             
                         </p> 
                         <p>                      
-                            <input class="text-input medium-input input-error" type="password" name="company" id="Password1" /><span class="input-notification error png_bg">Error message</span>
+                            <input class="text-input large-txtinput input-error" type="password" name="company" id="Password" /><span class="input-notification error png_bg">Error message</span>
                             <label class="labelleft">Password</label>                                
                         </p>
                     </div>
-                    <p class="login-button"><input type="submit" value="Login" class="buttons large" /></p>
+                    <p class="login-button"><input type="submit" value="Login" class="buttons large" /> <span><a href="#">Forgot?</a></span></p>
+                    <div id="new-user-signup" style="display: none;"><a href="#">Add a New User</a></div>
             </div>
     </div>
 

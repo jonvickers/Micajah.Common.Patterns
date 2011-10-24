@@ -41,7 +41,7 @@
     <h1>Standard Individual Signup</h1>
 </div>
 <div class="container">
-    <form class="form">  
+ 
       <div class="section1">
       <div class="formsection"><p>Company Address</p></div>
             <p> 
@@ -152,11 +152,11 @@
       <!-- <div class="formsection"><p>Complete Your Setup</p></div> -->
       <hr />
         <div class="complete-signup">  
-            <a href="../../success" class="buttons x-large">Login to SherpaDesk</a> 
+            <a href="../../customize" class="buttons x-large">Login to SherpaDesk</a> 
             <div class="clearfix"></div>
             
         </div>
-    </form>
+
         <div class="complete-signup-tac">  
             <p>By clicking the button above I agree to SherpaDesk's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy.</a></p>
         </div>

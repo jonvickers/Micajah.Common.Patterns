@@ -11,8 +11,7 @@
 		}
 		.login-wrapper input
         { 
-	        padding: 12px;        
-	        font: normal 16px/100% Verdana, Tahoma, sans-serif;
+	        width: 35%;
 	        }
 	    .login-wrapper label.labelleft
 	    {
@@ -47,11 +46,27 @@
 
 .login-button {
 	margin-left: 290px;
-	width: 38% !important;
+	width: 300px !important;
 	}
-	.login-button p{
-		line-height: 55px;
-		vertical-align: middle;		
-		}
+	
+.login-button p{
+	line-height: 55px;
+	vertical-align: middle;		
+	}
+
+p.login-button span
+{
+    float: right;
+    margin-top: 13px;
+    }
 
 
+#new-user-signup
+{
+    margin:0 0 0 290px;
+	width: 300px !important;
+    }
+#new-user-signup a
+{
+    float: right;
+    }

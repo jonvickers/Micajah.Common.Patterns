@@ -9,7 +9,7 @@
 		
 	.login-wrapper {
 		width: 960px;
-		margin: 0 auto;
+		margin: 0;
 		padding: 0;
 		font-family: "Arial", Gadget, sans-serif;
 		color: #333333;
@@ -17,7 +17,7 @@
 		
 	.formwrap {
 		max-width: 800px;
-		margin: 10px auto 50px;
+		margin: 10px 0 50px;
 		overflow: hidden;
 		padding: 30px 0 10px;
 		-webkit-border-radius: 10px;
@@ -27,7 +27,7 @@
 
 #logo {
 	width: 800px;
-	margin: 50px auto 0;
+	margin: 50px 20px 0;
 	text-align: center;	
 	}
 		
@@ -44,12 +44,8 @@
 
 
 .portalwrap {
-	background-color: #e9eff5;
-	padding: 10px 20px 10px 15px;
+	padding: 5px 20px 10px 15px;
 	overflow: hidden;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
 	float: left;
 	width: 340px;
 	}
@@ -71,7 +67,7 @@ label.portal {
 
 .signup-page-button {
 	margin-left: 270px;
-	margin-top: 40px;
+	margin-top: 25px;
 	}
 	.signup-page-button p{
 		line-height: 55px;
@@ -89,16 +85,9 @@ form .labelleft, form .labelleftdesc
 /*----------------------------------------------------------------------*/
 
 .login-from-here{
-	margin:0 270px 0 135px;
-	bottom: 0;
-    display: block;
-    height: 75px;
-    left: 0;
-    padding: 0 0 0 1px;
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    z-index: 999;
+	text-align: center;
+    width: 800px;
+    margin: 50px auto 0;
 	}
 
 .login-from-here img {
@@ -109,3 +98,14 @@ form .labelleft, form .labelleftdesc
     border: none;
     }
 
+/*----------------------------------------------------------------------*/
+/*---------------------SherpaDesk Login Background----------------------*/
+/*----------------------------------------------------------------------*/
+
+#sherpa-background 
+{
+    background: url('../../signup1/img/signup-image.png') no-repeat 0 55px;
+    height: 626px;
+    width: 1081px;
+    margin 0 auto;
+    }

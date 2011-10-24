@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MCPatterns.startup
+namespace MCPatterns.customize
 {
 
 

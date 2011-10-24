@@ -4,13 +4,7 @@
     min-height: 400px;
     margin: 50px auto;
     padding: 20px;
-    -webkit-border-radius: 10px;
-     -moz-border-radius: 10px;
-     border-radius: 10px 10px 10px 10px;
-     border: 1px solid #ebebeb; 
-     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
-     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
-     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2); 
+
      background: url('../../error/img/error-background.png') no-repeat 0 60px;
      overflow: hidden;
     }
@@ -42,7 +36,6 @@
 .catch-error-description h2 
   {
       color: #951f2b;
-      /*-- test --*/
       }
   
 .catch-generic-error 
@@ -54,7 +47,7 @@
  
 .catch-error-form 
 {
-    margin-top: 150px;
+    margin-top: 175px;
     width: 98%
     }
 .catch-error-form h3
