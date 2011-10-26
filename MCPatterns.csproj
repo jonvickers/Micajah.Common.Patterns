@@ -142,20 +142,17 @@
     <Content Include="customize\img\startup-arrow.png" />
     <Content Include="customize\img\startup-box.png" />
     <Content Include="default.aspx" />
-<<<<<<< HEAD
     <Content Include="error\css\mc3-error-page.css" />
     <Content Include="error\generate.aspx" />
     <Content Include="error\img\error-background.png" />
     <Content Include="error\oops.aspx" />
     <Content Include="forms\css\forms.css" />
-=======
     <Content Include="error\css\mc-error-page.css" />
     <Content Include="error\generate.aspx" />
     <Content Include="error\img\error-background.png" />
     <Content Include="error\misc-error.aspx" />
     <Content Include="error\oops.aspx" />
     <Content Include="css\mc3_forms.css" />
->>>>>>> a49ee57cc794f89e287ba88f253525705327bd11
     <Content Include="forms\default.aspx" />
     <Content Include="css\mc3_grids.css" />
     <Content Include="grids\default.aspx" />
@@ -264,7 +261,6 @@
     <Compile Include="Default.Master.designer.cs">
       <DependentUpon>Default.Master</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="error\oops.aspx.cs">
       <DependentUpon>oops.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -276,7 +272,6 @@
       <DependentUpon>generate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-=======
     <Compile Include="error\misc-error.aspx.cs">
       <DependentUpon>misc-error.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -295,7 +290,6 @@
       <DependentUpon>generate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
->>>>>>> a49ee57cc794f89e287ba88f253525705327bd11
     <Compile Include="error\generate.aspx.designer.cs">
       <DependentUpon>generate.aspx</DependentUpon>
     </Compile>
