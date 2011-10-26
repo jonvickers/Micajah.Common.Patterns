@@ -21,17 +21,17 @@
 	    <div id="logo"><img src="img/logo.png" /></div>
     	    <div class="formwrap">
                     <p>                      
-                        <input class="text-input medium-input" type="text" name="company" id="company" value="ACME Widgets" />
-                        <label class="labelleftdesc">Company Name
+                        <input class="text-input large-txtinput" type="text" name="company" id="company" value="ACME Widgets" />
+                        <label class="labelleftdesc" id="company-label" >Company Name
                         <br /><small>Acme Inc. or Your Name</small></label>                                
                     </p>
                     <p> 
-                        <input  class="text-input medium-input" type="email" name="email" id="email" value="your@email.com" />
-                        <label class="labelleft">E-mail</label>             
+                        <input  class="text-input large-txtinput" type="email" name="email" id="email" value="your@email.com" />
+                        <label class="labelleft" id="email-label">E-mail</label>             
                     </p>
                     <p> 
-                        <label class="labelleft portal">Company Portal Page</label>                         
-                        <div class="portalwrap">https:// <input onKeyUp="this.value=replaceSpaces(this.value);" class="text-input portal-input" type="text" name="portal" id="portal" value="acmewidgets" /> .sherpadesk.com</div>
+                        <label class="labelleft portal">Company URL</label>                         
+                        <div class="portalwrap">https:// <input onKeyUp="this.value=replaceSpaces(this.value);" class="text-input large-txtinput portal-input" type="text" name="portal" id="portal" value="acmewidgets" /> .sherpadesk.com</div>
                     </p>
                     
            

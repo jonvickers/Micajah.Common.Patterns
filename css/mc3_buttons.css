@@ -75,7 +75,7 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
    }
 
 /* -- Negative Button -- */
-.buttons.negative
+.negative
 {  
 
 	border: 1px solid #acacac;
@@ -97,17 +97,17 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
     display: inline;
 }
 
-.buttons.negative:hover, 
-.buttons.negative:focus, 
-.buttons.negative:active
+.negative:hover, 
+.negative:focus, 
+.negative:active
 {
-	border-color: #AB2222;
+	border-color: #AB2222 !important;
 	color: #fff !important;
 	text-decoration: none;	
 	background: #D74040;
 	}
 	
-.buttons.negative:active{
+.negative:active{
 	border-color: #a0302a;
 	background-color: #b33630;
 	background: #AD2323;

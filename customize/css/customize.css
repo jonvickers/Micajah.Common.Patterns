@@ -1,7 +1,7 @@
 ﻿#startup-wrapper 
 {
     width: 575px;
-    float: left;
+    margin: 100px auto 0;
     }
 
 #startup-wrapper a
@@ -131,7 +131,7 @@
 #hide-page a
 {
     text-decoration: none;
-     font-size: 12px;
+     font-size: 14px;
     }
     
 

@@ -1,0 +1,67 @@
+﻿.catch-error 
+{
+    width: 650px;
+    min-height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+
+     background: url('../../error/img/error-background.png') no-repeat 0 60px;
+     overflow: hidden;
+    }
+    
+.catch-error-send-message 
+  {
+      float: left;
+      width: 225px;
+      margin: 375px 0 0 35px;
+      }
+.catch-error-description 
+  {
+      width: 390px;
+      float: right;
+      }
+  
+.catch-error-description #return-button 
+  {
+      text-align: center;
+      margin: 40px 0;
+      }
+  
+.catch-error h1 
+  {
+      font-size: 36px;
+      text-align: center;
+      }
+  
+.catch-error-description h2 
+  {
+      color: #951f2b;
+      }
+  
+.catch-generic-error 
+  {
+      width: 80%;
+      text-align: center;
+      margin: 100px auto 0;
+      }
+ 
+.catch-error-form 
+{
+    margin-top: 175px;
+    width: 98%
+    }
+.catch-error-form h3
+ {
+      margin-bottom: 0;
+      }
+
+.catch-error-form p 
+{
+    margin-bottom: 5px;
+    }     
+
+.catch-error-form textarea 
+{
+    width: 95%;
+    margin-bottom: 20px;
+    }

@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, xx-large, x-large, large, p
 
 #home #sidebar #main-nav li.home a, /*--Home Page > Home Link--*/
 #error-page #sidebar #main-nav li.error-page a,
+#misc-error #sidebar #main-nav li ul li.misc-error a,
 #forms #sidebar #main-nav li.forms a,
 #button #sidebar #main-nav li.button a,
 #grids #sidebar #main-nav li.grids a,
@@ -99,7 +100,7 @@ h1, h2, h3, h4, h5, xx-large, x-large, large, p
 #signup1 #sidebar #main-nav li.signup1 a,
 #signup2 #sidebar #main-nav li.signup2 a,
 #signup2a #sidebar #main-nav li.signup2a a,
-#successpage #sidebar #main-nav li.successpage a,
+#customize #sidebar #main-nav li.customize a,
 #startup1 #sidebar #main-nav li.startup1 a 
 {
 	background-color: #567c91;

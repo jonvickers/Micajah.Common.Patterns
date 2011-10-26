@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace MCPatterns.startup
+namespace MCPatterns.customize
 {
     public partial class _default : System.Web.UI.Page
     {

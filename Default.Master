@@ -7,10 +7,10 @@
     
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/text.css" rel="stylesheet" type="text/css" />
-    <link href="buttons/css/buttons.css" rel="stylesheet" type="text/css" />
-    <link href="forms/css/forms.css" rel="stylesheet" type="text/css" />
-    <link href="grids/css/grids.css" rel="stylesheet" type="text/css" />
-    <link href="notifications/css/notifications.css" rel="stylesheet" type="text/css" />
+    <link href="css/mc3_buttons.css" rel="stylesheet" type="text/css" />
+    <link href="css/mc3_forms.css" rel="stylesheet" type="text/css" />
+    <link href="css/mc3_grids.css" rel="stylesheet" type="text/css" />
+    <link href="css/mc3_notifications.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 
@@ -35,7 +35,18 @@
        
             <ul id="main-nav">
                 <li class="home"><a href="../">Home</a></li>
+<<<<<<< HEAD
                 <li class="error-page"><a href="../error/oops.aspx">Error Page</a></li>
+=======
+                <li class="error-page">
+                    <a href="../error/oops.aspx">Error Page</a>
+                    <ul>
+                        <li class="misc-error">
+                            <a href="../error/misc-error.aspx">Misc Error</a>
+                        </li>
+                    </ul>                
+                </li>
+>>>>>>> a49ee57cc794f89e287ba88f253525705327bd11
                 <li><hr /></li>
                 <li><strong>Elements&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="forms"><a href="../forms">Forms</a></li>
@@ -45,14 +56,14 @@
                 <li><hr /></li>
                 <li><strong>App Settings&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="accounts"><a href="../accounts">Account Settings</a></li>
-                <li class="profile"><a href="../profile">Your Profile</a></li>
-                <li class="sdlogin"><a href="../sdlogin">Login</a></li>
+                <li class="profile"><a href="../profile">Your Profile</a></li>                
                 <li><hr /></li>
-                <li><strong>Sign up process&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
-                <li class="signup1"><a href="../signup1">Sign Up Start Page</a></li>
-                <li class="signup2"><a href="../signup2">Org Sign Up (options)</a></li>
-                <li class="successpage"><a href="../success">Success!</a></li>
+                <li><strong>Sign up process&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>                
+                <li class="signup1"><a href="../signup1">Sign Up - Start</a></li>
+                <li class="signup2"><a href="../signup2">Sign Up - Next</a></li>
+                <li class="customize"><a href="../customize">Sign Up - Customize</a></li>
                 <li class="startup1"><a href="../startup">Start Up Page</a></li>
+                <li class="sdlogin"><a href="../sdlogin">Login</a></li>
             </ul>
         </div>
 

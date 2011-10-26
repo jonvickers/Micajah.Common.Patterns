@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MCPatterns.startup
+namespace MCPatterns.error
 {
 
 
-    public partial class _default
+    public partial class misc_error
     {
     }
 }

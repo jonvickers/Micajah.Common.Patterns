@@ -129,20 +129,35 @@
     <Content Include="accounts\testing\jquery\iphone-style-checkboxes.js" />
     <Content Include="accounts\testing\on-off.html" />
     <Content Include="accounts\testing\style.css" />
-    <Content Include="buttons\css\buttons.css" />
+    <Content Include="css\mc3_buttons.css" />
     <Content Include="buttons\default.aspx" />
     <Content Include="css\img\bg-body.png" />
     <Content Include="css\img\button-add.gif" />
     <Content Include="css\reset.css" />
     <Content Include="css\text.css" />
+    <Content Include="customize\css\customize.css" />
+    <Content Include="customize\default.aspx" />
+    <Content Include="customize\img\finish-check.png" />
+    <Content Include="customize\img\search-engine-optimisation-thumbs-up.jpg" />
+    <Content Include="customize\img\startup-arrow.png" />
+    <Content Include="customize\img\startup-box.png" />
     <Content Include="default.aspx" />
+<<<<<<< HEAD
     <Content Include="error\css\mc3-error-page.css" />
     <Content Include="error\generate.aspx" />
     <Content Include="error\img\error-background.png" />
     <Content Include="error\oops.aspx" />
     <Content Include="forms\css\forms.css" />
+=======
+    <Content Include="error\css\mc-error-page.css" />
+    <Content Include="error\generate.aspx" />
+    <Content Include="error\img\error-background.png" />
+    <Content Include="error\misc-error.aspx" />
+    <Content Include="error\oops.aspx" />
+    <Content Include="css\mc3_forms.css" />
+>>>>>>> a49ee57cc794f89e287ba88f253525705327bd11
     <Content Include="forms\default.aspx" />
-    <Content Include="grids\css\grids.css" />
+    <Content Include="css\mc3_grids.css" />
     <Content Include="grids\default.aspx" />
     <Content Include="css\style.css" />
     <Content Include="grids\img\datatable\back_disabled.png" />
@@ -162,7 +177,7 @@
     <Content Include="grids\js\jquery.dataTables.min.js" />
     <Content Include="grids\js\jquery.tablednd_0_5.js" />
     <Content Include="jquery-1.4.2.min.js" />
-    <Content Include="notifications\css\notifications.css" />
+    <Content Include="css\mc3_notifications.css" />
     <Content Include="notifications\default.aspx" />
     <Content Include="notifications\img\bullet_black.png" />
     <Content Include="notifications\img\cross.png" />
@@ -195,12 +210,9 @@
     <Content Include="signup2\img\logo.png" />
     <Content Include="signup2\img\Mountain_File.png" />
     <Content Include="signup2\img\required.png" />
-    <Content Include="startup\css\3step-startup.css" />
-    <Content Include="startup\3step-startup.aspx" />
     <Content Include="startup\css\startup1.css" />
     <Content Include="startup\default.aspx" />
     <Content Include="startup\img\finish-check.png" />
-    <Content Include="startup\img\Mountain_File.png" />
     <Content Include="startup\img\startup-arrow.png" />
     <Content Include="startup\img\startup-box.png" />
     <Content Include="success\css\success.css" />
@@ -231,6 +243,13 @@
     <Compile Include="buttons\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="customize\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customize\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -245,6 +264,7 @@
     <Compile Include="Default.Master.designer.cs">
       <DependentUpon>Default.Master</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="error\oops.aspx.cs">
       <DependentUpon>oops.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -256,6 +276,26 @@
       <DependentUpon>generate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+=======
+    <Compile Include="error\misc-error.aspx.cs">
+      <DependentUpon>misc-error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error\misc-error.aspx.designer.cs">
+      <DependentUpon>misc-error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error\oops.aspx.cs">
+      <DependentUpon>oops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error\oops.aspx.designer.cs">
+      <DependentUpon>oops.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error\generate.aspx.cs">
+      <DependentUpon>generate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+>>>>>>> a49ee57cc794f89e287ba88f253525705327bd11
     <Compile Include="error\generate.aspx.designer.cs">
       <DependentUpon>generate.aspx</DependentUpon>
     </Compile>
@@ -309,13 +349,6 @@
     <Compile Include="signup2\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="startup\3step-startup.aspx.cs">
-      <DependentUpon>3step-startup.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="startup\3step-startup.aspx.designer.cs">
-      <DependentUpon>3step-startup.aspx</DependentUpon>
-    </Compile>
     <Compile Include="startup\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -338,6 +371,7 @@
     <Folder Include="forms\img\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="customize\img\finish-check.psd" />
     <None Include="success\harabara-font\harabara-webfont.eot" />
     <None Include="success\harabara-font\harabara-webfont.ttf" />
     <None Include="success\harabara-font\harabara-webfont.woff" />
