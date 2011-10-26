@@ -30,7 +30,7 @@
                         <label class="labelleft" id="email-label">E-mail</label>             
                     </p>
                     <p> 
-                        <label class="labelleft portal">Company Portal Page</label>                         
+                        <label class="labelleft portal">Company URL</label>                         
                         <div class="portalwrap">https:// <input onKeyUp="this.value=replaceSpaces(this.value);" class="text-input large-txtinput portal-input" type="text" name="portal" id="portal" value="acmewidgets" /> .sherpadesk.com</div>
                     </p>
                     

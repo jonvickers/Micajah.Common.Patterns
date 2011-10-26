@@ -18,7 +18,7 @@
 
     <div class="catch-generic-error">
         <h1>This login is being used in another location.</h1>
-        <p><a href="previous.html" onClick="history.back();return false;" class="buttons large">Try Again!</a></p>       
+        <p><a href="previous.html" onClick="history.back();return false;" class="buttons large">Button Message</a></p>       
     </div>
 
 </asp:Content>

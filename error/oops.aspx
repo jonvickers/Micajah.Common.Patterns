@@ -22,7 +22,7 @@
             
             <h2>Server Error in '/' Application</h2>
             <h3>We have logged this error. Our engineers will get on this as quickly as possible.</h3>
-            <p id="return-button"><a href="previous.html" onClick="history.back();return false;" class="buttons large">Go Back and Try Again</a></p>
+            <p id="return-button"><a href="previous.html" onClick="history.back();return false;" class="buttons large">Button Message</a></p>
 
         </div>
         <div class="clearfix"></div>

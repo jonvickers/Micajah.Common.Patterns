@@ -2,6 +2,12 @@
     width: 260px;
 }
 
+#top-toggle-area h1 
+{
+    margin: 0 20px;
+    padding-top: 20px;
+    }
+
 /* --- Header Section --- */
 
 #headtop {
@@ -22,7 +28,21 @@
 	#header h3, #header h1 {
 		margin: 0;
 		}
-		
+
+#logo {
+	max-width: 800px;
+	margin: 50px auto;
+	text-align: center;	
+	}
+
+/*-- Form Adjustments --*/
+
+form .medium-input {
+    width: 350px !important;
+}
+form select {
+    width: 370px !important;
+}		
 
 /*-- Section Header --*/
 

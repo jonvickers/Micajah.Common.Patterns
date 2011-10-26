@@ -1,7 +1,7 @@
 ﻿#startup-wrapper 
 {
     width: 575px;
-    float: left;
+    margin: 100px auto 0;
     }
 
 #startup-wrapper a

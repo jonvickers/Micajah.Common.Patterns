@@ -27,6 +27,13 @@
 
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">           
     <div id="top-toggle-area">
+        <div class="section1">
+            <h1>Standard Organization Signup</h1>
+        </div>
+        <div class="section1" style="display: none;">
+            <h1>Standard Individual Signup</h1>
+        </div>
+
         <div id="toggler" style="padding: 30px 50px;"><a href="#">Form Toggle</a>&nbsp;&nbsp;&nbsp; <== Toggles between <strong>Organization</strong> sign up and <strong>Individual</strong> sign forms</div>
     </div>
 </asp:Content>
@@ -34,14 +41,9 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 			
-<div class="section1">
-    <h1>Standard Organization Signup</h1>
-</div>
-<div class="section1" style="display: none;">
-    <h1>Standard Individual Signup</h1>
-</div>
+
 <div class="container">
- 
+      <div id="logo"><img src="img/logo.png" /></div>
       <div class="section1">
       <div class="formsection"><p>Company Address</p></div>
             <p> 
@@ -62,7 +64,7 @@
             </p>
             <p>  
                 <label class="labelleft">Country</label>
-                <select class="text-input medium-input" name="droplist">
+                <select class="text-input" name="droplist">
                   <option value="us">United States</option>
                   <option value="value">Another Country</option>
                   <option value="vickersville">Jonsilvania</option>
@@ -71,7 +73,7 @@
             </p>  
             <p>  
                 <label class="labelleft">State / Province</label>
-                <select class="text-input medium-input" name="droplist">
+                <select class="text-input" name="droplist">
                   <option value="us">Georgia</option>
                   <option value="value">Indiana</option>
                   <option value="vickersville">Cali</option>
@@ -116,14 +118,14 @@
           <div class="formsection"><p>Local Settings</p></div>
             <p>  
                 <label class="labelleft">Timezone</label>
-                <select class="text-input medium-input" name="droplist">
+                <select class="text-input" name="droplist">
                     <option value="us">Eastcoast (+5 GMT)</option>
                     <option value="value">Central (+6 GMT)</option>
                 </select>  
             </p>
             <p>  
                 <label class="labelleft">Currency</label>
-                <select class="text-input medium-input" name="droplist">
+                <select class="text-input" name="droplist">
                     <option value="us">$ Dollar</option>
                     <option value="value">Euro</option>
                 </select>  

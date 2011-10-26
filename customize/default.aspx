@@ -50,7 +50,7 @@
                     <p>Select this option if your a rebel and nobody can categorize the awesomeness that is you.</p>
                 </li>   
             </ul>
-         <a class="buttons" href="../../startup">Continue ></a>    
+         <a class="buttons large" href="../../startup">Continue ></a>    
     </div>
 </div>
 

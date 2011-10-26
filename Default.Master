@@ -54,12 +54,12 @@
                 <li class="accounts"><a href="../accounts">Account Settings</a></li>
                 <li class="profile"><a href="../profile">Your Profile</a></li>                
                 <li><hr /></li>
-                <li><strong>Sign up process&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
-                <li class="sdlogin"><a href="../sdlogin">Login</a></li>
+                <li><strong>Sign up process&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>                
                 <li class="signup1"><a href="../signup1">Sign Up - Start</a></li>
                 <li class="signup2"><a href="../signup2">Sign Up - Next</a></li>
                 <li class="customize"><a href="../customize">Sign Up - Customize</a></li>
                 <li class="startup1"><a href="../startup">Start Up Page</a></li>
+                <li class="sdlogin"><a href="../sdlogin">Login</a></li>
             </ul>
         </div>
 
