@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="oops.aspx.cs" Inherits="MCPatterns.error_pages.mc3_error_page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <link href="css/mc3-error-page.css" rel="stylesheet" type="text/css" />
+    <link href="css/mc-error-page.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -18,20 +18,20 @@
 
     <div class="catch-error">
         <h1>Uh... That's some weird science.</h1>
-
-        <div class="catch-error-send-message">
-            <a href="#" class="buttons negative">Get Some Help</a>
-        </div>
         <div class="catch-error-description">
             
             <h2>Server Error in '/' Application</h2>
-            <h3>The INSERT statement conflicted with the FOREIGN KEY constraint "fk_ticket_Levels".  The conflict occured in database "BWD", table "dbo.TktLevels". <br /> Cannot insert the value null into column 'TicketID', table lasdflkjhsafgjkhgfsljhsjkgfd<br />The statement has been terminated<br />The statement has been terminated<br />The statement has been terminated<br />something something something</h3>
-            <p id="return-button"><a href="previous.html" onClick="history.back();return false;" class="buttons large">Return from wence thy came!</a></p>
-            <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis turpis sed velit mattis a congue risus convallis. Curabitur quis erat augue</p>
-            <p><strong>Exception Details:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p><strong>Source Error:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis turpis sed velit mattis a congue risus convallis. Curabitur quis erat augue</p>
-            <p><strong>Stack Trace:</strong></p>
-            <p>Stack trace element --- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis turpis sed velit mattis a congue risus convallis. Curabitur quis erat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis turpis sed velit mattis a congue risus convallis. Curabitur quis erat augue</p>
+            <h3>We have logged this error. Our engineers will get on this as quickly as possible.</h3>
+            <p id="return-button"><a href="previous.html" onClick="history.back();return false;" class="buttons large">Button Message</a></p>
+
+        </div>
+        <div class="clearfix"></div>
+        <div class="catch-error-form">
+
+            <h3>Let us know what happened.</h3>
+            <p>We've logged this error, but your insight helps us resolve issues quicker.</p>
+            <textarea name="error-email" cols="" rows=""></textarea>
+            <input class="negative" name="submit-email" type="submit" value="Send Email to Support" />
 
         </div>
     </div>

@@ -35,9 +35,6 @@
        
             <ul id="main-nav">
                 <li class="home"><a href="../">Home</a></li>
-<<<<<<< HEAD
-                <li class="error-page"><a href="../error/oops.aspx">Error Page</a></li>
-=======
                 <li class="error-page">
                     <a href="../error/oops.aspx">Error Page</a>
                     <ul>
@@ -46,7 +43,6 @@
                         </li>
                     </ul>                
                 </li>
->>>>>>> a49ee57cc794f89e287ba88f253525705327bd11
                 <li><hr /></li>
                 <li><strong>Elements&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="forms"><a href="../forms">Forms</a></li>
