@@ -5,13 +5,13 @@
     <title>Micajah.Common.UIPatterns</title>
     
     
-    <link href="css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="css/text.css" rel="stylesheet" type="text/css" />
-    <link href="css/mc3_buttons.css" rel="stylesheet" type="text/css" />
-    <link href="css/mc3_forms.css" rel="stylesheet" type="text/css" />
-    <link href="css/mc3_grids.css" rel="stylesheet" type="text/css" />
-    <link href="css/mc3_notifications.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/patternsiteonly_reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/patternsiteonly_text.css" rel="stylesheet" type="text/css" />
+    <link href="css/mc_buttons.css" rel="stylesheet" type="text/css" />
+    <link href="css/mc_forms.css" rel="stylesheet" type="text/css" />
+    <link href="css/mc_grids.css" rel="stylesheet" type="text/css" />
+    <link href="css/mc_notifications.css" rel="stylesheet" type="text/css" />
+    <link href="css/patternsiteonly.css" rel="stylesheet" type="text/css" />
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" ></script>
