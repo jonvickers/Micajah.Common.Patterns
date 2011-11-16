@@ -8,17 +8,17 @@ Buttons and Links CSS
  
 a {font-size: 1.15em; font-family: arial, Sans-Serif; color: #42657C;} 
 
-a.buttonAlt {color: #28597a; padding: 7px; font-size: 1.2em;}
-a.buttonAlt:hover {background-color: #28597a; color: white;}
-a.buttonAlt:focus {background-color: #28597a; color: white;}
+.buttonAlt {color: #28597a; padding: 7px; font-size: 1.2em;}
+.buttonAlt:hover {background-color: #28597a; color: white;}
+.buttonAlt:focus {background-color: #28597a; color: white;}
 
-a.delete {color: Maroon;}
-a.delete:hover {background-color: Maroon;}
-a.delete:focus {background-color: Maroon;}
+.delete {color: Maroon;}
+.delete:hover {background-color: Maroon;}
+.delete:focus {background-color: Maroon;}
 
-a.cancel {color: gray;}
-a.cancel:hover {background-color: gray;}
-a.cancel:focus {background-color: gray;}
+.cancel {color: gray;}
+.cancel:hover {background-color: gray;}
+.cancel:focus {background-color: gray;}
 
 input[type="submit"]
 {

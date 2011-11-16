@@ -34,32 +34,53 @@
         <h3 style="text-align: center;">Micajah.Common.UI</h3>
        
             <ul id="main-nav">
-                <li class="home"><a href="../">Home</a></li>
+                <li class="home"><a href="../../">Home</a></li>
                 <li class="error-page">
-                    <a href="../error/oops.aspx">Error Page</a>
+                    <a href="../../error/oops.aspx">Error Page</a>
                     <ul>
                         <li class="misc-error">
-                            <a href="../error/misc-error.aspx">Misc Error</a>
+                            <a href="../../error/misc-error.aspx">Misc Error</a>
                         </li>
                     </ul>                
                 </li>
                 <li><hr /></li>
                 <li><strong>Elements&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
-                <li class="forms"><a href="../forms">Forms</a></li>
-                <li class="button"><a href="../buttons">Buttons</a></li>
-                <li class="grids"><a href="../grids">Grids</a></li>
-                <li class="notifications"><a href="../notifications">Notifications</a></li>
+                <li class="forms"><a href="../../forms">Forms</a></li>
+                <li class="button"><a href="../../buttons">Buttons</a></li>
+                <li class="grids"><a href="../../grids">Grids</a></li>
+                <li class="notifications"><a href="../../notifications">Notifications</a></li>
                 <li><hr /></li>
                 <li><strong>App Settings&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
-                <li class="accounts"><a href="../accounts">Account Settings</a></li>
-                <li class="profile"><a href="../profile">Your Profile</a></li>                
+                <li class="accounts"><a href="../../accounts">Account Settings</a></li>
+                <li class="profile"><a href="../../profile">Your Profile</a></li>                
                 <li><hr /></li>
                 <li><strong>Sign up process&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>                
-                <li class="signup1"><a href="../signup1">Sign Up - Start</a></li>
-                <li class="signup2"><a href="../signup2">Sign Up - Next</a></li>
-                <li class="customize"><a href="../customize">Sign Up - Customize</a></li>
-                <li class="startup1"><a href="../startup">Start Up Page</a></li>
-                <li class="sdlogin"><a href="../sdlogin">Login</a></li>
+                <li class="signup1"><a href="../../signup1">Sign Up - Start</a></li>
+                <li class="signup2"><a href="../../signup2">Sign Up - Next</a></li>
+                <li class="customize"><a href="../../customize">Sign Up - Customize</a></li>
+                <li class="startup1"><a href="../../startup">Start Up Page</a></li>
+                <li class="sdlogin"><a href="../../sdlogin">Login</a></li>
+                <li><hr /></li>
+                <li><strong>HelpDesk Mockups&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
+                <!-- 
+                <li><a href="../../helpdesk/tickets/tickets.aspx">Ticket-Worklist</a></li>
+                <li><a href="../../helpdesk/tickets/tickets.aspx">Scheduled Tickets</a></li>
+                <li><a href="../../helpdesk/tickets/tickets.aspx">Follow Ups</a></li>
+                <li><a href="../../helpdesk/tickets/tickets.aspx">Advanced Search</a></li>
+                <li><a href="../../helpdesk/projects/projects.aspx">Projects - List</a></li>
+                <li><a href="../../helpdesk/projects/projects.aspx">Projects-Detail</a></li>
+                <li><a href="../../helpdesk/location/location.aspx">Location-Worklist</a></li>
+                <li><a href="../../helpdesk/location/location.aspx">Location-Details</a></li>
+                <li><a href="../../helpdesk/comments/comments.aspx">Comments</a></li>
+                <li><a href="../../helpdesk/knowledgebase/knowledgebase.aspx">Knowledgebase-List</a></li>
+                <li><a href="../../helpdesk/knowledgebase/knowledgebase.aspx">Knowledgebase-Article</a></li>
+                <li><a href="../../helpdesk/parts/parts.aspx">Parts</a></li>
+                <li><a href="../../helpdesk/parts/parts.aspx">Parts-Create PO Process</a></li> -->
+                <li><a href="../../helpdesk/accounts/accounts.aspx">Accounts-List</a></li>
+                <li><a href="../../helpdesk/accounts/accounts.aspx">Accounts-Details</a></li>
+                <!--
+                <li><a href="../../helpdesk/configuration/configuration.aspx">Configuration</a></li>
+                <li><a href="../../helpdesk/support/support.aspx">Support Page</a></li> -->
             </ul>
         </div>
 

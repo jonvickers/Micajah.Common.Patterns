@@ -168,6 +168,16 @@
     <Content Include="grids\js\grid.js" />
     <Content Include="grids\js\jquery.dataTables.min.js" />
     <Content Include="grids\js\jquery.tablednd_0_5.js" />
+    <Content Include="helpdesk\accounts\accounts.aspx" />
+    <Content Include="helpdesk\accounts\account-lists-style.css" />
+    <Content Include="helpdesk\comments\comments.aspx" />
+    <Content Include="helpdesk\configuration\configuration.aspx" />
+    <Content Include="helpdesk\knowledgebase\knowledgebase.aspx" />
+    <Content Include="helpdesk\location\location.aspx" />
+    <Content Include="helpdesk\parts\parts.aspx" />
+    <Content Include="helpdesk\projects\projects.aspx" />
+    <Content Include="helpdesk\support\support.aspx" />
+    <Content Include="helpdesk\tickets\tickets.aspx" />
     <Content Include="jquery-1.4.2.min.js" />
     <Content Include="css\mc_notifications.css" />
     <Content Include="notifications\default.aspx" />
@@ -290,6 +300,69 @@
     </Compile>
     <Compile Include="grids\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpdesk\accounts\accounts.aspx.cs">
+      <DependentUpon>accounts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpdesk\accounts\accounts.aspx.designer.cs">
+      <DependentUpon>accounts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpdesk\comments\comments.aspx.cs">
+      <DependentUpon>comments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpdesk\comments\comments.aspx.designer.cs">
+      <DependentUpon>comments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpdesk\configuration\configuration.aspx.cs">
+      <DependentUpon>configuration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpdesk\configuration\configuration.aspx.designer.cs">
+      <DependentUpon>configuration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpdesk\knowledgebase\knowledgebase.aspx.cs">
+      <DependentUpon>knowledgebase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpdesk\knowledgebase\knowledgebase.aspx.designer.cs">
+      <DependentUpon>knowledgebase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpdesk\location\location.aspx.cs">
+      <DependentUpon>location.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpdesk\location\location.aspx.designer.cs">
+      <DependentUpon>location.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpdesk\parts\parts.aspx.cs">
+      <DependentUpon>parts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpdesk\parts\parts.aspx.designer.cs">
+      <DependentUpon>parts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpdesk\projects\projects.aspx.cs">
+      <DependentUpon>projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpdesk\projects\projects.aspx.designer.cs">
+      <DependentUpon>projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpdesk\support\support.aspx.cs">
+      <DependentUpon>support.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpdesk\support\support.aspx.designer.cs">
+      <DependentUpon>support.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpdesk\tickets\tickets.aspx.cs">
+      <DependentUpon>tickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpdesk\tickets\tickets.aspx.designer.cs">
+      <DependentUpon>tickets.aspx</DependentUpon>
     </Compile>
     <Compile Include="notifications\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
