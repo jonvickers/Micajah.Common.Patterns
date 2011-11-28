@@ -59,6 +59,7 @@
                 </div><!-- End Top Control -->
                 
                 <div class="clearfix"></div>
+
                 	<!-- Start Ticket example -->
                 	<div class="ticket open">
                     	<div class="top">
@@ -66,22 +67,11 @@
                             	<input name="this" type="checkbox" value="" />
                             </div>
                             <div class="status-info">
-                            	
-                                <div class="status">
-                                	open
-                                </div>
-                            </div>
-                            <div class="ticket-info">
-                                <div class="ticket-number">
+                            	<div class="ticket-number">
                                 	#123456789
                                 </div>
-                            	<div class="title">
-                                	Ticket Title - Something Else went wrong Lorem ipsum dolor sit amet, consectetur adipiscing
-                                </div>
-                                <div class="next"><a href="#"><span>next item</span></a></div>
-                                <div class="clearfix"></div>
-                                <div class="summary">
-                                	quick summary - Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                <div class="status">
+                                	open
                                 </div>
                             </div>
                             <div class="dates">
@@ -89,7 +79,159 @@
                                 	<small>last update:</small><br />
                                     30 August 2011
                                 </div>                      
-                            </div>                            	
+                            </div> 
+                            <div class="ticket-info">
+                                <div class="title">
+                                	Ticket Title - Something Else went wrong Lorem ipsum dolor sit ...
+                                </div>                                
+                                <div class="clearfix"></div>
+                                <div class="summary">
+                                	quick summary - Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                </div>
+                            </div>
+                                                       	
+                        </div>
+                        <div class="bottom">
+                        	<div class="detail read active"></div>
+                            <div class="detail flag active"></div>
+                            <div class="detail attach active"></div>
+                        	<div class="detail accounts">
+                            	<div class="label">account</div>
+                                <div class="data">Some Huge Client</div>
+                            </div>
+                            <div class="detail contact">
+                            	<div class="label">contact</div>
+                                <div class="data">John Jingleheimer</div>
+                            </div>
+                            <div class="detail tecnician">
+                            	<div class="label">technician</div>
+                                <div class="data">Patrick Clements</div>
+                            </div>
+                            <div class="detail priority">
+                            	<div class="label">priority</div>
+                                <div class="data">P-1</div>
+                            </div>
+                            <div class="detail level">
+                            	<div class="label">level</div>
+                                <div class="data">L-1</div>
+                            </div>
+                            <div class="detail class">
+                            	<div class="label">class</div>
+                                <div class="data">Helpdesk>Sub-Class</div>
+                            </div>
+                            <div class="detail hours">
+                            	<div class="label">hours</div>
+                                <div class="data">22.25hr  45%</div>
+                            </div>
+                            <div class="detail daytimer">
+                            	<div class="label">Workday Timer</div>
+                                <div class="data">15d 0h 21m</div>
+                            </div>
+                        </div>
+                        
+                    </div><!-- End Ticket example -->
+                    
+                    <!-- Start Ticket example -->
+                	<div class="ticket closed">
+                    	<div class="top">
+                        	<div class="select">
+                            	<input name="this" type="checkbox" value="" />
+                            </div>
+                            <div class="status-info">
+                            	<div class="ticket-number">
+                                	#123456789
+                                </div>
+                                <div class="status">
+                                	closed
+                                </div>
+                            </div>
+                            <div class="dates">
+                            	<div class="last-updated">
+                                	<small>last update:</small><br />
+                                    30 August 2011
+                                </div>                      
+                            </div> 
+                            <div class="ticket-info">
+                                <div class="title">
+                                	Ticket Title - Something Else went wrong Lorem ipsum dolor sit ...
+                                </div>                                
+                                <div class="clearfix"></div>
+                                <div class="summary">
+                                	quick summary - Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                </div>
+                            </div>
+                                                       	
+                        </div>
+                        <div class="bottom">
+                        	<div class="detail read active"></div>
+                            <div class="detail flag active"></div>
+                            <div class="detail attach active"></div>
+                        	<div class="detail accounts">
+                            	<div class="label">account</div>
+                                <div class="data">Some Huge Client</div>
+                            </div>
+                            <div class="detail contact">
+                            	<div class="label">contact</div>
+                                <div class="data">John Jingleheimer</div>
+                            </div>
+                            <div class="detail tecnician">
+                            	<div class="label">technician</div>
+                                <div class="data">Patrick Clements</div>
+                            </div>
+                            <div class="detail priority">
+                            	<div class="label">priority</div>
+                                <div class="data">P-1</div>
+                            </div>
+                            <div class="detail level">
+                            	<div class="label">level</div>
+                                <div class="data">L-1</div>
+                            </div>
+                            <div class="detail class">
+                            	<div class="label">class</div>
+                                <div class="data">Helpdesk>Sub-Class</div>
+                            </div>
+                            <div class="detail hours">
+                            	<div class="label">hours</div>
+                                <div class="data">22.25hr  45%</div>
+                            </div>
+                            <div class="detail daytimer">
+                            	<div class="label">Workday Timer</div>
+                                <div class="data">15d 0h 21m</div>
+                            </div>
+                        </div>
+                        
+                    </div><!-- End Ticket example -->
+                    
+                    <!-- Start Ticket example -->
+                	<div class="ticket on-hold">
+                    	<div class="top">
+                        	<div class="select">
+                            	<input name="this" type="checkbox" value="" />
+                            </div>
+                            <div class="status-info">
+                            	<div class="ticket-number">
+                                	#123456789
+                                </div>
+                                <div class="status">
+                                	on hold
+                                </div>
+                            </div>
+                            <div class="dates">
+                            	<div class="last-updated">
+                                	<small>last update:</small><br />
+                                    30 August 2011
+                                </div>                      
+                            </div> 
+                            <div class="ticket-info">
+                                <div class="title">
+                                	Ticket Title - Something Else went wrong Lorem ipsum dolor sit ...
+                                </div>                                
+                                <div class="clearfix"></div>
+                                <div class="summary">
+                                	quick summary - Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                </div>
+                            </div>
+                                                       	
                         </div>
                         <div class="bottom">
                         	<div class="detail read active"></div>

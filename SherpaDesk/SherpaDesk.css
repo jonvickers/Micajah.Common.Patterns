@@ -8,6 +8,7 @@ body {
 .wrapper {
 	width: 100%;
 	min-width: 1024px;
+	z-index: 9999999;
 	}
 
 .left {float: left;}
@@ -65,6 +66,7 @@ body {
 	width: 100%;
 	min-height: 55px;
 	overflow: hidden;
+	z-index: 9999999;
 	}
 
 .top-table-control ul li, .bottom-table-control ul li, .selected-controls ul li {
@@ -105,12 +107,12 @@ body {
 		}
 
         .selected-controls li ul {
-	        position: absolute;
+	        position: fixed;
 	        width: auto;
 	        min-width: 100px;
 	        left: -999em;
-	        background-color: #4f5970;
-	        color: #fff !important;
+	        background-color: #d8d8d8;
+	        color: #777 !important;
 	        padding: 5px 10px;
 	        margin: 2px 0 0 10px;
 	        -moz-border-radius-topleft: 0px;
@@ -119,6 +121,7 @@ body {
              -moz-border-radius-bottomleft: 5px;
              -webkit-border-radius: 0px 5px 5px 5px;
              border-radius: 0px 5px 5px 5px; 
+             z-index: 10000;
             }
             
             .bottom-table-control .selected-controls li:hover ul 
@@ -128,7 +131,7 @@ body {
             
             .selected-controls li a 
             {
-                color: #fff;
+                color: #000;
                 text-decoration: none;
                 }
             .selected-controls li ul li 
@@ -138,7 +141,7 @@ body {
                 }
                 .selected-controls li ul li:hover 
                 {
-                    background-color: #7c8596;
+                    background-color: #e1e1e1;
                     -webkit-border-radius: 4px;
                     -moz-border-radius: 4px;
                     border-radius: 4px 4px 4px 4px; 
@@ -418,7 +421,9 @@ body {
 	-webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
 	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
-	overflow: hidden; 
+	overflow: hidden;
+	z-index: 20000;
+	position: relative; 
 	}
 
 
@@ -502,20 +507,20 @@ table {margin:0;}
 		.ticket .top .select {
 			float: left;
 			width: 30px;
-			height: 25px;
+			height: 100%;
 			padding: 26px 5px 0;
 			text-align: center;
 			}
 		.ticket .top .status-info {
 			float: left;
-			width: 120px;
+			width: 110px;
 			height: 100%;
 			min-height: 70px;
 			text-align: center;
 			overflow: hidden;
 			}			
 			.ticket .top .status-info .status {
-				margin-top: 20px;
+				margin-top: 2px;
 				font-size: 14px;
 				font-weight: bold;
 				text-transform: uppercase;
@@ -525,18 +530,22 @@ table {margin:0;}
 				-moz-border-radius: 5px;
 				border-radius: 5px 5px 5px 5px; 				
 				}
-		.ticket .top .ticket-info {
-			float: left;
-			min-width: 550px;
-			margin: 12px 10px 0 15px;
-			}
-			.ticket .top .ticket-info .ticket-number {
-				float: left;
-				font-size: 20px;
-				padding: 0 20px 0 0;
-				margin: 0;
+				
+				.ticket .top .status-info .ticket-number {
+				text-align: center;
+				font-size: 14px;
+				padding: 0;
+				margin: 6px 0 0;
 				color: #000000;
 				}
+		.ticket .top .ticket-info {
+			height: auto;
+            margin: 10px 0 0;
+            min-width: 550px;
+            overflow: hidden;
+            padding-left: 20px;
+			}
+			
 			.ticket .top .ticket-info .title {
 				float: left;
 				font-size: 20px;
@@ -550,10 +559,10 @@ table {margin:0;}
 				}
 			.ticket .top .ticket-info .next {
 				float: left;
-				margin: 7px 0 0 10px;
+				margin: 7px 5px 0 0;
 				width: 22px;
 				height: 16px;
-				background: url(../images/next-icon.png) no-repeat 0 0;
+				background: url(../../SherpaDesk/images/next-icon.png) no-repeat 0 0;
 				}
 			.ticket .top .ticket-info .next:hover {
 				background-position: 0 -16px;
@@ -569,19 +578,17 @@ table {margin:0;}
 				}
 		.ticket .top .dates {
 			float: right;
-            font-weight: bold;
+            font-weight: bolder;
             padding: 5px 15px;
-            position: relative;
             text-align: center;
             top: 30px;
 			}			
 			.ticket .top .dates .last-updated {
-				font-size: 12px;
-				margin: 5px 0;
-				}
-			.ticket .top .dates .hours {
-				font-size: 16px;
-				}
+				font-size: 13px;
+				line-height: 14px;
+				margin: 10px 0;
+				color: #606060;
+				}			
 			.ticket .top .dates small {
 				font-size: 9px;
 				font-weight: normal;
@@ -590,6 +597,7 @@ table {margin:0;}
 	.ticket .bottom {
 		background-color: #ededed;
 		height: 30px;
+		overflow: hidden;
 		}
 		.ticket .bottom .detail {
 			float: left;
@@ -601,11 +609,15 @@ table {margin:0;}
 				font-size: 9px;
 				line-height: 9px;				
 				}
-			.ticket .bottom .detail .data {
-				font-weight: bold;
-				color: #606060;
-				font-size: 12px;
+			.ticket .bottom .detail.daytimer {
+				float: right;
 				}
+			.ticket .bottom .detail.priority, .ticket .bottom .detail.level 
+			{
+			    padding: 3px 5px;
+			    text-align: center;
+			    }	
+			
 		.ticket .bottom .detail.read, 
 		.ticket .bottom .detail.flag, 
 		.ticket .bottom .detail.attach{
@@ -614,33 +626,30 @@ table {margin:0;}
 			margin: 5px 3px 0 0;
     		padding: 0;
 			}
+			
+		.ticket .bottom .detail .data {
+				font-weight: bold;
+				color: #606060;
+				font-size: 12px;
+				}
 			.ticket .bottom .detail.read {
-				background: url(../images/ticket-icons.png) no-repeat 0 -20px;
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat 0 -20px;
 				}
 			.ticket .bottom .detail.read.active {
-				background: url(../images/ticket-icons.png) no-repeat 0 0px;
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat 0 0px;
 				}
 			.ticket .bottom .detail.flag {
-				background: url(../images/ticket-icons.png) no-repeat -40px -20px;
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -40px -20px;
 				}
 			.ticket .bottom .detail.flag.active {
-				background: url(../images/ticket-icons.png) no-repeat -40px 0px;
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -40px 0px;
 				}
 			.ticket .bottom .detail.attach {
-				background: url(../images/ticket-icons.png) no-repeat -20px -20px;
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -20px -20px;
 				}
 			.ticket .bottom .detail.attach.active {
-				background: url(../images/ticket-icons.png) no-repeat -20px 0px;
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -20px 0px;
 				}
-			
-		/*-- .ticket .bottom .detail.daytimer {
-			float: right;
-			font-size: 22px;
-			line-height: 24px;
-			font-weight: bold;
-			color: #606060;
-			padding-right: 5px;
-			} --*/
 
 .open .status {
 	background-color: #ff9f00;
@@ -652,11 +661,15 @@ table {margin:0;}
 	color: #fff;
 	}
 	
+/* --------- Make the text lighter for the whole ticket
+
 .closed, 
 .ticket.closed .top .ticket-info .title,
 .ticket.closed .bottom .detail .data,
 .ticket.closed .bottom .detail.daytimer
- {color: #d4d4d4 !important;}
+ {color: #d4d4d4 !important;} 
+
+*/
 
 .closed .status {
 	background-color: #dadbdf;

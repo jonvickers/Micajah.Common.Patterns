@@ -219,7 +219,7 @@
     <Content Include="SherpaDesk\images\ticket-icons.png" />
     <Content Include="SherpaDesk\images\ticket-mockup1.png" />
     <Content Include="SherpaDesk\images\ticket-mockup2.png" />
-    <Content Include="SherpaDesk\js\notifications.js" />
+    <Content Include="SherpaDesk\js\custom.js" />
     <Content Include="jquery-1.4.2.min.js" />
     <Content Include="css-MicajahCommon\mc_notifications.css" />
     <Content Include="notifications\default.aspx" />

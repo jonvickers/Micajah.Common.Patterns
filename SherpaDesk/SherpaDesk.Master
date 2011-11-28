@@ -1,8 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SherpaDesk.master.cs" Inherits="MCPatterns.SherpaDesk.SherpaDesk" %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head runat="server">
     
     <title>SherpaDesk UI</title>
@@ -17,9 +15,11 @@
     <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_forms.css"/>
     <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_buttons.css"/>
     <!-- MC Global -->
-        
+
+  <link rel="stylesheet" type="text/css" href="~/SherpaDesk/css/960.css"/>         
+    
     <!-- Put Sherpa Desk Theme css HERE -->
-    <link rel="stylesheet" type="text/css" href="~/SherpaDesk/css/960.css"/>    
+     
     
     <!-- Put Sherpa Desk APP css HERE -->
     <link rel="stylesheet" type="text/css" href="SherpaDesk.css"  />
@@ -28,7 +28,7 @@
     <link rel="stylesheet" type="text/css" href="helpdesk_existing.css"  />
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
-    <script src="js/notifications.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
 
 
     <asp:ContentPlaceHolder ID="head" runat="server">
