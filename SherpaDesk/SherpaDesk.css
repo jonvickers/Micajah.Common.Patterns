@@ -1,0 +1,676 @@
+/* CSS Document */
+
+body {
+	background-color: #eeeeee; 
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+.wrapper {
+	width: 100%;
+	min-width: 1024px;
+	}
+
+.left {float: left;}
+.right {float: right;} 
+
+/*-- pill --*/
+.pill {
+	padding: 5px 8px;
+	margin: 0 5px;	
+	text-decoration: none !important;
+	font-weight: normal;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px 5px 5px 5px;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bold;
+	}
+	
+/*-- colors --*/
+
+.red {
+	background-color: #910003;
+	color: #fff !important;
+	}	
+.red:hover {
+	background-color: #cb2226;
+	}
+.green {
+	background-color: #61a319;
+	color: #fff !important;
+	}	
+.green:hover {
+	background-color: #a0c874;
+	}
+.gray {
+	background-color: #4f5970;
+	color: #fff !important;
+	}	
+.gray:hover {
+	background-color: #7c8596;
+	}
+.ltgray {
+	background-color: #dadbdf;
+	color: #555555 !important;
+	}	
+.ltgray:hover {
+	background-color: #bbc2d3;
+	}
+
+
+/*-- Table Controls --*/
+
+.top-table-control, .bottom-table-control {
+	width: 100%;
+	min-height: 55px;
+	overflow: hidden;
+	}
+
+.top-table-control ul li, .bottom-table-control ul li, .selected-controls ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	}
+
+.top-table-control .tableadd {
+	float: right;
+	margin: 10px 0;
+	}
+
+.selected-controls {
+	background-color: #E1E1E1;
+    height: 20px;
+    margin: 15px 0 0;
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;	 
+	}
+.bottom-table-control .selected-controls 
+{
+    margin-top: 0;
+    }
+.selected-controls .drop 
+{
+    padding-right: 20px;
+    background: #4f5970 url(../../SherpaDesk/images/drop.png) no-repeat right center;
+    }
+	
+	.selected-controls .left ul {
+		 
+		}
+	
+	.selected-controls .right ul {
+		margin-right: 15px;
+		}
+
+        .selected-controls li ul {
+	        position: absolute;
+	        width: auto;
+	        min-width: 100px;
+	        left: -999em;
+	        background-color: #4f5970;
+	        color: #fff !important;
+	        padding: 5px 10px;
+	        margin: 2px 0 0 10px;
+	        -moz-border-radius-topleft: 0px;
+             -moz-border-radius-topright: 5px;
+             -moz-border-radius-bottomright: 5px;
+             -moz-border-radius-bottomleft: 5px;
+             -webkit-border-radius: 0px 5px 5px 5px;
+             border-radius: 0px 5px 5px 5px; 
+            }
+            
+            .bottom-table-control .selected-controls li:hover ul 
+            {
+                bottom: inherit;
+                }
+            
+            .selected-controls li a 
+            {
+                color: #fff;
+                text-decoration: none;
+                }
+            .selected-controls li ul li 
+            {
+                display: block;
+                padding: 5px;
+                }
+                .selected-controls li ul li:hover 
+                {
+                    background-color: #7c8596;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px 4px 4px 4px; 
+                    } 
+        .selected-controls li:hover ul
+        {
+            left: auto;
+            }
+            
+
+
+
+.bottom-table-control .table-page {
+	float: left;
+	margin-top: 8px;
+	}
+	
+.bottom-table-control .table-page ul li {
+	margin: 4px 0;
+	}
+	
+	.bottom-table-control .table-page ul li a {
+		background-color: #EBEBEB;
+		color: #444444;
+		font-size: 11px;
+		margin: 0;
+		padding: 6px 8px;
+		text-decoration: none;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px; 
+		}
+	.bottom-table-control .table-page ul li a:hover,
+	.bottom-table-control .table-page ul li a.current {
+		background-color: #C4C4C4;
+		color: #000;
+		}
+
+.bottom-table-control .table-functions {
+	float: right;
+	width: 200px;
+	}
+
+
+/*-- table search --*/
+
+.tablesearch {
+	float: left;
+	width:320px; /*follow your image's size*/
+	height:35px;/*follow your image's size*/
+	background-image:url(../../SherpaDesk/images/search-field-med.png);
+	background-repeat:no-repeat; /*important*/
+	padding:0px;
+	margin:0px;
+	position:relative; /*important*/
+	top: 5px;
+	}
+	
+	.tablesearch:hover {
+		background-position: 0 -35px;
+		}
+ 
+.tablesearch form { display:inline ; }
+ 
+.tablesearch .searchbox {
+	border:0px; /*important*/
+	background-color:transparent; /*important*/
+	position:absolute; /*important*/
+	top:1px;
+	left:10px;
+	width:255px;
+	height:33px;
+	padding: 0;
+	border-radius: 0;
+	font: 14px/100% Arial;
+	color: #999;
+	}
+
+.tablesearch .searchbox_submit {
+	border:0px; /*important*/
+	background-color:transparent; /*important*/
+	position:absolute; /*important*/
+	top:1px;
+	left:265px;
+	width:55px;
+	height:33px;
+	}
+
+.tablesearch .searchbox_submit:hover {
+	border:0px !important; /*important*/
+	}
+
+
+
+/*-- header --*/
+
+#head-wrap {
+	width: 100%;
+	height: 110px;
+	background-color: #fff;
+	overflow: hidden;
+	}
+
+#head-wrap a {
+	color: #004174;
+	text-decoration: none;
+	}
+
+#head-wrap #logo {
+	padding: 10px 0;
+	}
+#head-wrap ul li {
+	margin: 0;
+	display: inline-block;
+	padding: 3px 5px;
+	font-weight: normal; 
+	}	
+	
+#head-wrap #topnav a:hover {
+	text-decoration: underline;
+	}
+	
+#head-wrap #topnav {
+    color: #999999;
+    font-size: 12px;
+    padding: 6px 0 6px 10px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 5px;
+}
+
+#head-wrap #topnav-support {}
+
+#head-wrap #topnav img.gravatar {
+    background: none repeat scroll 0 0 #ebebeb;
+    float: right;
+    margin: 0 0 0 8px;
+    padding: 4px;
+}
+
+#head-wrap #topnav small {
+    color: #666666;
+    font-size: 11px;
+    text-align: right;
+}
+
+#head-wrap #top-main-nav {
+	background-color: #004174;
+	color: #fff;
+	height: 20px;
+	padding: 7px 0 13px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px; 
+	}
+	
+#head-wrap #top-main-nav ul li {
+	margin: 0;
+	display: inline-block;
+	padding: 3px 10px 10px;
+	font-weight: normal; 
+	}
+	
+	#head-wrap #top-main-nav ul li:hover, 
+	#head-wrap #top-main-nav ul li.current {
+		background-color: #DBE3FF;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		-moz-border-radius-bottomright: 0px;
+		-moz-border-radius-bottomleft: 0px;
+		-webkit-border-radius: 5px 5px 0px 0px;
+		border-radius: 5px 5px 0px 0px;  
+		}
+		
+		#head-wrap #top-main-nav ul li:hover a, 
+		#head-wrap #top-main-nav ul li.current a {
+			color: #585B66;
+			}
+	
+#head-wrap #top-main-nav a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+#head-wrap #top-main-nav #top-search {
+	float: right;
+	width:201px; /*follow your image's size*/
+	height:26px;/*follow your image's size*/
+	background-image:url(../../SherpaDesk/images/search-field.png);
+	background-repeat:no-repeat; /*important*/
+	padding:0px;
+	margin:0px;
+	position:relative; /*important*/
+	top: -53px;
+	}
+	
+	#head-wrap #top-main-nav #top-search:hover {
+		background-position: 0 -26px;
+		}
+ 
+#head-wrap #top-main-nav #top-search form { display:inline ; }
+ 
+#head-wrap #top-main-nav #top-search .searchbox {
+	border:0px; /*important*/
+	background-color:transparent; /*important*/
+	position:absolute; /*important*/
+	top:1px;
+	left:10px;
+	width:160px;
+	height:21px;
+	padding: 0;
+	border-radius: 0;
+	font: 12px/100% Arial;
+	}
+
+#head-wrap #top-main-nav #top-search .searchbox_submit {
+	border:0px; /*important*/
+	background-color:transparent; /*important*/
+	position:absolute; /*important*/
+	top:1px;
+	left:170px;
+	width:31px;
+	height:21px;
+	}
+
+#top-main-sub-container {
+	width: 100%;
+	min-height: 10px;
+	background-color: #DBE3FF;
+	border-bottom: 1px solid #A2B4EE;
+	overflow: hidden;	
+	}
+	
+	#top-main-sub-container #top-main-subnav ul { margin: 5px 0;}
+	#top-main-sub-container #top-main-subnav ul li {
+		margin: 0;
+		display: inline-block;
+		padding: 3px 5px;
+		font-weight: normal; 
+		}
+	
+	#top-main-sub-container #top-main-subnav a {
+		color: #585B66;
+		padding: 5px 8px;
+		text-decoration: none;
+		font-weight: bold;
+		}
+	
+	#top-main-subnav ul li:hover a, 
+	#top-main-subnav ul li.current a {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px 5px 5px 5px;		
+		background-color: #004174;
+		color: #fff !important;
+		}
+
+/* -----------------  Main Content Areas  -------------------------------*/
+
+#main-content {
+	background-color: #fff;
+	margin-top: 0;
+	min-height: 200px;
+	border: 1px solid #dcdcdc;
+	border-top:0;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+	overflow: hidden; 
+	}
+
+
+	
+/*-- Sidebar --*/
+
+#sidebar #new-ticket {
+	margin: 12px -10px 0 -10px;
+	text-align: center;
+	}
+
+#sidebar #left-nav {
+	margin: 20px 0;
+    padding: 12px 10px;
+	background-color: #eeeeee;
+	border: 1px solid #dcdcdc;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px; 
+	}
+
+#sidebar #left-nav ul {
+	margin: 0;
+	border-bottom: 1px solid #ececec;
+	}
+#sidebar #left-nav ul li {
+	list-style-type: none;
+	padding: 8px;
+	margin: 0 -10px;
+	background-color: #FFFFFF;
+	border-top: 1px solid #ececec;	
+	}
+	
+	#sidebar #left-nav ul li a{
+		color: #555555;
+		text-decoration: none;
+		font-size: 13px;
+		font-weight: normal;
+		margin-left: 30px;
+		width: 300px !important;
+		}
+	#sidebar #left-nav ul li:hover {
+		color: #000;
+		background-color: #EBEBEB;
+		}
+
+/*--------------------- Main Stage Area --------------------------*/
+
+#main-stage {
+	margin: 10px;
+	}
+	
+/*--- Misc --*/
+
+table tr.closed {
+	color: #CCC;
+	}
+table tr td.col-checkbox {
+    padding: 10px 3px;
+    text-align: center;
+    width: 30px;
+}
+
+table {margin:0;}
+
+/*--------------------- Ticket List -----------------------------*/
+
+.ticket {
+	width: 100%;
+	min-width: 900px;
+	border: 1px solid #dadada;
+	margin: 20px 0 20px;
+	color: #999999;	
+	}	
+	.ticket .top {
+		border-bottom: 1px solid #dadada;
+		min-height: 70px;
+		margin: 0;
+		overflow: hidden;
+		}
+		.ticket .top .select {
+			float: left;
+			width: 30px;
+			height: 25px;
+			padding: 26px 5px 0;
+			text-align: center;
+			}
+		.ticket .top .status-info {
+			float: left;
+			width: 120px;
+			height: 100%;
+			min-height: 70px;
+			text-align: center;
+			overflow: hidden;
+			}			
+			.ticket .top .status-info .status {
+				margin-top: 20px;
+				font-size: 14px;
+				font-weight: bold;
+				text-transform: uppercase;
+				padding: 5px 0;				
+				width: 100%;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px 5px 5px 5px; 				
+				}
+		.ticket .top .ticket-info {
+			float: left;
+			min-width: 550px;
+			margin: 12px 10px 0 15px;
+			}
+			.ticket .top .ticket-info .ticket-number {
+				float: left;
+				font-size: 20px;
+				padding: 0 20px 0 0;
+				margin: 0;
+				color: #000000;
+				}
+			.ticket .top .ticket-info .title {
+				float: left;
+				font-size: 20px;
+				padding: 0;
+				margin: 0;
+				color: #000000;
+				overflow: auto;
+				}
+			.ticket .top .ticket-info .next a span {
+				display: none;
+				}
+			.ticket .top .ticket-info .next {
+				float: left;
+				margin: 7px 0 0 10px;
+				width: 22px;
+				height: 16px;
+				background: url(../images/next-icon.png) no-repeat 0 0;
+				}
+			.ticket .top .ticket-info .next:hover {
+				background-position: 0 -16px;
+				cursor: pointer;
+				}
+			.ticket .top .ticket-info .next.item {
+				background: none;
+				font-size: 12px;
+				width: auto;
+				}
+			.ticket .top .ticket-info .summary {
+				font-size: 12px;
+				}
+		.ticket .top .dates {
+			float: right;
+            font-weight: bold;
+            padding: 5px 15px;
+            position: relative;
+            text-align: center;
+            top: 30px;
+			}			
+			.ticket .top .dates .last-updated {
+				font-size: 12px;
+				margin: 5px 0;
+				}
+			.ticket .top .dates .hours {
+				font-size: 16px;
+				}
+			.ticket .top .dates small {
+				font-size: 9px;
+				font-weight: normal;
+				line-height: 8px;
+				}
+	.ticket .bottom {
+		background-color: #ededed;
+		height: 30px;
+		}
+		.ticket .bottom .detail {
+			float: left;
+			padding: 3px 15px;
+			}
+			.ticket .bottom .detail .label {
+				text-transform: uppercase;
+				font-weight: bolder;
+				font-size: 9px;
+				line-height: 9px;				
+				}
+			.ticket .bottom .detail .data {
+				font-weight: bold;
+				color: #606060;
+				font-size: 12px;
+				}
+		.ticket .bottom .detail.read, 
+		.ticket .bottom .detail.flag, 
+		.ticket .bottom .detail.attach{
+			width: 20px;
+			height: 20px;
+			margin: 5px 3px 0 0;
+    		padding: 0;
+			}
+			.ticket .bottom .detail.read {
+				background: url(../images/ticket-icons.png) no-repeat 0 -20px;
+				}
+			.ticket .bottom .detail.read.active {
+				background: url(../images/ticket-icons.png) no-repeat 0 0px;
+				}
+			.ticket .bottom .detail.flag {
+				background: url(../images/ticket-icons.png) no-repeat -40px -20px;
+				}
+			.ticket .bottom .detail.flag.active {
+				background: url(../images/ticket-icons.png) no-repeat -40px 0px;
+				}
+			.ticket .bottom .detail.attach {
+				background: url(../images/ticket-icons.png) no-repeat -20px -20px;
+				}
+			.ticket .bottom .detail.attach.active {
+				background: url(../images/ticket-icons.png) no-repeat -20px 0px;
+				}
+			
+		/*-- .ticket .bottom .detail.daytimer {
+			float: right;
+			font-size: 22px;
+			line-height: 24px;
+			font-weight: bold;
+			color: #606060;
+			padding-right: 5px;
+			} --*/
+
+.open .status {
+	background-color: #ff9f00;
+	color: #fff;
+	}
+
+.on-hold .status {
+	background-color: #4f5970;
+	color: #fff;
+	}
+	
+.closed, 
+.ticket.closed .top .ticket-info .title,
+.ticket.closed .bottom .detail .data,
+.ticket.closed .bottom .detail.daytimer
+ {color: #d4d4d4 !important;}
+
+.closed .status {
+	background-color: #dadbdf;
+	color: #fff;
+	}
+
+
+	
+/*--------------------- Footer Area ------------------------------*/
+
+#clientinfo {
+	margin-top: 15px;
+	}
+#client, #instance, #permissions{
+	font-size: 10px;
+	color: #A7A7A7;
+	}

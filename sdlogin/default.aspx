@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <link href="css/login.css" rel="stylesheet" type="text/css" />
+    <link href="../css-signupProcess/SignupProcess.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -47,7 +47,7 @@
 
  
     <div class="login-wrapper">	
-	    <div class="login-logo"><img src="img/logo.png" /></div>
+	    <div class="login-logo"><img src="../../css-signupProcess/img/logo.png" /></div>
         <div class="login-logo" style="display: none;"><p style="font-size: xx-large;">Insanely Huge School System Name of South Carolina USA in North America</p></div>
     	    
             <div class="formwrap">

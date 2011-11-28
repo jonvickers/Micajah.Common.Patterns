@@ -6,19 +6,6 @@
     color: #174071;
     margin: 30px 0;
     }
-    
-@font-face 
-{
-    font-family: 'HarabaraRegular';
-    src: url('../../success/harabara-font/harabara-webfont.eot');
-    src: url('../../success/harabara-font/harabara-webfont.eot?#iefix') format('embedded-opentype'),
-            url('../../success/harabara-font/harabara-webfont.woff') format('woff'),
-            url('../../success/harabara-font/harabara-webfont.ttf') format('truetype'),
-            url('../../success/harabara-font/harabara-webfont.svg#HarabaraRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    }
-
 
 #signup-success 
 {
@@ -32,7 +19,7 @@
     border: 2px solid #88abc2;
     background-color: #fff;
     overflow: hidden;
--webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
--moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);  
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);  
     }

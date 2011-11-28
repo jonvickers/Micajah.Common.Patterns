@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="MCPatterns.signup1._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <link href="css/signup1.css" rel="stylesheet" type="text/css" />
+    <link href="../css-signupProcess/SignupProcess.css" rel="stylesheet" type="text/css" />
 
     <script src="js/signup1.js" type="text/javascript"></script>
 
@@ -18,7 +18,7 @@
 
 
     <div class="login-wrapper">	
-	    <div id="logo"><img src="img/logo.png" /></div>
+	    <div id="logo"><img src="../../css-signupProcess/img/logo.png" /></div>
     	    <div class="formwrap">
                     <p>                      
                         <input class="text-input large-txtinput" type="text" name="company" id="company" value="ACME Widgets" />
@@ -42,7 +42,7 @@
 
 
 <div class="login-from-here">
-	<a href="http://www.bigwebapps.com" target="_blank"><img src="img/bwa-logo.png" /></a>
+	<a href="http://www.bigwebapps.com" target="_blank"><img src="../../css-signupProcess/img/bwa-logo.png" /></a>
 </div>
 
 </asp:Content>

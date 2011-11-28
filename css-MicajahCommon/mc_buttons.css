@@ -1,0 +1,131 @@
+﻿/*------------------------------------------------------------ 
+
+Buttons and Links CSS 
+
+-------------------------------------------------------------- */
+
+/* ----  Standard buttons CSS   ----- */
+ 
+.buttonAlt {color: #28597a; padding: 7px; font-size: 1.2em;}
+.buttonAlt:hover {background-color: #28597a; color: white;}
+.buttonAlt:focus {background-color: #28597a; color: white;}
+
+.delete {color: Maroon;}
+.delete:hover {background-color: Maroon;}
+.delete:focus {background-color: Maroon;}
+
+.cancel {color: gray;}
+.cancel:hover {background-color: gray;}
+.cancel:focus {background-color: gray;}
+
+input[type="submit"]
+{
+    font-family: arial, sans-serif; 
+    font-weight: bold; 
+    color:#444444; 
+    padding:0.5em 2.05em; 
+    cursor: hand; 
+    border: 1px solid #acacac;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px 5px 5px 5px;
+    }
+input[type="submit"].small, input[type="submit"].buttons.small, .buttons.small {font-size: .9em;}
+input[type="submit"].large, input[type="submit"].buttons.large, .buttons.large, .buttons .large .negative {font-weight: bold; font-size: 1.3em;}
+input[type="submit"].x-large, input[type="submit"].buttons.x-large, .buttons.x-large, .buttons .x-large .negative {font-family: calibri; font-weight: bold; font-size: 1.5em;}
+input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #1874CD;}
+
+
+/* -- Green Buttons  Here on Down -- */
+
+.buttons, input[type="submit"].buttons 
+{ 
+	background-color: #92C74F;
+    border: 1px solid #79A541;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 1.05em;
+    font-weight: bold;
+    overflow: visible;
+    padding: 0.6em 2.3em;
+    text-decoration: none;
+    width: auto;
+}
+ 
+.buttons::-moz-focus-inner 
+{
+    padding: 0;
+    border: 0;
+}
+   
+ .buttons:hover, input[type="submit"].buttons:hover {   
+    color: #fff;
+    border-color: #39F;
+    background: #39F;
+   }
+
+ .buttons:active, input[type="submit"].buttons:active {
+    border-color: #28597a;
+    background: #28597a;
+   }
+
+/* -- Negative Button -- */
+.negative
+{  
+
+	border: 1px solid #acacac;
+	margin: 0;
+	text-decoration: none;
+	color: #900 !important;
+	white-space: nowrap;
+	cursor: pointer;
+	outline: none;	
+	background: #ffffff;
+   	
+	-webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px 5px 5px 5px;
+    zoom: 1;
+    display: inline;
+}
+
+.negative:hover, 
+.negative:focus, 
+.negative:active
+{
+	border-color: #AB2222 !important;
+	color: #fff !important;
+	text-decoration: none;	
+	background: #D74040;
+	}
+	
+.negative:active{
+	border-color: #a0302a;
+	background-color: #b33630;
+	background: #AD2323;
+	}
+	
+	
+/* --- Add Button ---*/
+
+.buttons span
+{
+    font-size: 1.7em;
+    margin: 0 9px 0 0;
+    vertical-align: middle;
+    padding: 0 0 2px;
+}
+
+/* ----  Non-Button CSS - wrap to seperate buttons   ----- */
+ 
+.wrap 
+{
+    padding: 10px 0;
+    clear: both;
+    } 

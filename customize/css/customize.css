@@ -39,14 +39,13 @@
 {
     background-color: #ffffe8;
     border-top: 1px solid #ffffb8;
-    border-bottom: 1px solid #ffffb8;
-    
+    border-bottom: 1px solid #ffffb8;    
     }    
 
 #get-started li
 {
     padding: 10px 0 10px 45px;
-    margin: 0;
+    margin: 5px 0;
     background-image: url("../../startup/img/startup-box.png");
     background-position: 5px 5px;
     background-repeat: no-repeat;

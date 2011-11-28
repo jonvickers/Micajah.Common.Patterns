@@ -1,0 +1,446 @@
+﻿/*------------------ Login Page  -------------------------------------------------*/
+
+	.form p, .form-top p {
+		margin: 0;
+		}
+		
+	.login-wrapper {
+		width: 960px;
+		margin: 0 auto;
+		padding: 0;
+		font-family: "Arial", Gadget, sans-serif;
+		color: #333333;
+		}
+		.login-wrapper input
+        { 
+	        width: 35%;
+	        }
+	    .login-wrapper label.labelleft
+	    {
+	        padding-top: 12px;
+	        }
+	.form {
+		display: block;
+		margin: 0 auto;		
+		}
+		
+	.form-top {
+		display: block;
+		margin: 0 auto;
+		width: 500px;
+		}
+		
+	.formwrap {
+		max-width: 800px;
+		margin: 10px auto 50px;
+		overflow: hidden;
+		padding: 30px 0 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+
+.login-logo {
+	width: 800px;
+	margin: 50px auto 0;
+	text-align: center;	
+	}
+
+.login-button {
+    margin-left: 270px;
+    width: 370px !important;
+}
+	
+.login-button p{
+	line-height: 55px;
+	vertical-align: middle;		
+	}
+
+p.login-button span
+{
+    float: right;
+    margin-top: 13px;
+    }
+
+
+#new-user-signup
+{
+    margin:0 0 0 290px;
+	width: 300px !important;
+    }
+#new-user-signup a
+{
+    float: right;
+    }
+
+/*------------------ (signup1)  Start Signup Page  -------------------------------*/
+
+
+/*-- Reset Medium width for signup form --*/
+.formwrap p input.text-input {
+    width: 350px !important;
+}
+
+#logo {
+	width: 800px;
+	margin: 50px auto 0;
+	text-align: center;	
+	}
+		
+.shadow {
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08);
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .08); 
+	}
+
+#email-label, #company-label 
+{
+    margin-top: 8px;
+    }
+
+
+.portalwrap {
+	background-color: #e9eff5;
+	padding: 10px 20px 10px 15px;
+	overflow: hidden;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	float: left;
+	width: 340px;
+	}
+	
+.portal-input 
+{
+    width: 150px;
+    }
+
+label.portal {
+	margin-top: 17px;
+	}
+
+.portal-message 
+{
+    margin-left: 290px;
+    }
+
+
+.signup-page-button {
+	margin-left: 270px;
+	margin-top: 40px;
+	}
+	.signup-page-button p{
+		line-height: 55px;
+		vertical-align: middle;
+		}
+
+
+form .labelleft, form .labelleftdesc 
+{
+    width: 255px;
+    }
+
+.login-from-here{
+	margin:0 270px 0 135px;
+	bottom: 0;
+    display: block;
+    height: 75px;
+    left: 0;
+    padding: 0 0 0 1px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+	}
+
+.login-from-here img {
+    vertical-align: middle;
+    padding: 20px 25px 0 0;
+    }
+.login-from-here a img {
+    border: none;
+    }
+
+
+
+
+/*------------------ (signup2)  Organization or Individual Signup Page  ----------*/
+
+#top-toggle-area h1 
+{
+    margin: 0 20px;
+    padding-top: 20px;
+    }
+
+/* --- Header Section --- */
+
+#headtop {
+	color: #fff;
+	width: 100%;
+	max-width: 960px;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	background: #0074a2 url(../../css-signupProcess/img/Mountain_File.png) no-repeat bottom left;	
+	}
+#header {
+	width: 960px;
+	margin: 20px auto;
+	padding: 25px;
+	
+	}
+	#header h3, #header h1 {
+		margin: 0;
+		}
+
+#logo {
+	max-width: 800px;
+	margin: 50px auto;
+	text-align: center;	
+	}
+
+/*-- Form Adjustments --*/
+
+form .medium-input {
+    width: 350px !important;
+}
+form select {
+    width: 370px !important;
+}		
+
+/*-- Section Header --*/
+
+.formsection 
+{
+    width: 100%;
+    max-width: 960px;
+    border: 0;
+    background-color: #EBEBEB;
+    padding: 0;
+    margin: 40px 0 30px;
+    color: #8B8B8B;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    }
+
+.formsection p
+{
+    padding: 10px;
+    }
+
+.container 
+{
+    width: 850px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Arial", Gadget, sans-serif;
+    color: #333333;
+    }
+	
+.complete-signup
+{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin-left: 279px;
+    padding-top: 10px;
+    }
+
+.complete-signup-tac p
+{
+    font-family: Calibri, Arial, Sans-Serif;
+    margin: 40px auto;
+    color: #999999;
+    text-align: center;
+    }
+
+.complete-signup-tac a 
+{
+    text-decoration: none;
+    font-family: Calibri, Arial, Sans-Serif;    
+    font-size: 1em;
+    font-weight: bold;
+    color: #999999;
+    }
+
+.complete-signup-tac a:hover 
+{
+    text-decoration: underline;
+    } 
+    
+.container hr 
+{
+    margin: 30px 0 50px;
+    }
+
+
+
+
+/*-----------------------------  Startup Page  -----------------------------------*/
+
+#startup-wrapper 
+{
+    width: 575px;
+    float: left;
+    }
+
+#startup-wrapper a
+{
+    text-decoration: none;
+    margin: 0;
+    } 
+    
+#startup-wrapper h1 
+{
+    font-size: 18px;
+    margin-bottom: 5px;
+    }
+    
+#startup-wrapper p, #startup-wrapper h2
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    }
+
+#startup-wrapper p, #startup-wrapper h2, #startup-wrapper h1
+{
+    font-weight: normal;
+    }
+
+#startup-wrapper p 
+{
+    font-size: 12px;
+    margin-top: 4px;
+    color: #999999;
+    }
+
+#startup-wrapper li:hover 
+{
+    background-color: #ffffe8;
+    border-top: 1px solid #ffffb8;
+    border-bottom: 1px solid #ffffb8;
+    
+    }    
+
+#get-started li
+{
+    padding: 10px 0 10px 45px;
+    margin: 0;
+    background-image: url("../../css-signupProcess/img/startup-box.png");
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    }
+
+#startup-wrapper #get-started li.startup-afterclick
+{
+    padding-left: 45px;
+    background-image: url("../../css-signupProcess/img/finish-check.png");
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    }
+
+#brand-system li
+{
+    padding: 10px 0 10px 45px;
+    margin: 0;
+    background-image: url("../../css-signupProcess/img/startup-arrow.png");
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    }
+
+#startup-wrapper li h2
+{
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    }
+
+#startup-wrapper li span
+{
+    padding: 1px 8px 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px 4px 4px 4px;     
+    margin-left: 10px;
+    }
+
+#startup-wrapper li span a 
+{
+    color: #49708a;
+    font-size: 9px;
+    }
+    
+#startup-wrapper li span a:hover
+{
+    color: #fff;
+    } 
+
+.learn-more 
+{
+    background-color: #d0e0eb;
+    z-index: 99999;
+    }
+
+.learn-more:hover 
+{
+    background-color: #88abc2;
+    color: #fff !important;
+    }
+
+.video
+{
+    background-color: #d0e0eb;
+    z-index: 99999;
+    }
+
+.video:hover 
+{
+    background-color: #88abc2;
+    color: #fff;
+    }
+
+#hide-page 
+{
+    float: left;
+    }
+    
+#hide-page a
+{
+    text-decoration: none;
+     font-size: 12px;
+    }
+    
+
+
+/*-----------------------------  Success Page  -----------------------------------*/
+
+
+#signup-success h1
+{
+
+    margin: 0;
+    font-size: 2.5em;
+    color: #174071;
+    margin: 30px 0;
+    }
+
+#signup-success 
+{
+    width: 650px;
+    margin: 50px auto 0;
+    text-align: center;
+    padding: 40px 40px 60px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px 10px 10px 10px; 
+    border: 2px solid #88abc2;
+    background-color: #fff;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);  
+    }

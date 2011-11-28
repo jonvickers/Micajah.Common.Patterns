@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SherpaDesk.master.cs" Inherits="MCPatterns.SherpaDesk.SherpaDesk" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <title>SherpaDesk UI</title>
+
+    <!-- MC Global -->
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_reset.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_global.css"/>
+
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_notifications.css"/>
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_grids.css"/>
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_forms.css"/>
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_buttons.css"/>
+    <!-- MC Global -->
+        
+    <!-- Put Sherpa Desk Theme css HERE -->
+    <link rel="stylesheet" type="text/css" href="~/SherpaDesk/css/960.css"/>    
+    
+    <!-- Put Sherpa Desk APP css HERE -->
+    <link rel="stylesheet" type="text/css" href="SherpaDesk.css"  />
+     
+	<!-- Existing Helpdesk CSS - Temporary -->
+    <link rel="stylesheet" type="text/css" href="helpdesk_existing.css"  />
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+    <script src="js/notifications.js" type="text/javascript"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- Start of the header section -->
+
+    <!-- Wrap the whole enchilada -->
+        <div class="wrapper">
+
+        <!-- Control the head -->
+        <div id="head-wrap">
+
+	        <div class="container_12">
+    	        <div class="grid_3">
+        	        <div id="logo"><img src="../../SherpaDesk/images/sd-logo.png" alt="SherpaDesk" /></div>
+                </div>
+                <div class="grid_9">
+               
+                    <div id="topnav">
+                        <a href="#">
+                	        <img class="gravatar" src="../../SherpaDesk/images/gravatar.jpg" width="32" height="32" />
+                        </a>
+                        Welcome <a href="#">Jon Doe</a> <span>|</span> <a href="#">Settings</a> <span>|</span> <a href="#">Logout</a>
+                        <br>
+                        <small>
+                            You have <a class="high" href="#"> <b>12</b> new tickets!</a>
+                        </small>
+                    </div>            
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div id="top-main-nav" class="container_12">
+                <div class="grid_12">
+                    <div id="main-nav">            	
+                        <ul>
+                            <li class="current" id="home"><a href="#">Home</a></li>
+                            <li id="accounts"><a href="#">Accounts</a></li>
+                            <li id="projects"><a href="#">Projects</a></li>
+                            <li id="time"><a href="#">Time</a></li>
+                            <li id="assets"><a href="#">Assets</a></li>
+                            <li id="knowledgebase"><a href="#">Knowledgebase</a></li>
+                            <li id="reports"><a href="#">Reports</a></li>
+                            <li id="folders"><a href="#">Folders</a></li>
+                            <li id="parts"><a href="#">Parts</a></li>
+                        </ul>          
+                    </div>           
+                </div>
+            </div>
+    
+
+        </div>
+                
+        <div class="container_12" id="main-content">
+
+        <!-- Top Sub Nav -->
+	        <div id="top-main-sub-container">
+                <div id="top-main-subnav">
+                    <ul>
+                        <li class="current"><a href="#">sub item</a></li>
+                        <li><a href="#">sub item</a></li>
+                        <li><a href="#">sub item</a></li>
+                        <li><a href="#">sub item</a></li>
+                        <li><a href="#">sub item</a></li>
+                        <li><a href="#">sub item</a></li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="grid_12" id="main-stage"> 
+        
+                <div id="notice-area">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </div><!--end notice area -->
+
+                    <!-- Main Data Area -->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+
+            </div><!--end Main Stage -->
+        </div><!-- End Main Content -->           
+    
+            <!-- Start Footer --> 
+            <div id="footer">
+	            <div class="container_12">
+    	            <div id="clientinfo" class="grid_4">
+        	            <div id="client">Client Name</div>
+                        <div id="instance">Instance Name</div>
+                        <div id="permissions">Admin or Tech</div>
+                    </div>
+                    <div class="grid_4">
+        
+                    </div>
+                    <div class="grid_4">
+        	            <div class="">
+            	
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End Footer -->  
+
+        </div><!-- End Wrapper -->    
+    </form>
+</body>
+</html>

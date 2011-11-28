@@ -152,7 +152,7 @@
         <tr>
             <td>
                 <div class="training">
-                    <p><strong>1 Hour of Training</strong> $175</p>
+                    <p><strong>1 Hour</strong> <span>$175</span></p>
                 </div>
                 <div class="purchase">
                     <a href="#" class="buttons">Purchase</a>
@@ -162,7 +162,7 @@
         <tr>
             <td>
                 <div class="training">
-                    <p><strong>3 Hours of Training</strong> $475</p>
+                    <p><strong>3 Hours</strong> <span>$475</span></p>
                 </div>
                 <div class="purchase">
                     <a href="#" class="buttons">Purchase</a>
@@ -172,7 +172,7 @@
         <tr>
             <td>
                 <div class="training">
-                    <p><strong>5 Hours of Training</strong> $675</p>
+                    <p><strong>5 Hours</strong> <span>$675</span></p>
                 </div>
                 <div class="purchase">
                     <a href="#" class="buttons">Purchase</a>

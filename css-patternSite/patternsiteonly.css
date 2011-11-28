@@ -1,0 +1,249 @@
+﻿        
+/*------------------------------------------------------------ 
+
+Main Layout CSS 
+
+-------------------------------------------------------------- */
+
+
+html, body, form 
+{
+    height: 100%;
+    margin-bottom: 1px; /* Always show a scrollbar to avoid jumping when the scrollbar appears  */
+    font-family: arial, helvetica, sans-serif;
+    color: #555;
+    background:#ffffff url("../../css-MicajahCommon/img/bg-body.png") repeat-y scroll left top;    
+    font-size: 14px;
+    }
+
+
+h1, h2, h3, h4, h5, xx-large, x-large, large, p
+{
+    font-weight: normal;
+    }
+
+
+/*-- Top Notification Area --*/
+
+#body-wrapper 
+{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    }
+
+
+#head-notice 
+{
+    top: 0;
+    margin-bottom: 0;
+    }    
+ 
+/*-- Left Menu --*/
+
+#sidebar #main-nav ul li a 
+{
+    _padding: 10px 15px; /* IE6 Hack */
+    _display: block; /* IE6 Hack */
+    _margin-bottom: -11px !important; /* IE6 Hack */
+    }
+
+#sidebar #main-nav 
+{
+    width: 206px;
+    padding: 0;
+    margin: 0 0 0 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+
+#sidebar #main-nav li 
+{
+    list-style: none;
+    padding-bottom: 10px;
+    text-align: right;
+    }
+                
+#sidebar #main-nav li a 
+{
+    background: transparent; 
+    padding: 6px 15px;
+    color: #8AB0C6;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    }
+
+#sidebar #main-nav li a:hover 
+{
+    color: #fff;
+	background-color: #567c91;
+    }
+
+#sidebar #main-nav ul 
+{
+    padding: 0;
+    font-size: 12px;
+    margin: 0;
+    }
+
+#home #sidebar #main-nav li.home a, /*--Home Page > Home Link--*/
+#error-page #sidebar #main-nav li.error-page a,
+#misc-error #sidebar #main-nav li ul li.misc-error a,
+#forms #sidebar #main-nav li.forms a,
+#button #sidebar #main-nav li.button a,
+#grids #sidebar #main-nav li.grids a,
+#notifications #sidebar #main-nav li.notifications a,
+#accounts #sidebar #main-nav li.accounts a,
+#profile #sidebar #main-nav li.profile a,
+#sdlogin #sidebar #main-nav li.sdlogin a,
+#signup1 #sidebar #main-nav li.signup1 a,
+#signup2 #sidebar #main-nav li.signup2 a,
+#signup2a #sidebar #main-nav li.signup2a a,
+#customize #sidebar #main-nav li.customize a,
+#startup1 #sidebar #main-nav li.startup1 a 
+{
+	background-color: #567c91;
+	color: #ffffff;
+}
+
+                
+p {
+	clear: both;
+	}
+
+#sidebar 
+{
+    padding-top: 20px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    }
+
+/*-- main content --*/
+
+#main-content 
+{
+    margin: 15px 30px -100px 260px;
+    padding: 0 0 40px 0;
+    }
+
+#top-heading 
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
+
+#sub-heading 
+{
+    padding: 0 0 30px;
+    margin: 0;
+    }
+
+/* -- Fonts testing -- */
+
+#arial, #calibri, #tahoma, #verdana 
+{
+    float: left;
+    width: 18%;
+    margin: 20px 50px 20px 0;    
+    }
+
+ #arial 
+ {
+     font-family: Arial, Sans-Serif; 
+     } 
+ 
+ #calibri 
+ {
+     font-family: Calibri; 
+     } 
+ #tahoma 
+ {
+     font-family: tahoma; 
+     } 
+ #verdana 
+ {
+     font-family: verdana; 
+     }  
+
+
+
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+
+body {
+  min-width: 960px;
+}
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.container_12:before,
+.container_12:after,
+.container_16:before,
+.container_16:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.container_12:after,
+.container_16:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.container_12,
+.container_16 {
+  zoom: 1;
+}
+
+/*-----------    Top Toggle Area  -------------*/
+
+#temp-top
+{
+    margin-left: 221px;
+    overflow: hidden;
+    }
+#top-toggle-area 
+{
+    border-bottom: 2px solid #dcdcdc;
+    background-color: #f3f3f3;
+    top: 0;
+    width: 100%;    
+    }
+
+

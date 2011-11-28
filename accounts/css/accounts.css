@@ -467,6 +467,11 @@ table#payhistory tr.payfail td.receipt a
     font-size: 1.2em;
     margin-right: 20px;
     }
+
+.training p span 
+{
+    font-size: 1.4em;
+    }
     
 #training-consulting td p
 {

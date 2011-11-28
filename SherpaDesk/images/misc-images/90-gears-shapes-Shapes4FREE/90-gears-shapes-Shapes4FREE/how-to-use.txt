@@ -1,0 +1,37 @@
+/**************************************\
+Shapes4FREE
+http://www.shapes4free.com/ - visit us to get free photoshop shapes, read our easy-to-understand shapes tutorials and tips, and view beautiful examples of using shapes in all kinds of design
+\**************************************/
+
+How to Load Phooshop Shapes into Photoshop:
+
+Read our easy-to-understand tutorial with pictures at:
+http://www.shapes4free.com/photoshop-shapes-tutorials/how-to-install-photoshop-shapes/
+
+... or read the following guidelines:
+
+Way #1 – Load Shapes through Preset Manager
+
+Step 1. Open Photoshop. From the main menu, choose Edit/Preset Manager.
+
+Step 2. In the opened Preset Manager dialog select Custom Shapes from Preset Type drop down menu.
+
+After choosing Custom Shapes you will see shapes already loaded into your Photoshop. If you have never loaded any shapes, you will see the default ones Photoshop has provided for you.
+
+Step 3. Now, to load your shapes set into Photoshop, just press the button Load on the right of the Preset Manager dialog and select the .CSH file (Photoshop Custom Shapes) you would like to load.
+
+Step 4. Hurrah! You should be able to see the shapes you have selected to load. Just press Done button to finish.
+
+Now you have successfully loaded your shapes set into Photoshop and can start using them.
+
+Way #2 – Load Shapes through Custom Shape Tool
+
+Step 1. Select the Custom Shape Tool (U key) from the Toolbar. You might not see it straight away on the Toolbar as other shape tools may have been selected earlier (Rectangle Tool, Ellipse Tool, or others). Just make the Custom Shape Tool selected.
+
+Step 2. From the Options Bar click the Preset Picker triangle icon (encircled red), then click the little triangle on the right of Preset Picker Panel (encircled violet), and then select the Load Shapes… option from the drop down list.
+
+Step 3. From the Load Shapes dialog box select the photoshop custom shapes file (.CSH) on your hard drive. You are done now and can start using shapes.
+
+
+
+

@@ -129,12 +129,20 @@
     <Content Include="accounts\testing\jquery\iphone-style-checkboxes.js" />
     <Content Include="accounts\testing\on-off.html" />
     <Content Include="accounts\testing\style.css" />
-    <Content Include="css\mc_buttons.css" />
+    <Content Include="css-MicajahCommon\mc_buttons.css" />
     <Content Include="buttons\default.aspx" />
-    <Content Include="css\img\bg-body.png" />
-    <Content Include="css\img\button-add.gif" />
-    <Content Include="css\patternsiteonly_reset.css" />
-    <Content Include="css\patternsiteonly_text.css" />
+    <Content Include="css-MicajahCommon\img\bg-body.png" />
+    <Content Include="css-MicajahCommon\img\button-add.gif" />
+    <Content Include="css-MicajahCommon\mc_global.css" />
+    <Content Include="css-patternSite\patternsiteonly_reset.css" />
+    <Content Include="css-patternSite\patternsiteonly_text.css" />
+    <Content Include="css-signupProcess\img\bwa-logo.png" />
+    <Content Include="css-signupProcess\img\finish-check.png" />
+    <Content Include="css-signupProcess\img\logo.png" />
+    <Content Include="css-signupProcess\img\Mountain_File.png" />
+    <Content Include="css-signupProcess\img\startup-arrow.png" />
+    <Content Include="css-signupProcess\img\startup-box.png" />
+    <Content Include="css-signupProcess\SignupProcess.css" />
     <Content Include="customize\css\customize.css" />
     <Content Include="customize\default.aspx" />
     <Content Include="customize\img\finish-check.png" />
@@ -147,11 +155,11 @@
     <Content Include="error\img\error-background.png" />
     <Content Include="error\misc-error.aspx" />
     <Content Include="error\oops.aspx" />
-    <Content Include="css\mc_forms.css" />
+    <Content Include="css-MicajahCommon\mc_forms.css" />
     <Content Include="forms\default.aspx" />
-    <Content Include="css\mc_grids.css" />
+    <Content Include="css-MicajahCommon\mc_grids.css" />
     <Content Include="grids\default.aspx" />
-    <Content Include="css\patternsiteonly.css" />
+    <Content Include="css-patternSite\patternsiteonly.css" />
     <Content Include="grids\img\datatable\back_disabled.png" />
     <Content Include="grids\img\datatable\back_enabled.png" />
     <Content Include="grids\img\datatable\forward_disabled.png" />
@@ -168,18 +176,52 @@
     <Content Include="grids\js\grid.js" />
     <Content Include="grids\js\jquery.dataTables.min.js" />
     <Content Include="grids\js\jquery.tablednd_0_5.js" />
-    <Content Include="helpdesk\accounts\accounts.aspx" />
-    <Content Include="helpdesk\accounts\account-lists-style.css" />
-    <Content Include="helpdesk\comments\comments.aspx" />
-    <Content Include="helpdesk\configuration\configuration.aspx" />
-    <Content Include="helpdesk\knowledgebase\knowledgebase.aspx" />
-    <Content Include="helpdesk\location\location.aspx" />
-    <Content Include="helpdesk\parts\parts.aspx" />
-    <Content Include="helpdesk\projects\projects.aspx" />
-    <Content Include="helpdesk\support\support.aspx" />
-    <Content Include="helpdesk\tickets\tickets.aspx" />
+    <Content Include="SherpaDesk\accounts\grid-accounts.aspx" />
+    <Content Include="SherpaDesk\css\960.css" />
+    <Content Include="css-MicajahCommon\mc_reset.css" />
+    <Content Include="SherpaDesk\SherpaDesk.css" />
+    <Content Include="SherpaDesk\HelpDesk_Existing.css" />
+    <Content Include="SherpaDesk\css\text.css" />
+    <Content Include="SherpaDesk\images\arrow.gif" />
+    <Content Include="SherpaDesk\images\drop.png" />
+    <Content Include="SherpaDesk\images\envelopeWhite_11px.jpg" />
+    <Content Include="SherpaDesk\images\gravatar.jpg" />
+    <Content Include="SherpaDesk\images\misc-images\90-gears-shapes-Shapes4FREE\90-gears-shapes-Shapes4FREE\how-to-use.txt" />
+    <Content Include="SherpaDesk\images\misc-images\90-gears-shapes-Shapes4FREE\90-gears-shapes-Shapes4FREE\license.txt" />
+    <Content Include="SherpaDesk\images\misc-images\90-gears-shapes-Shapes4FREE\90-gears-shapes-Shapes4FREE\preview-gears-shapes-Shapes4FREE.png" />
+    <Content Include="SherpaDesk\images\misc-images\map-markers-flags-pins-psd\preview.jpg" />
+    <Content Include="SherpaDesk\images\misc-images\map-markers-flags-pins-psd\READ-ME.txt" />
+    <Content Include="SherpaDesk\images\next-icon.png" />
+    <Content Include="SherpaDesk\images\notifications\bullet_black.png" />
+    <Content Include="SherpaDesk\images\notifications\cross.png" />
+    <Content Include="SherpaDesk\images\notifications\cross_circle.png" />
+    <Content Include="SherpaDesk\images\notifications\cross_grey_small.png" />
+    <Content Include="SherpaDesk\images\notifications\cross_small.png" />
+    <Content Include="SherpaDesk\images\notifications\exclamation.png" />
+    <Content Include="SherpaDesk\images\notifications\information.png" />
+    <Content Include="SherpaDesk\images\notifications\mc3_error.png" />
+    <Content Include="SherpaDesk\images\notifications\mc3_info.png" />
+    <Content Include="SherpaDesk\images\notifications\mc3_sucess.png" />
+    <Content Include="SherpaDesk\images\notifications\mc3_warning.png" />
+    <Content Include="SherpaDesk\images\notifications\tick.png" />
+    <Content Include="SherpaDesk\images\notifications\tick_circle.png" />
+    <Content Include="SherpaDesk\images\paperclip.png" />
+    <Content Include="SherpaDesk\images\SCREENSHOTS\11-14-2011 12-16-06 PM.png" />
+    <Content Include="SherpaDesk\images\SCREENSHOTS\11-14-2011 12-45-34 PM.png" />
+    <Content Include="SherpaDesk\images\SCREENSHOTS\ticket-mockup1.png" />
+    <Content Include="SherpaDesk\images\SCREENSHOTS\ticket-mockup2.png" />
+    <Content Include="SherpaDesk\images\SCREENSHOTS\ticket-mockup3.png" />
+    <Content Include="SherpaDesk\images\SCREENSHOTS\ticket-view-mockup.png" />
+    <Content Include="SherpaDesk\images\sd-logo.png" />
+    <Content Include="SherpaDesk\images\search-button.png" />
+    <Content Include="SherpaDesk\images\search-field-med.png" />
+    <Content Include="SherpaDesk\images\search-field.png" />
+    <Content Include="SherpaDesk\images\ticket-icons.png" />
+    <Content Include="SherpaDesk\images\ticket-mockup1.png" />
+    <Content Include="SherpaDesk\images\ticket-mockup2.png" />
+    <Content Include="SherpaDesk\js\notifications.js" />
     <Content Include="jquery-1.4.2.min.js" />
-    <Content Include="css\mc_notifications.css" />
+    <Content Include="css-MicajahCommon\mc_notifications.css" />
     <Content Include="notifications\default.aspx" />
     <Content Include="notifications\img\bullet_black.png" />
     <Content Include="notifications\img\cross.png" />
@@ -201,6 +243,11 @@
     <Content Include="sdlogin\default.aspx" />
     <Content Include="sdlogin\img\bwa-logo.png" />
     <Content Include="sdlogin\img\logo.png" />
+    <Content Include="SherpaDesk\projects\grid-projects.aspx" />
+    <Content Include="SherpaDesk\SherpaDeskApp.css" />
+    <Content Include="SherpaDesk\SherpaDeskTheme.css" />
+    <Content Include="SherpaDesk\startup-dashboard\dashboard.aspx" />
+    <Content Include="SherpaDesk\tickets\tickets.aspx" />
     <Content Include="signup1\css\signup1.css" />
     <Content Include="signup1\default.aspx" />
     <Content Include="signup1\img\bwa-logo.png" />
@@ -301,68 +348,26 @@
     <Compile Include="grids\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="helpdesk\accounts\accounts.aspx.cs">
-      <DependentUpon>accounts.aspx</DependentUpon>
+    <Compile Include="SherpaDesk\accounts\grid-accounts.aspx.cs">
+      <DependentUpon>grid-accounts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="helpdesk\accounts\accounts.aspx.designer.cs">
-      <DependentUpon>accounts.aspx</DependentUpon>
+    <Compile Include="SherpaDesk\accounts\grid-accounts.aspx.designer.cs">
+      <DependentUpon>grid-accounts.aspx</DependentUpon>
     </Compile>
-    <Compile Include="helpdesk\comments\comments.aspx.cs">
-      <DependentUpon>comments.aspx</DependentUpon>
+    <Compile Include="SherpaDesk\projects\grid-projects.aspx.cs">
+      <DependentUpon>grid-projects.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="helpdesk\comments\comments.aspx.designer.cs">
-      <DependentUpon>comments.aspx</DependentUpon>
+    <Compile Include="SherpaDesk\projects\grid-projects.aspx.designer.cs">
+      <DependentUpon>grid-projects.aspx</DependentUpon>
     </Compile>
-    <Compile Include="helpdesk\configuration\configuration.aspx.cs">
-      <DependentUpon>configuration.aspx</DependentUpon>
+    <Compile Include="SherpaDesk\SherpaDesk.Master.cs">
+      <DependentUpon>SherpaDesk.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="helpdesk\configuration\configuration.aspx.designer.cs">
-      <DependentUpon>configuration.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="helpdesk\knowledgebase\knowledgebase.aspx.cs">
-      <DependentUpon>knowledgebase.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="helpdesk\knowledgebase\knowledgebase.aspx.designer.cs">
-      <DependentUpon>knowledgebase.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="helpdesk\location\location.aspx.cs">
-      <DependentUpon>location.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="helpdesk\location\location.aspx.designer.cs">
-      <DependentUpon>location.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="helpdesk\parts\parts.aspx.cs">
-      <DependentUpon>parts.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="helpdesk\parts\parts.aspx.designer.cs">
-      <DependentUpon>parts.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="helpdesk\projects\projects.aspx.cs">
-      <DependentUpon>projects.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="helpdesk\projects\projects.aspx.designer.cs">
-      <DependentUpon>projects.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="helpdesk\support\support.aspx.cs">
-      <DependentUpon>support.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="helpdesk\support\support.aspx.designer.cs">
-      <DependentUpon>support.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="helpdesk\tickets\tickets.aspx.cs">
-      <DependentUpon>tickets.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="helpdesk\tickets\tickets.aspx.designer.cs">
-      <DependentUpon>tickets.aspx</DependentUpon>
+    <Compile Include="SherpaDesk\SherpaDesk.Master.designer.cs">
+      <DependentUpon>SherpaDesk.Master</DependentUpon>
     </Compile>
     <Compile Include="notifications\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -385,6 +390,20 @@
     </Compile>
     <Compile Include="sdlogin\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDesk\startup-dashboard\dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDesk\startup-dashboard\dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDesk\tickets\tickets.aspx.cs">
+      <DependentUpon>tickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDesk\tickets\tickets.aspx.designer.cs">
+      <DependentUpon>tickets.aspx</DependentUpon>
     </Compile>
     <Compile Include="signup1\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -423,6 +442,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="customize\img\finish-check.psd" />
+    <Content Include="SherpaDesk\SherpaDesk.Master" />
+    <Content Include="SherpaDesk\images\misc-images\90-gears-shapes-Shapes4FREE.zip" />
+    <None Include="SherpaDesk\images\misc-images\90-gears-shapes-Shapes4FREE\90-gears-shapes-Shapes4FREE\gears-Shapes4FREE.csh" />
+    <Content Include="SherpaDesk\images\misc-images\map-markers-flags-pins-psd.zip" />
+    <None Include="SherpaDesk\images\misc-images\map-markers-flags-pins-psd\map-markers-flags-pins.psd" />
+    <None Include="SherpaDesk\images\SCREENSHOTS\ticke-view-mockup.psd" />
+    <None Include="SherpaDesk\images\ticket-mockup.psd" />
     <None Include="success\harabara-font\harabara-webfont.eot" />
     <None Include="success\harabara-font\harabara-webfont.ttf" />
     <None Include="success\harabara-font\harabara-webfont.woff" />

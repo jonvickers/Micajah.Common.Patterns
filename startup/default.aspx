@@ -2,8 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <link href="../../accounts/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
-    <link href="css/startup1.css" rel="stylesheet" type="text/css" />
-
+    
+    <link href="../../css-signupProcess/SignupProcess.css" rel="stylesheet" type="text/css" />
     
     <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
 
