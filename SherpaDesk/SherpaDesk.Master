@@ -28,8 +28,8 @@
     <link rel="stylesheet" type="text/css" href="helpdesk_existing.css"  />
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
-    <script src="js/custom.js" type="text/javascript"></script>
-
+    <script src="../../SherpaDesk/js/custom.js" type="text/javascript"></script>
+    <script src="../../SherpaDesk/js/jquery.ThreeDots.min.js" type="text/javascript"></script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -38,21 +38,21 @@
     <form id="form1" runat="server">
     <!-- Start of the header section -->
 
-    <!-- Wrap the whole enchilada -->
+    <!-- Wrap the whole site so min-width is 1024px -->
         <div class="wrapper">
 
-        <!-- Control the head -->
-        <div id="head-wrap">
-
-	        <div class="container_12">
+        <!-- Header Section -->
+        <header>
+        <div id="head-wrap"><!-- Wrap header for background full width -->
+	        <div class="container_12"><!-- Container to center and add side padding -->
     	        <div class="grid_3">
         	        <div id="logo"><img src="../../SherpaDesk/images/sd-logo.png" alt="SherpaDesk" /></div>
                 </div>
                 <div class="grid_9">
                
-                    <div id="topnav">
+                    <div id="globalnav">
                         <a href="#">
-                	        <img class="gravatar" src="../../SherpaDesk/images/gravatar.jpg" width="32" height="32" />
+                	        <img class="gravatar" src="../../SherpaDesk/images/gravatar.jpg" width="32" height="32" alt="gravatar"/>
                         </a>
                         Welcome <a href="#">Jon Doe</a> <span>|</span> <a href="#">Settings</a> <span>|</span> <a href="#">Logout</a>
                         <br>
@@ -63,61 +63,61 @@
                 </div>
             </div>
             <div class="clearfix"></div>
-            <div id="top-main-nav" class="container_12">
-                <div class="grid_12">
-                    <div id="main-nav">            	
-                        <ul>
-                            <li class="current" id="home"><a href="#">Home</a></li>
-                            <li id="accounts"><a href="#">Accounts</a></li>
-                            <li id="projects"><a href="#">Projects</a></li>
-                            <li id="time"><a href="#">Time</a></li>
-                            <li id="assets"><a href="#">Assets</a></li>
-                            <li id="knowledgebase"><a href="#">Knowledgebase</a></li>
-                            <li id="reports"><a href="#">Reports</a></li>
-                            <li id="folders"><a href="#">Folders</a></li>
-                            <li id="parts"><a href="#">Parts</a></li>
-                        </ul>          
-                    </div>           
+            <nav>
+                <div id="top-nav" class="container_12">
+                    <div class="grid_12">
+                        <div id="main-nav">            	
+                            <ul>
+                                <li class="current" id="home"><a href="#">Home</a></li>
+                                <li id="accounts"><a href="#">Accounts</a></li>
+                                <li id="projects"><a href="#">Projects</a></li>
+                                <li id="time"><a href="#">Time</a></li>
+                                <li id="assets"><a href="#">Assets</a></li>
+                                <li id="knowledgebase"><a href="#">Knowledgebase</a></li>
+                                <li id="reports"><a href="#">Reports</a></li>
+                                <li id="folders"><a href="#">Folders</a></li>
+                                <li id="parts"><a href="#">Parts</a></li>
+                            </ul>          
+                        </div>           
+                    </div>
                 </div>
-            </div>
-    
-
+            </nav>
         </div>
+        </header>
                 
         <div class="container_12" id="main-content">
 
         <!-- Top Sub Nav -->
-	        <div id="top-main-sub-container">
-                <div id="top-main-subnav">
-                    <ul>
-                        <li class="current"><a href="#">sub item</a></li>
-                        <li><a href="#">sub item</a></li>
-                        <li><a href="#">sub item</a></li>
-                        <li><a href="#">sub item</a></li>
-                        <li><a href="#">sub item</a></li>
-                        <li><a href="#">sub item</a></li>
-                    </ul>
+	        <nav>
+                <div id="top-subnav-container"><!-- Container for sub-nav background -->
+                    <div id="top-subnav">
+                        <ul>
+                            <li class="current"><a href="#">sub item</a></li>
+                            <li><a href="#">sub item</a></li>
+                            <li><a href="#">sub item</a></li>
+                            <li><a href="#">sub item</a></li>
+                            <li><a href="#">sub item</a></li>
+                            <li><a href="#">sub item</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-                
-            <div class="grid_12" id="main-stage"> 
-        
-                <div id="notice-area">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-                    </asp:ContentPlaceHolder>
-                </div><!--end notice area -->
+            </nav>
+            <section>  
+                <div class="grid_12" id="main-stage">         
+                    <div id="notice-area">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">        
+                        </asp:ContentPlaceHolder>
+                    </div><!--end notice area -->
 
                     <!-- Main Data Area -->
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-        
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">        
                     </asp:ContentPlaceHolder>
-
-            </div><!--end Main Stage -->
+                </div><!--end Main Stage -->
+            </section> 
         </div><!-- End Main Content -->           
-    
+         
             <!-- Start Footer --> 
-            <div id="footer">
+            <footer>
 	            <div class="container_12">
     	            <div id="clientinfo" class="grid_4">
         	            <div id="client">Client Name</div>
@@ -133,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- End Footer -->  
+            </footer><!-- End Footer -->  
 
         </div><!-- End Wrapper -->    
     </form>

@@ -2,6 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+            <div class="notification success">
+				<a href="#" class="close"><img src="../../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+				<div>
+					<strong>Success notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.
+				</div>
+			</div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
@@ -82,7 +88,7 @@
                             </div> 
                             <div class="ticket-info">
                                 <div class="title">
-                                	Ticket Title - Something Else went wrong Lorem ipsum dolor sit ...
+                                	<span class="ellipsis_text">Ticket Title - Something Else went wrong Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit</span>
                                 </div>                                
                                 <div class="clearfix"></div>
                                 <div class="summary">
@@ -164,8 +170,8 @@
                         </div>
                         <div class="bottom">
                         	<div class="detail read active"></div>
-                            <div class="detail flag active"></div>
-                            <div class="detail attach active"></div>
+                            <div class="detail flag"></div>
+                            <div class="detail attach"></div>
                         	<div class="detail accounts">
                             	<div class="label">account</div>
                                 <div class="data">Some Huge Client</div>
@@ -235,7 +241,7 @@
                         </div>
                         <div class="bottom">
                         	<div class="detail read active"></div>
-                            <div class="detail flag active"></div>
+                            <div class="detail flag"></div>
                             <div class="detail attach active"></div>
                         	<div class="detail accounts">
                             	<div class="label">account</div>

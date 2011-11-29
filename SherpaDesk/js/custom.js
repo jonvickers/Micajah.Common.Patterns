@@ -19,6 +19,12 @@
 	$("table tr.closed td:nth-child(2)").wrapInner("<span class=\"pill ltgray\"></span>");
 	$('td:first-child').addClass('col-checkbox');
 
+	//Ellipsis 
+
+	$(window).bind("resize", resizeWindow);
+	function resizeWindow(e) {
+	    $('.title').ThreeDots({ max_rows: 1 });
+	}
 });
 
 

@@ -260,11 +260,12 @@ body {
 	font-weight: normal; 
 	}	
 	
-#head-wrap #topnav a:hover {
+/*-- Start Global Nav - Top Right  --*/
+#head-wrap #globalnav a:hover {
 	text-decoration: underline;
 	}
 	
-#head-wrap #topnav {
+#head-wrap #globalnav {
     color: #999999;
     font-size: 12px;
     padding: 6px 0 6px 10px;
@@ -274,22 +275,24 @@ body {
     top: 5px;
 }
 
-#head-wrap #topnav-support {}
+#head-wrap #globalnav-support {}
 
-#head-wrap #topnav img.gravatar {
+#head-wrap #globalnav img.gravatar {
     background: none repeat scroll 0 0 #ebebeb;
     float: right;
     margin: 0 0 0 8px;
     padding: 4px;
 }
 
-#head-wrap #topnav small {
+#head-wrap #globalnav small {
     color: #666666;
     font-size: 11px;
     text-align: right;
 }
+/*-- End Global Nav - Top Right  --*/
 
-#head-wrap #top-main-nav {
+/*-- Start Top Navigation  --*/
+#head-wrap #top-nav {
 	background-color: #004174;
 	color: #fff;
 	height: 20px;
@@ -302,15 +305,15 @@ body {
 	border-radius: 5px 5px 0px 0px; 
 	}
 	
-#head-wrap #top-main-nav ul li {
+#head-wrap #top-nav ul li {
 	margin: 0;
 	display: inline-block;
 	padding: 3px 10px 10px;
 	font-weight: normal; 
 	}
 	
-	#head-wrap #top-main-nav ul li:hover, 
-	#head-wrap #top-main-nav ul li.current {
+	#head-wrap #top-nav ul li:hover, 
+	#head-wrap #top-nav ul li.current {
 		background-color: #DBE3FF;
 		-moz-border-radius-topleft: 5px;
 		-moz-border-radius-topright: 5px;
@@ -320,59 +323,19 @@ body {
 		border-radius: 5px 5px 0px 0px;  
 		}
 		
-		#head-wrap #top-main-nav ul li:hover a, 
-		#head-wrap #top-main-nav ul li.current a {
+		#head-wrap #top-nav ul li:hover a, 
+		#head-wrap #top-nav ul li.current a {
 			color: #585B66;
 			}
 	
-#head-wrap #top-main-nav a {
+#head-wrap #top-nav a {
 	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
-	}
-	
-#head-wrap #top-main-nav #top-search {
-	float: right;
-	width:201px; /*follow your image's size*/
-	height:26px;/*follow your image's size*/
-	background-image:url(../../SherpaDesk/images/search-field.png);
-	background-repeat:no-repeat; /*important*/
-	padding:0px;
-	margin:0px;
-	position:relative; /*important*/
-	top: -53px;
-	}
-	
-	#head-wrap #top-main-nav #top-search:hover {
-		background-position: 0 -26px;
-		}
- 
-#head-wrap #top-main-nav #top-search form { display:inline ; }
- 
-#head-wrap #top-main-nav #top-search .searchbox {
-	border:0px; /*important*/
-	background-color:transparent; /*important*/
-	position:absolute; /*important*/
-	top:1px;
-	left:10px;
-	width:160px;
-	height:21px;
-	padding: 0;
-	border-radius: 0;
-	font: 12px/100% Arial;
-	}
+	}	
 
-#head-wrap #top-main-nav #top-search .searchbox_submit {
-	border:0px; /*important*/
-	background-color:transparent; /*important*/
-	position:absolute; /*important*/
-	top:1px;
-	left:170px;
-	width:31px;
-	height:21px;
-	}
-
-#top-main-sub-container {
+/*-- Start Top Sub-Navigation  --*/
+#top-subnav-container {
 	width: 100%;
 	min-height: 10px;
 	background-color: #DBE3FF;
@@ -380,29 +343,31 @@ body {
 	overflow: hidden;	
 	}
 	
-	#top-main-sub-container #top-main-subnav ul { margin: 5px 0;}
-	#top-main-sub-container #top-main-subnav ul li {
+	#top-subnav-container #top-subnav ul { margin: 5px 0;}
+	#top-subnav-container #top-subnav ul li {
 		margin: 0;
 		display: inline-block;
 		padding: 3px 5px;
 		font-weight: normal; 
 		}
 	
-	#top-main-sub-container #top-main-subnav a {
+	#top-subnav-container #top-subnav a {
 		color: #585B66;
 		padding: 5px 8px;
 		text-decoration: none;
 		font-weight: bold;
 		}
 	
-	#top-main-subnav ul li:hover a, 
-	#top-main-subnav ul li.current a {
+	#top-subnav-container #top-subnav ul li:hover a, 
+	#top-subnav-container #top-subnav ul li.current a {
 		-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
 		border-radius: 5px 5px 5px 5px;		
 		background-color: #004174;
 		color: #fff !important;
 		}
+/*-- End Top Navigation  --*/		
+
 
 /* -----------------  Main Content Areas  -------------------------------*/
 
@@ -476,18 +441,7 @@ body {
 	margin: 10px;
 	}
 	
-/*--- Misc --*/
 
-table tr.closed {
-	color: #CCC;
-	}
-table tr td.col-checkbox {
-    padding: 10px 3px;
-    text-align: center;
-    width: 30px;
-}
-
-table {margin:0;}
 
 /*--------------------- Ticket List -----------------------------*/
 
