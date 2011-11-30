@@ -44,7 +44,7 @@
         <!-- Header Section -->
         <header>
         <div id="head-wrap"><!-- Wrap header for background full width -->
-	        <div class="container_12"><!-- Container to center and add side padding -->
+	        <div class="container"><!-- Container to center and add side padding -->
     	        <div class="grid_3">
         	        <div id="logo"><img src="../../SherpaDesk/images/sd-logo.png" alt="SherpaDesk" /></div>
                 </div>
@@ -64,7 +64,7 @@
             </div>
             <div class="clearfix"></div>
             <nav>
-                <div id="top-nav" class="container_12">
+                <div id="top-nav" class="container">
                     <div class="grid_12">
                         <div id="main-nav">            	
                             <ul>
@@ -85,7 +85,7 @@
         </div>
         </header>
                 
-        <div class="container_12" id="main-content">
+        <div class="container" id="main-content">
 
         <!-- Top Sub Nav -->
 	        <nav>
@@ -118,7 +118,7 @@
          
             <!-- Start Footer --> 
             <footer>
-	            <div class="container_12">
+	            <div class="container">
     	            <div id="clientinfo" class="grid_4">
         	            <div id="client">Client Name</div>
                         <div id="instance">Instance Name</div>
