@@ -76,7 +76,10 @@ form input[type="radio"]
     background: none;
 	border: 0;
 	width: auto;
+	vertical-align: middle;
+	margin-right: 10px;
     }
+form input[type="radio"] {float: left;}
 
 form input:hover, form textarea:hover,
 form select:hover {

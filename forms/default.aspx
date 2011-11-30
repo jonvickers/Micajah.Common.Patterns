@@ -62,11 +62,19 @@
                 </tr>
                 <tr>
                     <td>
-                        <label>Radio buttons</label>
-				        <input type="radio" name="radio1" /> This is a radio button<br />
-				        <input type="radio" name="radio1" /> This is another radio button
+                        
                     </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <label>Radio buttons</label>
+                        <input type="radio" name="radio1" /> This is a radio button
+                    </td>    
                 </tr>
+                <tr>
+                    <td><input type="radio" name="radio1" /> This is another radio button</td>    
+                </tr>
+                <tr><td>&nbsp;</td></tr>
                 <tr>
                     <td>
                         <label>This is a drop down list</label>              

@@ -13,6 +13,7 @@
     <RootNamespace>MCPatterns</RootNamespace>
     <AssemblyName>MCPatterns</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -179,6 +180,7 @@
     <Content Include="SherpaDesk\accounts\grid-accounts.aspx" />
     <Content Include="SherpaDesk\css\960.css" />
     <Content Include="css-MicajahCommon\mc_reset.css" />
+    <Content Include="SherpaDesk\js\jquery.ThreeDots.min.js" />
     <Content Include="SherpaDesk\SherpaDesk.css" />
     <Content Include="SherpaDesk\HelpDesk_Existing.css" />
     <Content Include="SherpaDesk\css\text.css" />
