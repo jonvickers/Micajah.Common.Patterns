@@ -22,18 +22,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="body-wrapper">
-        
+    <div id="body-wrapper">        
             <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
         
-            </asp:ContentPlaceHolder>
-        
-
+            </asp:ContentPlaceHolder>        
        <div id="sidebar">
-        <h3 style="text-align: center;">Micajah.Common.UI</h3>
-       
+        <h3 style="text-align: center;">Micajah.Common.UI</h3>       
             <ul id="main-nav">
-                <li class="home"><a href="../../">Home</a></li>
+                <li class="home"><a href="../../">Test Text</a></li>
                 <li class="error-page">
                     <a href="../../error/oops.aspx">Error Page</a>
                     <ul>

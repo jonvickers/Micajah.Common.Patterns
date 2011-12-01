@@ -6,10 +6,8 @@
     <title>SherpaDesk UI</title>
 
     <!-- MC Global -->
-    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_reset.css"/>
-    
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_reset.css"/>    
     <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_global.css"/>
-
     <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_notifications.css"/>
     <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_grids.css"/>
     <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_forms.css"/>
@@ -29,13 +27,14 @@
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
     <script src="../../SherpaDesk/js/custom.js" type="text/javascript"></script>
-    <script src="../../SherpaDesk/js/jquery.ThreeDots.min.js" type="text/javascript"></script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
 </head>
 <body>
     <form id="form1" runat="server">
+
     <!-- Start of the header section -->
 
     <!-- Wrap the whole site so min-width is 1024px -->
@@ -45,19 +44,18 @@
         <header>
         <div id="head-wrap"><!-- Wrap header for background full width -->
 	        <div class="container"><!-- Container to center and add side padding -->
-    	        <div class="grid_3">
-        	        <div id="logo"><img src="../../SherpaDesk/images/sd-logo.png" alt="SherpaDesk" /></div>
+    	        <div class="grid_3" id="logo">
+        	        <img src="../../SherpaDesk/images/sd-logo.png" alt="SherpaDesk" />
                 </div>
-                <div class="grid_9">
-               
-                    <div id="globalnav">
+                <div class="grid_9">               
+                    <div id="globalnav"> <!-- Div to position in top righthand corner -->
                         <a href="#">
                 	        <img class="gravatar" src="../../SherpaDesk/images/gravatar.jpg" width="32" height="32" alt="gravatar"/>
                         </a>
-                        Welcome <a href="#">Jon Doe</a> <span>|</span> <a href="#">Settings</a> <span>|</span> <a href="#">Logout</a>
+                            Welcome <a href="#">Jon Doe</a> <span>|</span> <a href="#">Settings</a> <span>|</span> <a href="#">Logout</a>
                         <br>
                         <small>
-                            You have <a class="high" href="#"> <b>12</b> new tickets!</a>
+                            You have <a href="#"> <b>12</b> new tickets!</a>
                         </small>
                     </div>            
                 </div>
@@ -66,19 +64,36 @@
             <nav>
                 <div id="top-nav" class="container">
                     <div class="grid_12">
-                        <div id="main-nav">            	
-                            <ul>
-                                <li class="current" id="home"><a href="#">Home</a></li>
-                                <li id="accounts"><a href="#">Accounts</a></li>
-                                <li id="projects"><a href="#">Projects</a></li>
-                                <li id="time"><a href="#">Time</a></li>
-                                <li id="assets"><a href="#">Assets</a></li>
-                                <li id="knowledgebase"><a href="#">Knowledgebase</a></li>
-                                <li id="reports"><a href="#">Reports</a></li>
-                                <li id="folders"><a href="#">Folders</a></li>
-                                <li id="parts"><a href="#">Parts</a></li>
-                            </ul>          
-                        </div>           
+                        <!-- Sample Menu - Assume this will be dynamically generated -->           	
+                        <ul id="topnav">
+                            <li id="home">
+                                <a href="#">Home</a>
+                                <span>
+      	                        <a href="../../../SherpaDesk/startup-dashboard/dashboard.aspx">Get Started</a>
+                                <a href="../../../SherpaDesk/startup-dashboard/dashboard.aspx">Dashboard</a>
+                                <a href="../../../SherpaDesk/tickets/tickets.aspx">Tickets</a>
+                                <a href="#">My Account</a>
+                                <a href="#">Configuration</a>
+                                </span>
+                            </li>
+                            <li id="accounts">
+    	                        <a href="#">Accounts</a>
+                                <span>
+	                                <a href="#">View Accounts</a>
+                                    <a href="#">Edit Fields</a>    
+	                                <a href="#">Show Inactive </a> 
+                                </span>
+                            </li>
+                            <li id="projects"><a href="#">Projects</a></li>
+                            <li id="time"><a href="#">Time</a></li>
+                            <li id="assets"><a href="#">Assets</a></li>
+                            <li id="knowledgebase"><a href="#">Knowledgebase</a></li>
+                            <li id="reports"><a href="#">Reports</a></li>
+                            <li id="folders"><a href="#">Folders</a></li>
+                            <li id="parts"><a href="#">Parts</a></li>
+                            <li id="Support"><a href="#">Support</a></li>
+                        </ul> 
+                        <!-- End Sample Menu -->         
                     </div>
                 </div>
             </nav>
@@ -86,54 +101,50 @@
         </header>
                 
         <div class="container" id="main-content">
-
-        <!-- Top Sub Nav -->
-	        <nav>
-                <div id="top-subnav-container"><!-- Container for sub-nav background -->
-                    <div id="top-subnav">
-                        <ul>
-                            <li class="current"><a href="#">sub item</a></li>
-                            <li><a href="#">sub item</a></li>
-                            <li><a href="#">sub item</a></li>
-                            <li><a href="#">sub item</a></li>
-                            <li><a href="#">sub item</a></li>
-                            <li><a href="#">sub item</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
             <section>  
                 <div class="grid_12" id="main-stage">         
+                    
+                    <!-- Notice Area -->
                     <div id="notice-area">
-                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">        
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
+                              
                         </asp:ContentPlaceHolder>
-                    </div><!--end notice area -->
+                    </div>
+                    <!--End Notice Area -->
 
                     <!-- Main Data Area -->
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">        
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">  
+                          
                     </asp:ContentPlaceHolder>
+                    <!-- End Main Data Area -->
+
                 </div><!--end Main Stage -->
             </section> 
         </div><!-- End Main Content -->           
-         
+        <div class="clearfix"></div> 
             <!-- Start Footer --> 
             <footer>
 	            <div class="container">
-    	            <div id="clientinfo" class="grid_4">
+    	            <!-- Left Side Footer -->
+                    <div id="clientinfo" class="grid_4">
         	            <div id="client">Client Name</div>
                         <div id="instance">Instance Name</div>
                         <div id="permissions">Admin or Tech</div>
                     </div>
+                    <!-- End Left Side Footer -->
+                    <!-- Middle Footer -->
                     <div class="grid_4">
-        
+                        <p style="text-align: center;"><!-- Add Middle --></p>
                     </div>
+                    <!-- End Middle Footer -->
+                    <!-- Right Footer -->
                     <div class="grid_4">
-        	            <div class="">
-            	
-                        </div>
+        	            <p style="text-align: right;"><!-- Add Right Side --></p>
                     </div>
+                    <!-- End Right Footer -->
                 </div>
-            </footer><!-- End Footer -->  
+            </footer>
+            <!-- End Footer -->  
 
         </div><!-- End Wrapper -->    
     </form>

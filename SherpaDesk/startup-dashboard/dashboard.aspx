@@ -1,7 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SherpaDesk/SherpaDesk.Master" AutoEventWireup="true" CodeBehind="dashboard.aspx.cs" Inherits="MCPatterns.SherpaDesk.startup_dashboard.dashboard" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
+    <link href="../../SherpaDesk/startup-dashboard/css/startup1.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+
     <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
 
     <script type="text/javascript">
@@ -47,18 +49,22 @@
             <ul>
                 <li>
                     <a href="#"><h2>Create a Ticket</h2></a><span class="video"><a class="inline" rel="facebox" href="#video1">Watch a Video</a></span><span class="learn-more"><a href="http://helpdesk.bigwebapps.com/software/tickets/" target="_blank">Learn More</a></span>
+                    <div class="clear"></div>
                     <p>Submit a trouble ticket to track and record activity.</p>
                 </li>
                 <li>
                     <a href="#"><h2>Create an Account</h2></a><span class="video"><a class="inline" rel="facebox" href="#video2">Watch a Video</a></span><span class="learn-more"><a href="http://helpdesk.bigwebapps.com/software/accounts/" target="_blank">Learn More</a></span>
+                    <div class="clear"></div>
                     <p>Set up routing rules and SLA's based on your individual accounts.</p>
                 </li>
                 <li>
                     <a href="#"><h2>Create a Project</h2></a><span class="video"><a class="inline" rel="facebox" href="#video3">Watch a Video</a></span><span class="learn-more"><a href="http://helpdesk.bigwebapps.com/software/projects/" target="_blank">Learn More</a></span>
+                    <div class="clear"></div>
                     <p>Schedule tickets and track progress for current and upcoming projects.</p>
                 </li> 
                 <li>
                     <a href="#"><h2>Track Assets</h2></a><span class="video"><a class="inline" rel="facebox" href="#video4">Watch a Video</a></span><span class="learn-more"><a href="http://helpdesk.bigwebapps.com/software/assets/" target="_blank">Learn More</a></span>
+                    <div class="clear"></div>
                     <p>Start tracking work history and maintenance items for your assets.</p>
                 </li>   
             </ul>    
@@ -69,14 +75,17 @@
                 <ul>
                     <li>
                         <a href="#"><h2>Upload Your Logo and Set System Colors</h2></a><span class="learn-more"><a href="#">Learn More</a></span>
+                        <div class="clear"></div>
                         <p>Customize the look of your account and portal with your company logo and colors.</p>
                     </li>
                     <li>
                         <a href="#"><h2>Customize Your Outgoing Emails</h2></a><span class="learn-more"><a href="#">Learn More</a></span>
+                        <div class="clear"></div>
                         <p>Edit and brand the emails sent from your SherpaDesk account.</p>
                     </li>
                     <li>
                         <a href="#"><h2>Build Your Team</h2></a><span class="learn-more"><a href="#">Learn More</a></span>
+                        <div class="clear"></div>
                         <p>Import your users and invite contrators to your account.</p>
                     </li>   
                 </ul>    

@@ -88,7 +88,7 @@
                             </div> 
                             <div class="ticket-info">
                                 <div class="title">
-                                	<span class="ellipsis_text">Ticket Title - Something Else went wrong Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit</span>
+                                	<span class="ellipsis_text">Ticket Title - Something Else went wrong Lorem ipsum dolor...</span>
                                 </div>                                
                                 <div class="clearfix"></div>
                                 <div class="summary">

@@ -1,6 +1,6 @@
 ﻿BODY{MARGIN-TOP: 0px;MARGIN-BOTTOM: 0px;MARGIN-LEFT: 0px;MARGIN-RIGHT: 0px;FONT-SIZE: 8pt;FONT-FAMILY: 'Arial', 'Helvetica';}
 /* Styles from style_custom.asp */
-A{COLOR:#000000;TEXT-DECORATION:underline; FONT-FAMILY: 'Arial', 'Helvetica';font-weight:normal;}
+/* ---  A{COLOR:#000000;TEXT-DECORATION:underline; FONT-FAMILY: 'Arial', 'Helvetica';font-weight:normal;} --- */
 /* A:hover{COLOR:#EE7600;font-weight:normal;} */
 A.text60:hover{font-size: 13pt;}
 A.HoverWhite:hover{COLOR:White;font-weight:normal;}
