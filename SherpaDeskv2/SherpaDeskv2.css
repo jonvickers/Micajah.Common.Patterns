@@ -1,0 +1,880 @@
+﻿* {margin: 0;}
+
+/* =============================================================================
+   HTML5 element display
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+html { 
+font-size: 100%; 
+-webkit-overflow-scrolling: touch; 
+-webkit-tap-highlight-color: rgba(0,0,0,0); 
+-webkit-text-size-adjust: 100%; 
+-ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+form#form1, html, body {height: 100%;}
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+::-moz-selection { background: #127ee9; color: #fff; text-shadow: none; }
+::selection { background: #127ee9; color: #fff; text-shadow: none; }
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+/* Redeclare monospace font family: en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+/* Improve readability of pre-formatted text in all browsers */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+
+/* Position subscript and superscript content without affecting line-height: gist.github.com/413930 */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+ul, ol { list-style: none; margin: 0; padding: 0; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; margin: 0; padding: 0; }
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+img { border: 0; -ms-interpolation-mode: bicubic; }
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+figure { margin: 0; }
+
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+legend { border: 0; *margin-left: -7px; padding: 0; }
+label { cursor: pointer; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; *overflow: visible; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* Remove default vertical scrollbar in IE6/7/8/9 */
+textarea { overflow: auto; vertical-align: top; }
+
+/* Colors for form validity */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+/* =============================================================================
+   Primary styles
+   Author: Ben Pfohl
+   ========================================================================== */
+
+#container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0 0 -100px 0;
+	min-width: 960px;
+}
+.wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.header {
+	background: #276da3;
+	background: -moz-linear-gradient(top,  #276da3 0%, #004174 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#276da3), color-stop(100%,#004174));
+	background: -webkit-linear-gradient(top,  #276da3 0%,#004174 100%);
+	background: -o-linear-gradient(top,  #276da3 0%,#004174 100%);
+	background: -ms-linear-gradient(top,  #276da3 0%,#004174 100%);
+	background: linear-gradient(top,  #276da3 0%,#004174 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#276da3', endColorstr='#004174',GradientType=0 );
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+	.header:after {
+	    content: " ";
+	    display: block;
+	    height: 100%;
+	    width: 100%;
+		}
+	.header #logo {
+		width: 300px;
+		float: left;
+		height: 50px;
+		}
+	.header #logo h1 {
+		color: #FFFFFF;
+	    font-size: 21px;
+	    margin: 12px 0;
+		}
+		#global-nav { 
+			float: right;
+    		width: 220px;
+			/* margin-right: -10px;  */
+			}
+			#gravatar {
+				border: 1px solid #F1F1F1;
+			    height: 26px;
+			    margin: 10px 0 0;
+			    width: 26px;
+				}		
+			/*Menu Config-widths*/
+			ul.main { height: 50px; width: auto; padding: 0 15px;}
+			ul.sub,ul.sub_rt { top: 50px; }/*Change with menu height*/
+			ul.main li ul li { width: 150px; } /*Define width of all dropdowns*/
+			ul.sub_2nd { left: 150px; } /*Position of dropdown 2nd lvl, must mach above number*/
+			ul.sub_2nd_rt { right: 150px; } /*Position of dropdown 2nd lvl right, also must mach above number*/
+			
+			/*Menu colors*/
+			ul.main li:hover:after { border-color: transparent transparent #4c4c4c transparent; }/*Color of UP arrow in main menu*/ 
+			div.nav ul.main li ul.sub li a, div.nav ul.main li ul.sub_rt li a { color: #F4F4F4; } /*Dropdown link color*/
+			
+			ul.main li ul.sub,
+			ul.main li ul.sub_rt,
+			ul.main li ul.sub li ul.sub_2nd,
+			ul.main li ul.sub_rt li ul.sub_2nd_rt {
+				background: #4c4c4c; border-top: 3px solid #4c4c4c; border-bottom: 3px solid #4c4c4c; 
+				} /*Background and top/bot borders*/
+			
+			ul.main li ul.sub li,
+			ul.main li ul.sub_rt li { 
+				border-bottom: 1px solid #686868; 
+				}/*border betwean links in dropdown*/
+				
+			ul.main li ul.sub li:hover,
+			ul.main li ul.sub_rt li:hover,
+			ul.main li ul.sub li:hover, 
+			ul.main li ul.sub_rt li:hover{
+				background: #686868; 
+				}/*Hover on dropdowns*/
+			
+			/** MAIN MENU STYLE **/
+			.nav ul.main li.fr { float: right; position: relative;}
+			.nav ul.main li {margin: 0;}
+			
+			.nav ul.main li a {
+				display: block;
+				font: normal 13px/50px Arial, sans-serif;
+				text-decoration: none;
+				padding: 0 15px;
+				position: relative;
+				color: #fff;
+			}
+			.nav ul.main li a.config {
+				display: block;
+				width: 20px;
+				height: 50px;
+				background: url(images/configuration.png) no-repeat center center;				
+				padding: 0 10px 0 0;
+				}
+				.nav ul.main li a.config span {
+					display: none;
+					}
+			.nav ul.main li:hover:after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 44%;
+				border-style: solid;
+				border-width: 6px;
+				width: 0;
+				height: 0;
+			}
+			/* SUB MENU STYLE - dropdown 1st level*/
+			.nav ul.main li ul.sub, 
+			.nav ul.main li ul.sub_rt { 
+				display: none; 
+				}
+			.nav ul.main li:hover ul.sub {
+				display: block;
+				position: absolute;
+				left: 0;
+			}
+			.nav ul.main li:hover ul.sub_rt {
+				display: block;
+				position: absolute;
+				right: 0;
+			}
+			.nav ul.main li ul.sub li, 
+			.nav ul.main li ul.sub_rt li { 
+				position: relative;
+				}
+			.nav ul.main li ul.sub li:first-child, 
+			.nav ul.main li ul.sub_rt li:first-child {
+				margin-left: 0; 
+				}
+			.nav ul.main li ul.sub li:last-child, 
+			.nav ul.main li ul.sub_rt li:last-child { 
+				border-bottom: none; 
+				}
+			
+			.nav ul.main li ul.sub li:hover:after, 
+			.nav ul.main li ul.sub_rt li:hover:after {
+				content: '';
+				position: absolute;
+				border: 0;
+				}
+				
+			.nav ul.main li ul.sub li a, 
+			.nav ul.main li ul.sub_rt li a {
+				display: block;
+				font: normal 11px/30px Arial, sans-serif;
+				}	
+					
+	/*-- Top Search Bar --*/	
+	
+	#global-search {
+		float: left;
+	    height: 30px;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	    top: 10px;
+	    width: 200px;
+		}
+		#global-search input {
+			padding: 7px 10px;
+			border-radius: 3px;
+			-moz-border-radius: 3px;  
+			-webkit-border-radius: 3px;  
+			font: normal 12px/100% sans-serif;
+			color: #999;
+			width: 100%; 
+			}
+	#global-search-submit {
+		float: left;
+    	margin: 10px 0 0 25px;
+		}
+		#global-search-submit input.buttons {
+			font: normal 12px/100% arial;
+			font-weight: bold !important;
+		    line-height: 100%;
+		    padding: 7px 15px;
+			}				
+				
+#top-nav {
+	background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 1px solid #E5E5E5;
+	border-top: 1px solid #fff;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;	
+	}
+	#top-nav ul {
+		padding: 8px 0;
+		margin-left: -8px;
+		float: left;
+		width: 100%;
+		}
+		#top-nav ul li {
+			display: inline;
+			float: left;
+			margin: 0;
+			}
+			#top-nav ul li a {
+				color: #333333;
+				padding: 5px 8px;
+				margin: 0 5px 0 0;	
+				text-decoration: none !important;
+				font-weight: normal;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px 5px 5px 5px;
+				}
+			#top-nav ul li a:hover, nav#top-nav ul li.active a {
+				background-color: #dadbdf;
+				color: #555555 !important;
+				}
+		#top-nav ul li.pagehelp {
+			float: right;
+			font-size: 0.87em;
+			margin-left: 10px;
+			padding: 0 0 0 10px;
+			background: url(../../SherpaDeskv2/images/pagehelp.png) no-repeat left center;
+			}
+			#top-nav ul li.pagehelp a, #top-nav ul li.pagehelp a:hover {
+				background-color: transparent;
+				color: #979797;
+				}
+
+#announcement {margin-top: 20px;}
+#main {margin: 20px 0;}
+
+.left {float: left;}
+.right {float: right;}
+.aside {
+	width: 180px;
+	padding: 10px 0;
+	}
+	.aside .menutitle {
+		font-size: 1.2em;
+		padding-bottom: 5px;
+		margin: 15px 0 5px;
+		border-bottom: 1px solid #E5E5E5;
+		}
+	.aside ul li {
+		padding: 5px 0;
+		margin: 0;
+		}
+	.aside ul li a {
+		color: #004174;
+		padding: 3px 8px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px 4px 4px 4px; 
+		}
+		.aside ul li a:hover, .aside ul li a.current {
+			background-color: #E9E9E9;
+			}
+
+.footer, .push {height: 100px;}
+.footer {
+	background: background-color: #F4F4F4;
+	width: 100%;
+	min-width: 960px;
+	margin: 0;
+	padding: 10px 0;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #CCC;
+	color: #777;
+	}
+	.footer a {
+		color: #555555;
+		}
+		.footer a:hover {
+		color: #000;
+		text-decoration: none; 
+		border-bottom: 1px dashed;
+		}
+	.footer #message {
+		color: #000;
+		font-size: 12px !important;
+		}
+	.footer #left-foot {
+		float: left;
+		width: auto;
+		text-align: left;		
+		}
+		.footer #left-foot ul {
+			
+			}
+			.footer #left-foot ul li {
+				font-size: .8em;
+				line-height: 1.5em;
+				display: inline;
+				padding: 0 5px;
+				}
+	.footer #right-foot {
+		float: right;
+		width: auto;
+		text-align: right;
+		}
+		.footer #right-foot ul {
+			display: block;
+			}
+			.footer #right-foot ul li {
+				font-size: .8em;
+				line-height: 1.5em;
+				}
+
+/*-- pill --*/
+.pill {
+	padding: 5px 8px;
+	margin: 0 5px;	
+	text-decoration: none !important;
+	font-weight: normal;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px 5px 5px 5px;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bold;
+	}
+	
+/*-- colors --*/
+
+.red {
+	background-color: #910003;
+	color: #fff !important;
+	}	
+.red:hover {
+	background-color: #cb2226;
+	}
+.green {
+	background-color: #61a319;
+	color: #fff !important;
+	}	
+.green:hover {
+	background-color: #a0c874;
+	}
+.gray {
+	background-color: #4f5970;
+	color: #fff !important;
+	}	
+.gray:hover {
+	background-color: #7c8596;
+	}
+.ltgray {
+	background-color: #dadbdf;
+	color: #555555 !important;
+	}	
+.ltgray:hover {
+	background-color: #bbc2d3;
+	}
+
+
+/*-- Table Controls --*/
+
+.top-table-control, .bottom-table-control {
+	width: 100%;
+	min-height: 55px;
+	overflow: hidden;
+	}
+
+.top-table-control ul li, .bottom-table-control ul li, .selected-controls ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	}
+
+.top-table-control .tableadd {
+	float: right;
+	margin: 13px 0;
+	}
+
+.selected-controls {
+	background-color: #E1E1E1;
+    height: 20px;
+    margin: 15px 0 0;
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;	 
+	}
+.bottom-table-control .selected-controls 
+{
+    margin-top: 0;
+    }
+.selected-controls .drop 
+{
+    padding-right: 20px;
+    background: #4f5970 url(../../SherpaDesk/images/drop.png) no-repeat right center;
+    }
+	
+	.selected-controls .left ul {
+		 
+		}
+	
+	.selected-controls .right ul {
+		margin-right: 15px;
+		}
+
+        .selected-controls li ul {
+	        position: absolute;
+	        width: auto;
+	        min-width: 100px;
+	        left: -999em;
+	        background-color: #efefef;
+	        color: #777 !important;
+	        padding: 5px 10px;
+	        margin: 2px 0 0 10px;
+	        -moz-border-radius-topleft: 0px;
+             -moz-border-radius-topright: 5px;
+             -moz-border-radius-bottomright: 5px;
+             -moz-border-radius-bottomleft: 5px;
+             -webkit-border-radius: 0px 5px 5px 5px;
+             border-radius: 0px 5px 5px 5px; 
+             -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+	        -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+	        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+            }
+            
+            .bottom-table-control .selected-controls li:hover ul 
+            {
+                bottom: inherit;
+                }
+            
+            .selected-controls li a 
+            {
+                color: #000;
+                text-decoration: none;
+                }
+            .selected-controls li ul li 
+            {
+                display: block;
+                padding: 5px;
+                }
+                .selected-controls li ul li:hover 
+                {
+                    background-color: #e1e1e1;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px 4px 4px 4px; 
+                    } 
+        .selected-controls li:hover ul
+        {
+            left: auto;
+            }
+
+.bottom-table-control .table-page {
+	float: left;
+	margin-top: 8px;
+	padding: 5px 0;
+	}
+	
+.bottom-table-control .table-page ul li {
+	margin: 4px 0;
+	}
+	
+	.bottom-table-control .table-page ul li a {
+		background-color: #EBEBEB;
+		color: #444444;
+		font-size: 11px;
+		margin: 0;
+		padding: 6px 8px;
+		text-decoration: none;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px; 
+		}
+	.bottom-table-control .table-page ul li a:hover,
+	.bottom-table-control .table-page ul li a.current {
+		background-color: #C4C4C4;
+		color: #000;
+		}
+
+.bottom-table-control .table-functions {
+	float: right;
+	width: 200px;
+	}
+
+
+/*-- table search --*/
+
+.tablesearch {
+	float: left;
+	width:320px; /*follow your image's size*/
+	height:35px;/*follow your image's size*/
+	background-image:url(../../SherpaDesk/images/search-field-med.png);
+	background-repeat:no-repeat; /*important*/
+	padding:0px;
+	margin:0px;
+	position:relative; /*important*/
+	top: 5px;
+	}
+	
+	.tablesearch:hover {
+		background-position: 0 -35px;
+		}
+ 
+.tablesearch form { display:inline ; }
+ 
+.tablesearch .searchbox {
+	border:0px; /*important*/
+	background-color:transparent; /*important*/
+	position:absolute; /*important*/
+	top:1px;
+	left:10px;
+	width:255px;
+	height:33px;
+	padding: 0;
+	border-radius: 0;
+	font: 14px/100% Arial;
+	color: #999;
+	}
+
+.tablesearch .searchbox_submit {
+	border:0px; /*important*/
+	background-color:transparent; /*important*/
+	position:absolute; /*important*/
+	top:1px;
+	left:265px;
+	width:55px;
+	height:33px;
+	}
+
+.tablesearch .searchbox_submit:hover {
+	border:0px !important; /*important*/
+	}
+	
+/*--------------------- Ticket List -----------------------------*/
+
+.ticket {
+	width: 100%;
+	min-width: 900px;
+	border: 1px solid #dadada;
+	margin: 20px 0 20px;
+	color: #999999;	
+	}	
+	.ticket .top {
+		border-bottom: 1px solid #dadada;
+		min-height: 70px;
+		margin: 0;
+		overflow: hidden;
+		}
+		.ticket .top .select {
+			float: left;
+			width: 30px;
+			height: 100%;
+			padding: 26px 5px 0;
+			text-align: center;
+			}
+		.ticket .top .status-info {
+			float: left;
+			width: 110px;
+			height: 100%;
+			min-height: 70px;
+			text-align: center;
+			overflow: hidden;
+			}			
+			.ticket .top .status-info .status {
+				margin-top: 2px;
+				font-size: 14px;
+				font-weight: bold;
+				text-transform: uppercase;
+				padding: 5px 0;				
+				width: 100%;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px 5px 5px 5px; 				
+				}
+				
+				.ticket .top .status-info .ticket-number {
+				text-align: center;
+				font-size: 14px;
+				padding: 0;
+				margin: 6px 0 0;
+				color: #000000;
+				}
+		.ticket .top .ticket-info {
+			height: auto;
+            margin: 10px 0 0;
+            min-width: 550px;
+            overflow: hidden;
+            padding-left: 20px;
+			}
+			
+			.ticket .top .ticket-info .title {
+				float: left;
+				font-size: 20px;
+				padding: 0;
+				margin: 0;
+				color: #000000;
+				overflow: auto;
+				}
+			.ticket .top .ticket-info .next a span {
+				display: none;
+				}
+			.ticket .top .ticket-info .next {
+				float: left;
+				margin: 7px 5px 0 0;
+				width: 22px;
+				height: 16px;
+				background: url(../../SherpaDesk/images/next-icon.png) no-repeat 0 0;
+				}
+			.ticket .top .ticket-info .next:hover {
+				background-position: 0 -16px;
+				cursor: pointer;
+				}
+			.ticket .top .ticket-info .next.item {
+				background: none;
+				font-size: 12px;
+				width: auto;
+				}
+			.ticket .top .ticket-info .summary {
+				font-size: 12px;
+				}
+		.ticket .top .dates {
+			float: right;
+            font-weight: bolder;
+            padding: 5px 15px;
+            text-align: center;
+            top: 30px;
+			}			
+			.ticket .top .dates .last-updated {
+				font-size: 13px;
+				line-height: 14px;
+				margin: 10px 0;
+				color: #606060;
+				}			
+			.ticket .top .dates small {
+				font-size: 9px;
+				font-weight: normal;
+				line-height: 8px;
+				}
+	.ticket .bottom {
+		background-color: #ededed;
+		height: 30px;
+		overflow: hidden;
+		}
+		.ticket .bottom .detail {
+			float: left;
+			padding: 3px 15px;
+			}
+			.ticket .bottom .detail .label {
+				text-transform: uppercase;
+				font-weight: bolder;
+				font-size: 9px;
+				line-height: 9px;				
+				}
+			.ticket .bottom .detail.daytimer {
+				float: right;
+				}
+			.ticket .bottom .detail.priority, .ticket .bottom .detail.level 
+			{
+			    padding: 3px 5px;
+			    text-align: center;
+			    }	
+			
+		.ticket .bottom .detail.read, 
+		.ticket .bottom .detail.flag, 
+		.ticket .bottom .detail.attach{
+			width: 20px;
+			height: 20px;
+			margin: 5px 3px 0 0;
+    		padding: 0;
+			}
+			
+		.ticket .bottom .detail .data {
+				font-weight: bold;
+				color: #606060;
+				font-size: 12px;
+				}
+			.ticket .bottom .detail.read {
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat 0 -20px;
+				}
+			.ticket .bottom .detail.read.active {
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat 0 0px;
+				}
+			.ticket .bottom .detail.flag {
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -40px -20px;
+				}
+			.ticket .bottom .detail.flag.active {
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -40px 0px;
+				}
+			.ticket .bottom .detail.attach {
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -20px -20px;
+				}
+			.ticket .bottom .detail.attach.active {
+				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -20px 0px;
+				}
+
+.open .status {
+	background-color: #ff9f00;
+	color: #fff;
+	}
+
+.on-hold .status {
+	background-color: #4f5970;
+	color: #fff;
+	}
+	
+/* --------- Make the text lighter for the whole ticket
+
+.closed, 
+.ticket.closed .top .ticket-info .title,
+.ticket.closed .bottom .detail .data,
+.ticket.closed .bottom .detail.daytimer
+ {color: #d4d4d4 !important;} 
+
+*/
+
+.closed .status {
+	background-color: #dadbdf;
+	color: #fff;
+	}
+	
+
+/* =============================================================================
+   Non-semantic helper classes
+   Please define your styles before this section.
+   ========================================================================== */
+
+/* For image replacement */
+.ir { display: block; text-indent: -9999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+
+/* Hide for both screenreaders and browsers:
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden { display: none; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: by Jon Neal.
+  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */ 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+

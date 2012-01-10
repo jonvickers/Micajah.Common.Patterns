@@ -1,8 +1,13 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="MCPatterns.Default" %>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
 <head runat="server">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
     <title>Micajah.Common.UIPatterns</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <link href="css-MicajahCommon/mc_reset.css" rel="stylesheet" type="text/css" />
     <link href="css-MicajahCommon/mc_global.css" rel="stylesheet" type="text/css" />
@@ -56,7 +61,7 @@
                 <li class="startup1"><a href="../../startup">Start Up Page</a></li>
                 <li class="sdlogin"><a href="../../sdlogin">Login</a></li>
                 <li><hr /></li> 
-                <li class="SherpaDesk"><a href="../../SherpaDesk/tickets/tickets.aspx">SherpaDesk Layout</a></li>               
+                <li class="SherpaDesk"><a href="../../SherpaDeskv2/default.aspx">SherpaDesk Layout</a></li>               
             </ul>
         </div>
 

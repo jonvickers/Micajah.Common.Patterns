@@ -177,6 +177,25 @@
     <Content Include="grids\js\grid.js" />
     <Content Include="grids\js\jquery.dataTables.min.js" />
     <Content Include="grids\js\jquery.tablednd_0_5.js" />
+    <Content Include="js-plugins\modernizr-2.0.6.min.js" />
+    <Content Include="SherpaDeskv2\Configuration\config.aspx" />
+    <Content Include="SherpaDeskv2\default.aspx" />
+    <Content Include="SherpaDeskv2\images\bg-comment-tip.png" />
+    <Content Include="SherpaDeskv2\images\bg-question-tip.png" />
+    <Content Include="SherpaDeskv2\images\configuration.png" />
+    <Content Include="SherpaDeskv2\images\footer-logo.png" />
+    <Content Include="SherpaDeskv2\images\gravatar.png" />
+    <Content Include="SherpaDeskv2\images\ico-comment-reply.png" />
+    <Content Include="SherpaDeskv2\images\lightbulb.png" />
+    <Content Include="SherpaDeskv2\images\pagehelp.png" />
+    <Content Include="SherpaDeskv2\images\page_text.png" />
+    <Content Include="SherpaDeskv2\images\search.png" />
+    <Content Include="SherpaDeskv2\images\Ticket.png" />
+    <Content Include="SherpaDeskv2\images\top-search\down.png" />
+    <Content Include="SherpaDeskv2\images\top-search\search.png" />
+    <Content Include="SherpaDeskv2\images\top-search\up.png" />
+    <Content Include="SherpaDeskv2\SherpaDeskv2.css" />
+    <Content Include="SherpaDeskv2\Tickets\tickets.aspx" />
     <Content Include="SherpaDesk\accounts\grid-accounts.aspx" />
     <Content Include="SherpaDesk\css\960.css" />
     <Content Include="css-MicajahCommon\mc_reset.css" />
@@ -353,6 +372,34 @@
     <Compile Include="grids\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SherpaDeskv2\Configuration\config.aspx.cs">
+      <DependentUpon>config.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\Configuration\config.aspx.designer.cs">
+      <DependentUpon>config.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\SherpaDeskv2.Master.cs">
+      <DependentUpon>SherpaDeskv2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\SherpaDeskv2.Master.designer.cs">
+      <DependentUpon>SherpaDeskv2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\Tickets\tickets.aspx.cs">
+      <DependentUpon>tickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\Tickets\tickets.aspx.designer.cs">
+      <DependentUpon>tickets.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SherpaDesk\accounts\grid-accounts.aspx.cs">
       <DependentUpon>grid-accounts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -444,11 +491,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="forms\img\" />
+    <Folder Include="SherpaDeskv2\css\" />
+    <Folder Include="SherpaDeskv2\js\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="customize\img\finish-check.psd" />
     <Content Include="SherpaDesk\SherpaDesk.Master" />
     <Content Include="SherpaDesk\images\misc-images\90-gears-shapes-Shapes4FREE.zip" />
+    <Content Include="SherpaDeskv2\SherpaDeskv2.Master" />
     <None Include="SherpaDesk\images\misc-images\90-gears-shapes-Shapes4FREE\90-gears-shapes-Shapes4FREE\gears-Shapes4FREE.csh" />
     <Content Include="SherpaDesk\images\misc-images\map-markers-flags-pins-psd.zip" />
     <None Include="SherpaDesk\images\misc-images\map-markers-flags-pins-psd\map-markers-flags-pins.psd" />
