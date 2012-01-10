@@ -61,7 +61,7 @@
                 <li class="startup1"><a href="../../startup">Start Up Page</a></li>
                 <li class="sdlogin"><a href="../../sdlogin">Login</a></li>
                 <li><hr /></li> 
-                <li class="SherpaDesk"><a href="../../SherpaDeskv2/default.aspx">SherpaDesk Layout</a></li>               
+                <li class="SherpaDesk"><a href="../../SherpaDeskv2/Tickets/tickets.aspx">SherpaDesk Layout</a></li>               
             </ul>
         </div>
 
