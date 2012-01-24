@@ -211,7 +211,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 				}/*Hover on dropdowns*/
 			
 			/** MAIN MENU STYLE **/
-			.nav ul.main li.fr { float: right; position: relative;}
+			.nav ul.main li.fr { float: right; position: relative; z-index: 99999;}
 			.nav ul.main li {margin: 0;}
 			
 			.nav ul.main li a {

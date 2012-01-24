@@ -20,7 +20,7 @@
                         
                     </div>
                     <div class="tableadd">
-                    	<a class="buttons large" href="#">Create New Ticket</a>
+                    	<a class="buttons large" href="#">Create New User</a>
                     </div>                    
                 	
                     <div class="clearfix"></div>
@@ -337,5 +337,6 @@
                     </div>
                 </div>
             </div><!--end data-loop-->
+
 
 </asp:Content>

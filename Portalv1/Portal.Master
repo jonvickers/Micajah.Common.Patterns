@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Portal.master.cs" Inherits="MCPatterns.Portalv1.Portal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+    <title>SherpaDesk Portal and KB</title>
+
+    <!-- MC Global -->
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_notifications.css"/>
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_grids.css"/>
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_forms.css"/>
+    <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_buttons.css"/>
+    <!-- MC Global -->
+
+    <link href="css/960.css" rel="stylesheet" type="text/css" /> <!-- Layout Grid -->
+    <link href="sdPortalv1.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+         
+         <div id="container" class="clearfix">
+  	        <div class="header">
+    	        <div class="container_16">
+        	        <div id="logo">
+            	        <h1>My Company Name</h1>
+                    </div>            
+                    <div id="global-nav" class="nav">
+            	        <ul class="main">
+                            <li class="fr"><a href="../../default.aspx">mcPatterns Site</a>
+                            <li class="fr"><a href="#">Login</a>	
+                            <li class="fr"><a href="#">Menu</a>					
+                            <li class="fr"><a href="#">Custom</a></li>  
+                            <li class="fr"><a href="#">User</a></li>                    
+				        </ul>
+			        </div>
+                </div><!-- End container_16 -->	
+  	        </div><!-- End Header -->
+               <div class="clearfix"></div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="push"></div>
+        </div> <!--! end of #container -->
+
+            <div class="clearfix"></div>
+    
+        <div class="footer">
+            <div class="container_16">
+                <div class="grid_8 alpha footer-left">
+                    Custom Footer layout
+                </div>
+                <div class="grid_8 omega footer-right">
+                    <img src="img/footer-logo.png" alt="SherpaDesk">
+                </div>
+            </div>
+        </div><!-- End Footer -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        
+        <script src="js/plugins.js"></script>
+        <script src="js/script.js"></script>
+        <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/helpdeskalert.json?callback=twitterCallback2&count=1"></script>
+        <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/supportguy.json?callback=twitterCallback3&count=4"></script>
+        <!-- end scripts-->
+    </form>
+</body>
+</html>

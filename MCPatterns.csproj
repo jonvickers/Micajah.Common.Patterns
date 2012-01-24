@@ -178,6 +178,12 @@
     <Content Include="grids\js\jquery.dataTables.min.js" />
     <Content Include="grids\js\jquery.tablednd_0_5.js" />
     <Content Include="js-plugins\modernizr-2.0.6.min.js" />
+    <Content Include="Portalv1\article-question.aspx" />
+    <Content Include="Portalv1\css\960.css" />
+    <Content Include="Portalv1\js\plugins.js" />
+    <Content Include="Portalv1\js\script.js" />
+    <Content Include="Portalv1\portal.aspx" />
+    <Content Include="Portalv1\sdPortalv1.css" />
     <Content Include="SherpaDeskv2\Configuration\config.aspx" />
     <Content Include="SherpaDeskv2\default.aspx" />
     <Content Include="SherpaDeskv2\images\bg-comment-tip.png" />
@@ -372,6 +378,27 @@
     <Compile Include="grids\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Portalv1\article-question.aspx.cs">
+      <DependentUpon>article-question.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portalv1\article-question.aspx.designer.cs">
+      <DependentUpon>article-question.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portalv1\portal.aspx.cs">
+      <DependentUpon>portal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portalv1\portal.aspx.designer.cs">
+      <DependentUpon>portal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portalv1\Portal.Master.cs">
+      <DependentUpon>Portal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portalv1\Portal.Master.designer.cs">
+      <DependentUpon>Portal.Master</DependentUpon>
+    </Compile>
     <Compile Include="SherpaDeskv2\Configuration\config.aspx.cs">
       <DependentUpon>config.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -491,6 +518,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="forms\img\" />
+    <Folder Include="Portalv1\img\" />
     <Folder Include="SherpaDeskv2\css\" />
     <Folder Include="SherpaDeskv2\js\" />
   </ItemGroup>
@@ -499,6 +527,7 @@
     <Content Include="SherpaDesk\SherpaDesk.Master" />
     <Content Include="SherpaDesk\images\misc-images\90-gears-shapes-Shapes4FREE.zip" />
     <Content Include="SherpaDeskv2\SherpaDeskv2.Master" />
+    <Content Include="Portalv1\Portal.Master" />
     <None Include="SherpaDesk\images\misc-images\90-gears-shapes-Shapes4FREE\90-gears-shapes-Shapes4FREE\gears-Shapes4FREE.csh" />
     <Content Include="SherpaDesk\images\misc-images\map-markers-flags-pins-psd.zip" />
     <None Include="SherpaDesk\images\misc-images\map-markers-flags-pins-psd\map-markers-flags-pins.psd" />
