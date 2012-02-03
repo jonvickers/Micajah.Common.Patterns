@@ -26,7 +26,7 @@ $(document).ready(function () {
 
         value: 60,
         barImage: {
-            0: '../../accounts/css/images/ui-bg_gloss-wave_50_6eac2c_500x100.png',
+            0: '../../accounts/css/images/ui-bg_gloss-wave_50_6eac2c_500x100',
             50: '../../accounts/css/images/ui-bg_gloss-wave_50_6eac2c_500x100.png',
             100: '../../accounts/css/images/ui-bg_gloss-wave_45_e14f1c_500x100.png'
         },

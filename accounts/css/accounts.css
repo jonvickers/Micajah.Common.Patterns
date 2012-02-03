@@ -290,18 +290,45 @@ tbody tr.currentplan:hover
     border: 1px solid #951F2B;
     }
 
+/*-- revised 1-31-12   ---*/
+
+.account-usage tbody tr, .account-usage tbody 
+{
+    border: none;
+    }
 .account-usage
 {
     width: 100%;
-    }
-    
+    } 
+    .account-usage .probar td
+    {
+        padding-top:0;
+        }
+    .account-usage td
+    {
+        padding-bottom: 0;
+        }
+    .account-usage tr 
+    {
+        margin-top: 10px;
+        }
+
+
+
+/*-- End Revised 1-31-12 ---*/
+
+
+/* -- 
+.account-usage
+{
+    width: 100%;
+    }    
 .account-usage-amount
 {
     width: 40%;
     float: right;
     text-align: right;
     }
-
 .account-usage-amount h4
 {
     font-size: 26px;
@@ -312,22 +339,16 @@ tbody tr.currentplan:hover
     margin: 0;
     color: #999999;
     }
-
 .account-usage tbody tr, .account-usage tbody 
 {
     border: none;
-    }
-
-/* --  
+    } 
 .account-usage .featurelabel h4 
 {
     float: right;
     padding: 0;
     margin: 3px 0;
     }
--- */
-
-
 .account-usage .featurelabel h5 
 {
     float: left;
@@ -344,6 +365,7 @@ tbody tr.currentplan:hover
     margin: 12px 0 0;
     float: left;
     }
+-- */
 
 .under 
 {
@@ -352,6 +374,10 @@ tbody tr.currentplan:hover
 .over 
 {
     color: #951F2B;
+    }
+.even
+{
+    color: #cccccc;
     }
 
 

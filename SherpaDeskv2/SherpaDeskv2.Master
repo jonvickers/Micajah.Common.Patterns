@@ -13,12 +13,6 @@
     <link rel="stylesheet" type="text/css" href="~/css-MicajahCommon/mc_buttons.css"/>
     <!-- MC Global -->
 
-  
-    
-    <!-- Put Sherpa Desk Theme css HERE -->
-     
-    
-    <!-- Put Sherpa Desk APP css HERE -->
     <link rel="stylesheet" type="text/css" href="SherpaDeskv2.css"  />
      	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
@@ -51,7 +45,7 @@
 				    <ul class="main">
                 	    <li class="fr"><a class="config" href="#"><span>config</span></a>
                     	    <ul class="sub_rt">
-							    <li><a href="#">Configuration</a></li>
+							    <li><a href="../../SherpaDeskv2/Configuration/config.aspx">Configuration</a></li>
 			                    <li><a href="#">Support</a></li>
 			                    <li><a href="#">Logout</a></li>
 						    </ul>
@@ -66,7 +60,7 @@
         <div id="top-nav">
     	    <div class="wrapper">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="../../SherpaDeskv2/">Home</a></li>
                     <li><a href="#">Accounts</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Time</a></li>

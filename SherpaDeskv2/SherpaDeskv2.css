@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal;}
    ========================================================================== */
 
 ul, ol { list-style: none; margin: 0; padding: 0; }
-dd { margin: 0 0 0 40px; }
+dd { margin: 0; }
 nav ul, nav ol { list-style: none; margin: 0; padding: 0; }
 
 
@@ -366,9 +366,17 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .left {float: left;}
 .right {float: right;}
+.config-stage 
+{
+    margin-left: 220px;
+    min-width: 600px;
+    width: 85%;
+    }
 .aside {
 	width: 180px;
-	padding: 10px 0;
+	padding: 0 0 10px 0;
+	margin-right: 40px;
+	margin-bottom: 120px;
 	}
 	.aside .menutitle {
 		font-size: 1.2em;
@@ -376,10 +384,62 @@ table { border-collapse: collapse; border-spacing: 0; }
 		margin: 15px 0 5px;
 		border-bottom: 1px solid #E5E5E5;
 		}
+		.aside .menutitle.first 
+		{
+		    margin-top: 0;
+		    padding-top: 0;
+		    }
 	.aside ul li {
 		padding: 5px 0;
 		margin: 0;
 		}
+		.aside ul li.tickets 
+		{
+		    padding-left: 22px;
+		    background: url("../../SherpaDeskv2/images/config-icons/tickets.png") no-repeat left center;
+		    }
+		.aside ul li.accounts 
+		{
+		    padding-left: 22px;
+		    background: url("../../SherpaDeskv2/images/config-icons/account.png") no-repeat left center;
+		    }
+		.aside ul li.locations 
+		{
+		    padding-left: 22px;
+		    background: url("../../SherpaDeskv2/images/config-icons/location.png") no-repeat left center;
+		    }
+		.aside ul li.projects 
+		{
+		    padding-left: 22px;
+		    background: url("../../SherpaDeskv2/images/config-icons/projects.png") no-repeat left center;
+		    }
+		.aside ul li.assets 
+		{
+		    padding-left: 22px;
+		    background: url("../../SherpaDeskv2/images/config-icons/assets.png") no-repeat left center;
+		    } 
+		.aside ul li.auditor
+		{
+		    padding-left: 22px;
+		    background: url("../../SherpaDeskv2/images/config-icons/auditor.png") no-repeat left center;
+		    } 
+		.aside ul li.parts
+		{
+		    padding-left: 22px;
+		    background: url("../../SherpaDeskv2/images/config-icons/parts.png") no-repeat left center;
+		    }  
+		.aside ul li.kb
+		{
+		    padding-left: 22px;
+		    background: url("../../SherpaDeskv2/images/config-icons/knowledgebase.png") no-repeat left center;
+		    }  
+		.aside ul li.logins
+		{
+		    padding-left: 22px;
+		    background: url("../../SherpaDeskv2/images/config-icons/logins.png") no-repeat left center;
+		    }   
+		
+		   
 	.aside ul li a {
 		color: #004174;
 		padding: 3px 8px;

@@ -188,6 +188,16 @@
     <Content Include="SherpaDeskv2\default.aspx" />
     <Content Include="SherpaDeskv2\images\bg-comment-tip.png" />
     <Content Include="SherpaDeskv2\images\bg-question-tip.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\account.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\assets.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\auditor.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\knowledgebase.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\location.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\logins.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\parts.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\projects.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\reports.png" />
+    <Content Include="SherpaDeskv2\images\config-icons\tickets.png" />
     <Content Include="SherpaDeskv2\images\configuration.png" />
     <Content Include="SherpaDeskv2\images\footer-logo.png" />
     <Content Include="SherpaDeskv2\images\gravatar.png" />
