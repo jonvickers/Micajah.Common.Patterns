@@ -50,6 +50,9 @@
                 <li class="grids"><a href="../../grids">Grids</a></li>
                 <li class="notifications"><a href="../../notifications">Notifications</a></li>
                 <li><hr /></li>
+                <li><strong>To Do Lists&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
+                <li class="accounts"><a href="../../ToDoLists">Ticket and Project Control</a></li>
+                <li><hr /></li>
                 <li><strong>App Settings&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="accounts"><a href="../../accounts">Account Settings</a></li>
                 <li class="profile"><a href="../../profile">Your Profile</a></li>                

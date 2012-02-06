@@ -308,6 +308,14 @@
     <Content Include="success\default.aspx" />
     <Content Include="success\harabara-font\harabara-webfont.svg" />
     <Content Include="success\img\thumbs-up.jpg" />
+    <Content Include="ToDoLists\css\todoLists.css" />
+    <Content Include="ToDoLists\default.aspx" />
+    <Content Include="ToDoLists\img\clock.png" />
+    <Content Include="ToDoLists\img\gear.png" />
+    <Content Include="ToDoLists\img\list-control.png" />
+    <Content Include="ToDoLists\js\jquery.ui.core.min.js" />
+    <Content Include="ToDoLists\js\jquery.ui.datepicker.min.js" />
+    <Content Include="ToDoLists\js\jquery.ui.widget.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -520,6 +528,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="success\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ToDoLists\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ToDoLists\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

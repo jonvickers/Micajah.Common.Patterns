@@ -21,7 +21,7 @@ Forms CSS
 
 /*--- form CSS  ---*/
 
-form input,
+form input[type="text"],
 form select, 
 form textarea
 { 

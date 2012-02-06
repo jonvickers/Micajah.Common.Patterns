@@ -1,0 +1,143 @@
+﻿/*-- pill --*/
+ 
+.pill { 
+padding: 5px 8px;
+margin: 0 5px;    
+text-decoration: none !important;
+font-weight: normal;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px 5px 5px 5px;
+text-transform: uppercase;
+font-size: 9px;
+font-weight: normal;
+}
+
+/*-- colors --*/
+.orange {
+background-color: #A55200;
+color: #fff !important;
+}
+
+
+/*-- tO dO lIST --*/
+.todo-list-control {
+	width: 960px;
+	overflow: hidden;
+	margin: 50px auto 0;
+	}
+	.todo-list-control .list-top{
+		width: 100%;
+		padding: 10px 0;
+		}
+		.todo-list-control .list-top .list-title{
+			float: left;
+			}
+		.todo-list-control .list-top .add-list {
+			float: right;
+			}
+	.todo-list-control .list-list {
+		width: 100%;
+		}
+		.todo-list-control .list-list .list-row
+		{
+			width: 100%;
+			padding: 10px 0;
+			margin: -1px 0 0;
+			border-top: 1px solid #cccccc;
+			border-bottom: 1px solid #cccccc;
+			min-height: 24px;
+			z-index: 0;
+			font-size: 14px;
+			}		
+		.todo-list-control .list-row-edit
+		{
+			width: 100%;
+			padding: 10px 0;
+			margin: -1px 0 0;
+			border-top: 1px solid #cccccc;
+			border-bottom: 1px solid #cccccc;
+			overflow: hidden;
+			z-index: 0;
+			font-size: 14px;
+			}
+			.todo-list-control .list-row:hover {
+				background-color: #F3F3F3;
+								
+				}
+			.todo-list-control .list-select{
+				float: left;
+				padding: 2px 15px 0;							
+				}
+				
+			.todo-list-control .list-desc{
+				float: left;
+				margin-right: 20px;
+				width: 400px;
+				}
+			.todo-list-control .list-asigned-to{
+				float: left;
+				margin-right: 20px;
+				}
+			.todo-list-control .list-date{
+				float: left;
+				margin: 0 20px;
+				}
+			.todo-list-control .list-est-time{
+				float: left;
+				margin: 0 20px;
+				padding-left: 20px;
+				background: url(img/clock.png) no-repeat left center;
+				}
+			.todo-list-control .list-task-edit{
+				display: none;
+				float: right;
+				margin-right: 10px;
+				}
+				.todo-list-control .list-row:hover .list-task-edit {
+					display: block;
+					cursor: pointer;
+					}
+		
+		.todo-list-control .list-row-edit {
+			background-color: #EAEAEA;
+			padding: 10px 20px 15px;
+			}
+			.todo-list-control .list-row-edit p	{
+				margin: 0;
+				}
+			.todo-list-control .list-row-edit textarea {
+			    width: 92.5% !important;
+				padding: 15px;
+			    }
+			
+			.todo-list-control .list-det-edit,
+			.todo-list-control .list-task-action
+			 {
+				padding: 10px 0;
+				margin-bottom: 10px;
+				overflow: hidden;
+				}
+				
+				.todo-list-control .list-asign-to-edit,
+				.todo-list-control .list-date-edit,
+				.todo-list-control .list-est-time-edit
+				{
+					float: left;
+					margin-right: 25px;
+					}
+				.todo-list-control .list-asign-to-edit select {
+					width: 200px;
+					}
+				.todo-list-control .list-date-edit input {
+					width: 100px;
+					text-align: center;
+					}
+				.todo-list-control .list-est-time-edit input {
+					width: 75px;
+					text-align: center;
+					}
+				.todo-list-control .list-est-time-edit {
+					padding-right: 20px;
+					background: url(img/clock.png) no-repeat right 32px;
+					}
