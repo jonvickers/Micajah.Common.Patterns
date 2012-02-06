@@ -156,13 +156,14 @@
 				list_asigned_to = $(this).siblings('.list-asigned-to').find("div").text().trim(),
 				list_date = $(this).siblings('.list-date').text().trim(),
 				list_est_time = $(this).siblings('.list-est-time').text().trim(),
-				current = $(this).parent().html();
+                thisParent = $(this).parent(),
+				current = thisParent.html();
 
 
-        $(this).parent().find('div').hide();
-        $(this).parent().removeClass('list-row');
-        $(this).parent().addClass('list-row-edit');
-        $(this).parent().html('<div class=\"list-desc-edit\"><textarea rows=\"10\">' + list_desc + '</textarea></div><div class=\"list-det-edit\"><div class=\"list-asign-to-edit\"><p>Asigned to Technician</p><select name=\"technicians\"><option>Richard Johnson</option><option>Patrick Clements</option><option>Jon Vickers</option><option>Ben Pfohl</option></select></div><div class=\"list-date-edit\"><p>Due Date</p><input class=\"date-pick\" name=\"date\" type=\"text\" value=\"' + list_date + '\"></div><div class=\"list-est-time-edit\"><p>Est. Time hh:mm</p><input name=\"estTime\" type=\"text\" value=\"' + list_est_time + '\"></div></div><div class=\"list-task-action\"><p><a class=\"buttons\" href=\"#\">Save Task</a>&nbsp;&nbsp; or &nbsp;<a href=\"#\">Cancel</a></p></div>');
+        thisParent.find('div').hide();
+        thisParent.removeClass('list-row');
+        thisParent.addClass('list-row-edit');
+        thisParent.html('<div class=\"list-desc-edit\"><textarea rows=\"10\">' + list_desc + '</textarea></div><div class=\"list-det-edit\"><div class=\"list-asign-to-edit\"><p>Asigned to Technician</p><select name=\"technicians\"><option>Richard Johnson</option><option>Patrick Clements</option><option>Jon Vickers</option><option>Ben Pfohl</option></select></div><div class=\"list-date-edit\"><p>Due Date</p><input class=\"date-pick\" name=\"date\" type=\"text\" value=\"' + list_date + '\"></div><div class=\"list-est-time-edit\"><p>Est. Time hh:mm</p><input name=\"estTime\" type=\"text\" value=\"' + list_est_time + '\"></div></div><div class=\"list-task-action\"><p><a class=\"buttons\" href=\"#\">Save Task</a>&nbsp;&nbsp; or &nbsp;<a href=\"#\">Cancel</a></p></div>');
 
         $(function () {
             $(".date-pick").datepicker();
