@@ -1,23 +1,28 @@
 ﻿/*-- pill --*/
  
 .pill { 
-padding: 5px 8px;
-margin: 0 5px;    
-text-decoration: none !important;
-font-weight: normal;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px 5px 5px 5px;
-text-transform: uppercase;
-font-size: 9px;
-font-weight: normal;
-}
+    padding: 5px 8px;
+    margin: 0 5px;    
+    text-decoration: none !important;
+    font-weight: normal;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px 5px 5px 5px;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: normal;
+    }
 
 /*-- colors --*/
 .orange {
-background-color: #A55200;
-color: #fff !important;
-}
+    background-color: #A55200;
+    color: #fff !important;
+    }
+
+.ltgray {
+	background-color: #dadbdf;
+	color: #555555 !important;
+	}
 
 
 /*-- tO dO lIST --*/
@@ -62,8 +67,7 @@ color: #fff !important;
 			font-size: 14px;
 			}
 			.todo-list-control .list-row:hover {
-				background-color: #F3F3F3;
-								
+				background-color: #F3F3F3;								
 				}
 			.todo-list-control .list-select{
 				float: left;
@@ -87,7 +91,7 @@ color: #fff !important;
 				float: left;
 				margin: 0 20px;
 				padding-left: 20px;
-				background: url(img/clock.png) no-repeat left center;
+				background: url(../../todolists/img/clock.gif) no-repeat left center;
 				}
 			.todo-list-control .list-task-edit{
 				display: none;
@@ -99,14 +103,20 @@ color: #fff !important;
 					cursor: pointer;
 					}
 		
-		.todo-list-control .list-row-edit {
+		.todo-list-control .list-row-edit,
+		.todo-list-control .list-row-add
+		 {
 			background-color: #EAEAEA;
 			padding: 10px 20px 15px;
 			}
-			.todo-list-control .list-row-edit p	{
+			.todo-list-control .list-row-edit p,
+			.todo-list-control .list-row-add p
+			{
 				margin: 0;
 				}
-			.todo-list-control .list-row-edit textarea {
+			.todo-list-control .list-row-edit textarea,
+			.todo-list-control .list-row-add textarea
+			 {
 			    width: 92.5% !important;
 				padding: 15px;
 			    }
@@ -139,5 +149,27 @@ color: #fff !important;
 					}
 				.todo-list-control .list-est-time-edit {
 					padding-right: 20px;
-					background: url(img/clock.png) no-repeat right 32px;
+					background: url(../../todolists/img/clock.gif) no-repeat right 32px;
 					}
+		.todo-list-control .list-add-task 
+		{
+		    padding: 20px;
+		    }
+		    .todo-list-control .list-add-task a
+		    {
+		        font-weight: bold;
+		        }
+        .todo-list-control .list-completed-tasks 
+        {
+            color: #c5c5c5;
+            }
+            .todo-list-control .list-completed-tasks .list-desc,
+            .todo-list-control .list-completed-tasks .list-date,
+            .todo-list-control .list-completed-tasks .list-est-time
+            {
+                text-decoration: line-through;
+                }
+            .todo-list-control .list-completed-tasks .list-est-time 
+            {
+                background: url(../../todolists/img/clock_grey.gif) no-repeat left center;
+                }

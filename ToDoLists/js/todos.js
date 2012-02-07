@@ -1,0 +1,60 @@
+﻿(function () {
+    $('.list-task-edit').live('click', function () {
+
+        var list_desc = $(this).siblings('.list-desc').text().trim(),
+				list_asigned_to = $(this).siblings('.list-asigned-to').find("div").text().trim(),
+				list_date = $(this).siblings('.list-date').text().trim(),
+				list_est_time = $(this).siblings('.list-est-time').text().trim(),
+                thisParent = $(this).parent(),
+				current = thisParent.html();
+
+
+        thisParent.find('div').hide();
+        thisParent.removeClass('list-row');
+        thisParent.addClass('list-row-edit');
+        thisParent.html('<div class=\"list-desc-edit\"><textarea rows=\"10\">' + list_desc + '</textarea></div><div class=\"list-det-edit\"><div class=\"list-asign-to-edit\"><p>Asigned to Technician</p><select name=\"technicians\"><option>Richard Johnson</option><option>Patrick Clements</option><option>Jon Vickers</option><option>Ben Pfohl</option></select></div><div class=\"list-date-edit\"><p>Due Date</p><input class=\"date-pick\" name=\"date\" type=\"text\" value=\"' + list_date + '\"></div><div class=\"list-est-time-edit\"><p>Est. Time hh:mm</p><input name=\"estTime\" type=\"text\" value=\"' + list_est_time + '\"></div></div><div class=\"list-task-action\"><p><a class=\"buttons\" href=\"#\">Save Task</a>&nbsp;&nbsp; or &nbsp;<a href=\"#\">Cancel</a></p></div>');
+
+        $(function () {
+            $(".date-pick").datepicker();
+
+            //close the editor
+            $('.list-task-action a').on("click", function () {
+                var text = $(this).text().toLowerCase();
+                var thisListRowEdit = $(this).closest('.list-row-edit').html();
+                var thisListRow = $(this).closest('.list-row-edit');
+
+                if (text == "cancel") {
+                    thisListRow.empty();
+                    thisListRow.append(current);
+                    thisListRow.removeClass('list-row-edit');
+                    thisListRow.addClass('list-row');
+                } else {
+                    alert('save Tasks')
+                }
+            });
+        });
+    });
+
+    $('.list-add-task a').on('click', function () {
+        $(".list-list").append('<div class=\"list-row-add\"><div class=\"list-desc-edit\"><textarea rows=\"10\">add description</textarea></div><div class=\"list-det-edit\"><div class=\"list-asign-to-edit\"><p>Asigned to Technician</p><select name=\"technicians\"><option>Select Technician</option><option>Richard Johnson</option><option>Patrick Clements</option><option>Jon Vickers</option><option>Ben Pfohl</option></select></div><div class=\"list-date-edit\"><p>Due Date</p><input class=\"date-pick\" name=\"date\" type=\"text\" value=\"no due-date\"></div><div class=\"list-est-time-edit\"><p>Est. Time hh:mm</p><input name=\"estTime\" type=\"text\" value=\"0h 0m\"></div></div><div class=\"list-task-action\"><p><a class=\"buttons\" href=\"#\">Save Task</a>&nbsp;&nbsp; or &nbsp;<a href=\"#\">Cancel</a></p></div></div>');
+        $(".date-pick").datepicker();
+
+        $('.list-task-action a').on("click", function () {
+            var text = $(this).text().toLowerCase();
+            var thisListRow = $(this).closest('.list-row-add');
+
+            if (text == "cancel") {
+                thisListRow.empty().remove();
+            } else {
+                alert('Save New Task')
+            }
+        });
+    });
+
+    $('.list-completed-tasks .list-row .list-select').live('change', function () {
+        var thisListRowDone = $(this).closest('.list-row');
+        $(thisListRowDone).appendTo('.list-list');
+        alert('Added back to the active list');
+    });
+
+})();

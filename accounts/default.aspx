@@ -71,7 +71,9 @@
                         </div>                        
                                         
                     <div class="account-heading"><h2>Account Usage</h2></div> 
-                        
+                       In the process of Fixing
+                       
+                       <!-- 
                         <table class="account-usage">
                             <thead>
                                 <tr>
@@ -212,7 +214,7 @@
                                 <tr class="probar"><td colspan="5"><div id="progressbar7"></div></td></tr>
                             </tbody>
                         </table>
-
+                        -->
 
                         <!--
                         <table class="account-usage">
