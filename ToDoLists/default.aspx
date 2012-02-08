@@ -40,7 +40,7 @@
             </div>
             <div class="list-date">25 Jan 2012</div>
             <div class="list-est-time">1h 15m</div>
-            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"></div>
+            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
         </div>
         <div class="list-row">
         	<div class="list-select">
@@ -54,7 +54,7 @@
             </div>
             <div class="list-date">25 Jan 2012</div>
             <div class="list-est-time">1h 15m</div>
-            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"></div>
+            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
         </div>
         <div class="list-row">
         	<div class="list-select">
@@ -68,7 +68,7 @@
             </div>
             <div class="list-date">24 Jan 2012</div>
             <div class="list-est-time">1h 15m</div>
-            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"></div>
+            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
         </div>
         <div class="list-row">
         	<div class="list-select">
@@ -82,7 +82,7 @@
             </div>
             <div class="list-date">23 Jan 2012</div>
             <div class="list-est-time">1:15</div>
-            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"></div>
+            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
         </div>
         <div class="list-row">
         	<div class="list-select">
@@ -96,7 +96,7 @@
             </div>
             <div class="list-date">18 Jan 2012</div>
             <div class="list-est-time">1h 15m</div>
-            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"></div>
+            <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
         </div>        
         
 		<!-- EDIT TASK ROW MOCKUP
@@ -135,7 +135,7 @@
         <a href="#">Add New Task</a>
     </div><!-- END list-add-task CONTAINER -->
     <div class="list-completed-tasks">
-        <div class="list-row">
+        <div class="list-row-done">
         	<div class="list-select">
             	<input name="" type="checkbox" value="true" checked="checked">
             </div>

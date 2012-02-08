@@ -48,17 +48,21 @@
 	.todo-list-control .list-list {
 		width: 100%;
 		}
-		.todo-list-control .list-list .list-row
+		.list-row,
+		.list-row-done
 		{
 			width: 100%;
 			padding: 10px 0;
 			margin: -1px 0 0;
-			border-top: 1px solid #cccccc;
-			border-bottom: 1px solid #cccccc;
 			min-height: 24px;
 			z-index: 0;
 			font-size: 14px;
-			}		
+			}	
+	    .list-row
+	    {
+	        border-top: 1px solid #cccccc;
+			border-bottom: 1px solid #cccccc;
+	        }	
 		.todo-list-control .list-row-edit
 		{
 			width: 100%;
@@ -103,6 +107,10 @@
 				float: right;
 				margin-right: 10px;
 				}
+				.list-task-edit span 
+				{
+				    margin-top: 2px;
+				    }
 				.todo-list-control .list-row:hover .list-task-edit {
 					display: block;
 					cursor: pointer;
