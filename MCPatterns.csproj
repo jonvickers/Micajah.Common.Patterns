@@ -310,12 +310,16 @@
     <Content Include="success\img\thumbs-up.jpg" />
     <Content Include="ToDoLists\css\todoLists.css" />
     <Content Include="ToDoLists\default.aspx" />
+    <Content Include="ToDoLists\img\clock_grey.gif" />
+    <Content Include="ToDoLists\img\clock.gif" />
     <Content Include="ToDoLists\img\clock_grey.png" />
     <Content Include="ToDoLists\img\clock.png" />
     <Content Include="ToDoLists\img\gear.png" />
     <Content Include="ToDoLists\js\jquery.ui.core.min.js" />
     <Content Include="ToDoLists\js\jquery.ui.datepicker.min.js" />
     <Content Include="ToDoLists\js\jquery.ui.widget.min.js" />
+    <Content Include="ToDoLists\js\todos.js" />
+    <Content Include="ToDoLists\overview.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -546,6 +550,13 @@
     </Compile>
     <Compile Include="ToDoLists\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ToDoLists\overview.aspx.cs">
+      <DependentUpon>overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ToDoLists\overview.aspx.designer.cs">
+      <DependentUpon>overview.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

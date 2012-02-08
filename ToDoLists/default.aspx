@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="MCPatterns.ToDoLists._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <link href="css/todoLists.css" rel="stylesheet" type="text/css" />
+    <link href="../../ToDoLists/css/todoLists.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -81,7 +81,7 @@
             	<div class="pill orange">Richard Johnson</div>
             </div>
             <div class="list-date">23 Jan 2012</div>
-            <div class="list-est-time">1h 15m</div>
+            <div class="list-est-time">1:15</div>
             <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"></div>
         </div>
         <div class="list-row">

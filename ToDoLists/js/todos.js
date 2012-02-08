@@ -57,4 +57,6 @@
         alert('Added back to the active list');
     });
 
+    $('.list-row-title').height($(this).sibling('.list-row-tasks').height());
+
 })();

@@ -52,6 +52,7 @@
                 <li><hr /></li>
                 <li><strong>To Do Lists&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="todolists"><a href="../../ToDoLists">Ticket and Project Control</a></li>
+                <li class="todooverview"><a href="../../ToDoLists/overview.aspx">Overview Page</a></li>
                 <li><hr /></li>
                 <li><strong>App Settings&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>
                 <li class="accounts"><a href="../../accounts">Account Settings</a></li>
