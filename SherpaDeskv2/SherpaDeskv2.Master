@@ -57,18 +57,28 @@
             </div><!-- End Wrapper -->	
   	    </div><!-- End Header -->
     
-        <div id="top-nav">
+        <div class="top-nav">
     	    <div class="wrapper">
                 <ul>
                     <li><a href="../../SherpaDeskv2/">Home</a></li>
-                    <li><a href="#">Accounts</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a class="showsub" href="#">Accounts</a></li>
+                    <li><a class="showsub" href="#">Projects</a></li>
                     <li><a href="#">Time</a></li>
-                    <li><a href="#">Assets</a></li>
+                    <li><a class="showsub" href="#">Assets</a></li>
                     <li><a href="#">Knowledgebase</a></li>
-                    <li><a href="#">Reports</a></li>
+                    <li><a class="showsub" href="#">Reports</a></li>
                     <li><a href="#">Parts</a></li>
                     <li class="pagehelp"><a href="#">Page Help</a></li>
+                </ul>
+            </div><!-- End Wrapper -->
+        </div><!-- End Nav -->
+        <div class="top-nav sub-nav">
+    	    <div class="wrapper">
+                <ul>
+                    <li><a href="#">Some</a></li>
+                    <li><a href="#">Other</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Stuff</a></li>
                 </ul>
             </div><!-- End Wrapper -->
         </div><!-- End Nav -->

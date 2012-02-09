@@ -131,7 +131,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	height: 100%;
 	width: 100%;
 	padding: 0;
-	margin: 0 0 -100px 0;
+	margin: 0 0 -122px 0;
 	min-width: 960px;
 }
 .wrapper {
@@ -314,7 +314,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 		    padding: 7px 15px;
 			}				
 				
-#top-nav {
+.top-nav {
 	background: none repeat scroll 0 0 #F1F1F1;
     border-bottom: 1px solid #E5E5E5;
 	border-top: 1px solid #fff;
@@ -324,18 +324,32 @@ table { border-collapse: collapse; border-spacing: 0; }
 	padding: 0;
 	width: 100%;	
 	}
-	#top-nav ul {
+	.sub-nav {
+	background: none repeat scroll 0 0 #fbfbfb;
+    border-bottom: 1px solid #E5E5E5;
+	border-top: 1px solid #fff;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;	
+	}
+	.top-nav.sub-nav 
+	{
+	    display: none;
+	    }
+	.top-nav ul {
 		padding: 8px 0;
 		margin-left: -8px;
 		float: left;
 		width: 100%;
 		}
-		#top-nav ul li {
+		.top-nav ul li {
 			display: inline;
 			float: left;
 			margin: 0;
 			}
-			#top-nav ul li a {
+			.top-nav ul li a {
 				color: #333333;
 				padding: 5px 8px;
 				margin: 0 5px 0 0;	
@@ -345,18 +359,18 @@ table { border-collapse: collapse; border-spacing: 0; }
 				-moz-border-radius: 5px;
 				border-radius: 5px 5px 5px 5px;
 				}
-			#top-nav ul li a:hover, nav#top-nav ul li.active a {
+			.top-nav ul li a:hover, nav.top-nav ul li.active a {
 				background-color: #dadbdf;
 				color: #555555 !important;
 				}
-		#top-nav ul li.pagehelp {
+		.top-nav ul li.pagehelp {
 			float: right;
 			font-size: 0.87em;
 			margin-left: 10px;
 			padding: 0 0 0 10px;
 			background: url(../../SherpaDeskv2/images/pagehelp.png) no-repeat left center;
 			}
-			#top-nav ul li.pagehelp a, #top-nav ul li.pagehelp a:hover {
+			.top-nav ul li.pagehelp a, .top-nav ul li.pagehelp a:hover {
 				background-color: transparent;
 				color: #979797;
 				}

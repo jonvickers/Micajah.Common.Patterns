@@ -59,8 +59,8 @@
         $(thisListRow).appendTo('.list-completed-tasks').removeClass('list-row').addClass('list-row-done');
         $(techColor).children('.pill').removeClass('orange').addClass('ltgray');
         $(selectThis).attr("checked", "checked");
-    });    
-    
+    });
+
     $('.list-completed-tasks .list-row-done .list-select').live('change', function () {
         var techColor = $(this).siblings('.list-asigned-to');
         var thisListRowDone = $(this).closest('.list-row-done');
@@ -69,6 +69,22 @@
         $(thisListRowDone).appendTo('.list-list').removeClass('list-row-done').addClass('list-row');
         $(techColor).children('.pill').removeClass('ltgray').addClass('orange');
         $(unselectThis).removeAttr("checked");
+    });
+
+    $('.add-list a.buttons').on('click', function () {
+        $(this).parent().siblings('.add-list-form').show();
+
+
+        (function () {
+            if ($(this).find('span.close').length) return;
+
+            $('<span class=close>X</span>')
+                .appendTo('.add-list-form')
+                .on('click', function () {
+               
+                    $(this).slideUp('300');
+                });
+        })();
     });
 
 })();
