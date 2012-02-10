@@ -290,7 +290,7 @@ tbody tr.currentplan:hover
     border: 1px solid #951F2B;
     }
 
-/*-- revised 1-31-12   ---*/
+/*-- revised 1-31-12   
 
 .account-usage tbody tr, .account-usage tbody 
 {
@@ -315,10 +315,10 @@ tbody tr.currentplan:hover
 
 
 
-/*-- End Revised 1-31-12 ---*/
+ End Revised 1-31-12 ---*/
 
 
-/* -- 
+
 .account-usage
 {
     width: 100%;
@@ -365,7 +365,7 @@ tbody tr.currentplan:hover
     margin: 12px 0 0;
     float: left;
     }
--- */
+
 
 .under 
 {

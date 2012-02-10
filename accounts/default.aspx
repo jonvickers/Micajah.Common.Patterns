@@ -71,8 +71,7 @@
                         </div>                        
                                         
                     <div class="account-heading"><h2>Account Usage</h2></div> 
-                       In the process of Fixing
-                       
+                                            
                        <!-- 
                         <table class="account-usage">
                             <thead>
@@ -216,25 +215,18 @@
                         </table>
                         -->
 
-                        <!--
-                        <table class="account-usage">
-                            <thead>
-                                <tr>
-                                    <th>Item</th>
-                                    <th>Price Ea.</th>
-                                    <th>No. Free</th>
-                                    <th>Current Used</th>
-                                    <th>Total Rate</th>
-                                </tr>
-                            </thead>
+                        
+                        <table class="account-usage">                            
                             <tbody>
                                 <tr>
                                     <td class="feature">
                                         <div class="featurelabel"><h5>Accounts</h5></div>
-                                        <div class="account-usage-amount"><h4><span class="under">3</span> of 5</h4><p>$0.00/mo</p></div>                                        
+                                        <div class="account-usage-amount"><h4><span class="under">3</span> of 5</h4><p>$0.00/mo</p></div>
+                                        <div class="clearfix"></div>
+                                        <div id="progressbar1"></div>                                        
                                     </td>
                                 </tr>
-                                <tr><td colspan="5"><div id="progressbar1"></div></td></tr>
+                                
                                 <tr>
                                     <td class="feature">
                                         <div class="account-usage-amount"><h4><span class="under">1</span> of 2</h4><p>$0.00/mo</p></div>
@@ -284,7 +276,7 @@
                                     </td>
                                 </tr>
                             </tbody>
-                        </table> -->
+                        </table> 
                     
 <div class="account-heading"><h2>Support Options</h2></div>
 <div id="support">
