@@ -17,7 +17,7 @@
 	        }
 	    .login-wrapper label.labelleft
 	    {
-	        padding-top: 12px;
+	        padding-top: 10px;
 	        }
 	.form {
 		display: block;
@@ -95,7 +95,7 @@ p.login-button span
 
 #email-label, #company-label 
 {
-    margin-top: 8px;
+    margin-top: 3px;
     }
 
 
@@ -116,7 +116,7 @@ p.login-button span
     }
 
 label.portal {
-	margin-top: 17px;
+	margin-top: 14px;
 	}
 
 .portal-message 
@@ -137,29 +137,9 @@ label.portal {
 
 form .labelleft, form .labelleftdesc 
 {
-    width: 255px;
-    }
+    width: 255px;    }
 
-.login-from-here{
-	margin:0 270px 0 135px;
-	bottom: 0;
-    display: block;
-    height: 75px;
-    left: 0;
-    padding: 0 0 0 1px;
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    z-index: 999;
-	}
 
-.login-from-here img {
-    vertical-align: middle;
-    padding: 20px 25px 0 0;
-    }
-.login-from-here a img {
-    border: none;
-    }
 
 
 

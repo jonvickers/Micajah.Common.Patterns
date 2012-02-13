@@ -1,171 +1,30 @@
 ﻿/*------------------------------------------------------------ 
 
-Forms CSS 
-
--------------------------------------------------------------- */
-
-
-/*---  2+ column layout  ---*/
-
-.twocolumn
-{
-    width: 420px;
-    float: left;
-    margin-right: 20px;
-    }
-                
-.twocolumn-input
-{
-    width: 80%;
-    }
-
-/*--- form CSS  ---*/
-
-form input[type="text"],
-form select, 
-form textarea
-{ 
-	padding: 10px;  
-	border: solid 1px #CCC; 
-	-webkit-appearance: none;
-	border-radius: 5px;
-	-moz-border-radius: 5px;  
-	-webkit-border-radius: 5px; 
-	outline: 0;  
-	font: normal 14px/100% Verdana, Tahoma, sans-serif; 
-	background-color: #ffffff;  
-	}
-	
-form .small-input 
-{
-    width: 25% !important;
-    }
-                
-form .medium-input 
-{
-    width: 35% !important;
-    }
-                
-form .large-input 
-{
-    width: 97.5% !important;
-    max-width: 800px;
-    }
-    
-form .large-input-left /*-- for left side input --*/
-{
-    width: 70% !important;
-    }
-                
-form textarea 
-{
-    width: 97.5% !important;
-    font-family: Arial, Helvetica, sans-serif;
-    }
-                
-form select 
-{
-    padding: .75em;
-    background: #fff;
-    }
-				
-form input[type="checkbox"],
-form input[type="radio"] 
-{
-	padding: 0;
-    background: none;
-	border: 0;
-	width: auto;
-	vertical-align: middle;
-	margin-right: 10px;
-    }
-form input[type="radio"] {float: left;}
-
-form input:hover, form textarea:hover,
-form select:hover {
-	border-color: #80BFFF;
-	}  
-      
-form select:focus, form input:focus, form textarea:focus {
-	border-color: #0053A6;
-	}
-
-/* ---- Form Labels ----*/
-
-form label
-{
-    display: block;
-    padding: 0 0 2px;
-    font-weight: bold;
-    }
-                
-form p small 
-{
-    font-size: 0.75em;
-    color: #777;
-    }
-
-/* ---- Form Labels - Left Side ----*/
-
-form .labelleft 
-{
-    color: #676767;
-    float: left;
-    font-size: 17px;
-    margin-bottom: 10px;
-    padding: 8px 15px 0 0;
-    text-align: right;
-    width: 275px;
-    
-    }
-    
-form .labelleftdesc 
-{
-    color: #676767;
-    float: left;
-    font-size: 17px;
-    padding: 6px 15px 0 0;
-    text-align: right;
-    padding-right: 15px;
-    width: 275px;
-    margin-bottom: 0;
-    line-height: 1em;
-    }    
-
-form .labelleftdesc small 
-{
-    font-size: 0.6em;
-    font-weight: normal;
-    margin-top: 0;
-    padding-top: 0;
-    }
-
-form .leftlabelbutton 
-{
-    margin-left: 290px;
-    }
-
-
-
-/*------------------------------------------------------------ 
-
 Form inside table layout W/ 100% on the inputs and 
 variable padding and text size
 
 -------------------------------------------------------------- */ 
 
 
-.form-example-left table, .form-example-left table tr, .form-example-left table tr:hover, .form-example-left table tbody, 
-.form-example-top table, .form-example-top table tr, .form-example-top table tr:hover, .form-example-top table tbody 
+.form-example-left table, 
+.form-example-left table tr, 
+.form-example-left table tr:hover, 
+.form-example-left table tbody, 
+.form-example-top table, 
+.form-example-top table tr, 
+.form-example-top table tr:hover, 
+.form-example-top table tbody 
 {
     border: none;
     padding: 0;
-    width: 100%;
-    max-width: 650px;
     margin: 0 0 20px;
     background-color:transparent;    
     }    
-
+.form-example-left,
+.form-example-top 
+{
+    width: 650px;
+    }
 .form-example-left table tbody td:first-child 
 {
     width: 30%;
@@ -224,3 +83,151 @@ variable padding and text size
     float: right;
     font-weight: normal;
     }
+
+
+/*------------------------------------------------------------ 
+
+Forms CSS 
+
+-------------------------------------------------------------- */
+
+
+/*---  2+ column layout  ---*/
+
+.twocolumn
+{
+    width: 420px;
+    float: left;
+    margin-right: 20px;
+    }
+                
+.twocolumn-input
+{
+    width: 80%;
+    }
+
+/*--- form CSS  ---*/
+
+input,
+select, 
+textarea
+{ 
+	padding: 10px;  
+	border: solid 1px #CCC; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;  
+	-webkit-border-radius: 5px; 
+	outline: 0;  
+	font: normal 14px/100% Verdana, Tahoma, sans-serif; 
+	background-color: #ffffff;  
+	}
+	
+.small-input 
+{
+    width: 25% !important;
+    }
+                
+.medium-input 
+{
+    width: 35% !important;
+    }
+                
+.large-input 
+{
+    width: 97.5% !important;
+    max-width: 800px;
+    }
+    
+.large-input-left /*-- for left side input --*/
+{
+    width: 70% !important;
+    }
+                
+textarea 
+{
+    width: 97.5% !important;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+                
+select 
+{
+    padding: .75em;
+    background: #fff;
+    }
+				
+input[type="checkbox"],
+input[type="radio"] 
+{
+	border: 0;
+	width: auto;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: 2px;
+    }
+input[type="radio"] {float: left;}
+
+input:hover, form textarea:hover,
+select:hover {
+	border-color: #80BFFF;
+	}  
+      
+select:focus, form input:focus, form textarea:focus {
+	border-color: #0053A6;
+	}
+
+/* ---- Form Labels ----*/
+
+form label
+{
+    display: block;
+    padding: 0 0 2px;
+    font-weight: bold;
+    }
+                
+form p small 
+{
+    font-size: 0.75em;
+    color: #777;
+    }
+
+/* ---- Form Labels - Left Side ----*/
+
+.labelleft 
+{
+    color: #676767;
+    float: left;
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding: 8px 15px 0 0;
+    text-align: right;
+    width: 275px;    
+    }
+    
+.labelleftdesc 
+{
+    color: #676767;
+    float: left;
+    font-size: 17px;
+    padding: 6px 15px 0 0;
+    text-align: right;
+    padding-right: 15px;
+    width: 275px;
+    margin-bottom: 0;
+    line-height: 1em;
+    }    
+
+.labelleftdesc small 
+{
+    font-size: 0.6em;
+    font-weight: normal;
+    margin-top: 0;
+    padding-top: 0;
+    }
+
+.leftlabelbutton 
+{
+    margin-left: 290px;
+    }
+
+
+

@@ -52,6 +52,7 @@ table th
 {
     padding: 10px;
     line-height: 1.3em;
+    vertical-align: middle;
     }    
     
 #grids h1 

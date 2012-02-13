@@ -69,7 +69,7 @@
 	        .todo-list-control .add-list-name input 
 	        {
 	            width: 500px;
-	            padding: 13px;
+	            padding: 0.625em;
 	            }
 	        .todo-list-control .add-list-name .add-list-submit 
 	        {

@@ -39,10 +39,4 @@
             </div>
     </div>
 
-
-
-<div class="login-from-here">
-	<a href="http://www.bigwebapps.com" target="_blank"><img src="../../css-signupProcess/img/bwa-logo.png" /></a>
-</div>
-
 </asp:Content>
