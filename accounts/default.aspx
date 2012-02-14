@@ -413,12 +413,12 @@
 
      <dl class="form">
        <dt><label>Card Number</label></dt>
-       <dd><input class="text-input large-input" type="text" id="credit-card-number" name="large-input" /></dd>
+       <dd><input class="text-input" type="text" id="credit-card-number" name="large-input" /></dd>
      </dl>
 
      <dl class="form expiration">
        <dt><label>Expiration </label></dt>
-       <dd><input class="text-input large-input" type="text" id="credit-card-month" name="large-input" maxlength="2" value="mm" /><input class="text-input large-input" type="text" id="credit-card-year" name="large-input" maxlength="4" value="yyyy" /></dd>
+       <dd><input class="text-input" type="text" id="credit-card-month" name="credit-card-month" maxlength="2" value="mm" /><input class="text-input" type="text" id="credit-card-year" name="credit-card-year" maxlength="4" value="yyyy" /></dd>
      
      
      </dl>
