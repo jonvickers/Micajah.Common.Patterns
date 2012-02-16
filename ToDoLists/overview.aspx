@@ -45,13 +45,18 @@
 	        </select>            
         </div>
         <div class="filter-tasks-attach">
-            <p>Attached To:</p>
+            <p>Relationship:</p>
             <select name="technicians">
                 <option>All</option>
 	            <option>Tickets</option>
 	            <option>Projects</option>
 	        </select>        
-        </div>    
+        </div>  
+        <div class="add-template">
+            <a href="#">Manage Templates</a>
+        </div>
+        
+          
     </div><!-- END list-filter-row -->
 
     <div class="clearfix"></div>

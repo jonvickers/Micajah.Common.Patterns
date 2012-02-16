@@ -12,6 +12,16 @@
     <script src="../../accounts/js/accounts.js" type="text/javascript"></script>
 
 </asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="topNotice" runat="server">
+    <div class="head-notice attention-head">
+		<a href="#" class="close"><img src="../../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+		<div class="head-notice-inside">
+			<img src="../../notifications/img/exclamation.png" alt="attention" /> <strong>No Credit Card on File.</strong> <a href="#payment-set">Click Here</a> to update your account. 
+		</div>
+	</div>
+</asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="announcement1" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -82,9 +92,10 @@
     <div class="account-type">
         <h2>FREE</h2><small class="plandescsm">per Month</small>
     </div>
-
+    <a title="payment-set" name="payment-set" />
     <div id="payment-set">
         <div id="payment-update">
+            
             <a id="inline" class="buttons" rel="facebox" href="#credit_card_form">Update credit card</a>
         </div>
         <div id="payment-status">
@@ -326,8 +337,6 @@
      <dl class="form expiration">
        <dt><label>Expiration </label></dt>
        <dd><input class="text-input" type="text" id="credit-card-month" name="credit-card-month" maxlength="2" value="mm" /><input class="text-input" type="text" id="credit-card-year" name="credit-card-year" maxlength="4" value="yyyy" /></dd>
-     
-     
      </dl>
 
      <div class="ccformsubmit">

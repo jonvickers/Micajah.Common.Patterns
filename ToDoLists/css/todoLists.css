@@ -15,6 +15,7 @@
     }
 
 /*-- colors --*/
+
 .orange {
     background-color: #A55200;
     color: #fff !important;
@@ -203,10 +204,7 @@
 					width: 75px;
 					text-align: center;
 					}
-				.todo-list .list-est-time-edit {
-					padding-right: 20px;
-					background: url(../../todolists/img/clock.gif) no-repeat right 32px;
-					}
+				
 		.todo-list .list-add-task 
 		{
 		    padding: 20px;
@@ -244,16 +242,27 @@
         }
         .todo-overview .list-filter-row p 
         {
-            margin: 11px 10px 0;
-            float: left;
+            margin: 0 0 0 3px;
+            font-weight: bold;
             }
         .todo-overview .list-filter-row .filter-tasks-tech,
         .todo-overview .list-filter-row .filter-tasks-due,
-        .todo-overview .list-filter-row .filter-tasks-attach 
+        .todo-overview .list-filter-row .filter-tasks-attach        
         {
             float: left;
             margin-right: 20px;
-            }    
+            width: auto;
+            } 
+        .todo-overview .list-filter-row .add-template 
+        {
+            float: right;
+            margin: 30px 0 0;
+            }  
+            .todo-overview .list-filter-row .add-template a 
+            {
+                text-decoration: none;
+                font-weight: bold;
+                }       
     .todo-overview .attachment-row 
     {
         padding: 30px 0 20px;

@@ -2,7 +2,24 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="announcement1" runat="server">
+
+<asp:Content ID="Content4" ContentPlaceHolderID="topNotice" runat="server"><!-- Add Header Notice here -->
+    
+</asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="subMenu" runat="server">
+    <div class="top-nav sub-nav">
+        <div class="wrapper">
+            <ul>
+                <li><a href="#">End of Day Worksheet</a></li>
+                <li><a href="#">Folders</a></li>
+                <li><a href="#">Advanced Search</a></li>
+            </ul>
+        </div><!-- End Wrapper -->
+    </div><!-- End Nav -->   
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="announcement1" runat="server"><!-- Add Body Notice here -->
     <div class="wrapper notification success">
 		<a href="#" class="close"><img src="../../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
 		<div>
@@ -10,7 +27,7 @@
 		</div>
 	</div>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"><!-- Main Content -->
 
 </asp:Content>

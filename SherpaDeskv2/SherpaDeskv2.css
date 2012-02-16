@@ -184,17 +184,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 			ul.main { height: 50px; width: auto; padding: 0 15px;}
 			ul.sub,ul.sub_rt { top: 50px; }/*Change with menu height*/
 			ul.main li ul li { width: 150px; } /*Define width of all dropdowns*/
-			ul.sub_2nd { left: 150px; } /*Position of dropdown 2nd lvl, must mach above number*/
-			ul.sub_2nd_rt { right: 150px; } /*Position of dropdown 2nd lvl right, also must mach above number*/
 			
 			/*Menu colors*/
 			ul.main li:hover:after { border-color: transparent transparent #4c4c4c transparent; }/*Color of UP arrow in main menu*/ 
 			div.nav ul.main li ul.sub li a, div.nav ul.main li ul.sub_rt li a { color: #F4F4F4; } /*Dropdown link color*/
 			
 			ul.main li ul.sub,
-			ul.main li ul.sub_rt,
-			ul.main li ul.sub li ul.sub_2nd,
-			ul.main li ul.sub_rt li ul.sub_2nd_rt {
+			ul.main li ul.sub_rt {
 				background: #4c4c4c; border-top: 3px solid #4c4c4c; border-bottom: 3px solid #4c4c4c; 
 				} /*Background and top/bot borders*/
 			
@@ -203,8 +199,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 				border-bottom: 1px solid #686868; 
 				}/*border betwean links in dropdown*/
 				
-			ul.main li ul.sub li:hover,
-			ul.main li ul.sub_rt li:hover,
 			ul.main li ul.sub li:hover, 
 			ul.main li ul.sub_rt li:hover{
 				background: #686868; 
@@ -322,7 +316,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
-	width: 100%;	
+	width: 100%;		
 	}
 	.sub-nav {
 	background: none repeat scroll 0 0 #fbfbfb;
@@ -334,10 +328,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	padding: 0;
 	width: 100%;	
 	}
-	.top-nav.sub-nav 
-	{
-	    display: none;
-	    }
+	
 	.top-nav ul {
 		padding: 8px 0;
 		margin-left: -8px;
@@ -354,11 +345,15 @@ table { border-collapse: collapse; border-spacing: 0; }
 				padding: 5px 8px;
 				margin: 0 5px 0 0;	
 				text-decoration: none !important;
-				font-weight: normal;
+				font-weight: bold;
 				-webkit-border-radius: 5px;
 				-moz-border-radius: 5px;
 				border-radius: 5px 5px 5px 5px;
 				}
+				.top-nav.sub-nav ul li a 
+				{
+				    font-weight: normal;
+				    }
 			.top-nav ul li a:hover, nav.top-nav ul li.active a {
 				background-color: #dadbdf;
 				color: #555555 !important;

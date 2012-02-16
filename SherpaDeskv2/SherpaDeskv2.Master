@@ -25,9 +25,9 @@
 <body>
     <form id="form1" runat="server">
     <div id="container" class="clearfix">
-        <div>
-            
-        </div>
+        <asp:ContentPlaceHolder ID="topNotice" runat="server">      
+        
+        </asp:ContentPlaceHolder>
   	    <div class="header">
     	    <div class="wrapper">
         	    <div id="logo">
@@ -72,16 +72,9 @@
                 </ul>
             </div><!-- End Wrapper -->
         </div><!-- End Nav -->
-        <div class="top-nav sub-nav">
-    	    <div class="wrapper">
-                <ul>
-                    <li><a href="#">Some</a></li>
-                    <li><a href="#">Other</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Stuff</a></li>
-                </ul>
-            </div><!-- End Wrapper -->
-        </div><!-- End Nav -->
+        
+        <asp:ContentPlaceHolder ID="subMenu" runat="server"></asp:ContentPlaceHolder><!-- Sub Nav -->
+            
         <div class="clearfix"></div>
   	    <div id="main" role="main">
             <div id="announcement">
@@ -117,8 +110,7 @@
                     </ul>
                 </div>
             </div>
-  	    </div><!-- End Footer -->
-    
-    </form>
+  	    </div><!-- End Footer -->    
+    </form>   
 </body>
 </html>
