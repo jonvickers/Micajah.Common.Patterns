@@ -128,7 +128,7 @@
 				
 			.list-desc{
 				float: left;
-				margin-right: 20px;
+				margin-right: 10px;
 				width: 400px;
 				}
 			.list-asigned-to{
@@ -138,24 +138,34 @@
 				}
 			.list-date{
 				float: left;
-				margin: 0 20px;
+				margin: 0 10px 0;
 				}
 			.list-est-time{
 				float: left;
-				margin: 0 20px;
+				margin: 0 10px 0;
 				padding-left: 20px;
 				background: url(../../todolists/img/clock.gif) no-repeat left center;
 				}
+			.list-task-delete
+			{
+			    width: 65px;
+                float: right;
+                margin: 0 10px;
+                display: none;
+			    }
+			
 			.list-task-edit{
 				display: none;
 				float: right;
-				margin-right: 10px;
+				margin: 0 10px;
 				}
-				.list-task-edit span 
+				.list-task-edit span,
+				.list-task-delete span
 				{
 				    margin-top: 2px;
 				    }
-				.todo-list-control .list-row:hover .list-task-edit {
+				.todo-list-control .list-row:hover .list-task-edit,
+				.todo-list-control .list-row:hover .list-task-delete {
 					display: block;
 					cursor: pointer;
 					}
