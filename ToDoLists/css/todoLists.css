@@ -121,6 +121,17 @@
 			.todo-list .list-row:hover {
 				background-color: #F3F3F3;								
 				}
+			.list-move
+			{
+			    display: none;
+			    background: url('../../ToDoLists/img/movebkg.png') no-repeat 0 -9px;
+                width: 15px;
+                height: 19px;
+                float: left;
+                margin-right: -15px;
+                position: relative;
+			    }
+			    
 			.list-select{
 				float: left;
 				padding: 2px 15px 0;							
@@ -168,6 +179,10 @@
 				.todo-list-control .list-row:hover .list-task-delete {
 					display: block;
 					cursor: pointer;
+					}
+				.todo-list-control .list-row:hover .list-move {
+					display: block;
+					cursor: move;
 					}
 		
 		.todo-list .list-row-edit,

@@ -158,11 +158,20 @@ select
 input[type="checkbox"],
 input[type="radio"] 
 {
-	border: 0;
+	border: none;
 	width: auto;
 	vertical-align: middle;
 	margin-right: 5px;
-	margin-top: 2px;
+	margin-top: 2px;	
+	padding: 0;  
+	border-radius: 0;
+	-moz-border-radius: 0;  
+	-webkit-border-radius: 0; 
+	outline: 0;   
+	background-color: transparent; 
+	
+	
+	
     }
 input[type="radio"] {float: left;}
 

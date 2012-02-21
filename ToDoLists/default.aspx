@@ -40,7 +40,7 @@
         </div><!-- END List TOP -->
         <div class="clearfix"></div>
         <div class="list-list">
-    	    <div class="list-row">
+    	    <div class="list-row">                
                 <div class="list-move"></div>
         	    <div class="list-select">
             	    <input type="checkbox" value="true">
@@ -57,7 +57,8 @@
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
             </div>
             <div class="list-row">
-        	    <div class="list-select">
+        	    <div class="list-move"></div>
+                <div class="list-select">
             	    <input type="checkbox" value="true">
                 </div>
                 <div class="list-desc">
@@ -72,7 +73,8 @@
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
             </div>
             <div class="list-row">
-        	    <div class="list-select">
+        	    <div class="list-move"></div>
+                <div class="list-select">
             	    <input type="checkbox" value="true">
                 </div>
                 <div class="list-desc">
@@ -87,7 +89,8 @@
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
             </div>
             <div class="list-row">
-        	    <div class="list-select">
+        	    <div class="list-move"></div>
+                <div class="list-select">
             	    <input type="checkbox" value="true">
                 </div>
                 <div class="list-desc">
@@ -102,7 +105,8 @@
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
             </div>
             <div class="list-row">
-        	    <div class="list-select">
+        	    <div class="list-move"></div>
+                <div class="list-select">
             	    <input type="checkbox" value="true">
                 </div>
                 <div class="list-desc">
@@ -154,7 +158,8 @@
         </div><!-- END list-add-task CONTAINER -->
         <div class="list-completed-tasks">
             <div class="list-row-done">
-        	    <div class="list-select">
+        	    <div class="list-move"></div>
+                <div class="list-select">
             	    <input name="" type="checkbox" value="true" checked="checked">
                 </div>
                 <div class="list-desc">

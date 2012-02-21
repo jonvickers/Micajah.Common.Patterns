@@ -290,7 +290,6 @@
     <Content Include="SherpaDesk\tickets\tickets.aspx" />
     <Content Include="signup1\default.aspx" />
     <Content Include="signup1\js\signup1.js" />
-    <Content Include="signup2\css\signup2.css" />
     <Content Include="signup2\default.aspx" />
     <Content Include="signup2\img\bwa-logo.png" />
     <Content Include="signup2\img\logo.png" />
