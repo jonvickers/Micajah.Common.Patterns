@@ -35,7 +35,7 @@
         });
     });
 
-    $('.list-task-delete').on('click', function () {
+    $('.list-task-delete').live('click', function () {
         var thisParent = $(this).parent();
         thisParent.css('background-color', '#FFCECE').fadeOut(1000);
     });

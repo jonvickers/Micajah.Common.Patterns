@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="MCPatterns.signup2._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
-    <link href="css/signup2.css" rel="stylesheet" type="text/css" />
+    <link href="../css-signupProcess/SignupProcess.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -43,7 +43,7 @@
 			
 
 <div class="container">
-      <div id="logo"><img src="img/logo.png" /></div>
+      <div class="logo"><img src="img/logo.png" /></div>
       <div class="section1">
       <div class="formsection"><p>Company Address</p></div>
             <p> 

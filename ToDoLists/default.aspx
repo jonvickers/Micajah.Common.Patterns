@@ -32,6 +32,7 @@
     </div>
 
     <div class="todo-list">
+        
 	    <div class="list-top">
             <div class="list-title">
                 <h4>ToDo List Name</h4>
@@ -40,6 +41,7 @@
         <div class="clearfix"></div>
         <div class="list-list">
     	    <div class="list-row">
+                <div class="list-move"></div>
         	    <div class="list-select">
             	    <input type="checkbox" value="true">
                 </div>

@@ -81,7 +81,7 @@ p.login-button span
     width: 350px !important;
 }
 
-#logo {
+.logo {
 	width: 800px;
 	margin: 50px auto 0;
 	text-align: center;	
@@ -173,11 +173,7 @@ form .labelleft, form .labelleftdesc
 		margin: 0;
 		}
 
-#logo {
-	max-width: 800px;
-	margin: 50px auto;
-	text-align: center;	
-	}
+
 
 /*-- Form Adjustments --*/
 

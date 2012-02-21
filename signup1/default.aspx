@@ -14,11 +14,8 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-
-
     <div class="login-wrapper">	
-	    <div id="logo"><img src="../../css-signupProcess/img/logo.png" /></div>
+	    <div class="logo"><img src="../../css-signupProcess/img/logo.png" /></div>
     	    <div class="formwrap">
                     <p>                      
                         <input class="text-input large-txtinput" type="text" name="company" id="company" value="ACME Widgets" />
@@ -32,8 +29,7 @@
                     <p> 
                         <label class="labelleft portal">Company URL</label>                         
                         <div class="portalwrap">https:// <input onKeyUp="this.value=replaceSpaces(this.value);" class="text-input large-txtinput portal-input" type="text" name="portal" id="portal" value="acmewidgets" /> .sherpadesk.com</div>
-                    </p>
-                    
+                    </p>              
            
                     <p class="signup-page-button"><a href="../../signup2" class="buttons large">Create Your Account</a></p>
             </div>

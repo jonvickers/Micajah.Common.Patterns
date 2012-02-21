@@ -288,10 +288,7 @@
     <Content Include="SherpaDesk\startup-dashboard\img\startup-arrow.png" />
     <Content Include="SherpaDesk\startup-dashboard\img\startup-box.png" />
     <Content Include="SherpaDesk\tickets\tickets.aspx" />
-    <Content Include="signup1\css\signup1.css" />
     <Content Include="signup1\default.aspx" />
-    <Content Include="signup1\img\bwa-logo.png" />
-    <Content Include="signup1\img\logo.png" />
     <Content Include="signup1\js\signup1.js" />
     <Content Include="signup2\css\signup2.css" />
     <Content Include="signup2\default.aspx" />
@@ -314,6 +311,7 @@
     <Content Include="ToDoLists\img\clock.gif" />
     <Content Include="ToDoLists\img\clock_grey.png" />
     <Content Include="ToDoLists\img\clock.png" />
+    <Content Include="ToDoLists\img\cross.png" />
     <Content Include="ToDoLists\img\gear.png" />
     <Content Include="ToDoLists\js\jquery.ui.core.min.js" />
     <Content Include="ToDoLists\js\jquery.ui.datepicker.min.js" />
