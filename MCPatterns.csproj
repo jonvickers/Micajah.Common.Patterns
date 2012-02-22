@@ -312,6 +312,7 @@
     <Content Include="ToDoLists\img\clock.png" />
     <Content Include="ToDoLists\img\cross.png" />
     <Content Include="ToDoLists\img\gear.png" />
+    <Content Include="ToDoLists\img\movebkg.png" />
     <Content Include="ToDoLists\js\jquery.ui.core.min.js" />
     <Content Include="ToDoLists\js\jquery.ui.datepicker.min.js" />
     <Content Include="ToDoLists\js\jquery.ui.widget.min.js" />

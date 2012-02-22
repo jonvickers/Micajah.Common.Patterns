@@ -3,10 +3,17 @@
 
     <link href="../../ToDoLists/css/todoLists.css" rel="stylesheet" type="text/css" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    
     <script type="text/javascript">
         $(document).ready(function () {
             //add class for menu
-            $("body").attr("id", "todolists");           
+            $("body").attr("id", "todolists"); 
+            
+            $(function() {
+                $(".list-list").sortable();
+                $(".list-list").disableSelection();
+	        });         
         });
     </script>
 
@@ -39,8 +46,8 @@
             </div>            
         </div><!-- END List TOP -->
         <div class="clearfix"></div>
-        <div class="list-list">
-    	    <div class="list-row">                
+        <ul class="list-list">
+    	    <li class="list-row">                
                 <div class="list-move"></div>
         	    <div class="list-select">
             	    <input type="checkbox" value="true">
@@ -55,8 +62,8 @@
                 <div class="list-est-time">1h 15m</div>
                 <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-            </div>
-            <div class="list-row">
+            </li>
+            <li class="list-row">
         	    <div class="list-move"></div>
                 <div class="list-select">
             	    <input type="checkbox" value="true">
@@ -71,8 +78,8 @@
                 <div class="list-est-time">1h 15m</div>
                 <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-            </div>
-            <div class="list-row">
+            </li>
+            <li class="list-row">
         	    <div class="list-move"></div>
                 <div class="list-select">
             	    <input type="checkbox" value="true">
@@ -87,8 +94,8 @@
                 <div class="list-est-time">1h 15m</div>
                 <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-            </div>
-            <div class="list-row">
+            </li>
+            <li class="list-row">
         	    <div class="list-move"></div>
                 <div class="list-select">
             	    <input type="checkbox" value="true">
@@ -103,8 +110,8 @@
                 <div class="list-est-time">1:15</div>
                 <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-            </div>
-            <div class="list-row">
+            </li>
+            <li class="list-row">
         	    <div class="list-move"></div>
                 <div class="list-select">
             	    <input type="checkbox" value="true">
@@ -119,7 +126,7 @@
                 <div class="list-est-time">1h 15m</div>
                 <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-            </div>        
+            </li>        
         
 		    <!-- EDIT TASK ROW MOCKUP
             <div class="list-row-edit">
@@ -152,12 +159,12 @@
         	    </form>
             </div>
             -->
-        </div><!-- END list-list CONTAINER -->
+        </ul><!-- END list-list CONTAINER -->
         <div class="list-add-task">
             <a href="#">Add New Task</a>
         </div><!-- END list-add-task CONTAINER -->
-        <div class="list-completed-tasks">
-            <div class="list-row-done">
+        <ul class="list-completed-tasks">
+            <li class="list-row-done">
         	    <div class="list-move"></div>
                 <div class="list-select">
             	    <input name="" type="checkbox" value="true" checked="checked">
@@ -174,8 +181,8 @@
                 <div class="list-est-time">1h 15m</div>
                 <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-            </div>    
-        </div><!-- END list-completed-task CONTAINER -->
+            </li>    
+        </ul><!-- END list-completed-task CONTAINER -->
     </div><!-- END todo-list -->
 </div><!-- END todo-list-control -->
     <script src="js/jquery.ui.core.min.js" type="text/javascript"></script>
