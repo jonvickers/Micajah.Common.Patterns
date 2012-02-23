@@ -52,6 +52,13 @@
         left: 0;
         display: none;
 	    }
+	    
+	    .todo_submit 
+	    {
+	        text-align: center;
+	        }
+	    
+	    /*  REMOVED FOR NEW POPUP
 	    .todo-list-control .add-list-form span.close {
 		        position: absolute;
 		        right: 10px;
@@ -75,7 +82,7 @@
 	        .todo-list-control .add-list-name .add-list-submit 
 	        {
 	            
-	            }
+	            } */
 	
 	.todo-list-control .add-list 
 	{
@@ -98,9 +105,9 @@
 			width: 100%;
 			padding: 10px 0;
 			margin: -1px 0 0;
-			min-height: 24px;
 			z-index: 0;
 			font-size: 14px;
+			overflow: hidden;
 			}	
 	    .list-row
 	    {

@@ -76,20 +76,20 @@
         $(unselectThis).removeAttr("checked");
     });
 
-    $('.add-list a.buttons').on('click', function () {
-        $(this).parent().siblings('.add-list-form').show();
+    //$('.add-list a.buttons').on('click', function () {
+       // $(this).parent().siblings('.add-list-form').show();
 
 
-        (function () {
-            if ($(this).find('span.close').length) return;
+       // (function () {
+       //     if ($(this).find('span.close').length) return;
 
-            $('<span class=close>X</span>')
-                .appendTo('.add-list-form')
-                .on('click', function () {
+       //     $('<span class=close>X</span>')
+       //         .appendTo('.add-list-form')
+       //         .on('click', function () {
 
-                    $(this).slideUp('300');
-                });
-        })();
-    });
+       //             $(this).slideUp('300');
+       //         });
+      //  })();
+   // });
 
 })();

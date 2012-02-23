@@ -33,7 +33,7 @@
         </div>
         <div class="filter-tasks-due">
             <p>Due:</p>
-            <select name="technicians">
+            <select name="duedate">
 	            <option>Anytime</option>
 	            <option>Today</option>
 	            <option>Tomorrow</option>
@@ -46,7 +46,7 @@
         </div>
         <div class="filter-tasks-attach">
             <p>Relationship:</p>
-            <select name="technicians">
+            <select name="attachment">
                 <option>All</option>
 	            <option>Tickets</option>
 	            <option>Projects</option>
