@@ -1,7 +1,9 @@
 ﻿/*------------------------------------------------------------ 
 
+Sample Forms inside of table
+
 Form inside table layout W/ 100% on the inputs and 
-variable padding and text size
+variable padding and text size  - Example only
 
 -------------------------------------------------------------- */ 
 
@@ -14,7 +16,7 @@ variable padding and text size
 .form-example-top table tr, 
 .form-example-top table tr:hover, 
 .form-example-top table tbody 
-{
+{ /* Remove default table styling */
     border: none;
     padding: 0;
     margin: 0 0 20px;
@@ -39,7 +41,7 @@ variable padding and text size
 
  .form-example-top select 
  {
-     width: 50%;
+     min-width: 50%;
      }
 
 .form-example-left label
@@ -70,14 +72,6 @@ variable padding and text size
     vertical-align: middle;
     }
     
-
-
-.large-txtinput 
-{
-    padding: 12px 10px;        
-	font: normal 18px/100% Verdana, Tahoma, sans-serif;
-    }
-
 .form-example-top label span 
 {
     float: right;
@@ -87,7 +81,7 @@ variable padding and text size
 
 /*------------------------------------------------------------ 
 
-Forms CSS 
+Global Forms CSS 
 
 -------------------------------------------------------------- */
 
@@ -122,27 +116,22 @@ textarea
 	background-color: #ffffff;  
 	}
 	
-.small-input 
+/* .small-input  ***Not used
 {
     width: 25% !important;
-    }
+    }  */
                 
-.medium-input 
+.medium-input /* Used in sign up Process */ 
 {
     width: 35% !important;
-    }
-                
-.large-input 
+    }          
+           
+.large-txtinput /* Used in sign up Process */
 {
-    width: 97.5% !important;
-    max-width: 800px;
+    padding: 12px 10px;        
+	font: normal 18px/100% Verdana, Tahoma, sans-serif;
     }
-    
-.large-input-left /*-- for left side input --*/
-{
-    width: 70% !important;
-    }
-                
+
 textarea 
 {
     width: 97.5% !important;

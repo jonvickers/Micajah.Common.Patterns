@@ -947,3 +947,176 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+.GoogleLikeForms_GREEN input[type="submit"],.GoogleLikeForms_GREEN input[type="reset"],.GoogleLikeForms_GREEN input[type="image"] {
+    padding: 8px 30px 7px 30px;
+    margin: 5px 2px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ACDB3D;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ACDB3D)color-stop(0%, #A4D239));
+    background-image: -webkit-linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+    background-image: -moz-linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+    background-image: -o-linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+    background-image: -ms-linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+    background-image: linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #9fcc37;
+    text-shadow: 0px 1px 0px #7ea127;
+}
+
+.GoogleLikeForms_GREEN input[type="submit"]:hover,.GoogleLikeForms_GREEN input[type="reset"]:hover,.GoogleLikeForms_GREEN input[type="image"]:hover {
+    background-color: #94BD2D;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #A4D239)color-stop(0%, #94BD2D));
+    background-image: -webkit-linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+    background-image: -moz-linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+    background-image: -o-linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+    background-image: -ms-linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+    background-image: linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #7ea127;
+}
+
+.GoogleLikeForms_GREEN input[type="submit"]:active,.GoogleLikeForms_GREEN input[type="reset"]:active,.GoogleLikeForms_GREEN input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    border: 1px solid #73941f;
+}
+
+.GoogleLikeForms_GREEN input[type="button"] {
+    padding: 8px 30px 7px 30px;
+    margin: 5px 2px;
+    color: #222222;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #F0F0F0;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F0F0F0), color-stop(100%, #F5F5F5));
+    background-image: -webkit-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: -moz-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: -o-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: -ms-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+}
+
+.GoogleLikeForms_GREEN input[type="button"]:hover {
+    background-color: #E8E8E8;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E8E8E8), color-stop(100%, #F5F5F5));
+    background-image: -webkit-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: -moz-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: -o-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: -ms-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #cecece;
+}
+
+.GoogleLikeForms_GREEN input[type="button"]:active {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    border: 1px solid #c9c9c9;
+}
+
+.GoogleLikeForms_GREEN input[type="image"] {
+    height: 17px;
+    padding: 7px 10px 6px 10px;
+    position: absolute;
+}
+
+.GoogleLikeForms_GREEN input[type="text"],.GoogleLikeForms_GREEN input[type="password"],.GoogleLikeForms_GREEN textarea {
+    padding: 8px 10px;
+    color: #555555;
+    font-size: 12px;
+    margin: 5px 2px;
+    font-family: 'Droid Sans', sans-serif;
+    background-color: #fdfdfd;
+    border: 1px solid #c2c2c2;
+}
+
+.GoogleLikeForms_GREEN input[type="text"]:hover,.GoogleLikeForms_GREEN input[type="password"]:hover,.GoogleLikeForms_GREEN textarea:hover {
+    border: 1px solid #a2a2a2;
+    outline: none;
+
+    box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+    -moz-box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+}
+
+.GoogleLikeForms_GREEN input[type="text"]:focus,.GoogleLikeForms_GREEN input[type="password"]:focus,.GoogleLikeForms_GREEN textarea:focus {
+    border: 1px solid #ACDB3D;
+    outline: none;
+
+    box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+    -moz-box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+}
+
+.GoogleLikeForms_GREEN input.GLF_correctInput {
+    border: 1px solid #90d190;
+    color: #407d40;
+    text-shadow: 0px 0px 5px rgba(0,0,0,.1);
+}
+
+.GoogleLikeForms_GREEN input.GLF_correctInput:focus,.GoogleLikeForms_GREEN input.GLF_correctInput:hover {
+    background-color: #e7f9e7;
+    border: 1px solid #7cc17c;
+}
+
+.GoogleLikeForms_GREEN input.GLF_wrongInput {
+    border: 1px solid #ff9597;
+    color: #933a3c;
+}
+
+.GoogleLikeForms_GREEN input.GLF_wrongInput:focus,.GoogleLikeForms_GREEN input.GLF_wrongInput:hover {
+    background-color: #fff2f2;
+    border: 1px solid #ff6e70;
+}
+
+.GLF_search {
+    position: relative;
+}
+
+.GLF_search input.searchINPUT {
+    -webkit-border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: 0px;
+}
+
+.GLF_search input.searchBTN {
+    position: absolute;
+
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -4px;
+}
+
+
+

@@ -169,7 +169,7 @@
 <br />
 <br />
 <br />
-
+<!-- 
 <h1>Jquery Sortable Grid (dataTable Plugin)</h1>
 					
 					<table class="display stylized" id="example">
@@ -586,7 +586,7 @@
 								<td class="center">U</td>
 							</tr>
 						</tbody>					
-					</table>
+					</table> -->
 
 
 </asp:Content>

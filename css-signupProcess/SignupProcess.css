@@ -63,10 +63,9 @@ p.login-button span
     }
 
 
-#new-user-signup
+.new-user-signup
 {
-    margin:0 0 0 290px;
-	width: 300px !important;
+    margin-left: 15px;
     }
 #new-user-signup a
 {

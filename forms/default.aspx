@@ -130,34 +130,34 @@
          <div class="twocolumn"><!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
             <p>
 				<label>Left Column Input</label>
-				<input class="text-input twocolumn-input" type="text"  name="medium-input" />
+				<input class="text-input twocolumn-input" type="text" />
 				<br /><small>A small description of the field</small>
 			</p>
             <p>
 				<label>Left Column Input</label>
-				<input class="text-input twocolumn-input" type="text"  name="medium-input" />
+				<input class="text-input twocolumn-input" type="text" />
 				<br /><small>A small description of the field</small>
 			</p>
             <p>
 				<label>Left Column Input</label>
-				<input class="text-input twocolumn-input" type="text"  name="small-input" />
+				<input class="text-input twocolumn-input" type="text" />
                 <br /><small>A small description of the field</small>
 			</p>     
          </div>
          <div class="twocolumn">
             <p>
 				<label>Right Column Input</label>
-				<input class="text-input twocolumn-input" type="text"  name="medium-input" />
+				<input class="text-input twocolumn-input" type="text" />
 				<br /><small>A small description of the field</small>
 			</p> 
             <p>
 				<label>Right Column Input</label>
-				<input class="text-input twocolumn-input" type="text"  name="medium-input" />
+				<input class="text-input twocolumn-input" type="text" />
 				<br /><small>A small description of the field</small>
 			</p> 
             <p>
 				<label>Right Column Input</label>
-				<input class="text-input twocolumn-input" type="text"  name="medium-input" /> 
+				<input class="text-input twocolumn-input" type="text" /> 
 				<br /><small>A small description of the field</small>
 			</p>            
          </div>

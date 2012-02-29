@@ -53,7 +53,26 @@ table th
     padding: 10px;
     line-height: 1.3em;
     vertical-align: middle;
+    }
+    
+/*  Table Reset Default  */ 
+
+.nogridstyle table, 
+.nogridstyle table tr, 
+.nogridstyle table tr:hover, 
+.nogridstyle table tbody, 
+.nogridstyle table, 
+.nogridstyle table tr, 
+.nogridstyle table tr:hover, 
+.nogridstyle table tbody 
+{ /* Remove default table styling */
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color:transparent;    
     }    
+        
+/*------------------------*/
     
 #grids h1 
 {

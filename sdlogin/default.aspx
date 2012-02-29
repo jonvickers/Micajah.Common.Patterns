@@ -21,7 +21,7 @@
 
             // Toggle new user sign-up
             $('#sign-up-toggler').click(function () {
-                $('#new-user-signup').toggle();
+                $('.new-user-signup').toggle();
             });
         });
     </script>
@@ -71,8 +71,8 @@
                             <label class="labelleft">Password</label>                                
                         </p>
                     </div>
-                    <p class="login-button"><input type="submit" value="Login" class="buttons large" /> <span><a href="#">Forgot?</a></span></p>
-                    <div id="new-user-signup" style="display: none;"><a href="#">Add a New User</a></div>
+                    <p class="login-button"><input type="submit" value="Login" class="buttons large" /> <span class="new-user-signup" style="display: none;"><a href="#">Add a New User</a></span><span><a href="#">Forgot?</a></span></p>
+                    
             </div>
     </div>
 
