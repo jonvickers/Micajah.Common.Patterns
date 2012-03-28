@@ -11,6 +11,7 @@
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<div class="wrapper"> 
     <div id="data-loop">
             	<div class="top-table-control">                	
                     <div class="tablesearch">
@@ -338,5 +339,5 @@
                 </div>
             </div><!--end data-loop-->
 
-
+</div><!-- End Wrapper -->
 </asp:Content>

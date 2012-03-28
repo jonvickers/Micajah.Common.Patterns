@@ -170,16 +170,22 @@
     <Content Include="grids\js\jquery.dataTables.min.js" />
     <Content Include="grids\js\jquery.tablednd_0_5.js" />
     <Content Include="js-plugins\modernizr-2.0.6.min.js" />
+    <Content Include="pallet\pallet.aspx" />
     <Content Include="Portalv1\article-question.aspx" />
     <Content Include="Portalv1\css\960.css" />
     <Content Include="Portalv1\js\plugins.js" />
     <Content Include="Portalv1\js\script.js" />
     <Content Include="Portalv1\portal.aspx" />
     <Content Include="Portalv1\sdPortalv1.css" />
+    <Content Include="SherpaDeskv2\accounts-detail\account-detail.aspx" />
     <Content Include="SherpaDeskv2\Configuration\config.aspx" />
+    <Content Include="SherpaDeskv2\css\temp.css" />
     <Content Include="SherpaDeskv2\default.aspx" />
+    <Content Include="SherpaDeskv2\accounts-detail\accounts.aspx" />
+    <Content Include="SherpaDeskv2\images\account-details\charts-mockups.png" />
     <Content Include="SherpaDeskv2\images\bg-comment-tip.png" />
     <Content Include="SherpaDeskv2\images\bg-question-tip.png" />
+    <Content Include="SherpaDeskv2\images\clock.png" />
     <Content Include="SherpaDeskv2\images\config-icons\account.png" />
     <Content Include="SherpaDeskv2\images\config-icons\assets.png" />
     <Content Include="SherpaDeskv2\images\config-icons\auditor.png" />
@@ -191,17 +197,39 @@
     <Content Include="SherpaDeskv2\images\config-icons\reports.png" />
     <Content Include="SherpaDeskv2\images\config-icons\tickets.png" />
     <Content Include="SherpaDeskv2\images\configuration.png" />
+    <Content Include="SherpaDeskv2\images\followups.png" />
     <Content Include="SherpaDeskv2\images\footer-logo.png" />
+    <Content Include="SherpaDeskv2\images\glyphicons-halflings-white.png" />
+    <Content Include="SherpaDeskv2\images\glyphicons-halflings.png" />
+    <Content Include="SherpaDeskv2\images\graph.png" />
     <Content Include="SherpaDeskv2\images\gravatar.png" />
     <Content Include="SherpaDeskv2\images\ico-comment-reply.png" />
     <Content Include="SherpaDeskv2\images\lightbulb.png" />
+    <Content Include="SherpaDeskv2\images\newmessages.png" />
+    <Content Include="SherpaDeskv2\images\off.png" />
+    <Content Include="SherpaDeskv2\images\on-blue.png" />
+    <Content Include="SherpaDeskv2\images\on.png" />
+    <Content Include="SherpaDeskv2\images\onhold.png" />
+    <Content Include="SherpaDeskv2\images\opencustomer.png" />
+    <Content Include="SherpaDeskv2\images\opentickets.png" />
     <Content Include="SherpaDeskv2\images\pagehelp.png" />
     <Content Include="SherpaDeskv2\images\page_text.png" />
     <Content Include="SherpaDeskv2\images\search.png" />
+    <Content Include="SherpaDeskv2\images\slider.png" />
+    <Content Include="SherpaDeskv2\images\slider_center.png" />
+    <Content Include="SherpaDeskv2\images\slider_left.png" />
+    <Content Include="SherpaDeskv2\images\slider_right.png" />
     <Content Include="SherpaDeskv2\images\Ticket.png" />
     <Content Include="SherpaDeskv2\images\top-search\down.png" />
     <Content Include="SherpaDeskv2\images\top-search\search.png" />
     <Content Include="SherpaDeskv2\images\top-search\up.png" />
+    <Content Include="SherpaDeskv2\images\unconfirmed.png" />
+    <Content Include="SherpaDeskv2\images\waiting.png" />
+    <Content Include="SherpaDeskv2\js\checkboxes\on-off-checkboxes.css" />
+    <Content Include="SherpaDeskv2\js\checkboxes\on-off-checkboxes.js" />
+    <Content Include="SherpaDeskv2\js\fittext\fittxt.js" />
+    <Content Include="SherpaDeskv2\projects\default.aspx" />
+    <Content Include="SherpaDeskv2\projects\projectDetail.aspx" />
     <Content Include="SherpaDeskv2\SherpaDeskv2.css" />
     <Content Include="SherpaDeskv2\Tickets\tickets.aspx" />
     <Content Include="css-MicajahCommon\mc_reset.css" />
@@ -228,6 +256,44 @@
     <Content Include="sdlogin\default.aspx" />
     <Content Include="sdlogin\img\bwa-logo.png" />
     <Content Include="sdlogin\img\logo.png" />
+    <Content Include="SherpaDeskv3\css\responsive.css" />
+    <Content Include="SherpaDeskv3\css\style.css" />
+    <Content Include="SherpaDeskv3\default.aspx" />
+    <Content Include="SherpaDeskv3\img\configuration.png" />
+    <Content Include="SherpaDeskv3\img\footer-logo.png" />
+    <Content Include="SherpaDeskv3\img\glyphicons-halflings-white.png" />
+    <Content Include="SherpaDeskv3\img\glyphicons-halflings.png" />
+    <Content Include="SherpaDeskv3\img\graph.png" />
+    <Content Include="SherpaDeskv3\img\gravatar.png" />
+    <Content Include="SherpaDeskv3\img\newmessages.png" />
+    <Content Include="SherpaDeskv3\img\off.png" />
+    <Content Include="SherpaDeskv3\img\on-blue.png" />
+    <Content Include="SherpaDeskv3\img\on.png" />
+    <Content Include="SherpaDeskv3\img\onhold.png" />
+    <Content Include="SherpaDeskv3\img\opencustomer.png" />
+    <Content Include="SherpaDeskv3\img\opentickets.png" />
+    <Content Include="SherpaDeskv3\img\followups.png" />
+    <Content Include="SherpaDeskv3\img\slider.png" />
+    <Content Include="SherpaDeskv3\img\slider_center.png" />
+    <Content Include="SherpaDeskv3\img\slider_left.png" />
+    <Content Include="SherpaDeskv3\img\slider_right.png" />
+    <Content Include="SherpaDeskv3\img\unconfirmed.png" />
+    <Content Include="SherpaDeskv3\img\waiting.png" />
+    <Content Include="SherpaDeskv3\js\bootstrap-alert.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-button.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-carousel.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-collapse.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-dropdown.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-modal.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-popover.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-scrollspy.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-tab.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-tooltip.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-transition.js" />
+    <Content Include="SherpaDeskv3\js\bootstrap-typeahead.js" />
+    <Content Include="SherpaDeskv3\js\checkboxes\on-off-checkboxes.css" />
+    <Content Include="SherpaDeskv3\js\checkboxes\on-off-checkboxes.js" />
+    <Content Include="SherpaDeskv3\js\less-1.3.0.min.js" />
     <Content Include="signup1\default.aspx" />
     <Content Include="signup1\js\signup1.js" />
     <Content Include="signup2\default.aspx" />
@@ -338,6 +404,13 @@
     <Compile Include="grids\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pallet\pallet.aspx.cs">
+      <DependentUpon>pallet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pallet\pallet.aspx.designer.cs">
+      <DependentUpon>pallet.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Portalv1\article-question.aspx.cs">
       <DependentUpon>article-question.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -369,6 +442,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="SherpaDeskv2\accounts-detail\account-detail.aspx.cs">
+      <DependentUpon>account-detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\accounts-detail\account-detail.aspx.designer.cs">
+      <DependentUpon>account-detail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SherpaDeskv2\Configuration\config.aspx.cs">
       <DependentUpon>config.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -382,6 +462,27 @@
     </Compile>
     <Compile Include="SherpaDeskv2\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\accounts-detail\accounts.aspx.cs">
+      <DependentUpon>accounts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\accounts-detail\accounts.aspx.designer.cs">
+      <DependentUpon>accounts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\projects\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\projects\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\projects\projectDetail.aspx.cs">
+      <DependentUpon>projectDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\projects\projectDetail.aspx.designer.cs">
+      <DependentUpon>projectDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="SherpaDeskv2\SherpaDeskv2.Master.cs">
       <DependentUpon>SherpaDeskv2.Master</DependentUpon>
@@ -418,6 +519,20 @@
     </Compile>
     <Compile Include="sdlogin\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv3\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv3\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv3\SherpaDeskv3.Master.cs">
+      <DependentUpon>SherpaDeskv3.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv3\SherpaDeskv3.Master.designer.cs">
+      <DependentUpon>SherpaDeskv3.Master</DependentUpon>
     </Compile>
     <Compile Include="signup1\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -468,8 +583,6 @@
   <ItemGroup>
     <Folder Include="accounts\css\images\" />
     <Folder Include="Portalv1\img\" />
-    <Folder Include="SherpaDeskv2\css\" />
-    <Folder Include="SherpaDeskv2\js\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="customize\img\finish-check.psd" />
@@ -479,6 +592,42 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="SherpaDeskv3\less\accordion.less" />
+    <None Include="SherpaDeskv3\less\alerts.less" />
+    <None Include="SherpaDeskv3\less\bootstrap.less" />
+    <None Include="SherpaDeskv3\less\breadcrumbs.less" />
+    <None Include="SherpaDeskv3\less\button-groups.less" />
+    <None Include="SherpaDeskv3\less\buttons.less" />
+    <None Include="SherpaDeskv3\less\carousel.less" />
+    <None Include="SherpaDeskv3\less\close.less" />
+    <None Include="SherpaDeskv3\less\code.less" />
+    <None Include="SherpaDeskv3\less\component-animations.less" />
+    <None Include="SherpaDeskv3\less\dropdowns.less" />
+    <None Include="SherpaDeskv3\less\forms.less" />
+    <None Include="SherpaDeskv3\less\grid.less" />
+    <None Include="SherpaDeskv3\less\hero-unit.less" />
+    <None Include="SherpaDeskv3\less\labels.less" />
+    <None Include="SherpaDeskv3\less\layouts.less" />
+    <None Include="SherpaDeskv3\less\mixins.less" />
+    <None Include="SherpaDeskv3\less\modals.less" />
+    <None Include="SherpaDeskv3\less\navbar.less" />
+    <None Include="SherpaDeskv3\less\navs.less" />
+    <None Include="SherpaDeskv3\less\pager.less" />
+    <None Include="SherpaDeskv3\less\pagination.less" />
+    <None Include="SherpaDeskv3\less\popovers.less" />
+    <None Include="SherpaDeskv3\less\progress-bars.less" />
+    <None Include="SherpaDeskv3\less\reset.less" />
+    <None Include="SherpaDeskv3\less\responsive.less" />
+    <None Include="SherpaDeskv3\less\scaffolding.less" />
+    <None Include="SherpaDeskv3\less\sprites.less" />
+    <None Include="SherpaDeskv3\less\tables.less" />
+    <None Include="SherpaDeskv3\less\thumbnails.less" />
+    <None Include="SherpaDeskv3\less\tooltip.less" />
+    <None Include="SherpaDeskv3\less\type.less" />
+    <None Include="SherpaDeskv3\less\utilities.less" />
+    <None Include="SherpaDeskv3\less\variables.less" />
+    <None Include="SherpaDeskv3\less\wells.less" />
+    <Content Include="SherpaDeskv3\SherpaDeskv3.Master" />
     <None Include="success\harabara-font\harabara-webfont.eot" />
     <None Include="success\harabara-font\harabara-webfont.ttf" />
     <None Include="success\harabara-font\harabara-webfont.woff" />
@@ -497,7 +646,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51725</DevelopmentServerPort>
+          <DevelopmentServerPort>59030</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

@@ -32,6 +32,15 @@
 
     <hr />
 
+    <h3>Info Link Button</h3>
+        <div class="wrap">
+            <p><a href="#" class="buttons info">Add Time</a>
+        </div>
+        
+    <br />
+
+    <hr />
+
     <h3>Negative Link Button</h3>
         <div class="wrap">
             <p><a href="#" class="buttons negative">Cancel</a> &nbsp;&nbsp; <a href="#" class="buttons negative">Delete</a> &nbsp;&nbsp; <a href="#" class="buttons negative">Inactivate</a></p>

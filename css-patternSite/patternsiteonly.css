@@ -103,7 +103,8 @@ h1, h2, h3, h4, h5, xx-large, x-large, large, p
 #signup2 #sidebar #main-nav li.signup2 a,
 #signup2a #sidebar #main-nav li.signup2a a,
 #customize #sidebar #main-nav li.customize a,
-#startup1 #sidebar #main-nav li.startup1 a 
+#startup1 #sidebar #main-nav li.startup1 a,
+#sdpallet #sidebar #main-nav li.sdpallet a 
 {
 	background-color: #567c91;
 	color: #ffffff;

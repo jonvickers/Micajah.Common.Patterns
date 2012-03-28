@@ -118,6 +118,10 @@ table { border-collapse: collapse; border-spacing: 0; }
    Author: Ben Pfohl
    ========================================================================== */
 
+.main 
+{
+    padding-top: 20px;
+    }
 #container {
 	min-height: 100%;
 	height: auto !important;

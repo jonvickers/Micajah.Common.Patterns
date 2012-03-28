@@ -32,7 +32,7 @@ input[type="submit"]
     }
 input[type="submit"].small, input[type="submit"].buttons.small, .buttons.small {font-size: .9em;}
 input[type="submit"].large, input[type="submit"].buttons.large, .buttons.large, .buttons .large .negative {font-weight: bold; font-size: 1.3em;}
-input[type="submit"].x-large, input[type="submit"].buttons.x-large, .buttons.x-large, .buttons .x-large .negative {font-family: calibri; font-weight: bold; font-size: 1.5em;}
+input[type="submit"].x-large, input[type="submit"].buttons.x-large, .buttons.x-large, .buttons .x-large .negative {font-weight: bold; font-size: 1.5em;}
 input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #1874CD;}
 
 
@@ -50,7 +50,7 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
     font-size: 1.05em;
     font-weight: bold;
     overflow: visible;
-    padding: 0.6em 2.3em;
+    padding: 0.6em 2em;
     text-decoration: none;
     width: auto;
 }
@@ -72,6 +72,19 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
     background: #28597a;
    }
 
+/* -- Info Button -- */
+   
+.buttons.info 
+{
+    background-color: #058dc7;
+    border-color: #058dc7;
+    }  
+    
+.buttons.info:hover, input[type="submit"].buttons.info:hover {     
+    border-color: #09a0e1;
+    background: #09a0e1;
+   }
+
 /* -- Negative Button -- */
 .negative
 {  
@@ -83,8 +96,7 @@ input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #187
 	white-space: nowrap;
 	cursor: pointer;
 	outline: none;	
-	background: #ffffff;
-   	
+	background: #ffffff;   	
 	-webkit-background-clip: padding;
     -moz-background-clip: padding;
     -o-background-clip: padding-box;

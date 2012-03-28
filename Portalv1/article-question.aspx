@@ -3,10 +3,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<div id="portal-title" class="container_16">
-        	<h1>Support Center</h1>
-        </div>
-        <div class="container_16"> <!--main Container -->
+<!--- Removed Title
+    <div id="portal-title" class="container_16">
+        <h1>Support Center</h1>
+    </div>
+--------->
+        <div class="container_16 main"> <!--main Container -->
             <div class="grid_12 alpha"> <!-- Full Article Area -->
             	<div class="grid_12 alpha omega article-title">
                 	<h1>Article Title</h1>
@@ -64,51 +66,49 @@
 										</div>
 						            </div>
 						        </div>
-					            
-					            <ul class="children">
-					            	<li>
-					                	<div class="gravatar">
-								        	<img class="avatar" src="img/gravatar.png" width="40" height="40">
-								        </div>
-								        <div class="comment-content">
-								        	<span class="name">
-												<a class="url url" rel="external nofollow" href="#">Fred</a>
-											</span>
-								            <div class="user-meta">
-												15 December 2011 at 5:15 pm
-											</div>
-								            <div id="comment-00000" class="comment-entry">
-								            	<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
-								                Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
-								                To the entire team &mdash;</p>
-								                <div class="reply">
-													<a class="comment-reply-link" href="#">Reply</a>
-												</div>
-								            </div>
-								        </div>
-					                </li>
-					                <li>
-					                	<div class="gravatar">
-								        	<img class="avatar" src="img/gravatar.png" width="40" height="40">
-								        </div>
-								        <div class="comment-content">
-								        	<span class="name">
-												<a class="url url" rel="external nofollow" href="#">Fred</a>
-											</span>
-								            <div class="user-meta">
-												15 December 2011 at 5:15 pm
-											</div>
-								            <div id="comment-00000" class="comment-entry">
-								            	<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
-								                </p>
-								                <div class="reply">
-													<a class="comment-reply-link" href="#">Reply</a>
-												</div>
-								            </div>
-								        </div>
-					                </li>
-					            </ul>
-						    </li>
+					        </li>					            
+					        <li>
+					            <div class="gravatar">
+								    <img class="avatar" src="img/gravatar.png" width="40" height="40">
+								</div>
+								<div class="comment-content">
+								    <span class="name">
+										<a class="url url" rel="external nofollow" href="#">Fred</a>
+									</span>
+								    <div class="user-meta">
+										15 December 2011 at 5:15 pm
+									</div>
+								    <div id="comment-00000" class="comment-entry">
+								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
+								        Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
+								        To the entire team &mdash;</p>
+								        <div class="reply">
+											<a class="comment-reply-link" href="#">Reply</a>
+										</div>
+								    </div>
+								</div>
+					        </li>
+					        <li>
+					            <div class="gravatar">
+								    <img class="avatar" src="img/gravatar.png" width="40" height="40">
+								</div>
+								<div class="comment-content">
+								    <span class="name">
+										<a class="url url" rel="external nofollow" href="#">Fred</a>
+									</span>
+								    <div class="user-meta">
+										15 December 2011 at 5:15 pm
+									</div>
+								    <div id="comment-00000" class="comment-entry">
+								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
+								        </p>
+								        <div class="reply">
+											<a class="comment-reply-link" href="#">Reply</a>
+										</div>
+								    </div>
+								</div>
+					        </li>	            
+						    
 						  </ol>
 						</div>
 					</div>             
@@ -132,7 +132,7 @@
                         </div>
                         <div class="clearfix"></div>
                         <div class="grid_10 alpha omega">
-                            <textarea name="message" cols="" rows=""></textarea>
+                            <textarea name="message" cols="" rows="8"></textarea>
                         </div>
                         <div class="clearfix"></div>
                         	<input class="buttons" name="submit" type="submit" value="Leave Response">

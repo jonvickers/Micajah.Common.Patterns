@@ -20,6 +20,16 @@
     background-color: #A55200;
     color: #fff !important;
     }
+    
+.blue {
+    background-color: #058dc7;
+    color: #fff !important;
+    }
+
+.green {
+    background-color: #92c74f;
+    color: #fff !important;
+    }
 
 .ltgray {
 	background-color: #dadbdf;
@@ -84,19 +94,19 @@
 	            
 	            } */
 	
-	.todo-list-control .add-list 
+	.add-list 
 	{
 	    position: absolute;
 	    right: 0;
 	    top: 10px;
 			}
-	.todo-list .list-top{
+	.list-top{
 		overflow: hidden;
 		width: 100%;
 		padding: 10px 0;		}
 		
 		
-	.todo-list .list-list {
+	.list-list {
 		width: 100%;
 		}
 		.list-row,
@@ -114,7 +124,7 @@
 	        border-top: 1px solid #cccccc;
 			border-bottom: 1px solid #cccccc;
 	        }	
-		.todo-list .list-row-edit
+		.list-row-edit
 		{
 			width: 100%;
 			padding: 10px 0;
@@ -125,7 +135,7 @@
 			z-index: 0;
 			font-size: 14px;
 			}
-			.todo-list .list-row:hover {
+			.list-row:hover {
 				background-color: #F3F3F3;								
 				}
 			.list-move
@@ -192,70 +202,70 @@
 					cursor: move;
 					}
 		
-		.todo-list .list-row-edit,
-		.todo-list .list-row-add
+		.list-row-edit,
+		.list-row-add
 		 {
 			background-color: #EAEAEA;
 			padding: 10px 20px 15px;
 			}
-			.todo-list .list-row-edit p,
-			.todo-list .list-row-add p
+			.list-row-edit p,
+			.list-row-add p
 			{
 				margin: 0;
 				}
-			.todo-list .list-row-edit textarea,
-			.todo-list .list-row-add textarea
+			.list-row-edit textarea,
+			.list-row-add textarea
 			 {
 			    width: 92.5% !important;
 				padding: 15px;
 			    }
 			
-			.todo-list .list-det-edit,
-			.todo-list .list-task-action
+			.list-det-edit,
+			.list-task-action
 			 {
 				padding: 10px 0;
 				margin-bottom: 10px;
 				overflow: hidden;
 				}
 				
-				.todo-list .list-asign-to-edit,
-				.todo-list .list-date-edit,
-				.todo-list .list-est-time-edit
+				.list-asign-to-edit,
+				.list-date-edit,
+				.list-est-time-edit
 				{
 					float: left;
 					margin-right: 25px;
 					}
-				.todo-list .list-asign-to-edit select {
+				.list-asign-to-edit select {
 					width: 200px;
 					}
-				.todo-list .list-date-edit input {
+				.list-date-edit input {
 					width: 100px;
 					text-align: center;
 					}
-				.todo-list .list-est-time-edit input {
+				.list-est-time-edit input {
 					width: 75px;
 					text-align: center;
 					}
 				
-		.todo-list .list-add-task 
+		.list-add-task 
 		{
 		    padding: 20px;
 		    }
-		    .todo-list .list-add-task a
+		    .list-add-task a
 		    {
 		        font-weight: bold;
 		        }
-        .todo-list .list-completed-tasks 
+        .list-completed-tasks 
         {
             color: #c5c5c5;
             }
-            .todo-list .list-completed-tasks .list-desc,
-            .todo-list .list-completed-tasks .list-date,
-            .todo-list .list-completed-tasks .list-est-time
+            .list-completed-tasks .list-desc,
+            .list-completed-tasks .list-date,
+            .list-completed-tasks .list-est-time
             {
                 text-decoration: line-through;
                 }
-            .todo-list .list-completed-tasks .list-est-time 
+            .list-completed-tasks .list-est-time 
             {
                 background: url(../../todolists/img/clock_grey.gif) no-repeat left center;
                 }

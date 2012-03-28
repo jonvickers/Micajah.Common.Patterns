@@ -25,6 +25,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="announcement1" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<div class="wrapper"> 
             <div class="aside left">
                   <ul>
               	    <li class="menutitle first">Account Settings</li>
@@ -351,5 +352,5 @@
 
 </div>
 
-
+</div><!-- End Wrapper -->
 </asp:Content>
