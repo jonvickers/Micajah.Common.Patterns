@@ -1401,6 +1401,9 @@ ul.counters li
 		line-height: 76px;
 		}
     .project-details-budget {margin-top: 20px; margin-bottom: 20px;}
+    .project-details-budget table td,
+    .project-details-budget table th {text-align: center;} 
+    .project-details-budget table td span {font-weight: bold; font-size: 16px;}
 	
 
 /* =============================================================================

@@ -122,7 +122,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 {
     padding-top: 20px;
     }
-#container {
+.portal {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
@@ -148,7 +148,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	background: linear-gradient(top,  #276da3 0%,#004174 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#276da3', endColorstr='#004174',GradientType=0 );
     height: 50px;
-    margin: 0;
+    margin: 0 0 25px;
     padding: 0;
 }
 	.header:after {
@@ -167,7 +167,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	    font-size: 21px;
 	    margin: 12px 0;
 		}
-		#global-nav { 
+		.global-nav { 
 			float: right;
     		width: 500px;
 			/* margin-right: -10px;  */
@@ -235,7 +235,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 				width: 0;
 				height: 0;
 			}	
-#portal-title {padding: 20px 0;}			
+.portal-title {padding: 20px 0;}			
 
 .top-search {
 	margin-bottom: 30px;
@@ -319,25 +319,52 @@ ol.commentlist  {
 	padding: 0;
 	}
 	
-#comments {
+.question-comments 
+{
+    
+    }
+.comments {
     clear: both;
     margin-top: 10px;
 }
-#comments #comments_wrap {
+.comments .comments_wrap {
     margin: 20px 0;
     padding: 0;
-	width: 650px;
+	/* width: 650px; */
     position: relative;
 }
-#comments ol.commentlist li {
+.comments ol.commentlist li {
     background: none repeat scroll 0 0 transparent;
     list-style-type: none !important;
     padding: 0;
     position: relative;
 }
-#comments ol.commentlist li ul {
+.comments ol.commentlist li ul {
 	padding: 0 0 0 20px;
 	}
+
+.votes 
+{
+    height: 48px;
+    width: 40px;
+    background: url(img/vt-arrows.png) no-repeat scroll center top transparent;
+    float: left;
+    text-align: center;
+    margin: 6px 0;
+    }
+    .votes h2 
+    {
+        margin-top: 13px;
+        font-size: 25px;
+        }
+    .votes .negative-vote
+    {
+        color: #8a0909;
+        }
+    .votes .positive 
+    {
+        color: green;
+        }
 .gravatar {
     background: url(img/bg-comment-tip.png) no-repeat scroll right 16px transparent;	
 	left: 0;
@@ -346,6 +373,10 @@ ol.commentlist  {
     top: 5px;
     z-index: 999;
 }
+.gravatar.withvoting 
+{
+    left: 50px !important;
+    }
 
 img.avatar {
     background: none repeat scroll 0 0 #FFFFFF;
@@ -362,6 +393,10 @@ img.avatar {
     padding: 15px;
     position: relative;
 }
+.comment-content.withvoting 
+{
+    margin-left: 115px !important;
+    }
 
 .question .comment-content {
     background: none repeat scroll 0 0 #ECFDD4;
@@ -373,17 +408,17 @@ img.avatar {
     position: relative;
 }
 
-#comments ol.commentlist .name {
+.comments ol.commentlist .name {
     display: block;
     font-weight: bold;
     margin: 0;
 }
-#comments ol.commentlist .name a {
+.comments ol.commentlist .name a {
     font-size: 16px;
     text-decoration: none;
 	color: #000;
 }
-#comments ol.commentlist .user-meta {
+.comments ol.commentlist .user-meta {
     color: #666666;
     font: italic 11px Georgia,Times,serif;
     margin-bottom: 12px;
@@ -391,15 +426,16 @@ img.avatar {
     right: 15px;
     top: 20px;
 }
-#comments ol.commentlist .comment-entry {
+.comments ol.commentlist .comment-entry {
     font-size: 13px;
     padding-right: 25px;
 }
-#comments ol.commentlist .reply {
+.comments ol.commentlist .reply {
     float: right;
     margin: -30px -30px 0 0;
+    padding: 5px 0 0 10px;
 }
-#comments ol.commentlist .comment-reply-link {
+.comments ol.commentlist .comment-reply-link {
 	background:url(img/ico-comment-reply.png) no-repeat scroll left top transparent;
     display: block;
     height: 0;
@@ -407,10 +443,17 @@ img.avatar {
     padding-top: 37px;
     width: 37px;
 }
-#comments ol.commentlist .comment-reply-link:hover {
+.comments ol.commentlist .comment-reply-link:hover {
     background: url(img/ico-comment-reply.png) no-repeat scroll left bottom transparent;
 }
-
+.comments .best-answer 
+{
+    background: url(img/green-check.png) no-repeat scroll left 6px transparent;
+    padding: 12px 0 5px 35px;
+    color: #92C74F;
+    font-weight: bolder;
+    font-size: 18px;
+    }
 
 .articles-reply {
 	
@@ -443,7 +486,8 @@ img.avatar {
 		}
 		.portal-aside ul li.fb-link, 
 		.portal-aside ul li.twitter-link, 
-		.portal-aside ul li.phone {
+		.portal-aside ul li.phone,
+		.portal-aside ul li.email-link {
 			padding: 0 0 0 45px;
 			line-height: 40px;
 			font-size: 20px;
@@ -459,6 +503,9 @@ img.avatar {
 				}
 			.portal-aside ul li.twitter-link {
 				background-image: url(img/twitter-icon.png);
+				}
+			.portal-aside ul li.email-link {
+				background-image: url(img/email-icon.png);
 				}
 		.portal-aside ul li.widget {
 			margin: 35px 10px 20px;

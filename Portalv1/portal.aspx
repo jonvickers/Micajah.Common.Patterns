@@ -44,9 +44,9 @@
                         	<h3>Initial Set-up</h3>
                             <ul>
                             	<li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="article-question.aspx">Question Title</a></li>
+                            	<li class="question"><a href="question.aspx">Question Title</a></li>
                                 <li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="article-question.aspx">Extra Extra Long Question Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
+                            	<li class="question"><a href="question.aspx">Extra Extra Long Question Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
                                 <li class="more"><a href="article-question.aspx">More...</a></li>
                             </ul>
                         </div>
@@ -54,9 +54,9 @@
                         	<h3>Additional Examples</h3>
                             <ul>
                             	<li class="article"><a href="article-question.aspx">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id enim et leo laoreet vehicula</a></li>
-                            	<li class="question"><a href="article-question.aspx">Question Title</a></li>
+                            	<li class="question"><a href="question.aspx">Question Title</a></li>
                                 <li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="article-question.aspx">Question Title</a></li>
+                            	<li class="question"><a href="question.aspx">Question Title</a></li>
                                 <li class="more"><a href="article-question.aspx">More...</a></li>
                             </ul>
                         </div>
@@ -70,9 +70,9 @@
                         	<h3>Sub-Category Title</h3>
                             <ul>
                             	<li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="article-question.aspx">Question Title</a></li>
+                            	<li class="question"><a href="question.aspx">Question Title</a></li>
                                 <li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="article-question.aspx">Question Title</a></li>
+                            	<li class="question"><a href="question.aspx">Question Title</a></li>
                                 <li class="more"><a href="article-question.aspx">More...</a></li>
                             </ul>
                         </div>
@@ -80,9 +80,9 @@
                         	<h3>Sub-Category Title</h3>
                             <ul>
                             	<li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="article-question.aspx">Question Title</a></li>
+                            	<li class="question"><a href="question.aspx">Question Title</a></li>
                                 <li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="article-question.aspx">Question Title</a></li>
+                            	<li class="question"><a href="question.aspx">Question Title</a></li>
                                 <li class="more"><a href="article-question.aspx">More...</a></li>
                             </ul>
                         </div>

@@ -173,9 +173,33 @@
     <Content Include="pallet\pallet.aspx" />
     <Content Include="Portalv1\article-question.aspx" />
     <Content Include="Portalv1\css\960.css" />
+    <Content Include="Portalv1\img\article-icon.png" />
+    <Content Include="Portalv1\img\bg-comment-tip.png" />
+    <Content Include="Portalv1\img\bg-question-tip.png" />
+    <Content Include="Portalv1\img\configuration.png" />
+    <Content Include="Portalv1\img\facebook-icon.png" />
+    <Content Include="Portalv1\img\footer-logo.png" />
+    <Content Include="Portalv1\img\gravatar.png" />
+    <Content Include="Portalv1\img\ico-comment-reply.png" />
+    <Content Include="Portalv1\img\lightbulb.png" />
+    <Content Include="Portalv1\img\pagehelp.png" />
+    <Content Include="Portalv1\img\page_text.png" />
+    <Content Include="Portalv1\img\phone-icon.png" />
+    <Content Include="Portalv1\img\phone-icon2.png" />
+    <Content Include="Portalv1\img\plus-icon.png" />
+    <Content Include="Portalv1\img\question-icon.png" />
+    <Content Include="Portalv1\img\search.png" />
+    <Content Include="Portalv1\img\thumbs-up-icon.png" />
+    <Content Include="Portalv1\img\ticket-icon.png" />
+    <Content Include="Portalv1\img\Ticket.png" />
+    <Content Include="Portalv1\img\top-search\down.png" />
+    <Content Include="Portalv1\img\top-search\search.png" />
+    <Content Include="Portalv1\img\top-search\up.png" />
+    <Content Include="Portalv1\img\twitter-icon.png" />
     <Content Include="Portalv1\js\plugins.js" />
     <Content Include="Portalv1\js\script.js" />
     <Content Include="Portalv1\portal.aspx" />
+    <Content Include="Portalv1\question.aspx" />
     <Content Include="Portalv1\sdPortalv1.css" />
     <Content Include="SherpaDeskv2\accounts-detail\account-detail.aspx" />
     <Content Include="SherpaDeskv2\Configuration\config.aspx" />
@@ -432,6 +456,13 @@
     <Compile Include="Portalv1\Portal.Master.designer.cs">
       <DependentUpon>Portal.Master</DependentUpon>
     </Compile>
+    <Compile Include="Portalv1\question.aspx.cs">
+      <DependentUpon>question.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portalv1\question.aspx.designer.cs">
+      <DependentUpon>question.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -582,7 +613,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="accounts\css\images\" />
-    <Folder Include="Portalv1\img\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="customize\img\finish-check.psd" />

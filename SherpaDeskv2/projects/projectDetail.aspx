@@ -155,9 +155,9 @@
             <thead>
                 <tr>
                     <th></th>
-                    <th colspan="3" style="text-align:center;">Hours</th>
-                    <th colspan="3" style="text-align:center;">Customer</th>
-                    <th colspan="3" style="text-align:center;">Internal Cost</th>
+                    <th colspan="3">Hours</th>
+                    <th colspan="3">Customer</th>
+                    <th colspan="3">Internal Cost</th>
                 </tr>
             </thead>
             <tbody>
@@ -174,27 +174,27 @@
                     <td><span>Total</span></td>
                 </tr>
                 <tr>
-                    <td><b><span>Ticket</span></b></td>
+                    <td><span>Ticket</span></td>
+                    <td>351.45</td>
+                    <td>0.00</td>
                     <td><span>351.45</span></td>
-                    <td><span>0.00</span></td>
-                    <td><span>351.45</span></td>
+                    <td>$0.00</td>
+                    <td>$0.00</td>
                     <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$7,029.00</span></td>
+                    <td>$0.00</td>
+                    <td>$7,029.00</td>
                     <td><span>$7,029.00</span></td>
                 </tr>
                 <tr>
-                    <td><b><span>Project</span></b></td>
+                    <td><span>Project</span></td>
+                    <td>0.00</td>
+                    <td>0.00</td>
                     <td><span>0.00</span></td>
-                    <td><span>0.00</span></td>
-                    <td><span>0.00</span></td>
+                    <td>$0.00</td>
+                    <td>$0.00</td>
                     <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
+                    <td>$0.00</td>
+                    <td>$0.00</td>
                     <td><span>$0.00</span></td>
                 </tr>
                 <tr>

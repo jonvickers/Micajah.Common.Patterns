@@ -24,13 +24,13 @@
 <body>
     <form id="form1" runat="server">
          
-         <div id="container" class="clearfix">
+         <div class="portal clearfix">
   	        <div class="header">
     	        <div class="container_16">
         	        <div id="logo">
             	        <h1>My Company Name</h1>
                     </div>            
-                    <div id="global-nav" class="nav">
+                    <div class="global-nav nav">
             	        <ul class="main">
                             <li class="fr"><a href="../../default.aspx">mcPatterns Site</a>
                             <li class="fr"><a href="#">Login</a>	
@@ -42,11 +42,11 @@
                 </div><!-- End container_16 -->	
   	        </div><!-- End Header -->
                <div class="clearfix"></div>
-            <div>
+            
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
                 </asp:ContentPlaceHolder>
-            </div>
+            
             <div class="push"></div>
         </div> <!--! end of #container -->
 

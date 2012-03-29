@@ -1,55 +1,28 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Portalv1/Portal.Master" AutoEventWireup="true" CodeBehind="article-question.aspx.cs" Inherits="MCPatterns.Portalv1.article_question" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Portalv1/Portal.Master" AutoEventWireup="true" CodeBehind="question.aspx.cs" Inherits="MCPatterns.Portalv1.question" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<!--- Removed Title
-    <div id="portal-title" class="container_16">
-        <h1>Support Center</h1>
-    </div>
---------->
-        <div class="container_16 main"> <!--main Container -->
-            <div class="grid_12 alpha"> <!-- Full Article Area -->
-            	<div class="grid_12 alpha omega article-title">
-                	<h1>Article Title</h1>
-                    <p><em>Last Updated: Dec 23, 2011</em></p>
+ <div class="container_16"> <!--main Container -->
+            <div class="grid_11 alpha"> <!-- Full Article Area -->
+            	<div class="grid_11 alpha omega article-title">
+                	<h1>Question Title - This may be really long, so lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                    <p><em>Last Updated: Mar 29, 2012</em></p>
                 </div>
-                <div class="grid_12 alpha omega article-main">
-                	<p>
-                    <iframe src="http://player.vimeo.com/video/26914719?title=0&amp;byline=0&amp;portrait=0&amp;color=ff9933" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><p><a href="http://vimeo.com/26914719">HelpDesk by bigWebApps - Support Ticket Management</a> from <a href="http://vimeo.com/user7891535">bigWebApps</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
-                    
+                <div class="grid_11 alpha omega article-main">                	
                	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nibh non diam convallis iaculis eu id tortor. Sed aliquet commodo faucibus. Quisque auctor nunc at erat lacinia convallis. Mauris dignissim, velit eu fringilla euismod, justo elit laoreet lectus, sit amet euismod mi lorem at ligula. In neque turpis, dapibus vel aliquam nec, eleifend ut lorem. Ut vel tellus quis nisl gravida malesuada vitae non lacus.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nibh non diam convallis iaculis eu id tortor. Sed aliquet commodo faucibus. Quisque auctor nunc at erat lacinia convallis. Mauris dignissim, velit eu fringilla euismod, justo elit laoreet lectus, sit amet euismod mi lorem at ligula. In neque turpis, dapibus vel aliquam nec, eleifend ut lorem. Ut vel tellus quis nisl gravida malesuada vitae non lacus.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nibh non diam convallis iaculis eu id tortor. Sed aliquet commodo faucibus. Quisque auctor nunc at erat lacinia convallis. Mauris dignissim, velit eu fringilla euismod, <strong>justo elit laoreet lectus, sit amet euismod mi lorem at ligula. In neque turpis, dapibus vel</strong> aliquam nec, eleifend ut lorem. Ut vel tellus quis nisl gravida malesuada vitae non lacus.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nibh non diam convallis iaculis eu id tortor. Sed aliquet commodo faucibus. Quisque auctor nunc at erat lacinia convallis. Mauris dignissim, velit eu fringilla euismod, justo elit laoreet lectus, sit amet euismod mi lorem at ligula. In neque turpis, dapibus vel aliquam nec, eleifend ut lorem. Ut vel tellus quis nisl gravida malesuada vitae non lacus.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nibh non diam convallis iaculis eu id tortor. Sed aliquet commodo faucibus. Quisque auctor nunc at erat lacinia convallis. Mauris dignissim, velit eu fringilla euismod, justo elit laoreet lectus, sit amet euismod mi lorem at ligula. In neque turpis, dapibus vel aliquam nec, eleifend ut lorem. Ut vel tellus quis nisl gravida malesuada vitae non lacus.</p>
                 </div>
                 
-                <div class="grid_12 alpha omega articles-related">
-                	<h3>Related Articles</h3>
-                    <ul>
-                    	<li><a href="#">article #1</a></li>
-                    	<li><a href="#">article #2</a></li>
-                    	<li><a href="#">article #3</a></li>
-                    	<li><a href="#">article #4</a></li>
-                    </ul>
-                </div>
-                
-                <div class="grid_12 alpha omega articles-helpful">
-                	<h3>I found this article helpful. <span>(1203)</span></h3>
-                </div>
-                
-                <hr>
-                
-                <div class="grid_12 alpha omega articles-responses"> <!-- Comments -->
-                	<h2>Responses to this article:</h2>
+                <div class="grid_11 alpha omega"> <!-- Comments -->
+                	<h2>4 Community Answers</h2>
                     <div class="comments">
 						<div class="comments_wrap">
-						  <ol class="commentlist">
+						  <ol class="commentlist question-comments">
 						  	<li>
 						    	<div class="gravatar">
 						        	<img class="avatar" src="img/gravatar.png" width="40" height="40">
 						        </div>
+                                
 						        <div class="comment-content">
 						        	<span class="name">
 										<a class="url url" rel="external nofollow" href="#">Fred</a>
@@ -57,7 +30,47 @@
 						            <div class="user-meta">
 										15 December 2011 at 5:15 pm
 									</div>
-						            <div id="comment-00001" class="comment-entry">
+						            <div class="comment-entry">
+						            	<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. </p>
+                                        <div class="best-answer">
+                                            Best Answer
+                                        </div>
+						                <div class="reply">
+											<a class="comment-reply-link" href="#">Reply</a>
+										</div>
+                                        
+						            </div>
+						        </div>
+					        </li>
+						  </ol>
+						</div>
+					</div>             
+                </div><!-- End Comments -->
+                
+                
+                
+                <hr>
+                
+                <div class="grid_11 alpha omega articles-responses"> <!-- Comments -->
+                	<h2>Responses to this question</h2>
+                    <div class="comments">
+						<div class="comments_wrap">
+						  <ol class="commentlist">
+						  	<li>
+                                <div class="votes">
+                                    <h2 class="positive">2</h2>
+                                </div>
+						    	<div class="gravatar withvoting">
+						        	<img class="avatar" src="img/gravatar.png" width="40" height="40">
+						        </div>
+						        <div class="comment-content withvoting">
+						        	<span class="name">
+										<a class="url url" rel="external nofollow" href="#">Fred</a>
+									</span>
+						            <div class="user-meta">
+										15 December 2011 at 5:15 pm
+									</div>
+						            <div id="comment-00000" class="comment-entry">
 						            	<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 						                Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
 						                To the entire team &mdash;</p>
@@ -68,17 +81,20 @@
 						        </div>
 					        </li>					            
 					        <li>
-					            <div class="gravatar">
+                                <div class="votes">
+                                    <h2 class="negative-vote">-4</h2>
+                                </div>
+					            <div class="gravatar withvoting">
 								    <img class="avatar" src="img/gravatar.png" width="40" height="40">
 								</div>
-								<div class="comment-content">
+								<div class="comment-content withvoting">
 								    <span class="name">
 										<a class="url url" rel="external nofollow" href="#">Fred</a>
 									</span>
 								    <div class="user-meta">
 										15 December 2011 at 5:15 pm
 									</div>
-								    <div id="comment-00002" class="comment-entry">
+								    <div id="comment-00000" class="comment-entry">
 								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 								        Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
 								        To the entire team &mdash;</p>
@@ -89,19 +105,48 @@
 								</div>
 					        </li>
 					        <li>
-					            <div class="gravatar">
+                                <div class="votes">
+                                    <h2 class="positive">36</h2>
+                                </div>
+					            <div class="gravatar withvoting">
 								    <img class="avatar" src="img/gravatar.png" width="40" height="40">
 								</div>
-								<div class="comment-content">
+								<div class="comment-content withvoting">
 								    <span class="name">
 										<a class="url url" rel="external nofollow" href="#">Fred</a>
 									</span>
 								    <div class="user-meta">
 										15 December 2011 at 5:15 pm
 									</div>
-								    <div id="comment-00003" class="comment-entry">
+								    <div id="comment-00000" class="comment-entry">
 								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 								        </p>
+                                        <div class="best-answer">
+                                            Best Answer
+                                        </div>
+								        <div class="reply">
+											<a class="comment-reply-link" href="#">Reply</a>
+										</div>
+								    </div>
+								</div>
+					        </li>
+                            <li>
+                                <div class="votes">
+                                    <h2>0</h2>
+                                </div>
+					            <div class="gravatar withvoting">
+								    <img class="avatar" src="img/gravatar.png" width="40" height="40">
+								</div>
+								<div class="comment-content withvoting">
+								    <span class="name">
+										<a class="url url" rel="external nofollow" href="#">Fred</a>
+									</span>
+								    <div class="user-meta">
+										15 December 2011 at 5:15 pm
+									</div>
+								    <div id="Div1" class="comment-entry">
+								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
+								        </p>                                        
 								        <div class="reply">
 											<a class="comment-reply-link" href="#">Reply</a>
 										</div>
@@ -114,7 +159,7 @@
 					</div>             
                 </div><!-- End Comments -->
                 
-                <div class="grid_12 alpha omega articles-reply">
+                <div class="grid_11 alpha omega articles-reply">
                     <h2>Leave a Reply</h2>
                     <div>
                         <div class="grid_5 alpha">
@@ -140,8 +185,8 @@
                 </div>
                 
         	</div><!-- End Full Article Area -->
-          
-            <div class="grid_4 omega"> <!-- Sidebar -->
+           
+            <div class="grid_4 push_1 omega"> <!-- Sidebar -->
              	<div class="ticketing">
                     <h2><a href="#">Submit a Ticket</a></h2>
                     <h3><a href="#">Check Existing Ticket</a></h3>
