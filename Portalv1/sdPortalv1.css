@@ -314,7 +314,7 @@ ol.commentlist  {
 	color: #555555;
     font-size: 13px;
     line-height: 20px;
-    margin: 10px 0 25px 20px;
+    margin: 10px 0 25px 10px;
 	list-style: none outside none;
 	padding: 0;
 	}
@@ -346,7 +346,7 @@ ol.commentlist  {
 .votes 
 {
     height: 48px;
-    width: 40px;
+    width: 45px;
     background: url(img/vt-arrows.png) no-repeat scroll center top transparent;
     float: left;
     text-align: center;
@@ -363,7 +363,7 @@ ol.commentlist  {
         }
     .votes .positive 
     {
-        color: green;
+        color: #92C74F;
         }
 .gravatar {
     background: url(img/bg-comment-tip.png) no-repeat scroll right 16px transparent;	
@@ -420,7 +420,7 @@ img.avatar {
 }
 .comments ol.commentlist .user-meta {
     color: #666666;
-    font: italic 11px Georgia,Times,serif;
+    font: italic 11px arial, sans-serif;
     margin-bottom: 12px;
     position: absolute;
     right: 15px;

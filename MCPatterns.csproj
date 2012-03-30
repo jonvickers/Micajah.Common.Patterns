@@ -170,6 +170,11 @@
     <Content Include="grids\js\jquery.dataTables.min.js" />
     <Content Include="grids\js\jquery.tablednd_0_5.js" />
     <Content Include="js-plugins\modernizr-2.0.6.min.js" />
+    <Content Include="PageHelp\css\pagehelp.css" />
+    <Content Include="PageHelp\img\article-icon.png" />
+    <Content Include="PageHelp\img\lightbulb.png" />
+    <Content Include="PageHelp\img\question-icon.png" />
+    <Content Include="PageHelp\pagehelp.aspx" />
     <Content Include="pallet\pallet.aspx" />
     <Content Include="Portalv1\article-question.aspx" />
     <Content Include="Portalv1\css\960.css" />
@@ -177,9 +182,11 @@
     <Content Include="Portalv1\img\bg-comment-tip.png" />
     <Content Include="Portalv1\img\bg-question-tip.png" />
     <Content Include="Portalv1\img\configuration.png" />
+    <Content Include="Portalv1\img\email-icon.png" />
     <Content Include="Portalv1\img\facebook-icon.png" />
     <Content Include="Portalv1\img\footer-logo.png" />
     <Content Include="Portalv1\img\gravatar.png" />
+    <Content Include="Portalv1\img\green-check.png" />
     <Content Include="Portalv1\img\ico-comment-reply.png" />
     <Content Include="Portalv1\img\lightbulb.png" />
     <Content Include="Portalv1\img\pagehelp.png" />
@@ -196,6 +203,7 @@
     <Content Include="Portalv1\img\top-search\search.png" />
     <Content Include="Portalv1\img\top-search\up.png" />
     <Content Include="Portalv1\img\twitter-icon.png" />
+    <Content Include="Portalv1\img\vt-arrows.png" />
     <Content Include="Portalv1\js\plugins.js" />
     <Content Include="Portalv1\js\script.js" />
     <Content Include="Portalv1\portal.aspx" />
@@ -428,6 +436,20 @@
     <Compile Include="grids\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PageHelp\pagehelp.aspx.cs">
+      <DependentUpon>pagehelp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageHelp\pagehelp.aspx.designer.cs">
+      <DependentUpon>pagehelp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageHelp\PageHelp.Master.cs">
+      <DependentUpon>PageHelp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageHelp\PageHelp.Master.designer.cs">
+      <DependentUpon>PageHelp.Master</DependentUpon>
+    </Compile>
     <Compile Include="pallet\pallet.aspx.cs">
       <DependentUpon>pallet.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -613,11 +635,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="accounts\css\images\" />
+    <Folder Include="PageHelp\js\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="customize\img\finish-check.psd" />
     <Content Include="SherpaDeskv2\SherpaDeskv2.Master" />
     <Content Include="Portalv1\Portal.Master" />
+    <Content Include="PageHelp\PageHelp.Master" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
