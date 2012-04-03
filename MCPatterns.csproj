@@ -119,6 +119,7 @@
     <Content Include="css-MicajahCommon\img\bg-body.png" />
     <Content Include="css-MicajahCommon\img\button-add.gif" />
     <Content Include="css-MicajahCommon\mc_global.css" />
+    <Content Include="css-MicajahCommon\mc_graphs.css" />
     <Content Include="css-patternSite\patternsiteonly_reset.css" />
     <Content Include="css-patternSite\patternsiteonly_text.css" />
     <Content Include="css-signupProcess\img\bwa-logo.png" />
@@ -212,6 +213,7 @@
     <Content Include="SherpaDeskv2\accounts-detail\account-detail.aspx" />
     <Content Include="SherpaDeskv2\Configuration\config.aspx" />
     <Content Include="SherpaDeskv2\css\temp.css" />
+    <Content Include="SherpaDeskv2\css\todoLists-temp.css" />
     <Content Include="SherpaDeskv2\default.aspx" />
     <Content Include="SherpaDeskv2\accounts-detail\accounts.aspx" />
     <Content Include="SherpaDeskv2\images\account-details\charts-mockups.png" />

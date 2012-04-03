@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <link href="js/checkboxes/on-off-checkboxes.css" rel="stylesheet" type="text/css" />
-    <link href="../ToDoLists/css/todoLists.css" rel="stylesheet" type="text/css" />
+    <link href="css/todoLists-temp.css" rel="stylesheet" type="text/css" />
 
 </asp:Content>
 
@@ -159,11 +159,11 @@
         <img src="images/graph.png" width="100%"/>
     </div>
 </div><!-- End Bottom Container-->
-<div class="container widgets">
+<div class="container">
     <div class="grid_12">
         
                 <!--Start Todos -->
-                <div class="grid_8 alpha">
+                <div class="grid_8 alpha widgets todo-widget">
                     <h2>My ToDo List</h2>
                     <ul class="list-list">
     	                <li class="list-row">              
@@ -173,10 +173,11 @@
                             <div class="list-desc">
             	                Look again at that dot. That's here. That's home1.
                             </div>
-                            <div class="list-asigned-to">
-            	                <div class="pill blue">Due Today</div>
-                            </div>
                             <div class="list-date">25 Jan 2012</div>
+                            <div class="list-asigned-to">
+            	                <div class="pill drkblue">Overdue</div>
+                            </div>
+                            
                         </li>
                         <li class="list-row">
                             <div class="list-select">
@@ -185,10 +186,11 @@
                             <div class="list-desc">
             	                The surface is fine and powdery. I can kick it up loosely with my toe. It does adhere in fine layers, like powdered charcoal, to the sole and sides of my boots.
                             </div>
-                            <div class="list-asigned-to">
-            	                <div class="pill green">tkt #12345</div>
-                            </div>
                             <div class="list-date">25 Jan 2012</div>
+                            <div class="list-asigned-to">
+            	                <div class="pill drkblue">overdue</div>
+                            </div>
+                            
                         </li>
                         <li class="list-row">
                             <div class="list-select">
@@ -197,10 +199,11 @@
                             <div class="list-desc">
             	                Look again at that dot. That's here. That's home3.
                             </div>
-                            <div class="list-asigned-to">
-            	                <div class="pill blue">Project</div>
-                            </div>
                             <div class="list-date">24 Jan 2012</div>
+                            <div class="list-asigned-to">
+            	                <div class="pill blue">Due Today</div>
+                            </div>
+                            
                         </li>
                         <li class="list-row">
                             <div class="list-select">
@@ -209,10 +212,11 @@
                             <div class="list-desc">
             	                Look again at that dot. That's here. That's home4.
                             </div>
-                            <div class="list-asigned-to">
-            	                <div class="pill green">tkt #34567</div>
-                            </div>
                             <div class="list-date">23 Jan 2012</div>
+                            <div class="list-asigned-to">
+            	                <div class="pill blue">Due Today</div>
+                            </div>
+                            
                         </li>
                         <li class="list-row">
                             <div class="list-select">
@@ -221,22 +225,49 @@
                             <div class="list-desc">
             	                Look again at that dot. That's here. That's home5.
                             </div>
-                            <div class="list-asigned-to">
-            	                <div class="pill blue">Project</div>
-                            </div>
                             <div class="list-date">18 Jan 2012</div>
+                            <div class="list-asigned-to">
+            	                <div class="pill green">Due Tomorrow</div>
+                            </div>
+                            
                         </li> 
                     </ul>
 
                 </div><!--End Todos -->
 
                 <!--Start Right Side -->
-                <div class="grid_4 omega right-widgets">
+                <div class="grid_4 omega widgets right-widgets">
                     <div class="row">
                         <div class="span4">
                             <h2>Tickets in Queue(s)</h2>
                         </div>
                     </div>
+                    <table>
+                        <tr>
+                            <td>Configuration Updates Queue</td>
+                            <td><span class="pill drkblue">0</span></td>
+                        </tr>
+                        <tr>
+                            <td>Future Consideration Queue</td>
+                            <td><span class="pill drkblue">261</span></td>
+                        </tr>
+                        <tr>
+                            <td>New Ticket Queue</td>
+                            <td><span class="pill drkblue">0</span></td>
+                        </tr>
+                        <tr>
+                            <td>Pre-Development Queue</td>
+                            <td><span class="pill drkblue">36</span></td>
+                        </tr>
+                        <tr>
+                            <td>SherpaDesk Queue</td>
+                            <td><span class="pill drkblue">1</span></td>
+                        </tr>
+                        <tr>
+                            <td>WareHouse Queue</td>
+                            <td><span class="pill drkblue">9</span></td>
+                        </tr>
+                    </table>
                 </div><!--End Right Side -->            
         
     </div>

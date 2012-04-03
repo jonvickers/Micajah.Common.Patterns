@@ -1,0 +1,331 @@
+﻿/*-- Global --*/
+.list-title{
+			float: left;
+			}
+			
+			
+/*-- ToDo List Control Mockup --*/
+.todo-list-control {
+	width: 960px;
+	overflow: hidden;
+	margin: 50px auto 0;
+	position: relative;
+	}
+	
+	.todo-list-control .add-list-form 
+	{
+	    width: 100%;
+        background-color: #EBEBEB;
+        border-top: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        position: absolute;
+        padding: 10px;
+        margin-bottom: 10px;
+        left: 0;
+        display: none;
+	    }
+	    
+	    .todo_submit 
+	    {
+	        text-align: center;
+	        }
+	    
+	    /*  REMOVED FOR NEW POPUP
+	    .todo-list-control .add-list-form span.close {
+		        position: absolute;
+		        right: 10px;
+		        top: 10px;
+		        font-weight: bold;
+		        font-family: sans-serif;
+		        cursor: pointer;
+	        }
+	    .todo-list-control .add-list-name
+	    {
+	        float: left;
+	        margin: 0 20px 0 80px;
+	        
+	        }        
+	        
+	        .todo-list-control .add-list-name input 
+	        {
+	            width: 500px;
+	            padding: 0.625em;
+	            }
+	        .todo-list-control .add-list-name .add-list-submit 
+	        {
+	            
+	            } */
+	
+	.add-list 
+	{
+	    position: absolute;
+	    right: 0;
+	    top: 10px;
+			}
+	.list-top{
+		overflow: hidden;
+		width: 100%;
+		padding: 10px 0;		}
+		
+		
+	.list-list {
+		width: 100%;
+		}
+		.list-row,
+		.list-row-done
+		{
+			width: 100%;
+			padding: 10px 0;
+			margin: -1px 0 0;
+			z-index: 0;
+			font-size: 14px;
+			overflow: hidden;
+			}	
+	    .list-row
+	    {
+	        border-top: 1px solid #cccccc;
+			border-bottom: 1px solid #cccccc;
+	        }	
+		.list-row-edit
+		{
+			width: 100%;
+			padding: 10px 0;
+			margin: -1px 0 0;
+			border-top: 1px solid #cccccc;
+			border-bottom: 1px solid #cccccc;
+			overflow: hidden;
+			z-index: 0;
+			font-size: 14px;
+			}
+			.list-row:hover {
+				background-color: #F3F3F3;								
+				}
+			.list-move
+			{
+			    display: none;
+			    background: url('../../ToDoLists/img/movebkg.png') no-repeat 0 -9px;
+                width: 15px;
+                height: 19px;
+                float: left;
+                margin-right: -15px;
+                position: relative;
+			    }
+			    
+			.list-select{
+				float: left;
+				padding: 2px 15px 0;							
+				}
+				
+			.list-desc{
+				float: left;
+				margin-right: 10px;
+				width: 400px;
+				}
+			.list-asigned-to{
+				float: left;
+				margin-right: 20px;
+				width: 120px;
+				}
+				.list-asigned-to .pill 
+				{
+				    padding: 6px 8px;
+				    }
+			.list-date{
+				float: left;
+				margin: 0 10px 0;
+				}
+			.list-est-time{
+				float: left;
+				margin: 0 10px 0;
+				padding-left: 20px;
+				background: url(../../todolists/img/clock.gif) no-repeat left center;
+				}
+			.list-task-delete
+			{
+			    width: 65px;
+                float: right;
+                margin: 0 10px;
+                display: none;
+			    }
+			
+			.list-task-edit{
+				display: none;
+				float: right;
+				margin: 0 10px;
+				}
+				.list-task-edit span,
+				.list-task-delete span
+				{
+				    margin-top: 2px;
+				    }
+				.todo-list-control .list-row:hover .list-task-edit,
+				.todo-list-control .list-row:hover .list-task-delete {
+					display: block;
+					cursor: pointer;
+					}
+				.todo-list-control .list-row:hover .list-move {
+					display: block;
+					cursor: move;
+					}
+		
+		.list-row-edit,
+		.list-row-add
+		 {
+			background-color: #EAEAEA;
+			padding: 10px 20px 15px;
+			}
+			.list-row-edit p,
+			.list-row-add p
+			{
+				margin: 0;
+				}
+			.list-row-edit textarea,
+			.list-row-add textarea
+			 {
+			    width: 92.5% !important;
+				padding: 15px;
+			    }
+			
+			.list-det-edit,
+			.list-task-action
+			 {
+				padding: 10px 0;
+				margin-bottom: 10px;
+				overflow: hidden;
+				}
+				
+				.list-asign-to-edit,
+				.list-date-edit,
+				.list-est-time-edit
+				{
+					float: left;
+					margin-right: 25px;
+					}
+				.list-asign-to-edit select {
+					width: 200px;
+					}
+				.list-date-edit input {
+					width: 100px;
+					text-align: center;
+					}
+				.list-est-time-edit input {
+					width: 75px;
+					text-align: center;
+					}
+				
+		.list-add-task 
+		{
+		    padding: 20px;
+		    }
+		    .list-add-task a
+		    {
+		        font-weight: bold;
+		        }
+        .list-completed-tasks 
+        {
+            color: #c5c5c5;
+            }
+            .list-completed-tasks .list-desc,
+            .list-completed-tasks .list-date,
+            .list-completed-tasks .list-est-time
+            {
+                text-decoration: line-through;
+                }
+            .list-completed-tasks .list-est-time 
+            {
+                background: url(../../todolists/img/clock_grey.gif) no-repeat left center;
+                }
+.list-desc {
+    width: 57% !important;
+    min-width: 390px;
+    }
+.list-asigned-to, .list-date {float: right !important;}
+/*----------------------- Overview Page  --------------------------*/
+
+.todo-overview 
+{
+    width: 960px;
+    margin: 0 auto; 
+    }
+    .todo-overview .list-filter-row 
+    {
+        padding: 20px 0;
+        vertical-align: middle;
+        }
+        .todo-overview .list-filter-row p 
+        {
+            margin: 0 0 0 3px;
+            font-weight: bold;
+            }
+        .todo-overview .list-filter-row .filter-tasks-tech,
+        .todo-overview .list-filter-row .filter-tasks-due,
+        .todo-overview .list-filter-row .filter-tasks-attach        
+        {
+            float: left;
+            margin-right: 20px;
+            width: auto;
+            } 
+        .todo-overview .list-filter-row .add-template 
+        {
+            float: right;
+            margin: 30px 0 0;
+            }  
+            .todo-overview .list-filter-row .add-template a 
+            {
+                text-decoration: none;
+                font-weight: bold;
+                }       
+    .todo-overview .attachment-row 
+    {
+        padding: 30px 0 20px;
+        height: auto;
+        }
+        .todo-overview .attachment-row .attachment-title 
+        {
+            overflow: hidden;
+            }
+            .todo-overview .attachment-row .attachment-title h4 
+            {
+                float: left;
+                margin-bottom: 5px;
+                }
+        .todo-overview .attachment-row 
+        {
+            
+            }
+        
+        .todo-overview .attachment-row .list-row 
+        {
+            overflow:hidden;
+            position: relative;
+            border-top: 4px solid #fff;
+            }
+        .todo-overview .attachment-row .list-row .list-row-title 
+        {
+            background-color: #EFEFEF;
+            width: 200px;
+            padding:10px;
+            float: left; 
+            height: 100%;
+            position: absolute;
+            left: 0;           
+            }
+            .todo-overview .attachment-row .list-row .list-row-title p 
+            {
+                margin: 0;
+                float: right;
+                font-weight: bold;
+                }
+        .todo-overview .list-row .list-row-tasks 
+        {
+            float: left;
+            padding: 10px 0;
+            width: 740px;
+            margin-left: 220px;
+            }
+            .todo-overview .list-row .list-row-tasks .list-task 
+            {
+                float: left;
+                margin-bottom: 20px;
+                }
+        

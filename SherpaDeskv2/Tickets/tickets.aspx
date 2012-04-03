@@ -21,7 +21,7 @@
                         
                     </div>
                     <div class="tableadd">
-                    	<a class="buttons large" href="#">Create New User</a>
+                    	<a class="buttons large" href="#">Create New Ticket</a>
                     </div>                    
                 	
                     <div class="clearfix"></div>

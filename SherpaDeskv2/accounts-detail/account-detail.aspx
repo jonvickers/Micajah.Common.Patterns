@@ -137,11 +137,11 @@
                 	<div class="top-table-control">                	
 	                    <div class="search-add">
                             <div class="tablesearch">	                    	
-	                                <input class="searchbox" type="text" value="Search Tickets" />
+	                                <input class="searchbox" type="text" value="Search Users" />
 	                                <input class="searchbox_submit" type="submit" value="" />	                        
 	                        </div>
 	                        <div class="tableadd">
-	                    	    <a class="buttons large" href="#">Create New User</a>
+	                    	    <a class="buttons large" href="#">Add New User</a>
 	                        </div>                    
 	                	</div>
 	                    <div class="clearfix"></div>	                	

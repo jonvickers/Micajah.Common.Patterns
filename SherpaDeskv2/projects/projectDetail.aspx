@@ -220,161 +220,191 @@
         </div>
     </div>
 
-    <div class="todo-list-control">
-        <div class="add-list">
-            <a id="inline" class="buttons" rel="facebox" href="#add_todo_list">Add To Do List</a>
-        </div>    
-
-        <div class="todo-list">
+   <div class="todo-list-control container">
+    <div class="add-list">
+        <a id="inline" class="buttons" rel="facebox" href="#add_todo_list">Add To Do List</a>
+    </div>
+    
+    <div class="todo-list">
         
-	        <div class="list-top">
-                <div class="list-title">
-                    <h4>ToDo List Name</h4>
-                </div>            
-            </div><!-- END List TOP -->
-            <div class="clearfix"></div>
-            <ul class="list-list">
-    	        <li class="list-row">                
-                    <div class="list-move"></div>
-        	        <div class="list-select">
-            	        <input type="checkbox" value="true">
-                    </div>
-                    <div class="list-desc">
-            	        Look again at that dot. That's here. That's home1.
-                    </div>
-                    <div class="list-asigned-to">
-            	        <div class="pill orange">Richard Johnson</div>
-                    </div>
-                    <div class="list-date">25 Jan 2012</div>
-                    <div class="list-est-time">1h 15m</div>
-                    <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
-                    <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-                </li>
-                <li class="list-row">
-        	        <div class="list-move"></div>
-                    <div class="list-select">
-            	        <input type="checkbox" value="true">
-                    </div>
-                    <div class="list-desc">
-            	        The surface is fine and powdery. I can kick it up loosely with my toe. It does adhere in fine layers, like powdered charcoal, to the sole and sides of my boots.
-                    </div>
-                    <div class="list-asigned-to">
-            	        <div class="pill orange">Richard Johnson</div>
-                    </div>
-                    <div class="list-date">25 Jan 2012</div>
-                    <div class="list-est-time">1h 15m</div>
-                    <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
-                    <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-                </li>
-                <li class="list-row">
-        	        <div class="list-move"></div>
-                    <div class="list-select">
-            	        <input type="checkbox" value="true">
-                    </div>
-                    <div class="list-desc">
-            	        Look again at that dot. That's here. That's home3.
-                    </div>
-                    <div class="list-asigned-to">
-            	        <div class="pill orange">Richard Johnson</div>
-                    </div>
-                    <div class="list-date">24 Jan 2012</div>
-                    <div class="list-est-time">1h 15m</div>
-                    <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
-                    <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-                </li>
-                <li class="list-row">
-        	        <div class="list-move"></div>
-                    <div class="list-select">
-            	        <input type="checkbox" value="true">
-                    </div>
-                    <div class="list-desc">
-            	        Look again at that dot. That's here. That's home4.
-                    </div>
-                    <div class="list-asigned-to">
-            	        <div class="pill orange">Richard Johnson</div>
-                    </div>
-                    <div class="list-date">23 Jan 2012</div>
-                    <div class="list-est-time">1:15</div>
-                    <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
-                    <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-                </li>
-                <li class="list-row">
-        	        <div class="list-move"></div>
-                    <div class="list-select">
-            	        <input type="checkbox" value="true">
-                    </div>
-                    <div class="list-desc">
-            	        Look again at that dot. That's here. That's home5.
-                    </div>
-                    <div class="list-asigned-to">
-            	        <div class="pill orange">Richard Johnson</div>
-                    </div>
-                    <div class="list-date">18 Jan 2012</div>
-                    <div class="list-est-time">1h 15m</div>
-                    <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
-                    <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-                </li>        
+	    <div class="list-top">
+            <div class="list-title">
+                <h4>ToDo List Name</h4>
+            </div>            
+        </div><!-- END List TOP -->
+        <div class="clearfix"></div>
+        <ul class="list-list">
+    	    <li class="list-row">                
+                <div class="list-move"></div>
+        	    <div class="list-select">
+            	    <input type="checkbox" value="true">
+                </div>
+                <div class="list-desc">
+            	    Look again at that dot. That's here. That's home1.
+                </div>
+                <div class="list-asigned-to">
+            	    <div class="pill orange">Richard Johnson</div>
+                </div>
+                <div class="list-date">25 Jan 2012</div>
+                <div class="list-est-time">1h 15m</div>
+                <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
+                <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
+            </li>
+            <li class="list-row">
+        	    <div class="list-move"></div>
+                <div class="list-select">
+            	    <input type="checkbox" value="true">
+                </div>
+                <div class="list-desc">
+            	    The surface is fine and powdery. I can kick it up loosely with my toe. It does adhere in fine layers, like powdered charcoal, to the sole and sides of my boots.
+                </div>
+                <div class="list-asigned-to">
+            	    <div class="pill orange">Richard Johnson</div>
+                </div>
+                <div class="list-date">25 Jan 2012</div>
+                <div class="list-est-time">1h 15m</div>
+                <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
+                <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
+            </li>
+            <li class="list-row">
+        	    <div class="list-move"></div>
+                <div class="list-select">
+            	    <input type="checkbox" value="true">
+                </div>
+                <div class="list-desc">
+            	    Look again at that dot. That's here. That's home3.
+                </div>
+                <div class="list-asigned-to">
+            	    <div class="pill orange">Richard Johnson</div>
+                </div>
+                <div class="list-date">24 Jan 2012</div>
+                <div class="list-est-time">1h 15m</div>
+                <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
+                <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
+            </li>
+            <li class="list-row">
+        	    <div class="list-move"></div>
+                <div class="list-select">
+            	    <input type="checkbox" value="true">
+                </div>
+                <div class="list-desc">
+            	    Look again at that dot. That's here. That's home4.
+                </div>
+                <div class="list-asigned-to">
+            	    <div class="pill orange">Richard Johnson</div>
+                </div>
+                <div class="list-date">23 Jan 2012</div>
+                <div class="list-est-time">1:15</div>
+                <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
+                <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
+            </li>
+            <li class="list-row">
+        	    <div class="list-move"></div>
+                <div class="list-select">
+            	    <input type="checkbox" value="true">
+                </div>
+                <div class="list-desc">
+            	    Look again at that dot. That's here. That's home5.
+                </div>
+                <div class="list-asigned-to">
+            	    <div class="pill orange">Richard Johnson</div>
+                </div>
+                <div class="list-date">18 Jan 2012</div>
+                <div class="list-est-time">1h 15m</div>
+                <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
+                <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
+            </li>        
         
-		        
-            </ul><!-- END list-list CONTAINER -->
-            <div class="list-add-task">
-                <a href="#">Add New Task</a>
-            </div><!-- END list-add-task CONTAINER -->
-            <ul class="list-completed-tasks">
-                <li class="list-row-done">
-        	        <div class="list-move"></div>
-                    <div class="list-select">
-            	        <input name="" type="checkbox" value="true" checked="checked">
+		    <!-- EDIT TASK ROW MOCKUP
+            <div class="list-row-edit">
+        	    <form>
+	                <div class="list-desc-edit">	            	
+                	    <textarea name="" cols="" rows="10">Look again at that dot. That's here. That's home.</textarea>	                
+	                </div>
+	                <div class="list-det-edit">
+	            	    <div class="list-asign-to-edit">
+	                	    <p>Asigned to Technician</p>
+	                        <select name="technicians">
+	                    	    <option>Richard Johnson</option>
+	                            <option>Patrick Clements</option>
+	                            <option>Jon Vickers</option>
+	                            <option>Ben Pfohl</option>
+	                        </select>
+	                    </div>
+	                    <div class="list-date-edit">
+                    	    <p>Due Date</p>
+                    	    <input class="date-pick" name="date" type="text" value="25 Jan 2012">
+                        </div>
+                        <div class="list-est-time-edit">
+                    	    <p>Est. Time hh:mm</p>
+                    	    <input name="estTime" type="text" value="1h 15m">
+                        </div>
+	                </div>
+                    <div class="list-task-action">
+                	    <p><a class="buttons" href="#">Save Task</a>&nbsp;&nbsp; or &nbsp;<a href="#">Cancel</a></p>                    
                     </div>
-                    <div class="list-desc">
-            	        Look again at that dot. That's here. That's home6.
-                    </div>
-                    <div class="list-asigned-to">            	
-            	        <div class="pill ltgray">
-                	        Richard Johnson
-                       </div>
-                    </div>
-                    <div class="list-date">16 Jan 2012</div>
-                    <div class="list-est-time">1h 15m</div>
-                    <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
-                    <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-                </li>    
-            </ul><!-- END list-completed-task CONTAINER -->
-        </div><!-- END todo-list -->
-    </div><!-- END todo-list-control -->
-
-    <!--  ADD TODO LIST POP UP  -->
-
-    <div style="display: none;">
-        <div id="add_todo_list" style="padding: 20px;>    
-            <div class="content">
-                <h2>New ToDo List</h2>
-                <dl class="form">
-                    <dt><label>List Name</label></dt>
-                    <dd><input style="width: 90%;" class="text-input" type="text" name="large-input" /></dd>
-                </dl>
-
-                <dl class="add_template">
-                    <dt><label>Template</label></dt>
-                    <dd>
-                        <select style="width: 100%;" name="templates">
-                            <option selected>None</option>
-	                        <option>Add New Employee</option>
-	                        <option>---</option>
-                            <option>Create New Template</option>
-	                    </select>
-                    </dd>
-                </dl>
-
-                 <div class="todo_submit">
-		            <button data-afterclick="Processing…" class="buttons" id="todo-submit" type="submit">
-                        Add Todo List
-                   </button>
-	            </div>
+        	    </form>
             </div>
+            -->
+        </ul><!-- END list-list CONTAINER -->
+        <div class="list-add-task">
+            <a href="#">Add New Task</a>
+        </div><!-- END list-add-task CONTAINER -->
+        <ul class="list-completed-tasks">
+            <li class="list-row-done">
+        	    <div class="list-move"></div>
+                <div class="list-select">
+            	    <input name="" type="checkbox" value="true" checked="checked">
+                </div>
+                <div class="list-desc">
+            	    Look again at that dot. That's here. That's home6.
+                </div>
+                <div class="list-asigned-to">            	
+            	    <div class="pill ltgray">
+                	    Richard Johnson
+                   </div>
+                </div>
+                <div class="list-date">16 Jan 2012</div>
+                <div class="list-est-time">1h 15m</div>
+                <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
+                <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
+            </li>    
+        </ul><!-- END list-completed-task CONTAINER -->
+    </div><!-- END todo-list -->
+</div><!-- END todo-list-control -->
+
+
+<!--  ADD TODO LIST POP UP  -->
+
+<div style="display: none;">
+    <div id="add_todo_list" style="padding: 20px;>    
+        <div class="content">
+            <h2>New ToDo List</h2>
+            <dl class="form">
+                <dt><label>List Name</label></dt>
+                <dd><input style="width: 90%;" class="text-input" type="text" name="large-input" /></dd>
+            </dl>
+
+            <dl class="add_template">
+                <dt><label>Template</label></dt>
+                <dd>
+                    <select style="width: 100%;" name="templates">
+                        <option selected>None</option>
+	                    <option>Add New Employee</option>
+	                    <option>---</option>
+                        <option>Create New Template</option>
+	                </select>
+                </dd>
+            </dl>
+
+             <div class="todo_submit">
+		        <button data-afterclick="Processing…" class="buttons" id="todo-submit" type="submit">
+                    Add Todo List
+               </button>
+	        </div>
         </div>
     </div>
-
+</div>
 
 
 
@@ -384,7 +414,256 @@
             <h3>Project Logs</h3>
         </div>
     </div>
-</div>
+
+    <div class="container">
+    <h3>Project Time Logs</h3>
+    <table>
+        <thead>
+	        <tr>
+    	        <th>Date</th>
+                <th>Start/Stop</th>
+                <th>Logged Time</th>
+                <th>Name</th>
+                <th>Task</th>
+                <th>Note</th>
+                <th>&nbsp;</th>
+	        </tr>
+        </thead>
+        <tbody>
+            <tr>
+    	        <td colspan="7">No Time Logs for Accounts / Projects found</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br /><br />
+
+    <h3>Ticket Time Logs</h3>
+        <table>
+            <thead>
+            	<tr>
+                	<th>Tkt #</th>
+                    <th>Date</th>
+                    <th>Start/Stop</th>
+                    <th>Time Log</th>
+                    <th>Name</th>
+                    <th>Task</th>
+                    <th>Note</th>
+				</tr>
+            </thead>
+            <tbody>
+              	<tr>
+					<td><a href="../home/fx/enterTime.aspx?id=3987759" target="_new">10511</a></td>
+                    <td>9/22/2010</td>
+                    <td></td>
+                    <td><span title='2:00 hh:mm' style='font-size: 10pt;'>2.00</span></td>
+                    <td>Vladimir&nbsp;Gooz</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>Studing GotoMeeting API</td>					
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=3987759">10511</a></td>
+                    <td>9/23/2010</td>
+                    <td></td>
+                    <td><span title='2:00 hh:mm' style='font-size: 10pt;'>2.00</span></td>
+                    <td>Vladimir&nbsp;Gooz</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>Studing GotoMeeting API</td>					
+				</tr>
+                <tr class="sub-total">					
+					<td align="right" colspan="3" style="font-weight:bold;">Sub Total Tkt 10511 - GotoMeeting API</td>
+                    <td style="font-size:Larger; font-weight:bold;"><span title='4:00 hh:mm' style='font-size: 10pt;'>4.00</span></td>
+                    <td align="left" colspan="3" style="font-weight:bold;">&nbsp;</td>					
+				</tr>
+                <tr>				
+					<td><a id="ctl00_PageBody_timeLogTotal_ticketTimeLog_dgTimeLog_ctl05_hlTicket" href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>3/22/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:15 hh:mm' style='font-size: 10pt;'>8.25</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>					
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>3/23/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='7:27 hh:mm' style='font-size: 10pt;'>7.45</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>					
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>3/24/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:00 hh:mm' style='font-size: 10pt;'>8.00</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>				
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>3/25/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:06 hh:mm' style='font-size: 10pt;'>8.10</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>		
+				</tr>
+                <tr>				
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>3/28/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:00 hh:mm' style='font-size: 10pt;'>8.00</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>3/29/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:00 hh:mm' style='font-size: 10pt;'>8.00</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>					
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>3/30/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:00 hh:mm' style='font-size: 10pt;'>8.00</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>3/31/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:00 hh:mm' style='font-size: 10pt;'>8.00</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>				
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>4/1/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:00 hh:mm' style='font-size: 10pt;'>8.00</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>					
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>4/4/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:00 hh:mm' style='font-size: 10pt;'>8.00</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>					
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>4/5/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:12 hh:mm' style='font-size: 10pt;'>8.20</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>					
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>4/6/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:15 hh:mm' style='font-size: 10pt;'>8.25</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>4/7/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:00 hh:mm' style='font-size: 10pt;'>8.00</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>					
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>4/8/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='7:45 hh:mm' style='font-size: 10pt;'>7.75</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>					
+				</tr>
+                <tr>					
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>4/11/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='7:45 hh:mm' style='font-size: 10pt;'>7.75</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>4/12/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:05 hh:mm' style='font-size: 10pt;'>8.08</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>					
+				</tr>
+                <tr>
+                    <td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>4/13/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:00 hh:mm' style='font-size: 10pt;'>8.00</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>				
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>5/18/2011</td>
+                    <td>11:45 am - &nbsp;&nbsp;8:16 pm</td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='8:07 hh:mm' style='font-size: 10pt;'>8.11</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>				
+					<td><a href="../home/fx/enterTime.aspx?id=4339212">11430</a></td>
+                    <td>5/19/2011</td>
+                    <td></td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title='9:15 hh:mm' style='font-size: 10pt;'>9.25</span></td>
+                    <td>Yuriy&nbsp;Dzoba</td>
+                    <td>Software&nbsp;Dev</td>
+                    <td>&nbsp;</td>		
+				</tr>
+                <tr class="sub-total">
+                    <td align="right" colspan="3" style="font-weight:bold;">Sub Total Tkt 11430 - REST API</td>
+                    <td style="font-size:Larger;font-weight:bold;"><span title="347:27 hh:mm" style="font-size: 10pt;">347.45</span></td>
+                    <td colspan="3" style="font-weight:bold;">&nbsp;</td>
+				</tr>
+                <tr class="total">
+				    <td align="right" colspan="3" style="font-size:12pt;font-weight:bold;">Total Ticket Time&nbsp;</td>
+                    <td style="font-size:12pt;font-weight:bold;"><span title="351:27 hh:mm">351.45</span></td>
+                    <td colspan="3"></td>
+			    </tr>
+			</tbody>
+		</table>
+    
+    </div>
+
+
+
+</div><!-------------------------------------------------------------  End Accounts ------------------------------>
 </asp:Content>
 
 

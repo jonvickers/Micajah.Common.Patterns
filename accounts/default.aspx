@@ -6,15 +6,14 @@
 
     
     <link href="../../accounts/css/on-off-checkboxes.css" rel="stylesheet" type="text/css" />
-    <link href="../../accounts/css/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+    <link href="../css-MicajahCommon/mc_graphs.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/accounts.css" rel="stylesheet" type="text/css" />
 
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
     <script src="../../accounts/js/on-off-checkboxes.js" type="text/javascript"></script>
-    <script src="../../accounts/js/accounts.js" type="text/javascript"></script>
     <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+    <script src="../../accounts/js/accounts.js" type="text/javascript"></script>
+    
     
 
 </asp:Content>
@@ -22,261 +21,130 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <h1>Account Settings</h1>
-<div id="planinfo">
+<div class="planinfo">
 
-<div id="account-head">
-    <div class="account-type">
-        <h2>FREE</h2><small class="plandescsm">per Month</small>
-    </div>
+            <div class="account-head">
+                <div class="account-type">
+                    <h2>FREE</h2><small class="plandescsm">per Month</small>
+                </div>
 
-    <div id="payment-set">
-        <div id="payment-update">
-            <a id="inline" class="buttons" rel="facebox" href="#credit_card_form">Update credit card</a>
-        </div>
-        <div id="payment-status">
-            <h4>No Credit Card on File.</h4><small class="plandescsm">Next billed on 8 October 2011</small>
-        </div>
-    </div>
-</div>
-                     <div class="account-heading"><h2>Account Options</h2></div>           
-                        <div id="asset-auditor">
-                            <h4>Asset Auditor</h4>
-                            <div class="feature-toggle on_off">
-                                <input id="assetauditor" type="checkbox" />
-                            </div>
-                        </div>
-                        <div id="billing-invoicing">
-                            <h4>Billing / Invoicing</h4>
-                            <div class="feature-toggle on_off">
-                                <input id="billinginvoicing" type="checkbox" />
-                            </div>
-                        </div>
-                        <div id="ldap-integration">
-                            <h4>LDAP Integration</h4>
-                            <div class="feature-toggle on_off">
-                                <input id="ldapintegration" type="checkbox" />
-                            </div>
-                        </div>
-                        <div id="remote-assistance">
-                            <h4>Remote Assistance</h4>
-                            <div class="feature-toggle on_off">
-                                <input id="remoteassistance" type="checkbox" />
-                            </div>
-                        </div>
-                        <div id="ssl-security">
-                            <h4>SSL</h4>
-                            <div class="feature-toggle on_off">
-                                <input id="sslsecurity" type="checkbox" />
-                            </div>
-                        </div>                        
+                <div class="payment-set">
+                    <div class="payment-update">
+                        <a id="inline" class="buttons" rel="facebox" href="#credit_card_form">Update credit card</a>
+                    </div>
+                    <div class="payment-status">
+                        <h4>No Credit Card on File.</h4><small class="plandescsm">Next billed on 8 October 2011</small>
+                    </div>
+                </div>
+            </div>
+
+<!-- Account Options -->
+
+        <div class="account-heading"><h2>Account Options</h2></div>           
+                <div id="asset-auditor">
+                    <h4>Asset Auditor</h4>
+                    <div class="feature-toggle on_off">
+                        <input id="assetauditor" type="checkbox" />
+                    </div>
+                </div>
+                <div id="billing-invoicing">
+                    <h4>Billing / Invoicing</h4>
+                    <div class="feature-toggle on_off">
+                        <input id="billinginvoicing" type="checkbox" />
+                    </div>
+                </div>
+                <div id="ldap-integration">
+                    <h4>LDAP Integration</h4>
+                    <div class="feature-toggle on_off">
+                        <input id="ldapintegration" type="checkbox" />
+                    </div>
+                </div>
+                <div id="remote-assistance">
+                    <h4>Remote Assistance</h4>
+                    <div class="feature-toggle on_off">
+                        <input id="remoteassistance" type="checkbox" />
+                    </div>
+                </div>
+                <div id="ssl-security">
+                    <h4>SSL</h4>
+                    <div class="feature-toggle on_off">
+                        <input id="sslsecurity" type="checkbox" />
+                    </div>
+                </div>                        
                                         
-                    <div class="account-heading"><h2>Account Usage</h2></div> 
-                                            
-                       <!-- 
-                        <table class="account-usage">
-                            <thead>
-                                <tr>
-                                    <th>Item</th>
-                                    <th>Price Ea.</th>
-                                    <th>No. Free</th>
-                                    <th>Current Used</th>
-                                    <th>Total Rate</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <h4>Accounts</h4>
-                                    </td>
-                                    <td>
-                                        <h4>$0.20</h4>
-                                    </td>
-                                    <td>
-                                        <h4 class="under">3</h4>                                     
-                                    </td>
-                                    <td>
-                                        <h4>5</h4>                                       
-                                    </td>
-                                    <td>
-                                        <h2>$0.00</h2>
-                                    </td>
-                                </tr>
-                                <tr class="probar"><td colspan="5"><div id="progressbar1"></div></td></tr>
-                                <tr>
-                                    <td>
-                                        <h4>Locations</h4>
-                                    </td>
-                                    <td>
-                                        <h4>$0.20</h4>
-                                    </td>
-                                    <td>
-                                        <h4 class="under">1</h4>                                     
-                                    </td>
-                                    <td>
-                                        <h4>2</h4>                                       
-                                    </td>
-                                    <td>
-                                        <h2>$0.00</h2>
-                                    </td>
-                                </tr>
-                                <tr class="probar"><td colspan="5"><div id="progressbar2"></div></td></tr>
-                                <tr>
-                                    <td>
-                                        <h4>Assets</h4>
-                                    </td>
-                                    <td>
-                                        <h4>$0.05</h4>
-                                    </td>
-                                    <td>
-                                        <h4 class="under">24</h4>                                     
-                                    </td>
-                                    <td>
-                                        <h4>1</h4>                                       
-                                    </td>
-                                    <td>
-                                        <h2>$0.00</h2>
-                                    </td>
-                                </tr>
-                                <tr class="probar"><td colspan="5"><div id="progressbar3"></div></td></tr>
-                                <tr>
-                                    <td>
-                                        <h4>Knowledgebase Articles</h4>
-                                    </td>
-                                    <td>
-                                        <h4>$0.05</h4>
-                                    </td>
-                                    <td>
-                                        <h4 class="under">9</h4>                                     
-                                    </td>
-                                    <td>
-                                        <h4>1</h4>                                       
-                                    </td>
-                                    <td>
-                                        <h2>$0.00</h2>
-                                    </td>
-                                </tr>
-                                <tr class="probar"><td colspan="5"><div id="progressbar4"></div></td></tr>
-                                <tr>
-                                    <td>
-                                        <h4>Projects</h4>
-                                    </td>
-                                    <td>
-                                        <h4>$0.50</h4>
-                                    </td>
-                                    <td>
-                                        <h4 class="under">2</h4>                                     
-                                    </td>
-                                    <td>
-                                        <h4>1</h4>                                       
-                                    </td>
-                                    <td>
-                                        <h2>$0.00</h2>
-                                    </td>
-                                </tr>
-                                <tr class="probar"><td colspan="5"><div id="progressbar5"></div></td></tr>
-                                <tr>                                    
-                                    <td>
-                                        <h4>Technicians</h4>
-                                    </td>
-                                    <td>
-                                        <h4>$9.95</h4>
-                                    </td>
-                                    <td>
-                                        <h4 class="even">0</h4>                                     
-                                    </td>
-                                    <td>
-                                        <h4 class="over">1</h4>                                       
-                                    </td>
-                                    <td>
-                                        <h2>$0.00</h2>
-                                    </td>
-                                </tr>
-                                <tr class="probar"><td colspan="5"><div id="progressbar6"></div></td></tr>
-                                <tr>
-                                    
-                                    <td>
-                                        <h4>Storage</h4>
-                                    </td>
-                                    <td>
-                                        <h4>$1.00/gb</h4>
-                                    </td>
-                                    <td>
-                                        <h4 class="under">.05gb</h4>                                     
-                                    </td>
-                                    <td>
-                                        <h4>1gb</h4>                                       
-                                    </td>
-                                    <td>
-                                        <h2>$0.00</h2>
-                                    </td>
-                                </tr>
-                                <tr class="probar"><td colspan="5"><div id="progressbar7"></div></td></tr>
-                            </tbody>
-                        </table>
-                        -->
-
-                        
-                        <table class="account-usage">                            
-                            <tbody>
-                                <tr>
-                                    <td class="feature">
-                                        <div class="featurelabel"><h5>Accounts</h5></div>
-                                        <div class="account-usage-amount"><h4><span class="under">3</span> of 5</h4><p>$0.00/mo</p></div>
-                                        <div class="clearfix"></div>
-                                        <div id="progressbar1"></div>                                        
-                                    </td>
-                                </tr>
-                                
-                                <tr>
-                                    <td class="feature">
-                                        <div class="account-usage-amount"><h4><span class="under">1</span> of 2</h4><p>$0.00/mo</p></div>
-                                        <div class="featurelabel"><h5>Locations</h5></div>
-                                        <div class="clearfix"></div>
-                                        <div id="progressbar2"></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="feature">
-                                        <div class="account-usage-amount"><h4><span class="under">1</span> of 25</h4><p>$0.00/mo</p></div>
-                                        <div class="featurelabel"><h5>Assets</h5></div>
-                                        <div class="clearfix"></div>
-                                        <div id="progressbar3"></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="feature">
-                                        <div class="account-usage-amount"><h4><span class="under">4</span> of 10</h4><p>$0.00/mo</p></div>
-                                        <div class="featurelabel"><h5>Knowledgebase Articles</h5></div>
-                                        <div class="clearfix"></div>
-                                        <div id="progressbar4"></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="feature">
-                                        <div class="account-usage-amount"><h4><span class="under">1</span> of 4</h4><p>$0.00/mo</p></div>
-                                        <div class="featurelabel"><h5>Projects</h5></div>
-                                        <div class="clearfix"></div>
-                                        <div id="progressbar5"></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="feature">
-                                        <div class="account-usage-amount"><h4><span class="over">1</span> of 1</h4><p>$0.00/mo</p></div>
-                                        <div class="featurelabel"><h5>Technicians</h5></div>
-                                        <div class="clearfix"></div>
-                                        <div id="progressbar6"></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="feature">
-                                        <div class="account-usage-amount"><h4><span class="under">.05</span> of .10 GB</h4><p>$0.00/mo</p></div>
-                                        <div class="featurelabel"><h5>Storage</h5></div>
-                                        <div class="clearfix"></div>
-                                        <div id="progressbar7"></div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table> 
+            <div class="account-heading"><h2>Account Usage</h2></div>
+                <table class="account-usage">
+                    <tr>
+                        <td class="feature">
+                            <div class="featurelabel"><h5>Accounts</h5></div>
+                            <div class="account-usage-amount"><h4><span class="under">3</span> of 5</h4><p>$0.00/mo</p></div>
+                            <div class="clearfix"></div>
+                            <div class="progress">
+                                <div class="bar" style="width: 60%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="feature">
+                            <div class="account-usage-amount"><h4><span class="under">1</span> of 2</h4><p>$0.00/mo</p></div>
+                            <div class="featurelabel"><h5>Locations</h5></div>
+                            <div class="clearfix"></div>
+                            <div class="progress">
+                                <div class="bar" style="width: 50%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="feature">
+                            <div class="account-usage-amount"><h4><span class="under">1</span> of 25</h4><p>$0.00/mo</p></div>
+                            <div class="featurelabel"><h5>Assets</h5></div>
+                            <div class="clearfix"></div>
+                            <div class="progress">
+                                <div class="bar" style="width: 4%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="feature">
+                            <div class="account-usage-amount"><h4><span class="under">4</span> of 10</h4><p>$0.00/mo</p></div>
+                            <div class="featurelabel"><h5>Knowledgebase Articles</h5></div>
+                            <div class="clearfix"></div>
+                            <div class="progress">
+                                <div class="bar" style="width: 40%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="feature">
+                            <div class="account-usage-amount"><h4><span class="under">1</span> of 4</h4><p>$0.00/mo</p></div>
+                            <div class="featurelabel"><h5>Projects</h5></div>
+                            <div class="clearfix"></div>
+                            <div class="progress">
+                                <div class="bar" style="width: 25%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="feature">
+                            <div class="account-usage-amount"><h4><span class="over">1</span> of 1</h4><p>$0.00/mo</p></div>
+                            <div class="featurelabel"><h5>Technicians</h5></div>
+                            <div class="clearfix"></div>
+                            <div class="progress progress-red">
+                                <div class="bar" style="width: 100%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="feature">
+                            <div class="account-usage-amount"><h4><span class="under">.05</span> of .10 GB</h4><p>$0.00/mo</p></div>
+                            <div class="featurelabel"><h5>Storage</h5></div>
+                            <div class="clearfix"></div>
+                            <div class="progress">
+                                <div class="bar" style="width: 50%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
                     
 <div class="account-heading"><h2>Support Options</h2></div>
 <div id="support">

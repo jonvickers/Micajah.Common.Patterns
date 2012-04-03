@@ -372,4 +372,17 @@ table.no-style caption {
 	margin-bottom:0;
 	text-align: left;
 }
-				
+
+table tbody tr.sub-total, 
+table tbody tr.total {border: none;}
+table tr.sub-total td 
+{
+    border: none !important;
+    background-color: #e5f3f9;
+    }
+table tr.total td 
+{
+    border: none !important;
+    background-color: #004174;
+    color: #ffffff;
+    }		

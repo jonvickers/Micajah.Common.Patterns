@@ -234,7 +234,8 @@
                         </div>
                         <div class="list-date">25 Jan 2012</div>
                     </div>
-                    
+                </div>
+            </div>        
 
         </div><!-- END attachment-row --> 
     </div><!-- END overview-lists -->

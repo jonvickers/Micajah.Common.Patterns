@@ -12,8 +12,6 @@ tbody tr:hover, tbody tr.even-row:hover {
     margin-bottom: 0;
     padding-bottom: 0;
     }
-
-
 a 
 {
     text-decoration: none;
@@ -69,38 +67,11 @@ small
     float: left;
     }
 
-#planinfo 
+.planinfo 
 {
     margin: 0;
-    }
-
-#planinfo, 
-#payment-type, 
-#payment-history, 
-#training-consulting,
-#cancel_account,
-.accountwrap
-{
     width: 600px;    
     overflow: hidden;    
-    }
-
-
-table td,
-table th 
-{
-    padding: 10px;
-    line-height: 1.3em;
-    } 
-
-tbody 
-{
-    border-bottom: 1px solid #ddd;
-    }
-
-tbody tr 
-{
-    border-top: 1px solid #ddd;
     }
 
 .yourplan 
@@ -127,7 +98,21 @@ tbody tr.currentplan:hover
 
 /* -- Payment Type -- */
 
-#account-head 
+
+/* -- Plan Info -- */
+
+.planinfo h2,
+.payment-set h4  
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    }
+.planinfo small.plandescsm
+{
+    float: left;
+    }
+.account-head 
 {
     overflow:hidden;
     margin-top: 30px;
@@ -135,58 +120,33 @@ tbody tr.currentplan:hover
 
 .account-type 
 {
-    width: 15%;
+    width: 90px;
     max-width: 150px;
     border-right: 1px solid #417da6;
     overflow: hidden;
     float: left;
     padding: 7px 0;
     }
-    
-    
-#payment-set
+.payment-set
 {
-    padding-top: 2px; 
-    float: right;
-    width: 79.8%;  
+    float: left;
+    width: 500px;
+    margin:0;  
     }
-#payment-set h4 
-{
-    line-height: 1em;
-    }
-
-#payment-update 
+.payment-update 
 {
     float: right;
     margin-top: 15px;
     }
-#payment-status 
+.payment-status 
 {
-    margin-top: 6px;
-    padding-top: 1px;
-    padding-left: 40px;
-    background: url('../../accounts/img/credit_card.png') center left no-repeat; 
+    margin-top: 8px;
+    padding-left: 50px;
+    background: url('../../accounts/img/credit_card.png') 10px 0px no-repeat; 
     min-height: 32px;
     }
-    
-    
-/* -- Plan Info -- */
-
-#planinfo h2 
-{
-    margin: 0;
-    padding: 0;
-    line-height: 1em;
-    }
-#planinfo small.plandescsm
-{
-    float: left;
-    }
-
 
 /* -- Account Settings Tabs content -- */
-
-
 /* --  Asset Auditor -- */
 
 #asset-auditor h4 
@@ -264,59 +224,7 @@ tbody tr.currentplan:hover
 
 /* --  Account Usage -- */
 
-#progressbar1,
-#progressbar2,
-#progressbar3,
-#progressbar4,
-#progressbar5,
-#progressbar6,
-#progressbar7,
-#progressbar8,
-#progressbar9,
-#progressbar10 
-{
-    height: 8px;
-    }
-
-.ui-progressbar .ui-progressbar-value
-{
-    background: #417DA6;
-    border: 1px solid #417DA6;
-    }
-
-#progressbar6.ui-progressbar .ui-progressbar-value
-{
-    background: #951F2B;
-    border: 1px solid #951F2B;
-    }
-
-/*-- revised 1-31-12   
-
-.account-usage tbody tr, .account-usage tbody 
-{
-    border: none;
-    }
-.account-usage
-{
-    width: 100%;
-    } 
-    .account-usage .probar td
-    {
-        padding-top:0;
-        }
-    .account-usage td
-    {
-        padding-bottom: 0;
-        }
-    .account-usage tr 
-    {
-        margin-top: 10px;
-        }
-
-
-
- End Revised 1-31-12 ---*/
-
+table.account-usage td {padding: 5px 0 0;}
 
 
 .account-usage
@@ -365,7 +273,6 @@ tbody tr.currentplan:hover
     margin: 12px 0 0;
     float: left;
     }
-
 
 .under 
 {

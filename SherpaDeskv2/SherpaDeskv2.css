@@ -510,81 +510,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 				line-height: 1.5em;
 				}
 
-/*-----------------------  Progress Bars ------------------------------*/
-
-.progress {
-  overflow: hidden;
-  height: 18px;
-  margin-bottom: 18px;
-  background-color: #f7f7f7;
-    background-repeat: repeat-x;
-    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    background-image: linear-gradient(top, #f5f5f5, #f9f9f9);
-}
-
-/*-- Standard is a dardker blue --*/
-.progress .bar {
-  width: 0%;
-  height: 18px;
-  color: #ffffff;
-  font-size: 12px;
-  text-align: center;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #0e90d2;
-    background-repeat: repeat-x;
-    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: width 0.6s ease;
-    -moz-transition: width 0.6s ease;
-    -ms-transition: width 0.6s ease;
-    -o-transition: width 0.6s ease;
-    transition: width 0.6s ease;
-    background-image: linear-gradient(top, #149bdf, #0480be);
-}
-
-.progress-large, 
-.progress .bar-large 
-{
-    height: 32px;
-    }
-
-.progress.active .bar {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-  -moz-animation: progress-bar-stripes 2s linear infinite;
-  animation: progress-bar-stripes 2s linear infinite;
-}
-.progress-red .bar {
-  background-color: #dd514c;
-    background-repeat: repeat-x;
-    background-image: linear-gradient(top, #ee5f5b, #c43c35);
-}
-
-.progress-green .bar {
-  background-color: #5eb95e;
-    background-repeat: repeat-x;
-    background-image: linear-gradient(top, #62c462, #57a957);
-}
-.progress-blue .bar {
-  background-color: #4bb1cf;
-    background-repeat: repeat-x;
-    background-image: linear-gradient(top, #5bc0de, #339bb9);
-}
-
-.progress-yellow .bar {
-  background-color: #faa732;
-    background-repeat: repeat-x;
-    background-image: linear-gradient(top, #fbb450, #f89406);
-}
 
 
 /*-------------- Wells ----------------*/
@@ -611,16 +536,17 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /*-- pill --*/
 .pill {
-	padding: 5px 8px;
+	padding: 3px 8px;
 	margin: 0 5px;	
 	text-decoration: none !important;
 	font-weight: normal;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius:8px;
+	border-radius: 8px 8px 8px 8px;
 	text-transform: uppercase;
 	font-size: .8em;
 	font-weight: bold;
+	text-align: center;
 	}
 	
 /*-- colors --*/
@@ -653,6 +579,14 @@ table { border-collapse: collapse; border-spacing: 0; }
 .ltgray:hover {
 	background-color: #bbc2d3;
 	}
+.blue {
+    background-color: #058DC7;
+    color: white !important;
+    }
+.drkblue {
+    background-color: #004174;
+    color: white !important;
+    }
 
 
 /*-- Table Controls --*/
@@ -1048,8 +982,18 @@ ul.counters li
     margin-top: 40px;
     }
 
+.widgets.todo-widget
+{
+    width: 64.667%;
+    min-width: 696px;
+    }
+.right-widgets 
+{
+    float: left;   
+    }
 
-
+.right-widgets table {font-size: 14px;}
+.right-widgets table td:last-child span {float: right; font-size: 14px;}
 
 /*--------------------- Ticket List -----------------------------*/
 
@@ -1404,7 +1348,10 @@ ul.counters li
     .project-details-budget table td,
     .project-details-budget table th {text-align: center;} 
     .project-details-budget table td span {font-weight: bold; font-size: 16px;}
-	
+
+/*------------------------------------- Config Pages -------------------------------------*/
+
+
 
 /* =============================================================================
    Non-semantic helper classes
