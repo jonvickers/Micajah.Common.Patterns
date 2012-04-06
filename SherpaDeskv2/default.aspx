@@ -22,18 +22,20 @@
     </div><!-- End Nav -->   
 </asp:Content>
 
-<asp:Content ID="Content3" ContentPlaceHolderID="announcement1" runat="server"><!-- Add Body Notice here -->
-    <div class="wrapper notification success">
-		<a href="#" class="close"><img src="../../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
-		<div>
-			<strong>Success notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.
-		</div>
-	</div>
+<asp:Content ID="Content3" ContentPlaceHolderID="announcement1" runat="server">
+    <div id="announcement">
+        <div class="wrapper notification success">
+		    <a href="#" class="close"><img src="../../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+		    <div>
+			    <strong>Success notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.
+		    </div>
+	    </div>
+    </div>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"><!-- Main Content -->
 
-<div class="container row">    
+<div class="container">    
         <div class="grid_6">
             <div class="checkin-home">
                 <h2>Check In</h2>
@@ -227,7 +229,7 @@
                             </div>
                             <div class="list-date">18 Jan 2012</div>
                             <div class="list-asigned-to">
-            	                <div class="pill green">Due Tomorrow</div>
+            	                <div class="pill todogray">Due Tomorrow</div>
                             </div>
                             
                         </li> 

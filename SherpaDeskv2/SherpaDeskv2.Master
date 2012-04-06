@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="SherpaDeskv2.css"  />    
      	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
-    <script src="../../SherpaDesk/js/custom.js" type="text/javascript"></script>
+    <script src="../../SherpaDeskv2/js/custom.js" type="text/javascript"></script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -24,14 +24,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="container" class="clearfix">
+    <div class="clearfix">
         <asp:ContentPlaceHolder ID="topNotice" runat="server">      
         
         </asp:ContentPlaceHolder>
   	    <div class="header">
     	    <div class="wrapper">
         	    <div id="logo">
-            	    <h1>My Company Name</h1>
+            	    <a href="../../SherpaDeskv2/"><h1>My Company Name</h1></a>
                 </div>
                     <div id="global-search">
 	            	    <input type="text" value="Search Tickets" />
@@ -62,11 +62,12 @@
                     <li><a href="../../SherpaDeskv2/">Home</a></li>
                     <li><a class="showsub" href="../../SherpaDeskv2/accounts-detail/accounts.aspx">Accounts</a></li>
                     <li><a class="showsub" href="../../SherpaDeskv2/projects/">Projects</a></li>
-                    <li><a href="#">Time</a></li>
-                    <li><a class="showsub" href="#">Assets</a></li>
-                    <li><a href="#">Knowledgebase</a></li>
-                    <li><a class="showsub" href="#">Reports</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">ToDos</a></li>
+                    <li><a class="showsub" href="../../SherpaDeskv2/assets/default.aspx">Assets</a></li>
                     <li><a href="#">Parts</a></li>
+                    <li><a href="#">Knowledgebase</a></li>
+                    <li><a class="showsub" href="#">Reports</a></li>                    
                     <li class="pagehelp"><a href="#">Page Help</a></li>
                 </ul>
             </div><!-- End Wrapper -->
@@ -75,12 +76,12 @@
         <asp:ContentPlaceHolder ID="subMenu" runat="server"></asp:ContentPlaceHolder><!-- Sub Nav -->
             
         <div class="clearfix"></div>
-  	    <div id="main" role="main">
-            <div id="announcement">
+  	    <div class="maincontent" role="main">
+
                 <asp:ContentPlaceHolder ID="announcement1" runat="server">
                 
                 </asp:ContentPlaceHolder>
-            </div>
+
     	           	    
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                             

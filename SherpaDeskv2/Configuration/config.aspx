@@ -319,7 +319,6 @@
 <div id="credit_card_form">
     
 <div class="content">
-  <form method="post" autocomplete="off" action="">
      
        <p class="js-thanks">
          

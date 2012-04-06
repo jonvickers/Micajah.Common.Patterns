@@ -169,6 +169,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	    font-size: 21px;
 	    margin: 12px 0;
 		}
+		.header #logo a h1 {color: White;}
 		#global-nav { 
 			float: right;
     		width: 220px;
@@ -370,8 +371,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 				color: #979797;
 				}
 
-#announcement {margin-top: 20px;}
-#main {margin: 20px 0;}
+#announcement {margin-top: 10px;}
+.maincontent {margin: 20px 0;}
 
 .left {float: left;}
 .right {float: right;}
@@ -569,8 +570,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 	background-color: #4f5970;
 	color: #fff !important;
 	}	
-.gray:hover {
-	background-color: #7c8596;
+.gray:hover,
+.gray.active {
+	background-color: #9cbbe6;
 	}
 .ltgray {
 	background-color: #dadbdf;
@@ -587,6 +589,10 @@ table { border-collapse: collapse; border-spacing: 0; }
     background-color: #004174;
     color: white !important;
     }
+.todogray {
+	background-color: #4f5970;
+	color: white !important;
+	}
 
 
 /*-- Table Controls --*/
@@ -622,6 +628,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     padding: 10px;
     width: 100%;	 
 	}
+	.selected-controls .pill {font-size: 11px;}
 .bottom-table-control .selected-controls 
 {
     margin-top: 0;
@@ -629,7 +636,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .selected-controls .drop 
 {
     padding-right: 20px;
-    background: #4f5970 url(../../SherpaDesk/images/drop.png) no-repeat right center;
+    background: #4f5970 url(../../SherpaDeskv2/images/drop.png) no-repeat right center;
     }
 	
 	.selected-controls .left ul {
@@ -726,7 +733,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	float: left;
 	width:320px; /*follow your image's size*/
 	height:35px;/*follow your image's size*/
-	background-image:url(../../SherpaDesk/images/search-field-med.png);
+	background-image:url(../../SherpaDeskv2/images/search-field-med.png);
 	background-repeat:no-repeat; /*important*/
 	padding:0px;
 	margin:0px;
@@ -840,6 +847,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     min-height: 100px;
     width: 960px;
     display: none;
+    margin: 20px auto 40px;
     }
     .time-logger .grid_12 {margin-bottom: 20px !important;}
     .time-logger h2 
@@ -1068,7 +1076,7 @@ ul.counters li
 				margin: 7px 5px 0 0;
 				width: 22px;
 				height: 16px;
-				background: url(../../SherpaDesk/images/next-icon.png) no-repeat 0 0;
+				background: url(../../SherpaDeskv2/images/next-icon.png) no-repeat 0 0;
 				}
 			.ticket .top .ticket-info .next:hover {
 				background-position: 0 -16px;
@@ -1139,22 +1147,22 @@ ul.counters li
 				font-size: 12px;
 				}
 			.ticket .bottom .detail.read {
-				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat 0 -20px;
+				background: url(../../SherpaDeskv2/images/ticket-icons.png) no-repeat 0 -20px;
 				}
 			.ticket .bottom .detail.read.active {
-				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat 0 0px;
+				background: url(../../SherpaDeskv2/images/ticket-icons.png) no-repeat 0 0px;
 				}
 			.ticket .bottom .detail.flag {
-				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -40px -20px;
+				background: url(../../SherpaDeskv2/images/ticket-icons.png) no-repeat -40px -20px;
 				}
 			.ticket .bottom .detail.flag.active {
-				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -40px 0px;
+				background: url(../../SherpaDeskv2/images/ticket-icons.png) no-repeat -40px 0px;
 				}
 			.ticket .bottom .detail.attach {
-				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -20px -20px;
+				background: url(../../SherpaDeskv2/images/ticket-icons.png) no-repeat -20px -20px;
 				}
 			.ticket .bottom .detail.attach.active {
-				background: url(../../SherpaDesk/images/ticket-icons.png) no-repeat -20px 0px;
+				background: url(../../SherpaDeskv2/images/ticket-icons.png) no-repeat -20px 0px;
 				}
 
 .open .status {
@@ -1344,10 +1352,13 @@ ul.counters li
 		margin: 0;
 		line-height: 76px;
 		}
-    .project-details-budget {margin-top: 20px; margin-bottom: 20px;}
+    .project-details-details, .project-details-budget {margin-top: 20px; margin-bottom: 20px;}
     .project-details-budget table td,
-    .project-details-budget table th {text-align: center;} 
-    .project-details-budget table td span {font-weight: bold; font-size: 16px;}
+    .project-details-budget table th,
+    .project-details-details table td,
+    .project-details-details table th {text-align: center;} 
+    .project-details-details table td span,
+    .project-details-budget table td span {font-weight: bold; font-size: 16px;}    
 
 /*------------------------------------- Config Pages -------------------------------------*/
 

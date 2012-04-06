@@ -3,28 +3,7 @@
 
     <link href="../../ToDoLists/css/todoLists.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-    <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
-    
-    <script type="text/javascript">
-        $(document).ready(function () {
-            //add class for menu
-            $("body").attr("id", "todolists");
-
-            $(function () {
-                $(".list-list").sortable();
-                $(".list-list").disableSelection();
-            });
-
-            // Popup Box
-            $("#inline").fancybox({
-                'titlePosition': 'inside',
-                'transitionIn': 'none',
-                'transitionOut': 'none'
-            });
-        });
-    </script>
+    <link href="../../css-MicajahCommon/mc_graphs.css" rel="stylesheet" type="text/css" />    
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="topNotice" runat="server">
@@ -133,13 +112,39 @@
         </div>
         <div class="clearfix"></div>        
     </div>
+
+    <div class="account-fields">
+            	<div class="container">
+                    <table>
+                    	<tr>
+                        	<td>Status <strong>Active</strong></td>
+                            <td>BWD Acc# <strong>1249</strong></td>
+                            <td>Acct#</td>
+                            <td>Ref#1</td>
+                        </tr>
+                        <tr>
+                        	<td>Ref2# <strong>Active</strong></td>
+                            <td>Org/Indiv <strong>Organization</strong></td>
+                            <td>Acc Rep <strong>Clements, Patrick</strong></td>
+                            <td>Sup Group</td>
+                        </tr>
+                        <tr>
+                        	<td>Date Started</td>
+                            <td>Contract End Date</td>
+                            <td>Email Suffix</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </div><!-- End wrapper -->           
+            </div><!-- End Account Fields -->
+
 <!------------------------------------------------------------------------ Project Details ------------------------>
     <div class="section-divider withsub">
         <div class="container">
             <h3>Project Details</h3>
         </div>
     </div>
-    <div class="top-nav">
+    <div class="top-nav proj-dets">
 		<div class="container">
             <div class="grid_12">
 		        <ul>
@@ -150,69 +155,72 @@
 		</div><!-- End Wrapper -->
 	</div><!-- End Nav -->
 
-    <div class="container project-details-budget nogridstyle">
-        <table>
-            <thead>
-                <tr>
-                    <th></th>
-                    <th colspan="3">Hours</th>
-                    <th colspan="3">Customer</th>
-                    <th colspan="3">Internal Cost</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td>Logged</td>
-                    <td>Remaining</td>
-                    <td><span>Total</span></td>
-                    <td>Invoiced</td>
-                    <td>Non-invoiced</td>
-                    <td><span>Total</span></td>
-                    <td>Billable</td>
-                    <td>Non-billable</td>
-                    <td><span>Total</span></td>
-                </tr>
-                <tr>
-                    <td><span>Ticket</span></td>
-                    <td>351.45</td>
-                    <td>0.00</td>
-                    <td><span>351.45</span></td>
-                    <td>$0.00</td>
-                    <td>$0.00</td>
-                    <td><span>$0.00</span></td>
-                    <td>$0.00</td>
-                    <td>$7,029.00</td>
-                    <td><span>$7,029.00</span></td>
-                </tr>
-                <tr>
-                    <td><span>Project</span></td>
-                    <td>0.00</td>
-                    <td>0.00</td>
-                    <td><span>0.00</span></td>
-                    <td>$0.00</td>
-                    <td>$0.00</td>
-                    <td><span>$0.00</span></td>
-                    <td>$0.00</td>
-                    <td>$0.00</td>
-                    <td><span>$0.00</span></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><span>351.45</span></td>
-                    <td><span>0.00</span></td>
-                    <td><span>351.45</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$0.00</span></td>
-                    <td><span>$7,029.00</span></td>
-                    <td><span>$7,029.00</span></td>
-                </tr>
-            </tbody>
-        </table>    
+    <div class="tab-content">
+        <div class="container project-details-details nogridstyle tab-pane active" id="details">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th colspan="3">Hours</th>
+                        <th colspan="3">Customer</th>
+                        <th colspan="3">Internal Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>Logged</td>
+                        <td>Remaining</td>
+                        <td><span>Total</span></td>
+                        <td>Invoiced</td>
+                        <td>Non-invoiced</td>
+                        <td><span>Total</span></td>
+                        <td>Billable</td>
+                        <td>Non-billable</td>
+                        <td><span>Total</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>Ticket</span></td>
+                        <td>351.45</td>
+                        <td>0.00</td>
+                        <td><span>351.45</span></td>
+                        <td>$0.00</td>
+                        <td>$0.00</td>
+                        <td><span>$0.00</span></td>
+                        <td>$0.00</td>
+                        <td>$7,029.00</td>
+                        <td><span>$7,029.00</span></td>
+                    </tr>
+                    <tr>
+                        <td><span>Project</span></td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td><span>0.00</span></td>
+                        <td>$0.00</td>
+                        <td>$0.00</td>
+                        <td><span>$0.00</span></td>
+                        <td>$0.00</td>
+                        <td>$0.00</td>
+                        <td><span>$0.00</span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><span>351.45</span></td>
+                        <td><span>0.00</span></td>
+                        <td><span>351.45</span></td>
+                        <td><span>$0.00</span></td>
+                        <td><span>$0.00</span></td>
+                        <td><span>$0.00</span></td>
+                        <td><span>$0.00</span></td>
+                        <td><span>$7,029.00</span></td>
+                        <td><span>$7,029.00</span></td>
+                    </tr>
+                </tbody>
+            </table>    
+        </div>
+    
+        
     </div>
-
 <!------------------------------------------------------------------------ Project TASKS -------------------------->
     <div class="section-divider">
         <div class="container">
@@ -313,39 +321,7 @@
                 <div class="list-est-time">1h 15m</div>
                 <div class="list-task-delete"><img src="../../ToDoLists/img/cross.png" /> <span>Delete</span></div>
                 <div class="list-task-edit"><img src="../../ToDoLists/img/gear.png" alt="edit"> <span>Edit</span></div>
-            </li>        
-        
-		    <!-- EDIT TASK ROW MOCKUP
-            <div class="list-row-edit">
-        	    <form>
-	                <div class="list-desc-edit">	            	
-                	    <textarea name="" cols="" rows="10">Look again at that dot. That's here. That's home.</textarea>	                
-	                </div>
-	                <div class="list-det-edit">
-	            	    <div class="list-asign-to-edit">
-	                	    <p>Asigned to Technician</p>
-	                        <select name="technicians">
-	                    	    <option>Richard Johnson</option>
-	                            <option>Patrick Clements</option>
-	                            <option>Jon Vickers</option>
-	                            <option>Ben Pfohl</option>
-	                        </select>
-	                    </div>
-	                    <div class="list-date-edit">
-                    	    <p>Due Date</p>
-                    	    <input class="date-pick" name="date" type="text" value="25 Jan 2012">
-                        </div>
-                        <div class="list-est-time-edit">
-                    	    <p>Est. Time hh:mm</p>
-                    	    <input name="estTime" type="text" value="1h 15m">
-                        </div>
-	                </div>
-                    <div class="list-task-action">
-                	    <p><a class="buttons" href="#">Save Task</a>&nbsp;&nbsp; or &nbsp;<a href="#">Cancel</a></p>                    
-                    </div>
-        	    </form>
-            </div>
-            -->
+            </li>
         </ul><!-- END list-list CONTAINER -->
         <div class="list-add-task">
             <a href="#">Add New Task</a>
@@ -668,8 +644,37 @@
 
 
 <asp:Content ID="Content6" ContentPlaceHolderID="scriptAdd" runat="server">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
     <script src="../../ToDoLists/js/jquery.ui.core.min.js" type="text/javascript"></script>
     <script src="../../ToDoLists/js/jquery.ui.datepicker.min.js" type="text/javascript"></script>
     <script src="../../ToDoLists/js/jquery.ui.widget.min.js" type="text/javascript"></script>
     <script src="../../ToDoLists/js/todos.js" type="text/javascript"></script>
+    <script src="../js/tab-pills.js" type="text/javascript"></script>
+       
+    <script type="text/javascript">
+        (function () {
+            //add class for menu
+            $("body").attr("id", "todolists");
+
+            $(function () {
+                $(".list-list").sortable();
+                $(".list-list").disableSelection();
+            });
+
+            // Popup Box
+            $("#inline").fancybox({
+                'titlePosition': 'inside',
+                'transitionIn': 'none',
+                'transitionOut': 'none'
+            });            
+
+        })(); 
+    </script>
+    <script>
+            $(function () {
+                $('.tabs a:last').tab('show')
+            })
+    </script>
+
 </asp:Content>
