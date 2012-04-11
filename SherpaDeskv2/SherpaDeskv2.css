@@ -845,7 +845,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     border-radius: 10px;
     border: 1px solid #c99a1c;
     min-height: 100px;
-    width: 960px;
+    width: 960px !important;
     display: none;
     margin: 20px auto 40px;
     }
@@ -957,13 +957,13 @@ ul.counters li
         padding: 5px 0 5px 30px; 
         color: #4b4b4b;
         }
-        ul.counters li span.newmessage {background: url(../../SherpaDeskv3/img/newmessages.png) top left no-repeat;}
-        ul.counters li span.opentickets {background: url(../../SherpaDeskv3/img/opentickets.png) top left no-repeat;}
-        ul.counters li span.openascustomer {background: url(../../SherpaDeskv3/img/opencustomer.png) top left no-repeat;}
-        ul.counters li span.onhold {background: url(../../SherpaDeskv3/img/onhold.png) top left no-repeat;}
-        ul.counters li span.followupdates {background: url(../../SherpaDeskv3/img/followups.png) top left no-repeat;}
-        ul.counters li span.waitingonparts {background: url(../../SherpaDeskv3/img/waiting.png) top left no-repeat;}
-        ul.counters li span.unconfirmed {background: url(../../SherpaDeskv3/img/unconfirmed.png) top left no-repeat;}
+        ul.counters li span.newmessage {background: url(../../SherpaDeskv2/images/newmessages.png) top left no-repeat;}
+        ul.counters li span.opentickets {background: url(../../SherpaDeskv2/images/opentickets.png) top left no-repeat;}
+        ul.counters li span.openascustomer {background: url(../../SherpaDeskv2/images/opencustomer.png) top left no-repeat;}
+        ul.counters li span.onhold {background: url(../../SherpaDeskv2/images/onhold.png) top left no-repeat;}
+        ul.counters li span.followupdates {background: url(../../SherpaDeskv2/images/followups.png) top left no-repeat;}
+        ul.counters li span.waitingonparts {background: url(../../SherpaDeskv2/images/waiting.png) top left no-repeat;}
+        ul.counters li span.unconfirmed {background: url(../../SherpaDeskv2/images/unconfirmed.png) top left no-repeat;}
     ul.counters li h1 
     {
         font-size: 64px;
@@ -993,7 +993,7 @@ ul.counters li
 .widgets.todo-widget
 {
     width: 64.667%;
-    min-width: 696px;
+    /* min-width: 696px; */
     }
 .right-widgets 
 {
@@ -1310,7 +1310,7 @@ ul.counters li
 		
 /*------------ Project Details  ----------------*/
 
-	.project-progress {margin: 20px 0 30px;}
+	.project-progress {margin: 20px 0 50px;}
 	    .project-progress.estimates {margin-top:10px;}
 	    .project-progress h3
 	    {
@@ -1326,6 +1326,10 @@ ul.counters li
 	        }
 	.project-estimates {margin-bottom: 20px;}
 	.project-estimates h3 {margin: 0;}
+	.blue-well.projectdet 
+	{
+	    margin-top: 125px;
+	    }
 	.project-details
 	{
 	    width:100%;

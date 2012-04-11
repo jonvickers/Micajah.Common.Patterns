@@ -118,9 +118,9 @@
 				
 			.list-desc{
 				float: left;
-				margin-right: 10px;
-				width: 400px;
-				}
+				margin-right: 10px;				
+                width: 55% !important;
+                }
 			.list-asigned-to{
 				float: left;
 				margin-right: 20px;
@@ -235,10 +235,7 @@
             {
                 background: url(../../todolists/img/clock_grey.gif) no-repeat left center;
                 }
-.list-desc {
-    width: 57% !important;
-    min-width: 390px;
-    }
+
 .list-asigned-to, .list-date {float: right !important;}
 /*----------------------- Overview Page  --------------------------*/
 

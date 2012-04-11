@@ -1,0 +1,152 @@
+/*
+CSS3 Tooltips Pack v1.0 (12.2011)
+Copyright 2011 QuanticaLabs
+www.quanticalabs.com
+*/
+
+body
+	{
+	background: #efefef;
+	padding: 0px;
+	margin: 0px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #555555;
+	line-height: 150%;
+	}
+	
+div.page_container
+	{
+	width: 600px;
+	height: 100%;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+div.content
+	{
+	width: 540px;
+	height: 100%;
+	float: left;
+	padding: 30px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ffffff;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.05);
+	box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.05);
+	}
+	
+h1.header
+	{
+	margin-bottom: 40px;
+	font-size: 36px;
+	font-weight: normal;
+	color: #999999;
+	}
+	
+h1.content
+	{
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+	}
+	
+a
+	{
+	color: #1185d7;
+	text-decoration: none;
+	}
+
+a:hover
+	{
+	text-decoration: underline;
+	}
+	
+img
+	{
+	border: 0;
+	}
+	
+ul
+	{
+	margin: 0px;
+	padding: 0px;
+	}
+	
+li
+	{
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	}
+	
+form.form1
+	{
+    width: 270px;
+	height: 440px;
+	margin-top: 10px;
+	}
+	
+form.form2
+	{
+    width: 270px;
+	height: 320px;
+	margin-top: 10px;
+	}
+	
+fieldset
+	{
+	border: 0;
+	background: 0;
+	padding: 0;
+	margin: 0;
+	}
+	
+input,
+textarea
+	{
+    width: 230px;
+    background: #ffffff;
+	border: 1px solid #dddddd;
+    padding: 6px;
+	color: #555555;
+	float: left;
+	}
+	
+input:hover,
+textarea:hover
+	{
+	border:1px solid #6ab6ec;
+	}
+
+input:focus,
+textarea:focus
+	{
+    border:1px solid #50a0d9;
+	
+	/* CSS3 Box-shadow */
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(13, 133, 215, 0.5);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(13, 133, 215, 0.5);
+	box-shadow: 0px 0px 3px 0px rgba(13, 133, 215, 0.5); 
+	}
+	
+input.submit 
+	{
+    width:100px;
+	padding: 6px;
+    cursor:pointer;
+	color: #555555;
+	margin-top: 10px;
+	float: left;
+	}
+	
+label 
+	{
+    display:block;
+	margin: 5px 0px 2px 0px;
+	}

@@ -175,6 +175,7 @@
     <Content Include="PageHelp\img\article-icon.png" />
     <Content Include="PageHelp\img\lightbulb.png" />
     <Content Include="PageHelp\img\question-icon.png" />
+    <Content Include="PageHelp\pagehelp-wo.aspx" />
     <Content Include="PageHelp\pagehelp.aspx" />
     <Content Include="pallet\pallet.aspx" />
     <Content Include="Portalv1\article-question.aspx" />
@@ -413,6 +414,13 @@
     </Compile>
     <Compile Include="grids\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageHelp\pagehelp-wo.aspx.cs">
+      <DependentUpon>pagehelp-wo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageHelp\pagehelp-wo.aspx.designer.cs">
+      <DependentUpon>pagehelp-wo.aspx</DependentUpon>
     </Compile>
     <Compile Include="PageHelp\pagehelp.aspx.cs">
       <DependentUpon>pagehelp.aspx</DependentUpon>

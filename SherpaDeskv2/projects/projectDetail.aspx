@@ -18,6 +18,7 @@
 <div class="accounts">
     <div class="container">
         <div class="grid_12">
+            <!-- 
             <div class="breadcrumbs">
                 <ul>
                     <li>Home</li>
@@ -27,6 +28,7 @@
                     <li>Project Overview</li>
                 </ul>
             </div>
+            -->
             <div class="clearfix"></div>
             <div class="account-name">
                 <h2>Helpdesk > API's</h2>
@@ -73,7 +75,7 @@
                 </div>                       
             </div>
         </div>
-        <div class="grid_5 push_1 alpha blue-well">
+        <div class="grid_5 push_1 alpha blue-well projectdet">
             <div class="project-details">
                 <div class="count-section">
                     <div class="title">

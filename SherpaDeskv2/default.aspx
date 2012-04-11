@@ -155,13 +155,13 @@
         </ul>
     </div>
 </div>
-<div class="container recent-activity">
+<div class="container fixed recent-activity">
     <div class="grid_12">
         <h2>Recent Ticket Activity</h2>
         <img src="images/graph.png" width="100%"/>
     </div>
 </div><!-- End Bottom Container-->
-<div class="container">
+<div class="container fixed">
     <div class="grid_12">
         
                 <!--Start Todos -->

@@ -21,7 +21,7 @@
                             <input class="searchbox" type="text" value="Search Tickets" />
                             <input class="searchbox_submit" type="submit" value="" />
                         
-                    </div>
+                    </div> 
                     <div class="tableadd">
                     	<a class="buttons large" href="#">Create New Ticket</a>
                     </div>                    

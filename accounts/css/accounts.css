@@ -70,8 +70,7 @@ small
 .planinfo 
 {
     margin: 0;
-    width: 600px;    
-    overflow: hidden;    
+    width: 600px;       
     }
 
 .yourplan 
@@ -236,6 +235,7 @@ table.account-usage td {padding: 5px 0 0;}
     width: 40%;
     float: right;
     text-align: right;
+    margin: 12px 0 0;
     }
 .account-usage-amount h4
 {
@@ -273,7 +273,21 @@ table.account-usage td {padding: 5px 0 0;}
     margin: 12px 0 0;
     float: left;
     }
-
+.paid-account 
+{
+    background-color: #EEE;
+    width: 100%;
+    height: 34px;   
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+    }
+    .paid-account a
+    {
+        margin: 8px 5px 8px 0;
+        float: right;
+        }
 .under 
 {
     color: #79A541;
@@ -598,3 +612,162 @@ ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the act
 .tab_content {
 	padding: 20px 10px;
 }
+
+/*---- Tooltip css  ---------------------------------------------*/
+
+/* --- Container --- */
+.tooltip span
+	{
+	color: #ffffff !important;
+	
+	/* CSS3 Gradients */
+	background: #404040; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4e4e4e 0%, #404040 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4e4e4e), color-stop(100%,#404040)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4e4e4e 0%,#404040 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4e4e4e 0%,#404040 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4e4e4e 0%,#404040 100%); /* IE10+ */
+	background: linear-gradient(top,  #4e4e4e 0%,#404040 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e4e4e', endColorstr='#404040',GradientType=0 ); IE6-9 - disabled due to lack of compatibility with pseudo-elements */
+
+	/* CSS3 Borders */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	/* CSS3 Text-shadow */
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.4);
+	}
+
+/* --- Arrow --- */	
+.tooltip span:before
+	{
+	border-color: #404040;
+	}
+	
+/* --- Decorative Line --- */
+.tooltip span:after
+	{
+	content: "";
+	display: block;
+	border-top: 1px solid #808080;
+	position: absolute;
+	left: 0px;
+	top: 1px;
+	width: 100%;
+	height: 10px;
+	
+	/* CSS3 Borders */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+	
+/* --- Base --- */
+.tooltip_top,
+.tooltip_bottom,
+.tooltip_right,
+.tooltip_left,
+.tooltip_diagonal_right,
+.tooltip_diagonal_left,
+.tooltip_focus_top,
+.tooltip_focus_bottom,
+.tooltip_focus_right,
+.tooltip_focus_left,
+.tooltip_focus_diagonal_right,
+.tooltip_focus_diagonal_left
+	{
+	position: relative !important;
+	display: inline-block !important;
+	text-decoration: none !important;
+	}
+	
+/* --- Container --- */
+.tooltip_top span,
+.tooltip_bottom span,
+.tooltip_right span,
+.tooltip_left span,
+.tooltip_diagonal_right span,
+.tooltip_diagonal_left span,
+.tooltip_focus_top span,
+.tooltip_focus_bottom span,
+.tooltip_focus_right span,
+.tooltip_focus_left span,
+.tooltip_focus_diagonal_right span,
+.tooltip_focus_diagonal_left span
+	{
+	min-width: 180px; /* Tooltip Width */
+	font-family: arial, sans-serif !important; /* Tooltip Base Font Family */
+	font-size: 13px !important; /* Tooltip Base Font Size */
+	line-height: normal !important;
+	text-align: left !important;
+	padding: 10px 10px 12px 10px !important;
+	visibility: hidden;
+    opacity: 0;
+	position: absolute;
+	z-index: 999999;
+
+	/* CSS3 Transitions */
+	-webkit-transition-duration: 0.25s;
+	-moz-transition-duration: 0.25s;
+	-o-transition-duration: 0.25s;
+	-ms-transition-duration: 0.25s;
+	transition-duration: 0.25s;
+	-webkit-transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	-moz-transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	-o-transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	-ms-transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	}
+
+/* --- Arrow --- */	
+.tooltip_top span:before,
+.tooltip_bottom span:before,
+.tooltip_right span:before,
+.tooltip_left span:before,
+.tooltip_diagonal_right span:before,
+.tooltip_diagonal_left span:before,
+.tooltip_focus_top span:before,
+.tooltip_focus_bottom span:before,
+.tooltip_focus_right span:before,
+.tooltip_focus_left span:before,
+.tooltip_focus_diagonal_right span:before,
+.tooltip_focus_diagonal_left span:before
+	{
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	}
+
+
+	
+/* --- Paragraph --- */
+p.tooltip_top,
+p.tooltip_bottom,
+p.tooltip_right,
+p.tooltip_left,
+p.tooltip_diagonal_right,
+p.tooltip_diagonal_left
+	{
+	display: block !important;
+	}
+	
+p.tooltip_top:hover,
+p.tooltip_bottom:hover,
+p.tooltip_right:hover,
+p.tooltip_left:hover,
+p.tooltip_diagonal_right:hover,
+p.tooltip_diagonal_left:hover
+	{
+	background: #ffecb1;
+	
+	/* CSS3 Transitions */
+	-webkit-transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	-moz-transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	-o-transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	-ms-transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	}
+	

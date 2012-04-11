@@ -5,6 +5,8 @@
     <link href="../../accounts/js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
     <link href="../../css-MicajahCommon/mc_graphs.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/accounts.css" rel="stylesheet" type="text/css" />
+    <link href="../../accounts/css/tooltips_main.css" rel="stylesheet" type="text/css" />
+    <link href="../../accounts/css/tooltips_styles.css" rel="stylesheet" type="text/css" />
     
     <script src="../../accounts/js/on-off-checkboxes.js" type="text/javascript"></script>
     <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
@@ -142,7 +144,7 @@
                     <tr>
                         <td class="feature">
                             <div class="featurelabel"><h5>Accounts</h5></div>
-                            <div class="account-usage-amount"><h4><span class="under">3</span> of 5</h4><p>$0.00/mo</p></div>
+                            <div class="account-usage-amount"><h4><span class="under">3</span> of 5</h4></div>
                             <div class="clearfix"></div>
                             <div class="progress">
                                 <div class="bar" style="width: 60%;"></div>
@@ -151,7 +153,7 @@
                     </tr>
                     <tr>
                         <td class="feature">
-                            <div class="account-usage-amount"><h4><span class="under">1</span> of 2</h4><p>$0.00/mo</p></div>
+                            <div class="account-usage-amount"><h4><span class="under">1</span> of 2</h4></div>
                             <div class="featurelabel"><h5>Locations</h5></div>
                             <div class="clearfix"></div>
                             <div class="progress">
@@ -161,7 +163,7 @@
                     </tr>
                     <tr>
                         <td class="feature">
-                            <div class="account-usage-amount"><h4><span class="under">1</span> of 25</h4><p>$0.00/mo</p></div>
+                            <div class="account-usage-amount"><h4><span class="under">1</span> of 25</h4></div>
                             <div class="featurelabel"><h5>Assets</h5></div>
                             <div class="clearfix"></div>
                             <div class="progress">
@@ -171,7 +173,7 @@
                     </tr>
                     <tr>
                         <td class="feature">
-                            <div class="account-usage-amount"><h4><span class="under">4</span> of 10</h4><p>$0.00/mo</p></div>
+                            <div class="account-usage-amount"><h4><span class="under">4</span> of 10</h4></div>
                             <div class="featurelabel"><h5>Knowledgebase Articles</h5></div>
                             <div class="clearfix"></div>
                             <div class="progress">
@@ -181,7 +183,7 @@
                     </tr>
                     <tr>
                         <td class="feature">
-                            <div class="account-usage-amount"><h4><span class="under">1</span> of 4</h4><p>$0.00/mo</p></div>
+                            <div class="account-usage-amount"><h4><span class="under">1</span> of 4</h4></div>
                             <div class="featurelabel"><h5>Projects</h5></div>
                             <div class="clearfix"></div>
                             <div class="progress">
@@ -191,17 +193,20 @@
                     </tr>
                     <tr>
                         <td class="feature">
-                            <div class="account-usage-amount"><h4><span class="over">1</span> of 1</h4><p>$0.00/mo</p></div>
+                            <div class="account-usage-amount"><h4>1</h4></div>
                             <div class="featurelabel"><h5>Technicians</h5></div>
                             <div class="clearfix"></div>
-                            <div class="progress progress-red">
-                                <div class="bar" style="width: 100%;"></div>
+                            <div class="paid-account">
+                                <a href="#" class="tooltip_right tooltip">
+                                    <span>1st Tech is always FREE.<br />$9.00 / month for additional techs</span>                                
+                                    <h3>$0.00</h3>
+                                </a>                                
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td class="feature">
-                            <div class="account-usage-amount"><h4><span class="under">.05</span> of .10 GB</h4><p>$0.00/mo</p></div>
+                            <div class="account-usage-amount"><h4><span class="under">.05</span> of .10 GB</h4></div>
                             <div class="featurelabel"><h5>Storage</h5></div>
                             <div class="clearfix"></div>
                             <div class="progress">

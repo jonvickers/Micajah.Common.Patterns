@@ -24,7 +24,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class="clearfix">
+    <div>
         <asp:ContentPlaceHolder ID="topNotice" runat="server">      
         
         </asp:ContentPlaceHolder>
@@ -49,8 +49,7 @@
 			                    <li><a href="#">Logout</a></li>
 						    </ul>
                         </li>					
-                        <li class="fr"><a href="#">My Profile</a></li>
-                        <li class="fr"><img id="gravatar" src="../../SherpaDeskv2/images/gravatar.png" alt="Gravatar"></li>
+                        <li class="fr"><a href="#">Profile</a></li>
 				    </ul>
 			    </div>
             </div><!-- End Wrapper -->	
@@ -68,7 +67,12 @@
                     <li><a href="#">Parts</a></li>
                     <li><a href="#">Knowledgebase</a></li>
                     <li><a class="showsub" href="#">Reports</a></li>                    
-                    <li class="pagehelp"><a href="#">Page Help</a></li>
+                    <li class="pagehelp"><a href="#" onclick="window.open('../../PageHelp/pagehelp.aspx', '_blank', 'location=0,menubar=0,resizable=1,scrollbars=1,status=0,titlebar=0,toolbar=0,width=680,height=725');return false;">Page Help</a>
+</li>
+
+
+                    
+
                 </ul>
             </div><!-- End Wrapper -->
         </div><!-- End Nav -->
@@ -90,6 +94,7 @@
   	    </div>    
         <div class="push"></div>
     </div> <!--! end of #container -->
+
         <div class="clearfix"></div>
   	    <div class="footer">
     	    <div class="wrapper">

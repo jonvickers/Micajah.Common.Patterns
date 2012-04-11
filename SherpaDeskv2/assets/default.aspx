@@ -61,7 +61,28 @@
 	</div><!-- End selected Controls -->	                
 </div><!-- End Top Control -->
 
-<table>    <thead>        <tr>            <th>Category  >  Type</th>            <th>Make</th>            <th>Model</th>            <th>Serial Number</th>            <th>Owner Name</th>            <th>Status</th>            <th>&nbsp;</th>        </tr>    </thead>    <tbody>        <tr>            <td>Computer&nbsp;&nbsp;>&nbsp;&nbsp;Desktop</td>            <td>Dell</td>            <td>Inspiron 2500</td>            <td>12345</td>            <td>Pfohl, Ben</td>            <td>Active</td>            <td><strong><a href="#">Edit</a></strong></td>        </tr>
+<table>
+    <thead>
+        <tr>
+            <th>Category  >  Type</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Serial Number</th>
+            <th>Owner Name</th>
+            <th>Status</th>
+            <th>&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Computer&nbsp;&nbsp;>&nbsp;&nbsp;Desktop</td>
+            <td>Dell</td>
+            <td>Inspiron 2500</td>
+            <td>12345</td>
+            <td>Pfohl, Ben</td>
+            <td>Active</td>
+            <td><strong><a href="#">Edit</a></strong></td>
+        </tr>
     </tbody>
 </table>
 

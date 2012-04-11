@@ -90,6 +90,11 @@ figure {
 	overflow: hidden;
 }
 
+.container.fixed
+{
+    width: 1042px !important;
+    }
+
 .container.row 
 {
     margin-bottom: 20px;

@@ -1,0 +1,437 @@
+/* --- Base --- */
+.tooltip_top,
+.tooltip_bottom,
+.tooltip_right,
+.tooltip_left,
+.tooltip_diagonal_right,
+.tooltip_diagonal_left,
+.tooltip_focus_top,
+.tooltip_focus_bottom,
+.tooltip_focus_right,
+.tooltip_focus_left,
+.tooltip_focus_diagonal_right,
+.tooltip_focus_diagonal_left
+	{
+	position: relative !important;
+	display: inline-block !important;
+	text-decoration: none !important;
+	}
+	
+/* --- Container --- */
+.tooltip_top span,
+.tooltip_bottom span,
+.tooltip_right span,
+.tooltip_left span,
+.tooltip_diagonal_right span,
+.tooltip_diagonal_left span,
+.tooltip_focus_top span,
+.tooltip_focus_bottom span,
+.tooltip_focus_right span,
+.tooltip_focus_left span,
+.tooltip_focus_diagonal_right span,
+.tooltip_focus_diagonal_left span
+	{
+	min-width: 160px; /* Tooltip Width */
+	font-family: arial, sans-serif !important; /* Tooltip Base Font Family */
+	font-size: 13px !important; /* Tooltip Base Font Size */
+	line-height: normal !important;
+	text-align: left !important;
+	padding: 10px 10px 12px 10px !important;
+	visibility: hidden;
+    opacity: 0;
+	position: absolute;
+	z-index: 1000;
+
+	/* CSS3 Transitions */
+	-webkit-transition-duration: 0.25s;
+	-moz-transition-duration: 0.25s;
+	-o-transition-duration: 0.25s;
+	-ms-transition-duration: 0.25s;
+	transition-duration: 0.25s;
+	-webkit-transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	-moz-transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	-o-transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	-ms-transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	transition-timing-function: cubic-bezier(0.35,0,0.35,1);
+	}
+
+/* --- Arrow --- */	
+.tooltip_top span:before,
+.tooltip_bottom span:before,
+.tooltip_right span:before,
+.tooltip_left span:before,
+.tooltip_diagonal_right span:before,
+.tooltip_diagonal_left span:before,
+.tooltip_focus_top span:before,
+.tooltip_focus_bottom span:before,
+.tooltip_focus_right span:before,
+.tooltip_focus_left span:before,
+.tooltip_focus_diagonal_right span:before,
+.tooltip_focus_diagonal_left span:before
+	{
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	}
+
+/* --- Header --- */
+.tooltip_top span strong,
+.tooltip_bottom span strong,
+.tooltip_right span strong,
+.tooltip_left span strong,
+.tooltip_diagonal_right span strong,
+.tooltip_diagonal_left span strong,
+.tooltip_focus_top span strong,
+.tooltip_focus_bottom span strong,
+.tooltip_focus_right span strong,
+.tooltip_focus_left span strong,
+.tooltip_focus_diagonal_right span strong,
+.tooltip_focus_diagonal_left span strong
+	{
+	width: 100%;
+	padding: 8px 10px 8px 10px;
+	display: block;
+	position: relative;
+	left: -10px;
+	top: -10px;
+	
+	/* CSS3 Borders */
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+	}
+
+/* --- Paragraph --- */
+p.tooltip_top,
+p.tooltip_bottom,
+p.tooltip_right,
+p.tooltip_left,
+p.tooltip_diagonal_right,
+p.tooltip_diagonal_left
+	{
+	display: block !important;
+	}
+	
+p.tooltip_top:hover,
+p.tooltip_bottom:hover,
+p.tooltip_right:hover,
+p.tooltip_left:hover,
+p.tooltip_diagonal_right:hover,
+p.tooltip_diagonal_left:hover
+	{
+	background: #ffecb1;
+	
+	/* CSS3 Transitions */
+	-webkit-transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	-moz-transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	-o-transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	-ms-transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	transition: background 0.25s cubic-bezier(0.35,0,0.35,1);
+	}
+	
+
+
+/* =========================================================================================== */
+/* ========================================== TOP ============================================ */
+/* =========================================================================================== */
+
+/* --- Container --- */
+.tooltip_top span,
+.tooltip_focus_top span
+	{
+	left: -10px;
+	bottom: 100%;
+	margin-bottom: 30px; /* Start Position */
+	
+	/* CSS3 Transitions */
+	-webkit-transition-property: opacity, margin-bottom, visibility;
+	-moz-transition-property: opacity, margin-bottom, visibility;
+	-o-transition-property: opacity, margin-bottom, visibility;
+	-ms-transition-property: opacity, margin-bottom, visibility;
+	transition-property: opacity, margin-bottom, visibility;
+	}
+	
+/* --- Arrow --- */	
+.tooltip_top span:before,
+.tooltip_focus_top span:before
+	{
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+	border-top: 8px solid #000;
+	border-bottom: 0 !important;
+	bottom: -8px;
+	left: 15px;
+	}
+
+/* --- On Hover --- */
+.tooltip_top:hover span
+	{	
+	margin-bottom: 10px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+	
+/* --- On Focus --- */
+.tooltip_focus_top input:focus + span,
+.tooltip_focus_top textarea:focus + span
+	{	
+	margin-bottom: 10px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+	
+/* =========================================================================================== */
+/* ======================================== BOTTOM ========================================== */
+/* =========================================================================================== */
+
+/* --- Container --- */
+.tooltip_bottom span,
+.tooltip_focus_bottom span
+	{
+	left: -10px;
+	top: 100%;
+	margin-top: 30px; /* Start Position */
+	
+	/* CSS3 Transitions */
+	-webkit-transition-property: opacity, margin-top, visibility;
+	-moz-transition-property: opacity, margin-top, visibility;
+	-o-transition-property: opacity, margin-top, visibility;
+	-ms-transition-property: opacity, margin-top, visibility;
+	transition-property: opacity, margin-top, visibility;
+	}
+	
+/* --- Arrow --- */	
+.tooltip_bottom span:before,
+.tooltip_focus_bottom span:before
+	{
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+	border-top: 0 !important;
+	border-bottom: 8px solid #000;
+	top: -8px;
+	left: 15px;
+	}
+
+/* --- On Hover --- */
+.tooltip_bottom:hover span
+	{	
+	margin-top: 10px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+	
+/* --- On Focus --- */
+.tooltip_focus_bottom input:focus + span,
+.tooltip_focus_bottom textarea:focus + span
+	{	
+	margin-top: 10px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+
+/* =========================================================================================== */
+/* ========================================= RIGHT =========================================== */
+/* =========================================================================================== */
+
+/* --- Container --- */	
+.tooltip_right span,
+.tooltip_focus_right span
+	{
+	left: 100%;
+	top: -7px;
+	margin-left: 35px; /* Start Position */
+	
+	/* CSS3 Transitions */
+	-webkit-transition-property: opacity, margin-left, visibility;
+	-moz-transition-property: opacity, margin-left, visibility;
+	-o-transition-property: opacity, margin-left, visibility;
+	-ms-transition-property: opacity, margin-left, visibility;
+	transition-property: opacity, margin-left, visibility;
+	}
+	
+/* --- Arrow --- */
+.tooltip_right span:before,
+.tooltip_focus_right span:before
+	{
+    border-left: 0 !important;
+    border-right: 8px solid #000;
+	border-top: 8px solid transparent !important;
+	border-bottom: 8px solid transparent !important;
+	top: 11px;
+	left: -8px;
+	}
+
+/* --- On Hover --- */
+.tooltip_right:hover span
+	{	
+	margin-left: 15px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+
+/* --- On Focus --- */
+.tooltip_focus_right input:focus + span,
+.tooltip_focus_right textarea:focus + span
+	{	
+	margin-left: 15px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+	
+/* =========================================================================================== */
+/* ========================================== LEFT ============================================ */
+/* =========================================================================================== */
+
+/* --- Container --- */	
+.tooltip_left span,
+.tooltip_focus_left span
+	{
+	right: 100%;
+	top: -7px;
+	margin-right: 35px; /* Start Position */
+	
+	/* CSS3 Transitions */
+	-webkit-transition-property: opacity, margin-right, visibility;
+	-moz-transition-property: opacity, margin-right, visibility;
+	-o-transition-property: opacity, margin-right, visibility;
+	-ms-transition-property: opacity, margin-right, visibility;
+	transition-property: opacity, margin-right, visibility;
+	}
+	
+/* --- Arrow --- */
+.tooltip_left span:before,
+.tooltip_focus_left span:before
+	{
+    border-left: 8px solid #000;
+    border-right: 0 !important;
+	border-top: 8px solid transparent !important;
+	border-bottom: 8px solid transparent !important;
+	top: 11px;
+	right: -8px;
+	}
+
+/* --- On Hover --- */
+.tooltip_left:hover span
+	{	
+	margin-right: 15px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+
+/* --- On Focus --- */
+.tooltip_focus_left input:focus + span,
+.tooltip_focus_left textarea:focus + span
+	{	
+	margin-right: 15px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}	
+	
+/* =========================================================================================== */
+/* =================================== DIAGONAL RIGHT ====================================== */
+/* =========================================================================================== */
+	
+/* --- Container --- */	
+.tooltip_diagonal_right span,
+.tooltip_focus_diagonal_right span
+	{
+	left: 100%;
+	top: 100%;
+	margin-top: 35px; /* Start Position */
+	margin-left: 15px; /* Start Position */
+	
+	/* CSS3 Transitions */
+	-webkit-transition-property: opacity, margin-left, margin-top, visibility;
+	-moz-transition-property: opacity, margin-left, margin-top, visibility;
+	-o-transition-property: opacity, margin-left, margin-top, visibility;
+	-ms-transition-property: opacity, margin-left, margin-top, visibility;
+	transition-property: opacity, margin-left, margin-top, visibility;
+	}
+	
+/* --- Arrow --- */
+.tooltip_diagonal_right span:before,
+.tooltip_focus_diagonal_right span:before
+	{
+    border-left: 0 !important;
+    border-right: 10px solid transparent !important;
+	border-top: 0 !important;
+	border-bottom: 10px solid #000;
+	top: -10px;
+	left: 5px;
+	}
+
+/* --- On Hover --- */
+.tooltip_diagonal_right:hover span
+	{	
+	margin-top: 15px; /* End Position */
+	margin-left: -5px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+	
+/* --- On Focus --- */
+.tooltip_focus_diagonal_right input:focus + span,
+.tooltip_focus_diagonal_right textarea:focus + span
+	{	
+	margin-top: 15px; /* End Position */
+	margin-left: -5px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+	
+/* =========================================================================================== */
+/* ==================================== DIAGONAL LEFT ======================================= */
+/* =========================================================================================== */
+
+/* --- Container --- */	
+.tooltip_diagonal_left span,
+.tooltip_focus_diagonal_left span
+	{
+	right: 100%;
+	top: 100%;
+	margin-top: 35px; /* Start Position */
+	margin-right: 15px; /* Start Position */
+	
+	/* CSS3 Transitions */
+	-webkit-transition-property: opacity, margin-right, margin-top, visibility;
+	-moz-transition-property: opacity, margin-right, margin-top, visibility;
+	-o-transition-property: opacity, margin-right, margin-top, visibility;
+	-ms-transition-property: opacity, margin-right, margin-top, visibility;
+	transition-property: opacity, margin-right, margin-top, visibility;
+	}
+	
+/* --- Arrow --- */
+.tooltip_diagonal_left span:before,
+.tooltip_focus_diagonal_left span:before
+	{
+    border-left: 10px solid transparent !important;
+    border-right: 0 !important;
+	border-top: 0 !important;
+	border-bottom: 10px solid #000;
+	top: -10px;
+	right: 5px;
+	}
+
+/* --- On Hover --- */
+.tooltip_diagonal_left:hover span
+	{	
+	margin-top: 15px; /* End Position */
+	margin-right: -5px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}
+	
+/* --- On Focus --- */
+.tooltip_focus_diagonal_left input:focus + span,
+.tooltip_focus_diagonal_left textarea:focus + span
+	{	
+	margin-top: 15px; /* End Position */
+	margin-right: -5px; /* End Position */
+	visibility: visible;
+	opacity: 1;
+	}

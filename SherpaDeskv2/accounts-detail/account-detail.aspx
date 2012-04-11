@@ -20,6 +20,7 @@
 
     <div class="accounts">
         	<div class="container">
+                <!--
                 <div class="grid_12 breadcrumbs">
                 	<ul>
                     	<li>Home</li>
@@ -29,6 +30,7 @@
                         <li>View Account</li>
                     </ul>
                 </div>
+                -->
                 <div class="clearfix"></div>
                 <div class="grid_12 account-name">
                 	<h2>bigWebApps (internal)</h2>
@@ -107,6 +109,8 @@
                 </div><!-- End wrapper -->           
             </div><!-- End Account Fields -->
             <div class="clearfix"></div>
+
+            <!-- 
             <div class="section-divider">
             	<div class="container">
                 	<h3>Charts</h3>
@@ -114,16 +118,11 @@
             </div>
         	<div class="charts">
             	<div class="container">
-                    <img src="../images/account-details/charts-mockups.png" />
-                    <!-- <style>
-                    	.jqplot-yaxis-tick, .jqplot-y2axis-tick, .jqplot-x2axis-tick {display: none;}
-						#chart1 .jqplot-axis .jqplot-xaxis {bottom: 80px !important;}
-                    </style>
-                	<div id="chart1" style="width:500px; height:250px; float: left; padding: 30px 0;"></div>
-                    --> 
+                    <img src="../images/account-details/charts-mockups.png" />                     
                 </div>
             </div>
-            <div class="clearfix"></div>
+            <div class="clearfix"></div> 
+            -->
             <div class="section-divider withsub">
             	<div class="container">
                 	<h3>Account-at-a-Glance</h3>
