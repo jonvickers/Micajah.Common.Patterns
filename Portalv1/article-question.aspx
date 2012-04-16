@@ -41,8 +41,9 @@
                 
                 <hr>
                 
-                <div class="grid_12 alpha omega articles-responses"> <!-- Comments -->
-                	<h2>Responses to this article:</h2>
+                <div class="grid_12 alpha omega articles-responses"> <!-- Comments -->                	
+                    <a class="addresponse buttons" href="#response">Add Response</a>
+                    <h2>Responses to this article</h2>
                     <div class="comments">
 						<div class="comments_wrap">
 						  <ol class="commentlist">
@@ -60,16 +61,15 @@
 						            <div id="comment-00001" class="comment-entry">
 						            	<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 						                Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
-						                To the entire team &mdash;</p>
-						                <div class="reply">
-											<a class="comment-reply-link" href="#response">Reply</a>
-										</div>
+						                To the entire team &mdash;</p>						                
 						            </div>
 						        </div>
 					        </li>					            
 					        <li>
 					            <div class="gravatar">
+                                    <span><img src="img/check-icon.png" /></span>
 								    <img class="avatar" src="img/gravatar.png" width="40" height="40">
+                                    <p>Technician</p>
 								</div>
 								<div class="comment-content">
 								    <span class="name">
@@ -81,10 +81,7 @@
 								    <div id="comment-00002" class="comment-entry">
 								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 								        Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
-								        To the entire team &mdash;</p>
-								        <div class="reply">
-											<a class="comment-reply-link" href="#response">Reply</a>
-										</div>
+								        To the entire team &mdash;</p>								        
 								    </div>
 								</div>
 					        </li>
@@ -102,9 +99,6 @@
 								    <div id="comment-00003" class="comment-entry">
 								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 								        </p>
-								        <div class="reply">
-											<a class="comment-reply-link" href="#response">Reply</a>
-										</div>
 								    </div>
 								</div>
 					        </li>	            
@@ -115,7 +109,7 @@
                 </div><!-- End Comments -->
                 
                 <div class="grid_12 alpha omega articles-reply">
-                    <h2>Leave a Reply</h2>
+                    <h2>Leave a Response</h2>
                     <a name="response"></a>
                     <div>
                         <div class="grid_5 alpha">

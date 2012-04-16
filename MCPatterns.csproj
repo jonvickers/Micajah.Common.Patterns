@@ -185,6 +185,7 @@
     <Content Include="Portalv1\img\article-icon.png" />
     <Content Include="Portalv1\img\bg-comment-tip.png" />
     <Content Include="Portalv1\img\bg-question-tip.png" />
+    <Content Include="Portalv1\img\check-icon.png" />
     <Content Include="Portalv1\img\configuration.png" />
     <Content Include="Portalv1\img\email-icon.png" />
     <Content Include="Portalv1\img\facebook-icon.png" />

@@ -34,11 +34,7 @@
 						            	<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. </p>
                                         <div class="best-answer">
                                             Best Answer
-                                        </div>
-						                <div class="reply">
-											<a class="comment-reply-link" href="#response">Reply</a>
-										</div>
-                                        
+                                        </div>                                        
 						            </div>
 						        </div>
 					        </li>
@@ -52,6 +48,7 @@
                 <hr>
                 
                 <div class="grid_11 alpha omega articles-responses"> <!-- Comments -->
+                    <a class="addresponse buttons" href="#response">Add Response</a>
                 	<h2>Responses to this question</h2>
                     <div class="comments">
 						<div class="comments_wrap">
@@ -74,9 +71,6 @@
 						            	<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 						                Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
 						                To the entire team &mdash;</p>
-						                <div class="reply">
-											<a class="comment-reply-link" href="#response">Reply</a>
-										</div>
 						            </div>
 						        </div>
 					        </li>					            
@@ -98,9 +92,6 @@
 								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 								        Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
 								        To the entire team &mdash;</p>
-								        <div class="reply">
-											<a class="comment-reply-link" href="#response">Reply</a>
-										</div>
 								    </div>
 								</div>
 					        </li>
@@ -109,7 +100,9 @@
                                     <h2 class="positive">36</h2>
                                 </div>
 					            <div class="gravatar withvoting">
+								    <span><img src="img/check-icon.png" /></span>
 								    <img class="avatar" src="img/gravatar.png" width="40" height="40">
+                                    <p>Technician</p>
 								</div>
 								<div class="comment-content withvoting">
 								    <span class="name">
@@ -124,9 +117,6 @@
                                         <div class="best-answer">
                                             Best Answer
                                         </div>
-								        <div class="reply">
-											<a class="comment-reply-link" href="#response">Reply</a>
-										</div>
 								    </div>
 								</div>
 					        </li>
@@ -146,10 +136,7 @@
 									</div>
 								    <div id="Div1" class="comment-entry">
 								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
-								        </p>                                        
-								        <div class="reply">
-											<a class="comment-reply-link" href="#response">Reply</a>
-										</div>
+								        </p>
 								    </div>
 								</div>
 					        </li>	            

@@ -318,7 +318,11 @@ ol.commentlist  {
 	list-style: none outside none;
 	padding: 0;
 	}
-	
+.addresponse 
+{
+    float: right;
+    margin-bottom: 30px;
+    }	
 .question-comments 
 {
     
@@ -373,11 +377,24 @@ ol.commentlist  {
     top: 5px;
     z-index: 999;
 }
+    .gravatar span 
+    {
+        position: absolute;
+        right: 16px;
+        top: -7px;
+        }
+    .gravatar p
+    {
+        text-align: center;
+        margin: -6px 0 0 -3px;
+        padding: 0;
+        font-size: 11px;
+        }
+            
 .gravatar.withvoting 
 {
     left: 50px !important;
     }
-
 img.avatar {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #E4E4E4;
