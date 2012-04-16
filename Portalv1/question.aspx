@@ -36,7 +36,7 @@
                                             Best Answer
                                         </div>
 						                <div class="reply">
-											<a class="comment-reply-link" href="#">Reply</a>
+											<a class="comment-reply-link" href="#response">Reply</a>
 										</div>
                                         
 						            </div>
@@ -75,7 +75,7 @@
 						                Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
 						                To the entire team &mdash;</p>
 						                <div class="reply">
-											<a class="comment-reply-link" href="#">Reply</a>
+											<a class="comment-reply-link" href="#response">Reply</a>
 										</div>
 						            </div>
 						        </div>
@@ -99,7 +99,7 @@
 								        Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
 								        To the entire team &mdash;</p>
 								        <div class="reply">
-											<a class="comment-reply-link" href="#">Reply</a>
+											<a class="comment-reply-link" href="#response">Reply</a>
 										</div>
 								    </div>
 								</div>
@@ -125,7 +125,7 @@
                                             Best Answer
                                         </div>
 								        <div class="reply">
-											<a class="comment-reply-link" href="#">Reply</a>
+											<a class="comment-reply-link" href="#response">Reply</a>
 										</div>
 								    </div>
 								</div>
@@ -148,7 +148,7 @@
 								        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 								        </p>                                        
 								        <div class="reply">
-											<a class="comment-reply-link" href="#">Reply</a>
+											<a class="comment-reply-link" href="#response">Reply</a>
 										</div>
 								    </div>
 								</div>
@@ -161,6 +161,7 @@
                 
                 <div class="grid_11 alpha omega articles-reply">
                     <h2>Leave a Reply</h2>
+                    <a name="response"></a>
                     <div>
                         <div class="grid_5 alpha">
                             <input name="name" type="text">

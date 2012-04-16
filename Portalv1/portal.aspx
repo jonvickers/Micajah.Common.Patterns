@@ -5,9 +5,11 @@
 
 
 <div id="main" role="main">
-    	<div id="portal-title" class="container_16">
+    	<!-- 
+        <div id="portal-title" class="container_16">
         	<h1>Support Center</h1>
         </div>
+        -->
 
         <div class="container_16">	            
 	    	<div class="grid_16 alpha omega top-search">
@@ -41,17 +43,17 @@
                     <div class="grid_12 alpha omega category">
                     	<h2>Getting Started</h2>
                         <div class="grid_6 alpha">
-                        	<h3>Initial Set-up</h3>
+                        	<!-- Remove Sub-classes <h3>Initial Set-up</h3> -->
                             <ul>
                             	<li class="article"><a href="article-question.aspx">Article Title</a></li>
                             	<li class="question"><a href="question.aspx">Question Title</a></li>
                                 <li class="article"><a href="article-question.aspx">Article Title</a></li>
                             	<li class="question"><a href="question.aspx">Extra Extra Long Question Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
-                                <li class="more"><a href="article-question.aspx">More...</a></li>
+                                <!-- Reove addisional More tag <li class="more"><a href="article-question.aspx">More...</a></li> -->
                             </ul>
                         </div>
                         <div class="grid_6 omega">
-                        	<h3>Additional Examples</h3>
+                        	<!-- <h3>Additional Examples</h3> -->
                             <ul>
                             	<li class="article"><a href="article-question.aspx">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id enim et leo laoreet vehicula</a></li>
                             	<li class="question"><a href="question.aspx">Question Title</a></li>
@@ -67,17 +69,17 @@
                     <div class="grid_12 alpha omega category">
                     	<h2>Category Title</h2>
                         <div class="grid_6 alpha">
-                        	<h3>Sub-Category Title</h3>
+                        	<!-- <h3>Sub-Category Title</h3> -->
                             <ul>
                             	<li class="article"><a href="article-question.aspx">Article Title</a></li>
                             	<li class="question"><a href="question.aspx">Question Title</a></li>
                                 <li class="article"><a href="article-question.aspx">Article Title</a></li>
                             	<li class="question"><a href="question.aspx">Question Title</a></li>
-                                <li class="more"><a href="article-question.aspx">More...</a></li>
+                                <!-- <li class="more"><a href="article-question.aspx">More...</a></li> -->
                             </ul>
                         </div>
                         <div class="grid_6 omega">
-                        	<h3>Sub-Category Title</h3>
+                        	<!-- <h3>Sub-Category Title</h3> -->
                             <ul>
                             	<li class="article"><a href="article-question.aspx">Article Title</a></li>
                             	<li class="question"><a href="question.aspx">Question Title</a></li>
@@ -93,17 +95,17 @@
                     <div class="grid_12 alpha omega category">
                     	<h2>Category Title</h2>
                         <div class="grid_6 alpha">
-                        	<h3>Sub-Category Title</h3>
+                        	<!-- <h3>Sub-Category Title</h3> -->
                             <ul>
                             	<li class="article"><a href="article-question.aspx">Article Title</a></li>
                             	<li class="question"><a href="#">Question Title</a></li>
                                 <li class="article"><a href="#">Article Title</a></li>
                             	<li class="question"><a href="#">Question Title</a></li>
-                                <li class="more"><a href="#">More...</a></li>
+                                <!-- <li class="more"><a href="#">More...</a></li> -->
                             </ul>
                         </div>
                         <div class="grid_6 omega">
-                        	<h3>Sub-Category Title</h3>
+                        	<!-- <h3>Sub-Category Title</h3> -->
                             <ul>
                             	<li class="article"><a href="#">Article Title</a></li>
                             	<li class="question"><a href="#">Question Title</a></li>
@@ -119,17 +121,17 @@
                     <div class="grid_12 alpha omega category">
                     	<h2>Category Title</h2>
                         <div class="grid_6 alpha">
-                        	<h3>Sub-Category Title</h3>
+                        	<!-- <h3>Sub-Category Title</h3> -->
                             <ul>
                             	<li class="article"><a href="#">Article Title</a></li>
                             	<li class="question"><a href="#">Question Title</a></li>
                                 <li class="article"><a href="#">Article Title</a></li>
                             	<li class="question"><a href="#">Question Title</a></li>
-                                <li class="more"><a href="#">More...</a></li>
+                                <!-- <li class="more"><a href="#">More...</a></li> -->
                             </ul>
                         </div>
                         <div class="grid_6 omega">
-                        	<h3>Sub-Category Title</h3>
+                        	<!-- <h3>Sub-Category Title</h3> -->
                             <ul>
                             	<li class="article"><a href="#">Article Title</a></li>
                             	<li class="question"><a href="#">Question Title</a></li>
@@ -151,6 +153,7 @@
                 		<li class="phone">888-555-1212</li>
                 		<li class="fb-link"><a href="http://www.facebook.com/pages/bigWebApps-HelpDesk/196310771544">Facebook</a></li>
                 		<li class="twitter-link"><a href="http://twitter.com/#supportguy">@SupportGuy</a></li>
+                        <li class="email-link">Email Us</li>
                 		<li class="widget">
                         	<h2>System Information</h2>
                             <p><a href="http://blog.helpdesk.bigwebapps.com/">Product Update Blog</a></p>

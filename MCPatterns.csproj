@@ -57,6 +57,8 @@
     <Content Include="accounts\css\accounts.css" />
     <Content Include="accounts\css\jquery-ui-1.8.16.custom.css" />
     <Content Include="accounts\css\on-off-checkboxes.css" />
+    <Content Include="accounts\css\tooltips_main.css" />
+    <Content Include="accounts\css\tooltips_styles.css" />
     <Content Include="accounts\default.aspx" />
     <Content Include="accounts\img\assets.png" />
     <Content Include="accounts\img\billing.png" />
