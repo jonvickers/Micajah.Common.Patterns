@@ -28,7 +28,7 @@
   	        <div class="header">
     	        <div class="container_16">
         	        <div id="logo">
-            	        <h1>My Company Name</h1>
+            	        <a href="portal.aspx"><h1>My Company Name</h1></a>
                     </div>            
                     <div class="global-nav nav">
             	        <ul class="main">

@@ -6,11 +6,13 @@
  <div class="container_16"> <!--main Container -->
             <div class="grid_11 alpha"> <!-- Full Article Area -->
             	<div class="grid_11 alpha omega article-title">
-                	<h1>Question Title - This may be really long, so lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                    <p><em>Last Updated: Mar 29, 2012</em></p>
+                	<h1>Question Title - This may be really long, so lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>                    
                 </div>
                 <div class="grid_11 alpha omega article-main">                	
                	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nibh non diam convallis iaculis eu id tortor. Sed aliquet commodo faucibus. Quisque auctor nunc at erat lacinia convallis. Mauris dignissim, velit eu fringilla euismod, justo elit laoreet lectus, sit amet euismod mi lorem at ligula. In neque turpis, dapibus vel aliquam nec, eleifend ut lorem. Ut vel tellus quis nisl gravida malesuada vitae non lacus.</p>
+                </div>
+                <div class="edited-date">
+                    <p><em>Last Updated: Mar 29, 2012</em></p>
                 </div>
                 
                 <div class="grid_11 alpha omega"> <!-- Comments -->
@@ -101,7 +103,7 @@
                                 </div>
 					            <div class="gravatar withvoting">
 								    <span><img src="img/check-icon.png" /></span>
-								    <img class="avatar" src="img/gravatar.png" width="40" height="40">
+								    <img class="avatar technician" src="img/gravatar.png" width="40" height="40">
                                     <p>Technician</p>
 								</div>
 								<div class="comment-content withvoting">

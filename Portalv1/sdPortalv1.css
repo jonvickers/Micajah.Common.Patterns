@@ -301,6 +301,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 		font-weight: normal;
 		font-size: 12px;
 		}
+.edited-date p {float: right;}
 
 /* ----   Comments   ---- */
 
@@ -401,6 +402,11 @@ img.avatar {
     border-radius: 3px 3px 3px 3px;
     padding: 3px;
 }
+    img.avatar.technician 
+    {
+        background-color: #fbe499;
+        border-color: #fcb315;
+        }
 .comment-content {
     background: none repeat scroll 0 0 #FAFAFA;
     border: 1px solid #E2E2E2;
@@ -511,6 +517,7 @@ img.avatar {
 			vertical-align: middle;
 			background-position: 4px 5px;
 			background-repeat: no-repeat;
+			margin: 0 0 10px 5px;
 			}
 			.portal-aside ul li.phone {
 				background-image: url(img/phone-icon2.png);

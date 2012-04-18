@@ -12,7 +12,7 @@
 <hr />
 
 <div class="questionanswers">
-<h3>Recent Questions</h3>
+<h3>Related Questions</h3>
     <ul>
         <li class="question"><a href="../../Portalv1/question.aspx" target="_new">Question Title</a></li>
         <li class="question"><a href="../../Portalv1/question.aspx" target="_new">Question Title</a></li>
@@ -25,12 +25,7 @@
 <hr />
 
 <div class="questionanswers">
-    <h3>More Resources</h3>
     <ul>
-        <li class="article"><a href="../../Portalv1/article-question.aspx" target="_new">Article Title</a></li>
-        <li class="article"><a href="../../Portalv1/article-question.aspx" target="_new">Article Title</a></li>
-        <li class="article"><a href="../../Portalv1/article-question.aspx" target="_new">Extra Extra Long Article Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
-        <li class="article"><a href="../../Portalv1/article-question.aspx" target="_new">Extra Extra Long Article Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
         <li class="more"><a href="../../Portalv1/portal.aspx" target="_new">Find More Resources</a></li>
     </ul>
 </div>

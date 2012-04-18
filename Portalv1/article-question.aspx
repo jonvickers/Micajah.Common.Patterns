@@ -11,8 +11,7 @@
         <div class="container_16 main"> <!--main Container -->
             <div class="grid_12 alpha"> <!-- Full Article Area -->
             	<div class="grid_12 alpha omega article-title">
-                	<h1>Article Title</h1>
-                    <p><em>Last Updated: Dec 23, 2011</em></p>
+                	<h1>Article Title</h1>                    
                 </div>
                 <div class="grid_12 alpha omega article-main">
                 	<p>
@@ -25,7 +24,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nibh non diam convallis iaculis eu id tortor. Sed aliquet commodo faucibus. Quisque auctor nunc at erat lacinia convallis. Mauris dignissim, velit eu fringilla euismod, justo elit laoreet lectus, sit amet euismod mi lorem at ligula. In neque turpis, dapibus vel aliquam nec, eleifend ut lorem. Ut vel tellus quis nisl gravida malesuada vitae non lacus.</p>
                 </div>
                 
-                <div class="grid_12 alpha omega articles-related">
+                <div class="grid_8 alpha articles-related">
                 	<h3>Related Articles</h3>
                     <ul>
                     	<li><a href="#">article #1</a></li>
@@ -34,7 +33,9 @@
                     	<li><a href="#">article #4</a></li>
                     </ul>
                 </div>
-                
+                <div class="grid_4 omega edited-date">
+                    <p><em>Last Updated: Dec 23, 2011</em></p>
+                </div>
                 <div class="grid_12 alpha omega articles-helpful">
                 	<h3>I found this article helpful. <span>(1203)</span></h3>
                 </div>
