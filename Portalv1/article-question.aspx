@@ -69,7 +69,7 @@
 					        <li>
 					            <div class="gravatar">
                                     <span><img src="img/check-icon.png" /></span>
-								    <img class="avatar" src="img/gravatar.png" width="40" height="40">
+								    <img class="avatar technician" src="img/gravatar.png" width="40" height="40">
                                     <p>Technician</p>
 								</div>
 								<div class="comment-content">
