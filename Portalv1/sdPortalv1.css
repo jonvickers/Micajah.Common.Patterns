@@ -584,6 +584,88 @@ img.avatar {
 			border-bottom: 1px solid;
 			}
 
+/*--  Forum Re-design --*/
+
+.category-forum {
+        margin: 0;
+        }
+    .category-forum h2 {
+        border-bottom: 1px solid #e2e2e2;
+        margin-bottom: 0px;
+        padding: 5px;
+        font-size: 16px;
+        background-color: #f1f1f1;
+        }
+    .forum 
+    {
+        overflow: hidden;
+        margin-bottom: 40px;
+        }
+    .forum ul li 
+    {
+        margin-top: -1px;
+        padding: 15px 0 15px 30px;
+        border-width: 1px 0 1px 0;
+        border-color: #CCC;
+        border-style: solid; 
+        overflow: hidden;
+        }
+        .forum ul li.article:hover, 
+        .forum ul li.question:hover
+        {
+            background-color: #fffde5;
+            }
+    .forum ul li .qa-title 
+    {
+        font-size: 16px;
+        float: left;
+        width: 550px;
+        }
+    .forum ul li .qa-comments 
+    {
+        background-color: #fff298;
+        padding: 5px 10px;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 4px;
+        }
+        .forum ul li .qa-comments p.qa-comments-title 
+        {
+            font-size: 10px;
+            margin: 0;
+            padding: 0; 
+            }
+        .forum ul li .qa-comments p.qa-comments-number
+        {
+            font-size: 16px;
+            font-weight: bold; 
+            margin: 0;
+            padding: 0;
+            }
+    .forum ul li.article {
+        background: url(img/article-icon.png) no-repeat 5px 16px;
+        position: relative;
+        }
+    
+    .forum ul li.question {
+        background: url(img/question-icon.png) no-repeat 5px 16px;
+        position: relative;
+        }
+    .forum ul li.more {
+        font-weight: bold;
+        border: none;
+        padding: 15px 30px;
+        }
+    .portal-aside ul li.widget.sysinfo p {
+        margin: 10px 0;
+        }
+        .portal-aside ul li.widget.sysinfo p a
+        {
+            font-size: 16px;
+            }
+
+
 /*-- Top Search Bar --*/	
 	
 .support-search-big {

@@ -212,6 +212,7 @@
     <Content Include="Portalv1\js\plugins.js" />
     <Content Include="Portalv1\js\script.js" />
     <Content Include="Portalv1\portal.aspx" />
+    <Content Include="Portalv1\Portalv2WithForum.aspx" />
     <Content Include="Portalv1\question.aspx" />
     <Content Include="Portalv1\sdPortalv1.css" />
     <Content Include="SherpaDeskv2\accounts-detail\account-detail.aspx" />
@@ -466,6 +467,13 @@
     </Compile>
     <Compile Include="Portalv1\Portal.Master.designer.cs">
       <DependentUpon>Portal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Portalv1\Portalv2WithForum.aspx.cs">
+      <DependentUpon>Portalv2WithForum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portalv1\Portalv2WithForum.aspx.designer.cs">
+      <DependentUpon>Portalv2WithForum.aspx</DependentUpon>
     </Compile>
     <Compile Include="Portalv1\question.aspx.cs">
       <DependentUpon>question.aspx</DependentUpon>
