@@ -781,6 +781,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	padding: 5px 0;
 	width: 100%;
 	margin-bottom: 20px;
+	margin-top: 50px;
 	height: 25px;
 	border-bottom: 1px solid #FFB111;
 	}
@@ -789,6 +790,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 		}
 	.section-divider h3 {
 		font-size: 20px;
+		}
+		
+	.section-divider.top-nav ul {margin-top: -3px;}
+	.section-divider.top-nav ul li a:hover, 
+	.section-divider.top-nav ul li.active a {
+		background-color: #fff8cb;
+		color: #555555 !important;
 		}
 	
 

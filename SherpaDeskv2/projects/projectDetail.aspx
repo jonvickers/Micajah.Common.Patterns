@@ -17,18 +17,7 @@
 
 <div class="accounts">
     <div class="container">
-        <div class="grid_12">
-            <!-- 
-            <div class="breadcrumbs">
-                <ul>
-                    <li>Home</li>
-                    <li>></li>
-                    <li>Projects</li>
-                    <li>></li>
-                    <li>Project Overview</li>
-                </ul>
-            </div>
-            -->
+        <div class="grid_12">            
             <div class="clearfix"></div>
             <div class="account-name">
                 <h2>Helpdesk > API's</h2>
@@ -37,6 +26,9 @@
                 </ul>                    
             </div>
         </div>
+
+        <!--  Left Top -------------------------------------------------------------------------->
+
         <div class="grid_6">
             <div class="account-info">
                 <div class="grid_12 alpha omega">
@@ -75,6 +67,9 @@
                 </div>                       
             </div>
         </div>
+
+        <!-- Right Side blue box ------------------------------------------------------------>
+
         <div class="grid_5 push_1 alpha blue-well projectdet">
             <div class="project-details">
                 <div class="count-section">
@@ -141,21 +136,16 @@
             </div><!-- End Account Fields -->
 
 <!------------------------------------------------------------------------ Project Details ------------------------>
-    <div class="section-divider withsub">
+    <div class="section-divider top-nav">
         <div class="container">
-            <h3>Project Details</h3>
-        </div>
-    </div>
-    <div class="top-nav proj-dets">
-		<div class="container">
             <div class="grid_12">
 		        <ul>
 		            <li class="active"><a href="#">Details</a></li>
 		            <li><a href="#">Budget</a></li>
 		        </ul>
             </div>
-		</div><!-- End Wrapper -->
-	</div><!-- End Nav -->
+        </div>
+    </div>
 
     <div class="tab-content">
         <div class="container project-details-details nogridstyle tab-pane active" id="details">
@@ -226,7 +216,7 @@
 <!------------------------------------------------------------------------ Project TASKS -------------------------->
     <div class="section-divider">
         <div class="container">
-            <h3>Project Tasks</h3>
+            <h3>Tasks</h3>
         </div>
     </div>
 
@@ -389,12 +379,11 @@
 <!------------------------------------------------------------------------ Project Logs --------------------------->
     <div class="section-divider">
         <div class="container">
-            <h3>Project Logs</h3>
+            <h3>Project Time Logs</h3>
         </div>
     </div>
 
     <div class="container">
-    <h3>Project Time Logs</h3>
     <table>
         <thead>
 	        <tr>
@@ -413,10 +402,15 @@
             </tr>
         </tbody>
     </table>
+    </div>
 
-    <br /><br />
+    <div class="section-divider">
+        <div class="container">
+            <h3>Ticket Time Logs</h3>
+        </div>
+    </div>
 
-    <h3>Ticket Time Logs</h3>
+    <div class="container">
         <table>
             <thead>
             	<tr>

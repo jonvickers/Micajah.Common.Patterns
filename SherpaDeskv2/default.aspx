@@ -58,7 +58,7 @@
                     <h2>Log My Time</h2>
                 </div>
                 <div class="grid_5 date-time">
-                    <span class="pull-left">Date</span><h2 class="pull-left">March 28, 2012 - Friday</h2><span class="pull-left time">1:38 <i class="icon-calendar"></i></span>
+                    <h2 class="pull-left">March 28, 2012 - Friday</h2><span class="pull-left time">1:38 <i class="icon-calendar"></i></span>
                 </div>
             </div>
             <div class="grid_12">            
@@ -155,13 +155,18 @@
         </ul>
     </div>
 </div>
+
+
+<!-- Graph to be used later
 <div class="container fixed recent-activity">
     <div class="grid_12">
         <h2>Recent Ticket Activity</h2>
         <img src="images/graph.png" width="100%"/>
     </div>
-</div><!-- End Bottom Container-->
-<div class="container fixed">
+</div>  End Bottom Container-->
+
+
+<div class="container">
     <div class="grid_12">
         
                 <!--Start Todos -->
