@@ -1203,9 +1203,135 @@ ul.counters li
 	
 /*---------------------------------- New Ticket List Section ------------------------------*/	
 	
-.ticket-list-header 
+table thead th,
+table thead th a 
 {
-    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #eeeeee !important;
+    color: #222222;
+    text-shadow: 1px 1px 1px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=1, offy=1);
+    }
+                
+tbody 
+{
+    border-top: none;
+    border-bottom: none;
+    }
+                
+tbody tr 
+{
+    border-top: none;
+    border-bottom: none;
+    }
+
+table td,
+table th 
+{
+    padding: 8px;    
+    }
+
+table.ticket-list-control 
+{
+    margin: 10px 0 5px 0;
+    }
+table.ticket-list-control span 
+{
+    margin-left: 20px;
+    }
+    
+table.ticket-list-control td 
+{
+    padding: 0;
+    }
+table.ticket-list-control td a 
+{
+    font-weight: bold;
+    }
+
+table.ticket-list input[type='checkbox'] 
+{
+    margin-top: -3px;
+    }
+
+table.ticket-list tr.ticket-list-single-bot td,
+table.ticket-list thead tr th
+{
+    text-align: center;
+    }
+    
+table.ticket-list tr td:first-child,
+table.ticket-list thead tr th:first-child 
+{
+    width: 70px;
+    text-align: left;
+    }
+
+tr.ticket-list-single-top
+{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #004174 !important;
+    color: #FFFFFF;
+    text-align: left;
+    border-bottom: 1px solid #003157;
+    }
+
+tr.ticket-list-single-top td a
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    }
+
+table thead th a:hover,
+table.ticket-list-control td a:hover, 
+tr.ticket-list-single-top td a:hover 
+{
+    text-decoration: underline;
+    }
+
+
+tr.ticket-list-single-top td.ticket-list-single-title span a
+{
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    float: left;
+    display: none;
+    
+    }        
+tr.ticket-list-single-top td.ticket-list-single-title a {float: left;}
+tr.ticket-list-single-top td.ticket-list-single-title:hover span a 
+{
+    display: inline;
+    }
+
+tr.ticket-list-single-top td 
+{
+    padding: 4px;
+    }
+tr.ticket-list-single-bot td 
+{
+    font-size: 12px;
+    background-color: #eeeeee !important;
+    padding: 4px;
+    text-shadow: 1px 1px 1px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=1, offy=1);
+    }
+    
+thead.ticket-list-header tr,
+tr.ticket-list-single-bot 
+{
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #d9d9d9;
+    }
+    
+tr.ticket-list-single-seperator td 
+{
+    padding: 5px;
     }
 	
 	
