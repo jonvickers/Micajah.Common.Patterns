@@ -10,10 +10,14 @@ table
     width: 100%;
     }
                 
-table thead th 
+table thead th,
+table thead th a 
 {
     font-weight: bold;
     font-size: 15px;
+    background-color: #004174 !important;
+    color: #FFFFFF;
+    text-align: left;
     }
                 
 tbody 
@@ -39,14 +43,6 @@ tbody tr.even-row
     background: #f3f3f3;
     }
                 
-table thead th 
-{
-    background-color: #004174 !important;
-    color: #FFFFFF;
-    text-align: left;
-    }
-
-
 table td,
 table th 
 {

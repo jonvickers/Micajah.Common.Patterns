@@ -284,6 +284,7 @@
     <Content Include="SherpaDeskv2\projects\default.aspx" />
     <Content Include="SherpaDeskv2\projects\projectDetail.aspx" />
     <Content Include="SherpaDeskv2\SherpaDeskv2.css" />
+    <Content Include="SherpaDeskv2\Tickets\ticketList.aspx" />
     <Content Include="SherpaDeskv2\Tickets\tickets.aspx" />
     <Content Include="css-MicajahCommon\mc_reset.css" />
     <Content Include="jquery-1.4.2.min.js" />
@@ -547,6 +548,13 @@
     </Compile>
     <Compile Include="SherpaDeskv2\SherpaDeskv2.Master.designer.cs">
       <DependentUpon>SherpaDeskv2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\Tickets\ticketList.aspx.cs">
+      <DependentUpon>ticketList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\Tickets\ticketList.aspx.designer.cs">
+      <DependentUpon>ticketList.aspx</DependentUpon>
     </Compile>
     <Compile Include="SherpaDeskv2\Tickets\tickets.aspx.cs">
       <DependentUpon>tickets.aspx</DependentUpon>

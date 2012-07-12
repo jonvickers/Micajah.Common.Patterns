@@ -1013,6 +1013,9 @@ ul.counters li
 
 /*--------------------- Ticket List -----------------------------*/
 
+
+/*---------------------  Old Section ---------------------*/
+
 .ticket {
 	width: 100%;
 	min-width: 900px;
@@ -1197,6 +1200,18 @@ ul.counters li
 	background-color: #dadbdf;
 	color: #fff;
 	}
+	
+/*---------------------------------- New Ticket List Section ------------------------------*/	
+	
+.ticket-list-header 
+{
+    margin-bottom: 20px;
+    }
+	
+	
+	
+	
+	
 
 /*---------------------------------- Details Pages ------------------------------*/
 
