@@ -81,8 +81,8 @@
         <tbody>
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
-                <td class="ticket-list-single-num"><a href="#">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="#">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
+                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -101,8 +101,8 @@
 
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
-                <td class="ticket-list-single-num"><a href="#">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="#">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
+                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -121,8 +121,8 @@
 
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
-                <td class="ticket-list-single-num"><a href="#">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="#">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
+                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -141,8 +141,8 @@
 
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
-                <td class="ticket-list-single-num"><a href="#">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="#">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
+                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -161,8 +161,8 @@
 
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
-                <td class="ticket-list-single-num"><a href="#">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="#">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
+                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   

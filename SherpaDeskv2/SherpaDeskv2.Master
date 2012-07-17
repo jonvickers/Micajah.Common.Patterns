@@ -59,6 +59,7 @@
     	    <div class="wrapper">
                 <ul>
                     <li><a href="../../SherpaDeskv2/">Home</a></li>
+                    <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx">Tickets</a></li>
                     <li><a class="showsub" href="../../SherpaDeskv2/accounts-detail/accounts.aspx">Accounts</a></li>
                     <li><a class="showsub" href="../../SherpaDeskv2/projects/">Projects</a></li>
                     <li><a href="#">Locations</a></li>

@@ -135,12 +135,12 @@
 
     <!-- Right side start -->
     <div class="ticket-detail-right">
-
+        
+        <!-- Right Side Navbar -->
         <div class="top-nav tkt-navbar">
             <ul>
-                <li><a href="#">Responses</a></li>
+                <li class="active"><a href="#">Responses</a></li>
                 <li><a href="#">Timeline</a></li>
-                <li><a href="#">Close Out</a></li>
                 <li><a href="#">Pickup</a></li>
                 <li><a href="#">Transfer</a></li>
                 <li><a href="#">Time</a></li>
@@ -149,7 +149,28 @@
                 <li><a href="#">ToDos</a></li>  
             </ul>
         </div>
-        
+                      	
+	    <div class="tkt-action">
+	        <a class="buttons info" href="#">Close Ticket</a>
+	    </div>        
+
+        <!-- Initial Post -->
+        <div class="tkt-initial-post">
+            
+            <!---- Gravatar ---->
+            <img class="avatar" src="../../Portalv1/img/gravatar.png" width="40" height="40" />	
+
+            <div class="post">
+                <h1>Page Help clean up</h1>
+                <p><small>Ben Pfohl <span>6/26/2012 03:11PM (UTC-5)</span></small></p>
+                <p class="pill gray">Initial Post</p>
+                <div class="clearfix"></div>
+                <p class="tkt-post-txt">Houston, that may have seemed like a very long final phase. The autotargeting was taking us right into a ... crater, with a large number of big boulders and rocks ... and it required ... flying manually over the rock field to find a reasonably good area.</p>
+            </div>
+            
+        </div>
+
+
     </div>
     <!-- Right side End -->
 

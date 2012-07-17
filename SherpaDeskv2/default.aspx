@@ -145,13 +145,13 @@
 <div class="container">
     <div class="grid_12">
         <ul class="counters">
-            <li><a href="../../SherpaDeskv2/Tickets/tickets.aspx"><span class="newmessage">New messages</span><h1>456</h1></a></li>
-            <li><a href="../../SherpaDeskv2/Tickets/tickets.aspx"><span class="opentickets">Open Tickets</span><h1>36</h1></a></li>
-            <li><a href="../../SherpaDeskv2/Tickets/tickets.aspx"><span class="openascustomer">Open as Customer</span><h1>13</h1></a></li>
-            <li><a href="../../SherpaDeskv2/Tickets/tickets.aspx"><span class="onhold">On Hold</span><h1>5</h1></a></li>
-            <li><a href="../../SherpaDeskv2/Tickets/tickets.aspx"><span class="followupdates">Follow Up Dates</span><h1>21</h1></a></li>
-            <li><a href="../../SherpaDeskv2/Tickets/tickets.aspx"><span class="waitingonparts">Waiting On Parts</span><h1>0</h1></a></li>
-            <li><a href="../../SherpaDeskv2/Tickets/tickets.aspx"><span class="unconfirmed">Unconfirmed</span><h1>6</h1></a></li>
+            <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx"><span class="newmessage">New messages</span><h1>456</h1></a></li>
+            <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx"><span class="opentickets">Open Tickets</span><h1>36</h1></a></li>
+            <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx"><span class="openascustomer">Open as Customer</span><h1>13</h1></a></li>
+            <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx"><span class="onhold">On Hold</span><h1>5</h1></a></li>
+            <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx"><span class="followupdates">Follow Up Dates</span><h1>21</h1></a></li>
+            <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx"><span class="waitingonparts">Waiting On Parts</span><h1>0</h1></a></li>
+            <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx"><span class="unconfirmed">Unconfirmed</span><h1>6</h1></a></li>
         </ul>
     </div>
 </div>

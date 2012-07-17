@@ -138,6 +138,7 @@ table { border-collapse: collapse; border-spacing: 0; }
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
+  min-width: 1124px;
 }
 
 .header {
@@ -1212,8 +1213,8 @@ ul.counters li
 	
 /*---------------------------------- New Ticket List Section ------------------------------*/	
 	
-table thead th,
-table thead th a 
+.ticket-list table thead th,
+.ticket-list table thead th a 
 {
     font-weight: bold;
     font-size: 14px;
@@ -1223,20 +1224,20 @@ table thead th a
     filter: dropshadow(color=#ffffff, offx=1, offy=1);
     }
                 
-tbody 
+.ticket-list tbody 
 {
     border-top: none;
     border-bottom: none;
     }
                 
-tbody tr 
+.ticket-list tbody tr 
 {
     border-top: none;
     border-bottom: none;
     }
 
-table td,
-table th 
+.ticket-list table td,
+.ticket-list table th 
 {
     padding: 8px;    
     }
@@ -1345,12 +1346,19 @@ tr.ticket-list-single-seperator td
     }
 	
 	
-/*---------------------------------- Ticket Detail Page -------------------------*/
+/*---------------------------------- Ticket Detail Page ------------------------------------*/
 
 .ticket-detail
 {
     
     }
+
+img.avatar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 3px 3px 3px 3px;
+    padding: 3px;
+}
 
 /*---------- Left side -----------*/    
 .ticket-detail-left 
@@ -1386,10 +1394,10 @@ tr.ticket-list-single-seperator td
         
         .ticket-detail-left div.section .item {margin: 10px 0;}
         
-        .ticket-detail-left div.section h1,
-        .ticket-detail-left div.section h2,
-        .ticket-detail-left div.section h3,
-        .ticket-detail-left div.section p 
+        .ticket-detail h1,
+        .ticket-detail h2,
+        .ticket-detail h3,
+        .ticket-detail p 
         {
             padding: 0;
             margin: 0;
@@ -1458,8 +1466,7 @@ tr.ticket-list-single-seperator td
 {
     margin-left: 380px;
     padding:0;
-    min-height: 100px;
-    background-color: pink;        
+    min-height: 100px;       
     }
 
 .tkt-navbar 
@@ -1488,6 +1495,7 @@ tr.ticket-list-single-seperator td
     .tkt-navbar ul li a:hover, .tkt-navbar ul li.active a 
     {
         background-color: #0e90d2;
+        color: #ffffff !important;
         }
         
     .tkt-navbar ul
@@ -1504,7 +1512,50 @@ tr.ticket-list-single-seperator td
             padding: 0; 
             }
 
+.tkt-action 
+{
+    overflow: hidden;
+    margin: 15px 15px 0 0;
+    }
+    .tkt-action .buttons 
+    {
+        float: right;
+        }
+    
+.tkt-initial-post 
+{
+    background-color: #f7f7f7;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 15px;
+    margin: 15px 0 20px 0;
+    overflow: hidden;
+    }
+    
+    .tkt-initial-post .avatar 
+    {
+        float: left;
+        }
+    
+    .tkt-initial-post .post 
+    {
+        margin-left: 70px;
+        }
+    .tkt-initial-post .post p small {font-size: 11px;}
+    .tkt-initial-post p.pill 
+    {
+        float: left;
+        padding: 3px 8px;
+        margin-top: 5px !important;
+        }
 
+    .tkt-initial-post p.tkt-post-txt 
+    {
+        font-size: 1.1em;
+        margin: 15px 0;
+        }
+        
+         
 
 /*---------------------------------- Details Pages ------------------------------*/
 
