@@ -260,6 +260,7 @@
     <Content Include="SherpaDeskv2\images\pagehelp.png" />
     <Content Include="SherpaDeskv2\images\page_text.png" />
     <Content Include="SherpaDeskv2\images\paperclip.png" />
+    <Content Include="SherpaDeskv2\images\plus-add.png" />
     <Content Include="SherpaDeskv2\images\sd-logo.png" />
     <Content Include="SherpaDeskv2\images\search-button.png" />
     <Content Include="SherpaDeskv2\images\search-field-med.png" />
@@ -284,6 +285,7 @@
     <Content Include="SherpaDeskv2\projects\default.aspx" />
     <Content Include="SherpaDeskv2\projects\projectDetail.aspx" />
     <Content Include="SherpaDeskv2\SherpaDeskv2.css" />
+    <Content Include="SherpaDeskv2\Tickets\ticketDetail.aspx" />
     <Content Include="SherpaDeskv2\Tickets\ticketList.aspx" />
     <Content Include="SherpaDeskv2\Tickets\tickets.aspx" />
     <Content Include="css-MicajahCommon\mc_reset.css" />
@@ -548,6 +550,13 @@
     </Compile>
     <Compile Include="SherpaDeskv2\SherpaDeskv2.Master.designer.cs">
       <DependentUpon>SherpaDeskv2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\Tickets\ticketDetail.aspx.cs">
+      <DependentUpon>ticketDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\Tickets\ticketDetail.aspx.designer.cs">
+      <DependentUpon>ticketDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="SherpaDeskv2\Tickets\ticketList.aspx.cs">
       <DependentUpon>ticketList.aspx</DependentUpon>

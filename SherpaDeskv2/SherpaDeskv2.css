@@ -532,6 +532,15 @@ table { border-collapse: collapse; border-spacing: 0; }
     -moz-border-radius: 10px;
     border-radius: 10px; 
     }
+.white-well 
+{
+    padding: 10px;
+    margin-bottom: 10px;    
+    background-color: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+    }
 
 
 
@@ -1248,6 +1257,7 @@ table.ticket-list-control td
 table.ticket-list-control td a 
 {
     font-weight: bold;
+    text-decoration: underline;
     }
 
 table.ticket-list input[type='checkbox'] 
@@ -1272,10 +1282,10 @@ tr.ticket-list-single-top
 {
     font-weight: bold;
     font-size: 15px;
-    background-color: #004174 !important;
+    background-color: #058dc7 !important; /* #004174 */
     color: #FFFFFF;
     text-align: left;
-    border-bottom: 1px solid #003157;
+    border-bottom: 1px solid #017cb0; /* #003157 */
     }
 
 tr.ticket-list-single-top td a
@@ -1335,9 +1345,166 @@ tr.ticket-list-single-seperator td
     }
 	
 	
-	
-	
-	
+/*---------------------------------- Ticket Detail Page -------------------------*/
+
+.ticket-detail
+{
+    
+    }
+
+/*---------- Left side -----------*/    
+.ticket-detail-left 
+{
+    background-color: #ededed;
+    color: #222222;
+    width: 370px;
+    margin: 0 0 50px 0;
+    padding: 0;
+    float: left;  
+    }
+    
+    .ticket-detail-left div.section	
+    {
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #d1d1d1;
+        padding: 10px;
+        margin: 0;
+        text-shadow: 1px 1px 1px #ffffff;
+        overflow: hidden;
+        }
+        
+        .ticket-detail-left div.section a 
+        {
+            text-decoration: underline;
+            }
+        .ticket-detail-left div.section span 
+        {
+            font-weight: bold;
+            font-size: 15px;
+            margin-left: 5px;
+            }
+        
+        .ticket-detail-left div.section .item {margin: 10px 0;}
+        
+        .ticket-detail-left div.section h1,
+        .ticket-detail-left div.section h2,
+        .ticket-detail-left div.section h3,
+        .ticket-detail-left div.section p 
+        {
+            padding: 0;
+            margin: 0;
+            }      
+        
+        .ticket-detail-left div.section .tkt-start-date {font-weight: bold;}
+        .ticket-detail-left div.section .tkt-last-date {font-weight: bold;}
+        .ticket-detail-left div.section .tkt-last-date small { font-weight: normal;}
+        
+        .ticket-detail-left div.section .tkt-account,
+        .ticket-detail-left div.section .tkt-tech,
+        .ticket-detail-left div.section .tkt-priority,
+        .ticket-detail-left div.section .tkt-level,
+        .ticket-detail-left div.section .tkt-hours,
+        .ticket-detail-left div.section .tkt-wrkday-timer  
+        {
+            width: 170px;
+            }
+            
+        .ticket-detail-left div.section .tkt-priority,
+        .ticket-detail-left div.section .tkt-level {margin-bottom: 10px;}
+        
+        .ticket-detail-left div.section .tkt-hours h2,
+        .ticket-detail-left div.section .tkt-wrkday-timer h2 
+        {
+            font-size: 32px;
+            font-weight: bold;
+            }
+        
+        .ticket-detail-left div.section div.tkt-cost h1 
+        {
+            font-size: 36px;
+            }
+        .ticket-detail-left div.section div.tkt-cost h1 span 
+        {
+            font-weight: normal;
+            }
+        
+            
+        /*--- Section colors ---*/    
+        .ticket-detail-left div.section.drkblue 
+        {
+            color: #ffffff;
+            background-color: #004174;
+            border-top: 1px solid #1a5b8f;
+            border-bottom: 1px solid #083558;
+            text-shadow: 1px 1px 1px #083558;
+            }
+        .ticket-detail-left div.section.ltblue 
+        {
+            color: #ffffff;
+            background-color: #058dc7;
+            border-top: 1px solid #006e9d;
+            border-bottom: 1px solid #0184bc;
+            text-shadow: 1px 1px 1px #006e9d;
+            }
+        .ticket-detail-left div.section.gold 
+        {
+            background-color: #fff298;
+            border-bottom: 1px solid #c99a1c;
+            text-shadow: 1px 1px 1px #f0e17a;
+            }
+    
+/*---------- Right side -----------*/       
+.ticket-detail-right
+{
+    margin-left: 380px;
+    padding:0;
+    min-height: 100px;
+    background-color: pink;        
+    }
+
+.tkt-navbar 
+{
+    color: #ffffff;
+    background-color: #004174;
+    border-top: 1px solid #1a5b8f;
+    border-bottom: 1px solid #083558;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    }
+    .tkt-navbar ul li a 
+    {
+        color: #ffffff;
+        padding: 5px 8px;
+        margin: 0 5px 0 0;
+        text-decoration: none !important;
+        font-weight: bold;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px 5px 5px 5px;
+        }
+    .tkt-navbar ul li a:hover, .tkt-navbar ul li.active a 
+    {
+        background-color: #0e90d2;
+        }
+        
+    .tkt-navbar ul
+    {
+        padding: 8px 0;
+        margin-left: 15px;
+        width: 100%;
+        }
+        .tkt-navbar ul li 
+        {
+            display: inline;
+            float: left;
+            margin: 0;
+            padding: 0; 
+            }
+
+
 
 /*---------------------------------- Details Pages ------------------------------*/
 
