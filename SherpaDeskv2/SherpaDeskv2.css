@@ -1435,7 +1435,15 @@ img.avatar {
         {
             font-weight: normal;
             }
-        
+      /* temp css to show where to edit sidebar items */      
+      .itemEdit  
+      {
+        padding: 10px;
+        background-color: #fff298;
+        border: 1px solid #c99a1c;
+        text-shadow: 1px 1px 1px #f0e17a;
+        margin-top: 8px;
+          }
             
         /*--- Section colors ---*/    
         .ticket-detail-left div.section.drkblue 
@@ -1502,7 +1510,7 @@ img.avatar {
     {
         padding: 8px 0;
         margin-left: 15px;
-        width: 100%;
+        width: 97%;
         }
         .tkt-navbar ul li 
         {
@@ -1510,6 +1518,12 @@ img.avatar {
             float: left;
             margin: 0;
             padding: 0; 
+            }
+        .tkt-navbar ul li.tkt-delete,
+        .tkt-navbar ul li.tkt-print 
+        {
+            float: right;
+            margin: -2px 0 -6px 15px;
             }
 
 .tkt-action 

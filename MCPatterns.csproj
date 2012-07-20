@@ -646,6 +646,7 @@
   <ItemGroup>
     <Folder Include="accounts\css\images\" />
     <Folder Include="PageHelp\js\" />
+    <Folder Include="SherpaDeskv2\Tickets\views\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="customize\img\finish-check.psd" />

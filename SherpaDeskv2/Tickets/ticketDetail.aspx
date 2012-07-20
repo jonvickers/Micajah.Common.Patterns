@@ -55,10 +55,12 @@
         </div> 
 
         <div class="section">
-            <div class="item"><p><a href="#">Follow Up Date</a> <span>...</span></p></div>
-            <div class="item"><p><a href="#">Class</a> <span>HelpDesk</span></p></div>
-            <div class="item"><p><a href="#">Project</a> <span>...</span></p></div>
-            <div class="item"><p><a href="#">Folder</a> <span>...</span></p></div>
+            <div class="tkt-detail-options">
+                <p class="item"><a href="#">Follow Up Date</a> <span>...</span></p>
+                <p class="item"><a href="#">Class</a> <span>HelpDesk</span></p>
+                <p class="item"><a href="#">Project</a> <span>...</span></p>
+                <p class="item"><a href="#">Folder</a> <span>...</span></p>
+            </div>
         </div>
          
         <div class="section">
@@ -139,111 +141,139 @@
         <!-- Right Side Navbar -->
         <div class="top-nav tkt-navbar">
             <ul>
-                <li class="active"><a href="#">Responses</a></li>
-                <li><a href="#">Timeline</a></li>
-                <li><a href="#">Pickup</a></li>
-                <li><a href="#">Transfer</a></li>
-                <li><a href="#">Time</a></li>
-                <li><a href="#">Assignments</a></li>
-                <li><a href="#">Related</a></li>
-                <li><a href="#">ToDos</a></li>  
+                <li class="active"><a href="views/ticketDetail.htm">Responses</a></li>
+                <li><a href="views/timeline.htm">Timeline</a></li>
+                <li><a href="views/pickup.htm">Pickup</a></li>
+                <li><a href="views/transfer.htm">Transfer</a></li>
+                <li><a href="views/time.htm">Time</a></li>
+                <li><a href="views/assignments.htm">Assignments</a></li>
+                <li><a href="views/related.htm">Related</a></li>
+                <li><a href="views/todos.htm">ToDos</a></li>
+                <li class="tkt-delete"><img src="../images/delete.png" /></li>
+                <li class="tkt-print"><img src="../images/printer.png" /></li>  
             </ul>
         </div>
-                      	
-	    <div class="tkt-action">
-	        <a class="buttons info" href="#">Close Ticket</a>
-	    </div>        
-
-        <!-- Initial Post -->
-        <div class="tkt-initial-post">
-            
-            <!---- Gravatar ---->
-            <img class="avatar" src="../../Portalv1/img/gravatar.png" width="40" height="40" />	
-
-            <div class="post">
-                <h1>Page Help clean up</h1>
-                <p><small>Ben Pfohl <span>6/26/2012 03:11PM (UTC-5)</span></small></p>
-                <p class="pill gray">Initial Post</p>
-                <div class="clearfix"></div>
-                <p class="tkt-post-txt">Houston, that may have seemed like a very long final phase. The autotargeting was taking us right into a ... crater, with a large number of big boulders and rocks ... and it required ... flying manually over the rock field to find a reasonably good area.</p>
-            </div>
-            
-        </div>
-
-        <div class="tkt-add-response">
-            <img src="../images/control-temp.png" />
-        </div>
-
-        <div class="tkt-responses">
-			<div class="comments_wrap">
-				<ol class="commentlist">
-				<li>
-					<div class="gravatar">
-						<img class="avatar" src="../images/gravatar.png" width="40" height="40">
-					</div>
-					<div class="comment-content">
-						<span class="name">
-							<a class="url url" rel="external nofollow" href="#">Fred</a>
-						</span>
-						<div class="user-meta">
-							15 December 2011 at 5:15 pm
-						</div>
-						<div id="comment-00001" class="comment-entry">
-						    <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
-						    Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
-						    To the entire team &mdash;</p>						                
-						</div>
-					</div>
-				</li>					            
-				<li>
-					<div class="gravatar">
-                        <span><img src="../images/check-icon.png" /></span>
-						<img class="avatar technician" src="../images/gravatar.png" width="40" height="40">
-                        <p>Technician</p>
-					</div>
-					<div class="comment-content">
-						<span class="name">
-							<a class="url url" rel="external nofollow" href="#">Fred</a>
-						</span>
-						<div class="user-meta">
-							15 December 2011 at 5:15 pm
-						</div>
-						<div id="comment-00002" class="comment-entry">
-							<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
-							Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
-							To the entire team &mdash;</p>								        
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="gravatar">
-						<img class="avatar" src="../images/gravatar.png" width="40" height="40">
-					</div>
-					<div class="comment-content">
-						<span class="name">
-							<a class="url url" rel="external nofollow" href="#response">Fred</a>
-						</span>
-						<div class="user-meta">
-							15 December 2011 at 5:15 pm
-						</div>
-						<div id="comment-00003" class="comment-entry">
-							<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
-							</p>
-						</div>
-					</div>
-				</li>	            
-						    
-				</ol>
-			</div>
         
-        </div>
+        <!-------------- Main Stage ------------------>     
+        <div class="tkt-main-stage">       	
+	        <div class="tkt-action">
+	            <a class="buttons info" href="views/closeTicket.htm">Close Ticket</a>
+	        </div>        
 
+            <!-- Initial Post -->
+            <div class="tkt-initial-post">
+            
+                <!---- Gravatar ---->
+                <img class="avatar" src="../../Portalv1/img/gravatar.png" width="40" height="40" />	
 
-    </div>
-    <!-- Right side End -->
+                <div class="post">
+                    <h1>Page Help clean up</h1>
+                    <p><small>Ben Pfohl <span>6/26/2012 03:11PM (UTC-5)</span></small></p>
+                    <p class="pill gray">Initial Post</p>
+                    <div class="clearfix"></div>
+                    <p class="tkt-post-txt">Houston, that may have seemed like a very long final phase. The autotargeting was taking us right into a ... crater, with a large number of big boulders and rocks ... and it required ... flying manually over the rock field to find a reasonably good area.</p>
+                </div>
+            
+            </div>
+
+            <div class="tkt-add-response">
+                <img src="../images/control-temp.png" />
+            </div>
+
+            <div class="tkt-responses">
+			    <div class="comments_wrap">
+				    <ol class="commentlist">
+				    <li>
+					    <div class="gravatar">
+						    <img class="avatar" src="../images/gravatar.png" width="40" height="40">
+					    </div>
+					    <div class="comment-content">
+						    <span class="name">
+							    <a class="url url" rel="external nofollow" href="#">Fred</a>
+						    </span>
+						    <div class="user-meta">
+							    15 December 2011 at 5:15 pm
+						    </div>
+						    <div id="comment-00001" class="comment-entry">
+						        <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
+						        Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
+						        To the entire team &mdash;</p>						                
+						    </div>
+					    </div>
+				    </li>					            
+				    <li>
+					    <div class="gravatar">
+                            <span><img src="../images/check-icon.png" /></span>
+						    <img class="avatar technician" src="../images/gravatar.png" width="40" height="40">
+                            <p>Technician</p>
+					    </div>
+					    <div class="comment-content">
+						    <span class="name">
+							    <a class="url url" rel="external nofollow" href="#">Fred</a>
+						    </span>
+						    <div class="user-meta">
+							    15 December 2011 at 5:15 pm
+						    </div>
+						    <div id="comment-00002" class="comment-entry">
+							    <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
+							    Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
+							    To the entire team &mdash;</p>								        
+						    </div>
+					    </div>
+				    </li>
+				    <li>
+					    <div class="gravatar">
+						    <img class="avatar" src="../images/gravatar.png" width="40" height="40">
+					    </div>
+					    <div class="comment-content">
+						    <span class="name">
+							    <a class="url url" rel="external nofollow" href="#response">Fred</a>
+						    </span>
+						    <div class="user-meta">
+							    15 December 2011 at 5:15 pm
+						    </div>
+						    <div id="comment-00003" class="comment-entry">
+							    <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
+							    </p>
+						    </div>
+					    </div>
+				    </li>	            
+						    
+				    </ol>
+			    </div>
+        
+            </div>
+
+        </div> <!---- End Main Stage ---->
+    </div><!-- Right side End -->
+    
 
 </div>
 
 </asp:Content>
 <asp:Content ID="Content6" ContentPlaceHolderID="scriptAdd" runat="server">
+    <script>
+        (function () {
+            //Sidebar add editing
+            var item = $('div.tkt-detail-options p.item a');
+
+            item.on("click", function (e) {
+                var self = $(this);
+                $('div.itemEdit').remove();
+                $('<div class=itemEdit><p>Edit Here</p><div>').appendTo(self.parent('p'));
+
+                e.preventDefault();
+            });
+
+            //main Stage ajax events
+            var mainStage = $('div.tkt-main-stage');
+
+            $('div.top-nav.tkt-navbar ul li a, .tkt-action a').on('click', function (e) {
+                e.preventDefault();
+                var href = $(this).attr('href');
+                mainStage.load(href + ' .main-stage');
+            });
+        })();
+    </script>
+
 </asp:Content>
