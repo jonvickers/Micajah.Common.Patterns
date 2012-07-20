@@ -226,6 +226,7 @@
     <Content Include="SherpaDeskv2\images\arrow.gif" />
     <Content Include="SherpaDeskv2\images\bg-comment-tip.png" />
     <Content Include="SherpaDeskv2\images\bg-question-tip.png" />
+    <Content Include="SherpaDeskv2\images\check-icon.png" />
     <Content Include="SherpaDeskv2\images\clock.png" />
     <Content Include="SherpaDeskv2\images\config-icons\account.png" />
     <Content Include="SherpaDeskv2\images\config-icons\assets.png" />
@@ -238,6 +239,7 @@
     <Content Include="SherpaDeskv2\images\config-icons\reports.png" />
     <Content Include="SherpaDeskv2\images\config-icons\tickets.png" />
     <Content Include="SherpaDeskv2\images\configuration.png" />
+    <Content Include="SherpaDeskv2\images\control-temp.png" />
     <Content Include="SherpaDeskv2\images\drop.png" />
     <Content Include="SherpaDeskv2\images\envelopeWhite_11px.jpg" />
     <Content Include="SherpaDeskv2\images\followups.png" />
@@ -247,6 +249,7 @@
     <Content Include="SherpaDeskv2\images\graph.png" />
     <Content Include="SherpaDeskv2\images\gravatar.jpg" />
     <Content Include="SherpaDeskv2\images\gravatar.png" />
+    <Content Include="SherpaDeskv2\images\green-check.png" />
     <Content Include="SherpaDeskv2\images\ico-comment-reply.png" />
     <Content Include="SherpaDeskv2\images\lightbulb.png" />
     <Content Include="SherpaDeskv2\images\newmessages.png" />

@@ -1557,7 +1557,138 @@ img.avatar {
         
          
 
-/*---------------------------------- Details Pages ------------------------------*/
+/* ----   Comments   ---- */
+
+.articles-responses {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+    margin: 40px 0;
+    padding: 20px 0;
+	}
+ol.commentlist  {
+	color: #555555;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 10px 0 25px 10px;
+	list-style: none outside none;
+	padding: 0;
+	}
+
+
+.tkt-responses {
+    margin-top: 20px;
+}
+.tkt-responses .comments_wrap {
+    margin: 20px 0;
+    padding: 0;
+	/* width: 650px; */
+    position: relative;
+}
+.tkt-responses ol.commentlist li {
+    background: none repeat scroll 0 0 transparent;
+    list-style-type: none !important;
+    padding: 0;
+    position: relative;
+}
+.tkt-responses ol.commentlist li ul {
+	padding: 0 0 0 20px;
+	}
+
+.tkt-responses .gravatar {
+    background: url(images/bg-comment-tip.png) no-repeat scroll right 16px transparent;	
+	left: 0;
+    padding-right: 18px;
+    position: absolute;
+    top: 5px;
+    z-index: 999;
+}
+    .tkt-responses .gravatar span 
+    {
+        position: absolute;
+        right: 16px;
+        top: -7px;
+        }
+    .tkt-responses .gravatar p
+    {
+        text-align: center;
+        margin: -6px 0 0 -3px;
+        padding: 0;
+        font-size: 11px;
+        }
+            
+.tkt-responses .gravatar.withvoting 
+{
+    left: 50px !important;
+    }
+.tkt-responses img.avatar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 3px 3px 3px 3px;
+    padding: 3px;
+}
+    .tkt-responses img.avatar.technician 
+    {
+        background-color: #fbe499;
+        border-color: #fcb315;
+        }
+.tkt-responses .comment-content {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+    padding: 15px;
+    position: relative;
+}
+.tkt-responses ol.commentlist .name {
+    display: block;
+    font-weight: bold;
+    margin: 0;
+}
+.tkt-responses ol.commentlist .name a {
+    font-size: 16px;
+    text-decoration: none;
+	color: #000;
+}
+.tkt-responses ol.commentlist .user-meta {
+    color: #666666;
+    font: italic 11px arial, sans-serif;
+    margin-bottom: 12px;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+.tkt-responses ol.commentlist .comment-entry {
+    font-size: 13px;
+    padding-right: 25px;
+}
+.tkt-responses ol.commentlist .reply {
+    float: right;
+    margin: -30px -30px 0 0;
+    padding: 5px 0 0 10px;
+}
+.tkt-responses ol.commentlist .comment-reply-link {
+	background:url(images/ico-comment-reply.png) no-repeat scroll left top transparent;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-top: 37px;
+    width: 37px;
+}
+.tkt-responses ol.commentlist .comment-reply-link:hover {
+    background: url(images/ico-comment-reply.png) no-repeat scroll left bottom transparent;
+}
+.tkt-responses .best-answer 
+{
+    background: url(images/green-check.png) no-repeat scroll left 6px transparent;
+    padding: 12px 0 5px 35px;
+    color: #92C74F;
+    font-weight: bolder;
+    font-size: 18px;
+    }
+    
+
+/*---------------------------------- Account/Project Details Pages ------------------------------*/
 
 .accounts 
 {
