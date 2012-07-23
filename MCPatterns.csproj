@@ -240,6 +240,7 @@
     <Content Include="SherpaDeskv2\images\config-icons\tickets.png" />
     <Content Include="SherpaDeskv2\images\configuration.png" />
     <Content Include="SherpaDeskv2\images\control-temp.png" />
+    <Content Include="SherpaDeskv2\images\delete.png" />
     <Content Include="SherpaDeskv2\images\drop.png" />
     <Content Include="SherpaDeskv2\images\envelopeWhite_11px.jpg" />
     <Content Include="SherpaDeskv2\images\followups.png" />
@@ -264,6 +265,7 @@
     <Content Include="SherpaDeskv2\images\page_text.png" />
     <Content Include="SherpaDeskv2\images\paperclip.png" />
     <Content Include="SherpaDeskv2\images\plus-add.png" />
+    <Content Include="SherpaDeskv2\images\printer.png" />
     <Content Include="SherpaDeskv2\images\sd-logo.png" />
     <Content Include="SherpaDeskv2\images\search-button.png" />
     <Content Include="SherpaDeskv2\images\search-field-med.png" />
@@ -315,6 +317,15 @@
     <Content Include="sdlogin\default.aspx" />
     <Content Include="sdlogin\img\bwa-logo.png" />
     <Content Include="sdlogin\img\logo.png" />
+    <Content Include="SherpaDeskv2\Tickets\views\assignments.htm" />
+    <Content Include="SherpaDeskv2\Tickets\views\closeTicket.htm" />
+    <Content Include="SherpaDeskv2\Tickets\views\pickup.htm" />
+    <Content Include="SherpaDeskv2\Tickets\views\related.htm" />
+    <Content Include="SherpaDeskv2\Tickets\views\ticketDetail.htm" />
+    <Content Include="SherpaDeskv2\Tickets\views\time.htm" />
+    <Content Include="SherpaDeskv2\Tickets\views\timeline.htm" />
+    <Content Include="SherpaDeskv2\Tickets\views\todos.htm" />
+    <Content Include="SherpaDeskv2\Tickets\views\transfer.htm" />
     <Content Include="signup1\default.aspx" />
     <Content Include="signup1\js\signup1.js" />
     <Content Include="signup2\default.aspx" />
@@ -646,7 +657,6 @@
   <ItemGroup>
     <Folder Include="accounts\css\images\" />
     <Folder Include="PageHelp\js\" />
-    <Folder Include="SherpaDeskv2\Tickets\views\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="customize\img\finish-check.psd" />
