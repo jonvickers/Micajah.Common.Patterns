@@ -50,98 +50,99 @@
         </div>
 
 </div> <!-- End Container Fluid -->
+
+
+<!---------------------------------------- Add Time Box ------------------------------------------------------>
 <div class="container time-logger">
-
-        <a class="time-close" href="#">Close &times;</a>
-            <div class="grid_12">            
-                <div class="grid_3">
-                    <h2>Log My Time</h2>
-                </div>
-                <div class="grid_5 date-time">
-                    <h2 class="pull-left">March 28, 2012 - Friday</h2><span class="pull-left time">1:38 <i class="icon-calendar"></i></span>
-                </div>
-            </div>
-            <div class="grid_12">            
-                
-                    <div class="grid_3">
-                        <label>Technician</label>
-                        <select class="span3">
-                            <option>Patrick Clements</option>
-                            <option>Jon Vickers</option>
-                            <option>Sherri Durfee</option>
-                            <option>Tori Pierce</option>
-                            <option>Ben Pfohl</option>
-                        </select>
-                    </div>
-                    <div class="grid_3">
-                        <label>Account</label>
-                        <select class="span3">
-                            <option>bigWebApps (internal)</option>
-                            <option>ACLU</option>
-                            <option>ADC Rig Services</option>
-                            <option>Aetherquest</option>
-                            <option>Aiken County</option>
-                        </select>
-                    </div>
-                    <div class="grid_3">
-                        <label>Project</label>
-                        <select class="span3">
-                            <option>This Project</option>
-                            <option>That Project</option>
-                            <option>Some other project</option>
-                            <option>You get the</option>
-                            <option>Idea Project</option>
-                        </select>
-                    </div>
-                    <div class="grid_3">
-                        <label>Task Type</label>
-                        <select class="span3">
-                            <option>Whatever</option>
-                            <option>It is</option>
-                            <option>That you do</option>
-                            <option>for this </option>
-                            <option>Project</option>
-                        </select>
-                    </div>
-                
-            </div>
-            <div class="grid_12">
-                <div class="grid_6">
-                    <label>Notes</label>
-                    <textarea class="input-xlarge span6" id="textarea" rows="10"></textarea>
-                </div>
-                <div class="grid_6 timeclock">
-                    
-                        <div class="start-time">
-                            <label>Start Time <small>hh:mm</small></label>
-                            <input class="time" type="text" value="0:00">
-                            <select class="ampm">
-                                <option>AM</option>
-                                <option>PM</option>
-                            </select>
-                        </div>
-                        <div class="end-time">
-                            <label>End Time <small>hh:mm</small></label>
-                            <input class="time" type="text" value="0:00">
-                            <select class="ampm">
-                                <option>AM</option>
-                                <option>PM</option>
-                            </select>
-                        </div>
-                        <div class="hours">
-                            <label>Hours <small>hh:mm</small></label>
-                            <input class="time" type="text" value="00:00">
-                        </div>
-                    <!-- End Time Clock-->                    
-                </div>
-                <div class="grid_6 btn-grp ">                    
-                    <a class="buttons info start-stop"><img src="images/clock.png" /> Start/Stop Timer</a>               
-                    <a class="buttons x-large add-time"><strong>+</strong> Save My Time</a> 
-                </div>
-            </div>
+    <a class="time-close" href="#">Close &times;</a>
+    <div class="grid_12">            
+        <div class="grid_3">
+            <h2>Log My Time</h2>
         </div>
-
+        <div class="grid_5 date-time">
+            <h2 class="pull-left">March 28, 2012 - Friday</h2><span class="pull-left time">1:38 <i class="icon-calendar"></i></span>
+        </div>
+    </div>
+    <div class="grid_12">            
+                
+            <div class="grid_3">
+                <label>Technician</label>
+                <select class="span3">
+                    <option>Patrick Clements</option>
+                    <option>Jon Vickers</option>
+                    <option>Sherri Durfee</option>
+                    <option>Tori Pierce</option>
+                    <option>Ben Pfohl</option>
+                </select>
+            </div>
+            <div class="grid_3">
+                <label>Account</label>
+                <select class="span3">
+                    <option>bigWebApps (internal)</option>
+                    <option>ACLU</option>
+                    <option>ADC Rig Services</option>
+                    <option>Aetherquest</option>
+                    <option>Aiken County</option>
+                </select>
+            </div>
+            <div class="grid_3">
+                <label>Project</label>
+                <select class="span3">
+                    <option>This Project</option>
+                    <option>That Project</option>
+                    <option>Some other project</option>
+                    <option>You get the</option>
+                    <option>Idea Project</option>
+                </select>
+            </div>
+            <div class="grid_3">
+                <label>Task Type</label>
+                <select class="span3">
+                    <option>Whatever</option>
+                    <option>It is</option>
+                    <option>That you do</option>
+                    <option>for this </option>
+                    <option>Project</option>
+                </select>
+            </div>
+                
+    </div>
+    <div class="grid_12">
+        <div class="grid_6">
+            <label>Notes</label>
+            <textarea class="input-xlarge span6" id="textarea" rows="10"></textarea>
+        </div>
+        <div class="grid_6 timeclock">
+                    
+                <div class="start-time">
+                    <label>Start Time <small>hh:mm</small></label>
+                    <input class="time" type="text" value="0:00">
+                    <select class="ampm">
+                        <option>AM</option>
+                        <option>PM</option>
+                    </select>
+                </div>
+                <div class="end-time">
+                    <label>End Time <small>hh:mm</small></label>
+                    <input class="time" type="text" value="0:00">
+                    <select class="ampm">
+                        <option>AM</option>
+                        <option>PM</option>
+                    </select>
+                </div>
+                <div class="hours">
+                    <label>Hours <small>hh:mm</small></label>
+                    <input class="time" type="text" value="00:00">
+                </div>
+            <!-- End Time Clock-->                    
+        </div>
+        <div class="grid_6 btn-grp ">                    
+            <a class="buttons info start-stop"><img src="images/clock.png" /> Start/Stop Timer</a>               
+            <a class="buttons x-large add-time"><strong>+</strong> Save My Time</a> 
+        </div>
+    </div>
 </div>
+
 <div class="container">
     <div class="grid_12">
         <ul class="counters">
@@ -170,7 +171,7 @@
     <div class="grid_12">
         
                 <!--Start Todos -->
-                <div class="grid_8 alpha widgets todo-widget">
+                <div class="widgets todo-widget">
                     <h2>My ToDo List</h2>
                     <ul class="list-list">
     	                <li class="list-row">              
@@ -242,8 +243,8 @@
 
                 </div><!--End Todos -->
 
-                <!--Start Right Side -->
-                <div class="grid_4 omega widgets right-widgets">
+                <!--Start Widget -->
+                <div class="widgets">
                     <div class="row">
                         <div class="span4">
                             <h2>Tickets in Queue(s)</h2>
@@ -275,7 +276,27 @@
                             <td><span class="pill drkblue">9</span></td>
                         </tr>
                     </table>
-                </div><!--End Right Side -->            
+                </div><!--End widget -->  
+                
+                <!--Start Widget -->
+                <div class="widgets">
+                    <div class="row">
+                        <div class="span4">
+                            <h2>Some Other Widget</h2>
+                        </div>
+                    </div>
+                    
+                </div><!--End widget --> 
+                
+                <!--Start Widget -->
+                <div class="widgets">
+                    <div class="row">
+                        <div class="span4">
+                            <h2>Another Sample Widget</h2>
+                        </div>
+                    </div>
+                    
+                </div><!--End widget -->             
         
     </div>
 </div>

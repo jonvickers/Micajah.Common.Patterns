@@ -93,7 +93,14 @@
         <div class="section">
             <div class="tkt-cost">
                 <p><strong>Cost</strong></p>
-                <h1>$30.20 <span><a href="#">Details</a></span></h1>
+                <h1>$30.20</h1> 
+                <a href="#" class="tooltip">Details
+                    <span>
+                        Labor <strong>$30.20</strong><br />
+                        Parts <strong>$0.00</strong><br />
+                        Travel <strong>$0.00</strong><br />
+                        Misc. <strong>$0.00</strong><br />
+                    </span></a>
             </div>
         </div>
 
@@ -188,9 +195,10 @@
 						    <img class="avatar" src="../images/gravatar.png" width="40" height="40">
 					    </div>
 					    <div class="comment-content">
-						    <span class="name">
-							    <a class="url url" rel="external nofollow" href="#">Fred</a>
-						    </span>
+						    <div class="name">
+							    <p><a rel="external nofollow" href="#">Dr. Heinz Doofenshmirtz</a> </p>
+                                <p><span class="pill gray">Response</span></p>
+						    </div>
 						    <div class="user-meta">
 							    15 December 2011 at 5:15 pm
 						    </div>
@@ -208,9 +216,10 @@
                             <p>Technician</p>
 					    </div>
 					    <div class="comment-content">
-						    <span class="name">
-							    <a class="url url" rel="external nofollow" href="#">Fred</a>
-						    </span>
+						    <div class="name">
+							    <p><a rel="external nofollow" href="#">Phineas Flynn</a> </p>
+                                <p><span class="pill gray">Response</span></p>                                
+						    </div>
 						    <div class="user-meta">
 							    15 December 2011 at 5:15 pm
 						    </div>
@@ -226,12 +235,14 @@
 						    <img class="avatar" src="../images/gravatar.png" width="40" height="40">
 					    </div>
 					    <div class="comment-content">
-						    <span class="name">
-							    <a class="url url" rel="external nofollow" href="#response">Fred</a>
-						    </span>
+						    <div class="name">
+							    <p><a rel="external nofollow" href="#">Ferb Fletcher</a> </p>
+                                <p><span class="pill gray">Response</span></p>                               
+						    </div>
 						    <div class="user-meta">
 							    15 December 2011 at 5:15 pm
 						    </div>
+                            
 						    <div id="comment-00003" class="comment-entry">
 							    <p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
 							    </p>

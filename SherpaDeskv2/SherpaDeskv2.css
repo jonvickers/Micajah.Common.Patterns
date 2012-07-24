@@ -555,7 +555,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	-moz-border-radius:8px;
 	border-radius: 8px 8px 8px 8px;
 	text-transform: uppercase;
-	font-size: .8em;
+	font-size: 10px;
 	font-weight: bold;
 	text-align: center;
 	}
@@ -953,7 +953,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 ul.counters 
 {
     text-align: center;
-    margin: 0;
+    margin: 30px 0 0 0;
     width: 100%;
     min-width: 980px;
     display: table;
@@ -1005,21 +1005,20 @@ ul.counters li
 
 .widgets 
 {
+    float: left;
+    margin-right: 30px;
     margin-top: 40px;
     }
 
 .widgets.todo-widget
 {
-    width: 64.667%;
+    width: 700px;
     /* min-width: 696px; */
     }
-.right-widgets 
-{
-    float: left;   
-    }
 
-.right-widgets table {font-size: 14px;}
-.right-widgets table td:last-child span {float: right; font-size: 14px;}
+
+.widgets table {font-size: 14px;}
+.widgets table td:last-child span {float: right; font-size: 14px;}
 
 /*--------------------- Ticket List -----------------------------*/
 
@@ -1210,6 +1209,8 @@ ul.counters li
 	background-color: #dadbdf;
 	color: #fff;
 	}
+/*---------------------------------- End Old Section ---------------------*/
+
 	
 /*---------------------------------- New Ticket List Section ------------------------------*/	
 	
@@ -1283,10 +1284,11 @@ tr.ticket-list-single-top
 {
     font-weight: bold;
     font-size: 15px;
-    background-color: #058dc7 !important; /* #004174 */
+    background-color: #007db3 !important; /* #004174 */
     color: #FFFFFF;
     text-align: left;
-    border-bottom: 1px solid #017cb0; /* #003157 */
+    border-bottom: 1px solid #006894 !important; /* #003157 */
+    border-top: 1px solid #0a89bf !important;
     }
 
 tr.ticket-list-single-top td a
@@ -1336,8 +1338,8 @@ tr.ticket-list-single-bot td
 thead.ticket-list-header tr,
 tr.ticket-list-single-bot 
 {
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #ffffff !important;
+    border-bottom: 1px solid #d9d9d9 !important;
     }
     
 tr.ticket-list-single-seperator td 
@@ -1378,7 +1380,6 @@ img.avatar {
         padding: 10px;
         margin: 0;
         text-shadow: 1px 1px 1px #ffffff;
-        overflow: hidden;
         }
         
         .ticket-detail-left div.section a 
@@ -1453,6 +1454,7 @@ img.avatar {
             border-top: 1px solid #1a5b8f;
             border-bottom: 1px solid #083558;
             text-shadow: 1px 1px 1px #083558;
+            overflow: hidden;
             }
         .ticket-detail-left div.section.ltblue 
         {
@@ -1461,14 +1463,80 @@ img.avatar {
             border-top: 1px solid #006e9d;
             border-bottom: 1px solid #0184bc;
             text-shadow: 1px 1px 1px #006e9d;
+            overflow: hidden;
             }
         .ticket-detail-left div.section.gold 
         {
             background-color: #fff298;
             border-bottom: 1px solid #c99a1c;
             text-shadow: 1px 1px 1px #f0e17a;
+            overflow: hidden;
             }
     
+/*---------- Tool Tip Hover --------*/
+
+a.tooltip {text-decoration: none !important;}
+.tooltip
+{
+position: relative;
+background: #eaeaea;
+cursor: help;
+display: inline-block;
+text-decoration: none;
+outline: none;
+}
+
+.tooltip span
+{
+visibility: hidden;
+color: #fff;
+font-weight: normal;
+position: absolute;
+top: -8px;
+left: 60px;
+z-index: 999;
+width: 200px;
+/* margin-left: -127px; */
+padding: 10px;
+opacity: .9;
+background-color: #454545;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
+box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
+text-shadow: 1px 1px 0px #000000;
+}
+
+.tooltip:hover
+{
+border: 0; /* IE6 fix */
+}
+
+.tooltip:hover span
+{
+visibility: visible;
+}
+
+
+.tooltip span:after
+{
+content: "";
+position: absolute;
+z-index: 1000;
+top: 8px;
+left: 0;
+margin-left: -8px;
+width: 0; 
+height: 0; 
+border-top: 8px solid transparent;
+border-bottom: 8px solid transparent; 
+border-right:8px solid #454545;
+
+}
+
+
+
 /*---------- Right side -----------*/       
 .ticket-detail-right
 {
@@ -1556,13 +1624,22 @@ img.avatar {
         margin-left: 70px;
         }
     .tkt-initial-post .post p small {font-size: 11px;}
-    .tkt-initial-post p.pill 
+    
+    p.pill 
     {
+        line-height: 1em;
         float: left;
         padding: 3px 8px;
-        margin-top: 5px !important;
+        margin: 5px 0 0 0 !important;
         }
-
+    
+    p span.pill 
+    {
+        line-height: 1em;
+        padding: 3px 8px;
+        margin: 0 !important;
+        }
+        
     .tkt-initial-post p.tkt-post-txt 
     {
         font-size: 1.1em;
@@ -1654,10 +1731,10 @@ ol.commentlist  {
     padding: 15px;
     position: relative;
 }
-.tkt-responses ol.commentlist .name {
-    display: block;
+
+.tkt-responses .name {
     font-weight: bold;
-    margin: 0;
+    margin: 0 0 10px;
 }
 .tkt-responses ol.commentlist .name a {
     font-size: 16px;
@@ -1674,24 +1751,8 @@ ol.commentlist  {
 }
 .tkt-responses ol.commentlist .comment-entry {
     font-size: 13px;
-    padding-right: 25px;
 }
-.tkt-responses ol.commentlist .reply {
-    float: right;
-    margin: -30px -30px 0 0;
-    padding: 5px 0 0 10px;
-}
-.tkt-responses ol.commentlist .comment-reply-link {
-	background:url(images/ico-comment-reply.png) no-repeat scroll left top transparent;
-    display: block;
-    height: 0;
-    overflow: hidden;
-    padding-top: 37px;
-    width: 37px;
-}
-.tkt-responses ol.commentlist .comment-reply-link:hover {
-    background: url(images/ico-comment-reply.png) no-repeat scroll left bottom transparent;
-}
+
 .tkt-responses .best-answer 
 {
     background: url(images/green-check.png) no-repeat scroll left 6px transparent;
