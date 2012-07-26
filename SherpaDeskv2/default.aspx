@@ -176,33 +176,33 @@
                     <ul class="list-list">
     	                <li class="list-row">              
         	                <div class="list-select">
-            	                <input type="checkbox" value="true">
+            	                <img src="images/projects.png" width="20px"/>
                             </div>
                             <div class="list-desc">
             	                Look again at that dot. That's here. That's home1.
                             </div>
                             <div class="list-date">25 Jan 2012</div>
                             <div class="list-asigned-to">
-            	                <div class="pill drkblue">Overdue</div>
+            	                <div class="pill todogray">Overdue</div>
                             </div>
                             
                         </li>
                         <li class="list-row">
                             <div class="list-select">
-            	                <input type="checkbox" value="true">
+                                <img src="images/tickets.png" width="20px" />
                             </div>
                             <div class="list-desc">
             	                The surface is fine and powdery. I can kick it up loosely with my toe. It does adhere in fine layers, like powdered charcoal, to the sole and sides of my boots.
                             </div>
                             <div class="list-date">25 Jan 2012</div>
                             <div class="list-asigned-to">
-            	                <div class="pill drkblue">overdue</div>
+            	                <div class="pill todogray">overdue</div>
                             </div>
                             
                         </li>
                         <li class="list-row">
                             <div class="list-select">
-            	                <input type="checkbox" value="true">
+            	                <img src="images/tickets.png" width="20px" />
                             </div>
                             <div class="list-desc">
             	                Look again at that dot. That's here. That's home3.
@@ -215,7 +215,7 @@
                         </li>
                         <li class="list-row">
                             <div class="list-select">
-            	                <input type="checkbox" value="true">
+            	                <img src="images/tickets.png" width="20px" />
                             </div>
                             <div class="list-desc">
             	                Look again at that dot. That's here. That's home4.
@@ -228,14 +228,14 @@
                         </li>
                         <li class="list-row">
                             <div class="list-select">
-            	                <input type="checkbox" value="true">
+            	                <img src="images/tickets.png" width="20px" />
                             </div>
                             <div class="list-desc">
             	                Look again at that dot. That's here. That's home5.
                             </div>
                             <div class="list-date">18 Jan 2012</div>
                             <div class="list-asigned-to">
-            	                <div class="pill todogray">Due Tomorrow</div>
+            	                <div class="pill drkblue">Due Tomorrow</div>
                             </div>
                             
                         </li> 

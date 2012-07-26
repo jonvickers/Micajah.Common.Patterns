@@ -92,6 +92,8 @@
     <br />
     <br />
     <br />
+
+    <!-------
     <h1>Standard Grids - editable</h1>
     <div class="addbutton"><a class="buttons addproperty">Add New Data</a></div>
     <table class="editable">
@@ -169,7 +171,7 @@
 <br />
 <br />
 <br />
-<!-- 
+
 <h1>Jquery Sortable Grid (dataTable Plugin)</h1>
 					
 					<table class="display stylized" id="example">

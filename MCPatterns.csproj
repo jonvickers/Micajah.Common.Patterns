@@ -266,6 +266,7 @@
     <Content Include="SherpaDeskv2\images\paperclip.png" />
     <Content Include="SherpaDeskv2\images\plus-add.png" />
     <Content Include="SherpaDeskv2\images\printer.png" />
+    <Content Include="SherpaDeskv2\images\projects.png" />
     <Content Include="SherpaDeskv2\images\sd-logo.png" />
     <Content Include="SherpaDeskv2\images\search-button.png" />
     <Content Include="SherpaDeskv2\images\search-field-med.png" />
@@ -277,6 +278,7 @@
     <Content Include="SherpaDeskv2\images\slider_right.png" />
     <Content Include="SherpaDeskv2\images\ticket-icons.png" />
     <Content Include="SherpaDeskv2\images\Ticket.png" />
+    <Content Include="SherpaDeskv2\images\tickets.png" />
     <Content Include="SherpaDeskv2\images\todos.png" />
     <Content Include="SherpaDeskv2\images\top-search\down.png" />
     <Content Include="SherpaDeskv2\images\top-search\search.png" />
@@ -292,6 +294,7 @@
     <Content Include="SherpaDeskv2\SherpaDeskv2.css" />
     <Content Include="SherpaDeskv2\Tickets\ticketDetail.aspx" />
     <Content Include="SherpaDeskv2\Tickets\ticketList.aspx" />
+    <Content Include="SherpaDeskv2\Tickets\ticketListClosed.aspx" />
     <Content Include="SherpaDeskv2\Tickets\tickets.aspx" />
     <Content Include="css-MicajahCommon\mc_reset.css" />
     <Content Include="jquery-1.4.2.min.js" />
@@ -578,6 +581,13 @@
     </Compile>
     <Compile Include="SherpaDeskv2\Tickets\ticketList.aspx.designer.cs">
       <DependentUpon>ticketList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\Tickets\ticketListClosed.aspx.cs">
+      <DependentUpon>ticketListClosed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\Tickets\ticketListClosed.aspx.designer.cs">
+      <DependentUpon>ticketListClosed.aspx</DependentUpon>
     </Compile>
     <Compile Include="SherpaDeskv2\Tickets\tickets.aspx.cs">
       <DependentUpon>tickets.aspx</DependentUpon>

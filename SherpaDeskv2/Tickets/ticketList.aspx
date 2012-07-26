@@ -1,19 +1,30 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SherpaDeskv2/SherpaDeskv2.Master" AutoEventWireup="true" CodeBehind="ticketList.aspx.cs" Inherits="MCPatterns.SherpaDeskv2.Tickets.ticketList" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="topNotice" runat="server">
 </asp:Content>
+
 <asp:Content ID="Content3" ContentPlaceHolderID="subMenu" runat="server">
+    <div class="top-nav sub-nav">
+        <div class="wrapper">
+            <ul>
+                <li class="active"><a href="ticketList.aspx">All Open</a></li>
+                <li><a href="#">As Tech</a></li>
+                <li><a href="#">As End User</a></li>
+                <li><a href="#">As Alternate Tech</a></li>
+                <li><a href="ticketListClosed.aspx">Closed</a></li>
+                <li><a href="#">Support Groups</a></li>
+                <li><a href="#">Follow Ups</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+        </div><!-- End Wrapper -->
+    </div><!-- End Nav -->
 </asp:Content>
+
 <asp:Content ID="Content4" ContentPlaceHolderID="announcement1" runat="server">
-    <div id="announcement">
-        <div class="wrapper notification success">
-		    <a href="#" class="close"><img src="../../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
-		    <div>
-			    <strong>Success notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.
-		    </div>
-	    </div>
-    </div>
+    
 </asp:Content>
 
 <asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

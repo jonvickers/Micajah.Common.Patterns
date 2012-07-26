@@ -8,9 +8,6 @@
     <link href="../../accounts/css/tooltips_main.css" rel="stylesheet" type="text/css" />
     <link href="../../accounts/css/tooltips_styles.css" rel="stylesheet" type="text/css" />
     
-    <script src="../../accounts/js/on-off-checkboxes.js" type="text/javascript"></script>
-    <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
-    <script src="../../accounts/js/accounts.js" type="text/javascript"></script>
 
 </asp:Content>
 
@@ -371,4 +368,14 @@
 </div>
 
 </div><!-- End Wrapper -->
+
+
+</asp:Content>
+
+<asp:Content ID="Content6" ContentPlaceHolderID="scriptAdd" runat="server">
+    
+    <script src="../../accounts/js/on-off-checkboxes.js" type="text/javascript"></script>
+    <script src="../../accounts/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+    <script src="../../accounts/js/accounts.js" type="text/javascript"></script>  
+
 </asp:Content>

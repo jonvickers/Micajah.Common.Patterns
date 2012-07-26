@@ -30,12 +30,17 @@
         	    <div id="logo">
             	    <a href="../../SherpaDeskv2/"><h1>My Company Name</h1></a>
                 </div>
-                    <div id="global-search">
-	            	    <input type="text" placeholder="Search Tickets" />
-	                </div>
-                    <div id="global-search-submit">
-                	    <input type="submit" value="Search" class="buttons">
-                    </div>
+
+                <!--- Removed the header seach
+
+                <div id="global-search">
+	            	<input type="text" placeholder="Search Tickets" />
+	            </div>
+                <div id="global-search-submit">
+                	<input type="submit" value="Search" class="buttons">
+                </div>
+
+                ------->
                 
                 <div id="global-nav" class="nav">
 				    <ul class="main">

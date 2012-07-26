@@ -23,10 +23,10 @@
 		);
 	
 	//Add pill to status based on the class
-	$("table tr.open td:nth-child(2)").wrapInner("<span class=\"pill green\"></span>");
-	$("table tr.on-hold td:nth-child(2)").wrapInner("<span class=\"pill gray\"></span>");
-	$("table tr.closed td:nth-child(2)").wrapInner("<span class=\"pill ltgray\"></span>");
-	$('td:first-child').addClass('col-checkbox');
+	//$("table tr.open td:nth-child(2)").wrapInner("<span class=\"pill green\"></span>");
+	//$("table tr.on-hold td:nth-child(2)").wrapInner("<span class=\"pill gray\"></span>");
+	//$("table tr.closed td:nth-child(2)").wrapInner("<span class=\"pill ltgray\"></span>");
+	//$('td:first-child').addClass('col-checkbox');
 });
 
 

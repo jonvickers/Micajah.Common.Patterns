@@ -1203,12 +1203,12 @@ ul.counters li
 .ticket.closed .bottom .detail.daytimer
  {color: #d4d4d4 !important;} 
 
-*/
+
 
 .closed .status {
 	background-color: #dadbdf;
 	color: #fff;
-	}
+	}*/
 /*---------------------------------- End Old Section ---------------------*/
 
 	
@@ -1290,12 +1290,19 @@ tr.ticket-list-single-top
     border-bottom: 1px solid #006894 !important; /* #003157 */
     border-top: 1px solid #0a89bf !important;
     }
-
+    
 tr.ticket-list-single-top td a
 {
     font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
+    }
+
+tr.ticket-list-single-top.closed 
+{
+    background-color: #aaaaaa !important;
+    border-bottom: 1px solid #8e8e8e !important;
+    border-top: 1px solid #cccccc !important;
     }
 
 table thead th a:hover,
@@ -1345,6 +1352,7 @@ tr.ticket-list-single-bot
 tr.ticket-list-single-seperator td 
 {
     padding: 5px;
+    height: 12px;
     }
 	
 	
@@ -1475,8 +1483,8 @@ img.avatar {
     
 /*---------- Tool Tip Hover --------*/
 
-a.tooltip {text-decoration: none !important;}
-.tooltip
+.ticket-detail a.tooltip {text-decoration: none !important;}
+.ticket-detail .tooltip
 {
 position: relative;
 background: #eaeaea;
@@ -1486,7 +1494,7 @@ text-decoration: none;
 outline: none;
 }
 
-.tooltip span
+.ticket-detail .tooltip span
 {
 visibility: hidden;
 color: #fff;
@@ -1508,18 +1516,18 @@ box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
 text-shadow: 1px 1px 0px #000000;
 }
 
-.tooltip:hover
+.ticket-detail .tooltip:hover
 {
 border: 0; /* IE6 fix */
 }
 
-.tooltip:hover span
+.ticket-detail .tooltip:hover span
 {
 visibility: visible;
 }
 
 
-.tooltip span:after
+.ticket-detail .tooltip span:after
 {
 content: "";
 position: absolute;
