@@ -1005,6 +1005,7 @@ ul.counters li
 
 .widgets 
 {
+    min-width: 250px;
     float: left;
     margin-right: 30px;
     margin-top: 40px;

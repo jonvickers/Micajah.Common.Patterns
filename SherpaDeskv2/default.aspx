@@ -276,27 +276,46 @@
                             <td><span class="pill drkblue">9</span></td>
                         </tr>
                     </table>
+                </div><!--End widget -->
+                
+                <!--Start Widget -->
+                <div class="widgets">
+                    <div class="row">
+                        <div class="span4">
+                            <h2>Other</h2>
+                        </div>
+                        <table>
+                            <tr>
+                                <td><a href="#">Folders</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">My Parts</a></td>
+                            </tr>                       
+                        </table>
+                    </div>                    
+                </div><!--End widget -->
+                
+                <!--Start Widget -->
+                <div class="widgets">
+                    <div class="row">
+                        <div class="span4">
+                            <h2>Audits</h2>
+                        </div>
+                        <table>
+                            <tr>
+                                <td><a href="#">Audit Dashboard</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Audit History</a></td>
+                            </tr> 
+                            <tr>
+                                <td><a href="#">My Audit Assignments</a></td>
+                            </tr>                      
+                        </table>
+                    </div>                    
                 </div><!--End widget -->  
                 
-                <!--Start Widget -->
-                <div class="widgets">
-                    <div class="row">
-                        <div class="span4">
-                            <h2>Some Other Widget</h2>
-                        </div>
-                    </div>
-                    
-                </div><!--End widget --> 
-                
-                <!--Start Widget -->
-                <div class="widgets">
-                    <div class="row">
-                        <div class="span4">
-                            <h2>Another Sample Widget</h2>
-                        </div>
-                    </div>
-                    
-                </div><!--End widget -->             
+                            
         
     </div>
 </div>
