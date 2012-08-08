@@ -81,3 +81,6 @@ _ReSharper*/
 # Office Temp Files#
 ######################
 ~$*
+/*.user
+/obj
+/*.suo
