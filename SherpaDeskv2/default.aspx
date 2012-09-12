@@ -278,23 +278,7 @@
                     </table>
                 </div><!--End widget -->
                 
-                <!--Start Widget -->
-                <div class="widgets">
-                    <div class="row">
-                        <div class="span4">
-                            <h2>Other</h2>
-                        </div>
-                        <table>
-                            <tr>
-                                <td><a href="#">Folders</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="#">My Parts</a></td>
-                            </tr>                       
-                        </table>
-                    </div>                    
-                </div><!--End widget -->
-                
+                           
                 <!--Start Widget -->
                 <div class="widgets">
                     <div class="row">

@@ -18,6 +18,7 @@
                 <li><a href="#">Support Groups</a></li>
                 <li><a href="#">Follow Ups</a></li>
                 <li><a href="#">Search</a></li>
+                <li><a href="#">Folders</a></li>
             </ul>
         </div><!-- End Wrapper -->
     </div><!-- End Nav -->
@@ -113,7 +114,7 @@
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Something is wrong with the login</a> <span><a href="#">Edit</a></span></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -133,7 +134,7 @@
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm having problems with creating a new ticket</a> <span><a href="#">Edit</a></span></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -153,7 +154,7 @@
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">What happened to the images I uploaded?</a> <span><a href="#">Edit</a></span></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -173,7 +174,7 @@
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm locked out of my account</a> <span><a href="#">Edit</a></span></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
