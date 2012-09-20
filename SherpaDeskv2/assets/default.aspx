@@ -39,29 +39,29 @@
 	<div class="selected-controls">
 	    <div class="left">
 	        <ul>
-	            <li><a class="pill gray" href="#">My Checked-Out</a></li>
-                <li><a class="pill gray" href="#">My Owned</a></li>
-                <li><a class="pill gray" href="#">My Location </a></li>
-                <li><a class="pill gray" href="#">Missing</a></li>
-                <li><a class="pill gray" href="#">Bulk</a></li>
+	            <li><a class="pillbutton active" href="#">My Checked-Out</a></li>
+                <li><a class="pillbutton" href="#">My Owned</a></li>
+                <li><a class="pillbutton" href="#">My Location </a></li>
+                <li><a class="pillbutton" href="#">Missing</a></li>
+                <li><a class="pillbutton" href="#">Bulk</a></li>
 	        </ul>
 	    </div>
 	                        
 	    <div class="right">
 	        <ul>
-	            <li><a class="pill gray drop" href="#">View</a>
+	            <li><a class="pillbutton drop" href="#">View</a>
 	                <ul>
 	                    <li><a href="#">Default</a></li>
 	                </ul>
 	            </li>	            
-	            <li><a class="pill gray" href="#">Export to Excel</a></li>
-                <li><a class="pill gray" href="#">Print</a></li>
+	            <li><a class="pillbutton" href="#">Export</a></li>
+                <li><a class="pillbutton" href="#">Print</a></li>
 	        </ul>
 	    </div>
 	</div><!-- End selected Controls -->	                
 </div><!-- End Top Control -->
 
-<table>
+<table class="data">
     <thead>
         <tr>
             <th>Category  >  Type</th>

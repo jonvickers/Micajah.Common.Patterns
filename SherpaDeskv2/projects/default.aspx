@@ -36,25 +36,8 @@
 	                    <div class="selected-controls">
 	                    	<div class="left">
 	                        	<ul>
-	                                <li><a class="pill gray drop" href="#">Sort</a>                                    
-	                                    <ul>
-	                                      <li><a href="#">Ascending</a></li>
-	                                      <li><a href="#">Descending</a></li>
-	                                    </ul>                                
-	                                </li>
-	                            </ul>
-	                        </div>
-	                        
-	                        <div class="right">
-	                            <ul>
-	                                <li><a class="pill gray drop" href="#">Print</a>
-	                                    <ul>
-	                                        <li><a href="#">Print - Selected</a></li>
-	                                        <li><a href="#">Print - all</a></li>
-	                                    </ul>
-	                                </li>
-	                                <li><a class="pill gray" href="#">Edit</a></li>
-	                                <li><a class="pill gray" href="#">Export CSV</a></li>
+	                                <li><a class="pillbutton" href="#">All Projects</a></li>
+                                    <li><a class="pillbutton active" href="#">My Projects</a></li>
 	                            </ul>
 	                        </div>
 	                    </div><!-- End selected Controls -->	                
@@ -63,7 +46,7 @@
 
                     <!-- Start Table -->
 
-                    <table>
+                    <table class="data">
                         <thead>
 		                    <tr>
 			                    <th>Project</th>

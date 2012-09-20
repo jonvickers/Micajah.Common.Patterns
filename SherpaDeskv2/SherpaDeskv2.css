@@ -563,44 +563,45 @@ table { border-collapse: collapse; border-spacing: 0; }
 /*-- colors --*/
 
 .red {
-	background-color: #910003;
+	background-color: #910003 !important;
 	color: #fff !important;
 	}	
 .red:hover {
-	background-color: #cb2226;
+	background-color: #cb2226 !important;
 	}
 .green {
-	background-color: #61a319;
+	background-color: #61a319 !important;
 	color: #fff !important;
 	}	
 .green:hover {
-	background-color: #a0c874;
+	background-color: #a0c874 !important;
 	}
 .gray {
-	background-color: #4f5970;
+	background-color: #afafaf !important;
 	color: #fff !important;
 	}	
 .gray:hover,
-.gray.active {
-	background-color: #9cbbe6;
-	}
+.gray.active 
+{
+    background-color: #2E7DBA !important;
+    }
 .ltgray {
-	background-color: #dadbdf;
+	background-color: #dadbdf !important;
 	color: #555555 !important;
 	}	
 .ltgray:hover {
-	background-color: #bbc2d3;
+	background-color: #bbc2d3 !important;
 	}
 .blue {
-    background-color: #058DC7;
+    background-color: #058DC7 !important;
     color: white !important;
     }
 .drkblue {
-    background-color: #004174;
+    background-color: #004174 !important;
     color: white !important;
     }
 .todogray {
-	background-color: #4f5970;
+	background-color: #4f5970 !important;
 	color: white !important;
 	}
 
@@ -609,7 +610,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .top-table-control, .bottom-table-control {
 	width: 100%;
-	min-height: 55px;
 	overflow: hidden;
 	}
 
@@ -631,79 +631,121 @@ table { border-collapse: collapse; border-spacing: 0; }
     }
 
 .selected-controls {
-	background-color: #E1E1E1;
-    height: 20px;
+	border-top: 1px solid #F7F1C5;
+    background-color: #FFFAD5;
     margin: 15px 0 0;
     overflow: hidden;
-    padding: 10px;
+    padding: 10px 0;
     width: 100%;	 
 	}
-	.selected-controls .pill {font-size: 11px;}
+
+.selected-controls li a 
+    {
+        color: #000;
+        text-decoration: none;
+        }
+
+.selected-controls .pillbutton 
+{
+    padding: 5px 10px;
+	margin: 0 5px;	
+	text-decoration: none !important;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #b08357;
+	background-color: #f9d08b;
+	color: #633c16;
+	text-shadow: 1px 1px 0 #fce6b6;
+	box-shadow: inset 0px 1px 1px 0px #fce6b6;
+    }
+
+.selected-controls .pillbutton.drop 
+{
+    padding-right: 24px;
+    background: #f9d08b url(../../SherpaDeskv2/images/dropbr.png) no-repeat right center;
+    }
+    
+.selected-controls .pillbutton:hover 
+{
+    background-color: #ffdea7;
+    }
+
+.selected-controls .pillbutton:active,
+.selected-controls .pillbutton.active 
+{
+    color: #ffffff;
+    background-color: #007db3;
+    border-color: #045f86;
+    text-shadow: -1px -1px 0 #045f86; 
+    box-shadow: inset 0px 1px 0px 0px #3baddf;  
+    }  
+
+.selected-controls ul 
+{
+    margin: 4px 10px;
+    }
+     
 .bottom-table-control .selected-controls 
 {
     margin-top: 0;
     }
-.selected-controls .drop 
-{
-    padding-right: 20px;
-    background: #4f5970 url(../../SherpaDeskv2/images/drop.png) no-repeat right center;
-    }
 	
-	.selected-controls .left ul {
-		 
-		}
-	
-	.selected-controls .right ul {
-		margin-right: 15px;
-		}
-
-        .selected-controls li ul {
-	        position: absolute;
-	        width: auto;
-	        min-width: 100px;
-	        left: -999em;
-	        background-color: #efefef;
-	        color: #777 !important;
-	        padding: 5px 10px;
-	        margin: 2px 0 0 10px;
-	        -moz-border-radius-topleft: 0px;
-             -moz-border-radius-topright: 5px;
-             -moz-border-radius-bottomright: 5px;
-             -moz-border-radius-bottomleft: 5px;
-             -webkit-border-radius: 0px 5px 5px 5px;
-             border-radius: 0px 5px 5px 5px; 
-             -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
-	        -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
-	        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
-            }
-            
-            .bottom-table-control .selected-controls li:hover ul 
-            {
-                bottom: inherit;
-                }
-            
-            .selected-controls li a 
-            {
-                color: #000;
-                text-decoration: none;
-                }
-            .selected-controls li ul li 
-            {
-                display: block;
-                padding: 5px;
-                }
-                .selected-controls li ul li:hover 
-                {
-                    background-color: #e1e1e1;
-                    -webkit-border-radius: 4px;
-                    -moz-border-radius: 4px;
-                    border-radius: 4px 4px 4px 4px; 
-                    } 
-        .selected-controls li:hover ul
-        {
-            left: auto;
-            }
-
+/*--- Drop down ---*/
+.selected-controls li ul {
+	position: absolute;	
+	left: -999em;
+	margin: 15px 0 0 5px;
+	background-color: #f9d08b;
+	box-shadow: 0px 0px 4px 0px #666666;
+	border-radius: 4px 4px 4px 4px;	
+	border-top: 1px solid #ffdea7;
+	padding: 4px;
+    }      
+  
+ .selected-controls li ul:after 
+ {
+    content:'';
+    display:block;
+    position:absolute;
+    top:-10px; 
+    left:30px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #f9d18b transparent;    
+     }  
+    .selected-controls li ul li 
+    {
+        display: block;
+        min-width: 100px;
+        padding: 8px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #633c16;
+	    background-color: #f9d08b;
+	    border-bottom: 1px solid #ffdea7;
+	    text-shadow: 1px 1px 0 #fce6b6;
+        }
+        .selected-controls li ul li:last-child {border: none;}
+        
+    .selected-controls li ul li:hover 
+    {
+        background-color: #ffdea7;
+        } 
+    .selected-controls li:hover ul
+    {
+        left: auto;
+        }
+        
+        
+        
+.bottom-table-control .selected-controls li:hover ul 
+    {
+        bottom: inherit;
+        }
 .bottom-table-control .table-page {
 	float: left;
 	margin-top: 8px;
@@ -1218,12 +1260,20 @@ ul.counters li
 .ticket-list table thead th,
 .ticket-list table thead th a 
 {
+    border: none;
     font-weight: bold;
     font-size: 14px;
     background-color: #eeeeee !important;
     color: #222222;
     text-shadow: 1px 1px 1px #ffffff;
-    filter: dropshadow(color=#ffffff, offx=1, offy=1);
+    padding: 6px;
+    }
+.ticket-list table thead th 
+{
+    border-left: 1px solid #ffffff !important;
+    border-right: 1px solid #D9D9D9 !important;
+border-top: none;
+border-bottom: none;
     }
                 
 .ticket-list tbody 
@@ -1312,7 +1362,6 @@ tr.ticket-list-single-top td a:hover
 {
     text-decoration: underline;
     }
-
 
 tr.ticket-list-single-top td.ticket-list-single-title span a
 {

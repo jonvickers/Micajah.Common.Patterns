@@ -28,3 +28,11 @@ C:\Users\Ben\gitrepos\Micajah.Common.Patterns\obj\Debug\GenerateResource.read.1.
 C:\Users\Ben\gitrepos\Micajah.Common.Patterns\obj\Debug\GenerateResource.write.1.tlog
 C:\Users\Ben\gitrepos\Micajah.Common.Patterns\obj\Debug\MCPatterns.dll
 C:\Users\Ben\gitrepos\Micajah.Common.Patterns\obj\Debug\MCPatterns.pdb
+D:\Projects\Micajah.Common.Patterns\bin\MCPatterns.dll
+D:\Projects\Micajah.Common.Patterns\bin\MCPatterns.pdb
+D:\Projects\Micajah.Common.Patterns\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Micajah.Common.Patterns\obj\Debug\MCPatterns.Properties.Resources.resources
+D:\Projects\Micajah.Common.Patterns\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Micajah.Common.Patterns\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Micajah.Common.Patterns\obj\Debug\MCPatterns.dll
+D:\Projects\Micajah.Common.Patterns\obj\Debug\MCPatterns.pdb

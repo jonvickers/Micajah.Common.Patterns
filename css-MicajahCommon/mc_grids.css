@@ -13,12 +13,23 @@ table
 table thead th,
 table thead th a 
 {
+    padding: 5px 8px;
+    border-top: 1px solid #60A3D7;
+    border-bottom: 1px solid #14619D;
     font-weight: bold;
-    background-color: #004174 !important;
-    color: #FFFFFF;
+    background-color: #2E7DBA !important;
+    color: white;
     text-align: left;
     }
-                
+
+table.data tr td:first-child,
+table.data tr td:first-child a,
+table.data td a  
+{
+    font-weight: bold;
+    font-size: 1.08em;
+    }                
+
 tbody 
 {
     border-top: 1px solid #ddd;
@@ -45,7 +56,7 @@ tbody tr.even-row
 table td,
 table th 
 {
-    padding: 8px;
+    padding: 10px;
     line-height: 1.3em;
     vertical-align: middle;
     }

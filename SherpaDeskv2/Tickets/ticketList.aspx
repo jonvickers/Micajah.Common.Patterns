@@ -11,13 +11,7 @@
         <div class="wrapper">
             <ul>
                 <li class="active"><a href="ticketList.aspx">All Open</a></li>
-                <li><a href="#">As Tech</a></li>
-                <li><a href="#">As End User</a></li>
-                <li><a href="#">As Alternate Tech</a></li>
-                <li><a href="ticketListClosed.aspx">Closed</a></li>
-                <li><a href="#">Support Groups</a></li>
                 <li><a href="#">Follow Ups</a></li>
-                <li><a href="#">Search</a></li>
                 <li><a href="#">Folders</a></li>
             </ul>
         </div><!-- End Wrapper -->
@@ -42,36 +36,42 @@
 	        <a class="buttons large" href="#">Create New Ticket</a>
 	    </div>                    
 	                	
-	    <div class="clearfix"></div>                	
+	    <div class="clearfix"></div>  
+                      	
 	                    
 	</div><!-- End Top Control -->
 
 
-    <table class="ticket-list-control">
-        <tr>            
-            <td style="text-align: left;">Selected <a href="#">Print</a> | <a href="#">Mark Read</a></td>            
-            <td style="text-align: center;"><a href="#">Print All</a> | <a href="#">Edit Columns</a> | <a href="#">Edit Filter</a> | <a href="#">Enable Filter</a></td>            
-            <td style="text-align: right;">
-                <span><strong>304</strong> Tickets</span>                
-                <span>Page: </span>
-                <select>
-					<option selected="selected" value="0">1</option>
-                    <option value="1">2</option>
-					<option value="2">3</option>
-					<option value="3">4</option>
-					<option value="4">5</option>
-					<option value="5">6</option>
-					<option value="6">7</option>
-					<option value="7">8</option>
-					<option value="8">9</option>
-					<option value="9">10</option>
-					<option value="10">11</option>
-					<option value="11">12</option>
-					<option value="12">13</option>
-				</select>            
-            </td>
-        </tr>    
-    </table>
+    <div class="top-table-control"> 
+    <div class="selected-controls">
+	    <div class="left">
+	        <ul>
+	            <li><img style="margin-bottom: -8px;" src="../images/arrow.gif" /></li>
+                <li class="select"><a class="pillbutton drop" href="#">Selected</a>
+                    <ul>
+                        <li>Print</li>
+                    </ul>
+                </li>
+                <li><a class="pillbutton" href="#">As Tech</a></li>
+                <li><a class="pillbutton" href="#">As Alt Tech</a></li>
+                <li><a class="pillbutton active" href="#">As User</a></li>
+	        </ul>
+	    </div>
+	                        
+	    <div class="right">
+	        <ul>	            
+	            <li><a class="pillbutton" href="#">Columns</a></li>
+	            <li><a class="pillbutton drop" href="#">Filters</a>
+                    <ul>
+                        <li>Edit</li>
+                        <li>Enable</li>
+                    </ul>
+                </li>
+                <li><strong>304</strong> Tickets</li>
+	        </ul>
+	    </div>
+	</div><!-- End selected Controls -->
+    </div>
 
     <table class="ticket-list">
         <thead class="ticket-list-header">

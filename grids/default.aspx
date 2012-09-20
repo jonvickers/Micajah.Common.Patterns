@@ -32,60 +32,60 @@
 
         <tbody>
             <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
+                <td>Column 1</td>
+				<td>Column 2</td>
+				<td>Column 3</td>
+				<td>Column 4</td>
+				<td>Column 5</td>
+                <td>Column 6</td>
             </tr>
             <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
+                <td>Column 1</td>
+				<td>Column 2</td>
+				<td>Column 3</td>
+				<td>Column 4</td>
+				<td>Column 5</td>
+                <td>Column 6</td>
             </tr>
             <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
+                <td>Column 1</td>
+				<td>Column 2</td>
+				<td>Column 3</td>
+				<td>Column 4</td>
+				<td>Column 5</td>
+                <td>Column 6</td>
             </tr>
             <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
+                <td>Column 1</td>
+				<td>Column 2</td>
+				<td>Column 3</td>
+				<td>Column 4</td>
+				<td>Column 5</td>
+                <td>Column 6</td>
             </tr>
             <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
+                <td>Column 1</td>
+				<td>Column 2</td>
+				<td>Column 3</td>
+				<td>Column 4</td>
+				<td>Column 5</td>
+                <td>Column 6</td>
             </tr>
             <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
+                <td>Column 1</td>
+				<td>Column 2</td>
+				<td>Column 3</td>
+				<td>Column 4</td>
+				<td>Column 5</td>
+                <td>Column 6</td>
             </tr>
             <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
+                <td>Column 1</td>
+				<td>Column 2</td>
+				<td>Column 3</td>
+				<td>Column 4</td>
+				<td>Column 5</td>
+                <td>Column 6</td>
             </tr>
         </tbody>
     </table>
