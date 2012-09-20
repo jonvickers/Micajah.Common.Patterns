@@ -676,10 +676,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 .selected-controls .pillbutton.active 
 {
     color: #ffffff;
-    background-color: #007db3;
+    background-color: #2E7DBA;
     border-color: #045f86;
     text-shadow: -1px -1px 0 #045f86; 
-    box-shadow: inset 0px 1px 0px 0px #3baddf;  
+    box-shadow: inset 0px 1px 0px 0px #63a8dd;  
     }  
 
 .selected-controls ul 
