@@ -2,12 +2,12 @@
 ----------------------------------------------------------------------------------------------------*/
 
 body {
-  font: 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+  font: Arial, sans-serif;
 }
 
 pre,
 code {
-  font-family: 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+  font-family: monospace;
 }
 
 hr {

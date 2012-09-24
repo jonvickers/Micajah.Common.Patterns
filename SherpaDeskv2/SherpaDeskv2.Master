@@ -27,9 +27,14 @@
         </asp:ContentPlaceHolder>
   	    <div class="header">
     	    <div class="wrapper">
-        	    <div id="logo">
-            	    <a href="../../SherpaDeskv2/"><h1>My Company Name</h1></a>
-                </div>
+                <a href="../../SherpaDeskv2/">
+                    <div class="head-home">
+                        <img src="../../SherpaDeskv2/images/head-home-house.png" />
+                    </div>
+        	        <div id="logo">
+            	        <h1>My Company Name</h1>
+                    </div>
+                </a>
 
                 <!--- Removed the header seach
 
@@ -42,16 +47,18 @@
 
                 ------->
                 
-                <div id="global-nav" class="nav">
-				    <ul class="main">
-                	    <li class="fr"><a class="config" href="#"><span>config</span></a>
-                    	    <ul class="sub_rt">
+                <div class="global-nav">
+				    <ul>                        
+                	    <li><a href="#"><img class="gravatar" src="../../SherpaDeskv2/images/gravatar.png" /> <span class="config">Benjamin Pfohl</span></a>
+                    	    <ul>
 							    <li><a href="../../SherpaDeskv2/Configuration/config.aspx">Configuration</a></li>
-			                    <li><a href="#">Support</a></li>
+                                <li><a href="#">Support</a></li>
+			                    <li><a href="#">My Profile</a></li>
 			                    <li><a href="#">Logout</a></li>
 						    </ul>
-                        </li>					
-                        <li class="fr"><a href="#">Profile</a></li>
+                        </li>
+                        <li><a href="#" onclick="window.open('../../PageHelp/pagehelp.aspx', '_blank', 'location=0,menubar=0,resizable=1,scrollbars=1,status=0,titlebar=0,toolbar=0,width=680,height=725');return false;"><img src="../../SherpaDeskv2/images/pagehelp-head.png" title="Page Help"/></a>
+                        </li>	                       
 				    </ul>
 			    </div>
             </div><!-- End Wrapper -->	
@@ -59,23 +66,15 @@
     
         <div class="top-nav">
     	    <div class="wrapper">
-                <ul>
-                    <li><a href="../../SherpaDeskv2/">Home</a></li>
+                <ul>                    
                     <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx">Tickets</a></li>
-                    <li><a class="showsub" href="../../SherpaDeskv2/accounts-detail/accounts.aspx">Accounts</a></li>
-                    <li><a class="showsub" href="../../SherpaDeskv2/projects/">Projects</a></li>
+                    <li><a href="../../SherpaDeskv2/accounts-detail/accounts.aspx">Accounts</a></li>
+                    <li><a href="../../SherpaDeskv2/projects/">Projects</a></li>
                     <li><a href="#">Locations</a></li>
                     <li><a href="#">ToDos</a></li>
-                    <li><a class="showsub" href="../../SherpaDeskv2/assets/default.aspx">Assets</a></li>
-                    <li><a href="#">Parts</a></li>
+                    <li><a href="../../SherpaDeskv2/assets/default.aspx">Assets</a></li>
                     <li><a href="#">Knowledgebase</a></li>
-                    <li><a class="showsub" href="#">Reports</a></li>                    
-                    <li class="pagehelp"><a href="#" onclick="window.open('../../PageHelp/pagehelp.aspx', '_blank', 'location=0,menubar=0,resizable=1,scrollbars=1,status=0,titlebar=0,toolbar=0,width=680,height=725');return false;">Page Help</a>
-</li>
-
-
-                    
-
+                    <li><a href="#">Reports</a></li>
                 </ul>
             </div><!-- End Wrapper -->
         </div><!-- End Nav -->

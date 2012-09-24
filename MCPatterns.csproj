@@ -242,6 +242,7 @@
     <Content Include="SherpaDeskv2\images\control-temp.png" />
     <Content Include="SherpaDeskv2\images\delete.png" />
     <Content Include="SherpaDeskv2\images\drop.png" />
+    <Content Include="SherpaDeskv2\images\dropbr.png" />
     <Content Include="SherpaDeskv2\images\envelopeWhite_11px.jpg" />
     <Content Include="SherpaDeskv2\images\followups.png" />
     <Content Include="SherpaDeskv2\images\footer-logo.png" />
@@ -251,6 +252,7 @@
     <Content Include="SherpaDeskv2\images\gravatar.jpg" />
     <Content Include="SherpaDeskv2\images\gravatar.png" />
     <Content Include="SherpaDeskv2\images\green-check.png" />
+    <Content Include="SherpaDeskv2\images\head-home.png" />
     <Content Include="SherpaDeskv2\images\ico-comment-reply.png" />
     <Content Include="SherpaDeskv2\images\lightbulb.png" />
     <Content Include="SherpaDeskv2\images\newmessages.png" />
