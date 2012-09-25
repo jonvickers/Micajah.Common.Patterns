@@ -252,6 +252,7 @@
     <Content Include="SherpaDeskv2\images\gravatar.jpg" />
     <Content Include="SherpaDeskv2\images\gravatar.png" />
     <Content Include="SherpaDeskv2\images\green-check.png" />
+    <Content Include="SherpaDeskv2\images\head-home-house.png" />
     <Content Include="SherpaDeskv2\images\head-home.png" />
     <Content Include="SherpaDeskv2\images\ico-comment-reply.png" />
     <Content Include="SherpaDeskv2\images\lightbulb.png" />
@@ -263,6 +264,7 @@
     <Content Include="SherpaDeskv2\images\onhold.png" />
     <Content Include="SherpaDeskv2\images\opencustomer.png" />
     <Content Include="SherpaDeskv2\images\opentickets.png" />
+    <Content Include="SherpaDeskv2\images\pagehelp-head.png" />
     <Content Include="SherpaDeskv2\images\pagehelp.png" />
     <Content Include="SherpaDeskv2\images\page_text.png" />
     <Content Include="SherpaDeskv2\images\paperclip.png" />

@@ -678,7 +678,15 @@ table { border-collapse: collapse; border-spacing: 0; }
         color: #000;
         text-decoration: none;
         }
-
+.selected-controls li h5 
+    {
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+        font-size: 14px;
+        color: #633C16;
+        text-shadow: -1px -1px 0 white;
+        }
 .selected-controls .pillbutton 
 {
     padding: 5px 10px;

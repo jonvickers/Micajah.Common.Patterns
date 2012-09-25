@@ -109,46 +109,48 @@
         </div>
         <div class="clearfix"></div>        
     </div>
-
+<div class="container">
     <div class="account-fields">
-            	<div class="container">
-                    <table>
-                    	<tr>
-                        	<td>Status <strong>Active</strong></td>
-                            <td>BWD Acc# <strong>1249</strong></td>
-                            <td>Acct#</td>
-                            <td>Ref#1</td>
-                        </tr>
-                        <tr>
-                        	<td>Ref2# <strong>Active</strong></td>
-                            <td>Org/Indiv <strong>Organization</strong></td>
-                            <td>Acc Rep <strong>Clements, Patrick</strong></td>
-                            <td>Sup Group</td>
-                        </tr>
-                        <tr>
-                        	<td>Date Started</td>
-                            <td>Contract End Date</td>
-                            <td>Email Suffix</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                    </table>
-                </div><!-- End wrapper -->           
-            </div><!-- End Account Fields -->
-
+            	
+                <table>
+                    <tr>
+                        <td>Status <strong>Active</strong></td>
+                        <td>BWD Acc# <strong>1249</strong></td>
+                        <td>Acct#</td>
+                        <td>Ref#1</td>
+                    </tr>
+                    <tr>
+                        <td>Ref2# <strong>Active</strong></td>
+                        <td>Org/Indiv <strong>Organization</strong></td>
+                        <td>Acc Rep <strong>Clements, Patrick</strong></td>
+                        <td>Sup Group</td>
+                    </tr>
+                    <tr>
+                        <td>Date Started</td>
+                        <td>Contract End Date</td>
+                        <td>Email Suffix</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+                        
+        </div><!-- End Account Fields -->
+</div><!-- End wrapper -->   
 <!------------------------------------------------------------------------ Project Details ------------------------>
-    <div class="section-divider top-nav">
-        <div class="container">
-            <div class="grid_12">
-		        <ul>
-		            <li class="active"><a href="#">Details</a></li>
-		            <li><a href="#">Budget</a></li>
-		        </ul>
-            </div>
-        </div>
-    </div>
 
     <div class="tab-content">
         <div class="container project-details-details nogridstyle tab-pane active" id="details">
+
+            <div class="top-table-control">
+	            <div class="selected-controls">
+	                <div class="left">
+	                    <ul>
+	                        <li><a class="pillbutton active" href="#">Details</a></li>
+                            <li><a class="pillbutton" href="#">Budget</a></li>
+	                    </ul>
+	                </div>
+	            </div><!-- End selected Controls -->	                
+	        </div><!-- End Top Control -->
+
             <table>
                 <thead>
                     <tr>
@@ -214,13 +216,21 @@
         
     </div>
 <!------------------------------------------------------------------------ Project TASKS -------------------------->
-    <div class="section-divider">
-        <div class="container">
-            <h3>Tasks</h3>
-        </div>
+    <div class="container">
+    <div class="top-table-control">
+	    <div class="selected-controls" style="border-bottom: 1px solid #F7F1C5;">
+	        <div class="left">
+	            <ul>
+	                <li><h5>Project Tasks</h5></li>
+	            </ul>
+	        </div>
+	    </div><!-- End selected Controls -->	                
+	</div><!-- End Top Control -->
     </div>
 
    <div class="todo-list-control container">
+       
+
     <div class="add-list">
         <a id="inline" class="buttons" rel="facebox" href="#add_todo_list">Add To Do List</a>
     </div>
@@ -377,13 +387,17 @@
 
 
 <!------------------------------------------------------------------------ Project Logs --------------------------->
-    <div class="section-divider">
-        <div class="container">
-            <h3>Project Time Logs</h3>
-        </div>
-    </div>
 
     <div class="container">
+    <div class="top-table-control">
+	    <div class="selected-controls">
+	        <div class="left">
+	            <ul>
+	                <li><h5>Project Time Logs</h5></li>
+	            </ul>
+	        </div>
+	    </div><!-- End selected Controls -->	                
+	</div><!-- End Top Control -->
     <table>
         <thead>
 	        <tr>
@@ -404,13 +418,16 @@
     </table>
     </div>
 
-    <div class="section-divider">
-        <div class="container">
-            <h3>Ticket Time Logs</h3>
-        </div>
-    </div>
-
     <div class="container">
+        <div class="top-table-control">
+	    <div class="selected-controls">
+	        <div class="left">
+	            <ul>
+	                <li><h5>Ticket Time Logs</h5></li>
+	            </ul>
+	        </div>
+	    </div><!-- End selected Controls -->	                
+	</div><!-- End Top Control -->
         <table>
             <thead>
             	<tr>
