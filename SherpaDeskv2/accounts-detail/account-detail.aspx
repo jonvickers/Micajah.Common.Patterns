@@ -84,8 +84,8 @@
                 </div> <!-- End Ticket Counts -->
             </div><!-- End wrapper -->
         	<div class="clearfix"></div>
-            <div class="account-fields">
-            	<div class="container">
+            <div class="container">
+            	<div class="account-fields">
                     <table>
                     	<tr>
                         	<td>Status <strong>Active</strong></td>
@@ -123,23 +123,28 @@
             </div>
             <div class="clearfix"></div> 
             -->
-            <div class="section-divider withsub">
-            	<div class="container">
-                	<h3>Account-at-a-Glance</h3>
-                </div>
+            
+            <div class="container">
+                <div class="top-table-control">
+	                <div class="selected-controls" style="border-bottom: 1px solid #F7F1C5;">
+	                    <div class="left">
+	                        <ul>
+	                            <li><h5>Account-at-a-Glance</h5></li>
+	                        </ul>
+	                    </div>
+	                </div><!-- End selected Controls -->	                
+	            </div><!-- End Top Control -->            
+                <div class="top-nav">
+                        <div class="grid_12">
+		                    <ul>
+		                        <li class="active"><a href="#">Users</a></li>
+		                        <li><a href="#">Projects</a></li>
+		                        <li><a href="#">Locations</a></li>
+                                <li><a href="#">Assets</a></li>
+		                    </ul>
+                        </div>
+		        </div><!-- End Nav -->
             </div>
-            <div class="top-nav">
-		    	<div class="container">
-                    <div class="grid_12">
-		                <ul>
-		                    <li class="active"><a href="#">Users</a></li>
-		                    <li><a href="#">Projects</a></li>
-		                    <li><a href="#">Locations</a></li>
-                            <li><a href="#">Assets</a></li>
-		                </ul>
-                    </div>
-		        </div><!-- End Wrapper -->
-		    </div><!-- End Nav -->
             <div class="at-a-glance">
             	<div class="container">
                 	<div class="top-table-control">                	
