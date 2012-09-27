@@ -70,7 +70,7 @@
                     <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx">Tickets</a></li>
                     <li><a href="../../SherpaDeskv2/accounts-detail/accounts.aspx">Accounts</a></li>
                     <li><a href="../../SherpaDeskv2/projects/">Projects</a></li>
-                    <li><a href="#">Locations</a></li>
+                    <li><a href="../../SherpaDeskv2/locations/">Locations</a></li>
                     <li><a href="#">ToDos</a></li>
                     <li><a href="../../SherpaDeskv2/assets/default.aspx">Assets</a></li>
                     <li><a href="#">Knowledgebase</a></li>
@@ -113,7 +113,7 @@
             	    <ul>
                 	    <li id="footer-logo"><img src="../../SherpaDeskv2/images/footer-logo.png" alt="SherpaDesk"></li>
                         <li><strong><a href="https://login.bigwebapps.com/portal/?dept=6f5bg5&org=rn062f">Support</a> | (866) 996-1200 x2</strong></li>
-                        <li id="message"><strong>20 days left on your free trial</strong></li>
+                        
                     </ul>
                 </div>
             </div>

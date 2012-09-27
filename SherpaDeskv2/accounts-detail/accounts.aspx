@@ -255,7 +255,13 @@
                                 <td>1190</td>
 							</tr>                            
             </table>
-        
+        <div class="right">
+            <select>
+                <option>Active</option>
+                <option>Show Inactive</option>
+                <option>Archived</option>
+            </select>
+        </div>
     
     </div>
     

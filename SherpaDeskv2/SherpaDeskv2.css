@@ -1983,6 +1983,7 @@ ol.commentlist  {
 		
 /*------------ Project Details  ----------------*/
 
+	.accountname a {font-weight: normal !important;}
 	.project-progress {margin: 20px 0 50px;}
 	    .project-progress.estimates {margin-top:10px;}
 	    .project-progress h3
@@ -2040,6 +2041,13 @@ ol.commentlist  {
 /*------------------------------------- Config Pages -------------------------------------*/
 
 
+/*------------------------------------- Locations -------------------------------------*/
+.location-general {width: 500px;}
+.location-general table tr td:first-child 
+{
+    text-align: right;
+    width: 125px;
+    }
 
 /* =============================================================================
    Non-semantic helper classes

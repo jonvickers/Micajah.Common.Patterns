@@ -293,6 +293,8 @@
     <Content Include="SherpaDeskv2\js\checkboxes\on-off-checkboxes.js" />
     <Content Include="SherpaDeskv2\js\custom.js" />
     <Content Include="SherpaDeskv2\js\fittext\fittxt.js" />
+    <Content Include="SherpaDeskv2\locations\default.aspx" />
+    <Content Include="SherpaDeskv2\locations\general.aspx" />
     <Content Include="SherpaDeskv2\projects\default.aspx" />
     <Content Include="SherpaDeskv2\projects\projectDetail.aspx" />
     <Content Include="SherpaDeskv2\SherpaDeskv2.css" />
@@ -550,6 +552,20 @@
     </Compile>
     <Compile Include="SherpaDeskv2\accounts-detail\accounts.aspx.designer.cs">
       <DependentUpon>accounts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\locations\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\locations\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\locations\general.aspx.cs">
+      <DependentUpon>general.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\locations\general.aspx.designer.cs">
+      <DependentUpon>general.aspx</DependentUpon>
     </Compile>
     <Compile Include="SherpaDeskv2\projects\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
