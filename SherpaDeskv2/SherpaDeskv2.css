@@ -279,6 +279,79 @@ table { border-collapse: collapse; border-spacing: 0; }
                 {
                     left: auto;
                     }	
+	
+	/*--- Home create New Button ---*/
+	
+	.add-item 
+	{
+	    margin-right: 20px;
+	    }
+	.add-item .top-item 
+	{	    
+        background-image: url(../../SherpaDeskv2/images/home-new-drop.png);
+        text-align: center;
+        width: 115px;
+        padding: 10px 20px;
+	    }
+	.add-item ul li a 
+	{
+	    color: #ffffff;
+	    }
+    .add-item ul li ul li a {color: #ffffff; font-weight: normal;}
+    .add-item ul li ul li:last-child {border: none;}
+	
+	.add-item ul li
+            {
+                margin: 0;
+                padding: 0 10px;
+                float: left;                
+                    }
+                    
+                .add-item ul li span.config 
+                {
+                    font-weight: bold;
+                    padding-right: 20px;
+                    background: url(../../SherpaDeskv2/images/drop.png) no-repeat right center;
+                    position: relative;
+                    right: 0;
+                    top: 8px;
+                    }
+            .add-item ul li ul {
+	            width: 115px;
+                position: absolute;
+                left: -999em;
+                margin: 11px 0 0 -14px;
+                background-color: #058DC7;
+                border-radius: 0px 0px 4px 4px;
+                padding: 4px 15px;
+                z-index: 999999999;
+                } 
+                .add-item ul li ul li 
+                {
+                    float: none;
+                    display: block;
+                    margin: 0 -9px;
+                    min-width: 100px;
+                    padding: 8px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: white;
+                    background-color: #058DC7;
+                    border-right: none;
+                    border-left: none;
+                    border-bottom: 1px solid #09A0E1;
+                    height: auto;
+                    }
+                    
+        
+                .add-item ul li ul li:hover 
+                {
+                    background-color: #09A0E1;
+                    } 
+                .add-item ul li:hover ul
+                {
+                    left: auto;
+                    }
 					
 	/*-- Top Search Bar --*/	
 	

@@ -45,8 +45,22 @@
             </div>        
             <a class="buttons info time-log"><img src="images/clock.png" /> Add Time</a>
         </div>
-        <div class="grid_4 push_2 omega">
-            <a class="buttons large add-ticket"><i class="icon-plus icon-white"></i> Create New Ticket</a>
+        <div>
+            <div class="add-item right">
+				<ul>                        
+                	<li class="buttons top-item"><a href="#">Add New</a>
+                    	<ul>
+							<li><a href="#">Ticket</a></li>
+                            <li><a href="#">Account</a></li>
+			                <li><a href="#">User</a></li>
+			                <li><a href="#">Invoice</a></li>
+                            <li><a href="#">Bill</a></li>
+                            <li><a href="#">Asset</a></li>
+                            <li><a href="#">Project</a></li>
+						</ul>
+                    </li>	                       
+				</ul>
+			</div>
         </div>
 
 </div> <!-- End Container Fluid -->
