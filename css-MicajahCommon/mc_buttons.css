@@ -4,6 +4,56 @@ Buttons and Links CSS
 
 -------------------------------------------------------------- */
 
+
+
+
+/* ------------------------------------------------------------------------------------------------------------- BUTTON */
+.sdbutton {
+	padding: 0.5em 1.5em;
+	border: 1px solid #d4d4d4;
+	margin: 0;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #fff;
+	font-family: arial, sans-serif;
+	color: #333;
+	white-space: nowrap;
+	cursor: pointer;
+	outline: none;
+	background-color: #ececec;
+	border-radius: 0.2em;
+    zoom: 1;
+    display: inline;
+    background-image: linear-gradient(#f4f4f4, #ececec);
+	}
+.sdbutton:hover, .sdbutton:focus, .sdbutton:active , .sdbutton.active{
+	border-bottom-color: #2a65a0;
+	text-decoration: none;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	color: #fff;
+	background-color: #3072b3;
+	background-image: linear-gradient(#599bdc, #3072b3);
+	border-left-color: #3072b3;
+    border-right-color: #3072b3;
+    border-top-color: #3072b3;
+}
+.sdbutton:active {
+	border-bottom-color: #3884CF;
+	color: #fff;
+	background-color: #3072b3;
+	background-image: linear-gradient(#3072b3, #599bdc);
+	border-left-color: #2a65a0;
+    border-right-color: #2a65a0;
+    border-top-color: #2a65a0;
+}
+/* overrides extra padding on button elements in Firefox */
+.sdbutton::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+
+
+
 /* ----  Standard buttons CSS   ----- */
  
 .buttonAlt {color: #28597a; padding: 7px; font-size: 1.2em;}
@@ -33,7 +83,7 @@ input[type="submit"]
 input[type="submit"].small, input[type="submit"].buttons.small, .buttons.small {font-size: .9em;}
 input[type="submit"].large, input[type="submit"].buttons.large, .buttons.large, .buttons .large .negative {font-weight: bold; font-size: 1.3em;}
 input[type="submit"].x-large, input[type="submit"].buttons.x-large, .buttons.x-large, .buttons .x-large .negative {font-weight: bold; font-size: 1.5em;}
-input[type="submit"]:hover {color:#1874CD; cursor: hand;  border: 1px solid #1874CD;}
+
 
 
 /* -- Green Buttons  Here on Down -- */

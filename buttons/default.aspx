@@ -52,26 +52,26 @@
 
 <div class="micajah">
     <h3>Standard Button and Link Groups</h3>
-        <input type="submit" value="Save" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?custom" class="buttonAlt">Custom Link</a>&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>&nbsp;or&nbsp;<a href="javascript:confirmDelete('?delete=true')" class="buttonAlt delete">Delete</a>
+        <input class="sdbutton" type="submit" value="Save" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?custom" class="buttonAlt">Custom Link</a>&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>&nbsp;or&nbsp;<a href="javascript:confirmDelete('?delete=true')" class="buttonAlt delete">Delete</a>
         <br /><br />
-        <input type="submit" value="Save" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>&nbsp;or&nbsp;<a href="javascript:confirmDelete('?delete=true')" class="buttonAlt delete">Delete</a>
+        <input class="sdbutton" type="submit" value="Save" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>&nbsp;or&nbsp;<a href="javascript:confirmDelete('?delete=true')" class="buttonAlt delete">Delete</a>
         <br /><br />
-        <input type="submit" value="Save" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>
+        <input class="sdbutton" type="submit" value="Save" />&nbsp;&nbsp;&nbsp;or&nbsp;<a href="?cancel" class="buttonAlt cancel">Cancel</a>
         <br /><br />
-        <input type="submit" value="Save" />
+        <input class="sdbutton" type="submit" value="Save" />
 
         <br/><br/>
         <hr />
 
         <h3>Standard Buttons</h3>
-        <input class="small" type="submit" value="Save" />&nbsp;&nbsp;&nbsp;&nbsp;<input class="small" type="submit" value="Save & Close" />  - small
+        <input class="sdbutton small" type="submit" value="Save" />&nbsp;&nbsp;&nbsp;&nbsp;<input class="sdbutton small" type="submit" value="Save & Close" />  - small
 
         <br/><br/>
 
-        <input type="submit" value="Save" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Save & Close" />  - standard
+        <input class="sdbutton" type="submit" value="Save" />&nbsp;&nbsp;&nbsp;&nbsp;<input class="sdbutton" type="submit" value="Save & Close" />  - standard
 
         <br/><br/>
 
-        <input class="large" type="submit" value="Save" />&nbsp;&nbsp;&nbsp;&nbsp;<input class="large" type="submit" value="Save & Close" /> - large
+        <input class="sdbutton large" type="submit" value="Save" />&nbsp;&nbsp;&nbsp;&nbsp;<input class="sdbutton large" type="submit" value="Save & Close" /> - large
 </div>
 </asp:Content>
