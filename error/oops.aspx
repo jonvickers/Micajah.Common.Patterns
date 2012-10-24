@@ -17,11 +17,11 @@
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="catch-error">
-        <h1>Uh... That's some weird science.</h1>
+        <h1>Uh... I think you just stepped in Yeti Poo!</h1>
         <div class="catch-error-description">
             
             <h2>Server Error in '/' Application</h2>
-            <h3>We have logged this error. Our engineers will get on this as quickly as possible.</h3>
+            <h3>We have logged this error. Our trail guides will get on this as quickly as possible.</h3>
             <p id="return-button"><a href="previous.html" onClick="history.back();return false;" class="buttons large">Button Message</a></p>
 
         </div>

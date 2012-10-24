@@ -1,11 +1,11 @@
 ﻿.catch-error 
 {
-    width: 650px;
+    width: 725px;
     min-height: 400px;
     margin: 50px auto;
     padding: 20px;
 
-     background: url('../../error/img/error-background.png') no-repeat 0 60px;
+     background: url('../../error/img/error-background.png') no-repeat 0 80px;
      overflow: hidden;
     }
     
@@ -17,7 +17,7 @@
       }
 .catch-error-description 
   {
-      width: 390px;
+      width: 400px;
       float: right;
       }
   
@@ -47,7 +47,7 @@
  
 .catch-error-form 
 {
-    margin-top: 175px;
+    margin-top: 125px;
     width: 98%
     }
 .catch-error-form h3
