@@ -139,14 +139,14 @@ input[type="submit"].x-large, input[type="submit"].buttons.x-large, .buttons.x-l
 .negative
 {  
 
-	border: 1px solid #acacac;
+	border: 1px solid #AB2222;
 	margin: 0;
 	text-decoration: none;
-	color: #900 !important;
+	color: #fff !important;
 	white-space: nowrap;
 	cursor: pointer;
 	outline: none;	
-	background: #ffffff;   	
+	background: #D74040;   	
 	-webkit-background-clip: padding;
     -moz-background-clip: padding;
     -o-background-clip: padding-box;
@@ -161,13 +161,6 @@ input[type="submit"].x-large, input[type="submit"].buttons.x-large, .buttons.x-l
 .negative:focus, 
 .negative:active
 {
-	border-color: #AB2222 !important;
-	color: #fff !important;
-	text-decoration: none;	
-	background: #D74040;
-	}
-	
-.negative:active{
 	border-color: #a0302a;
 	background-color: #b33630;
 	background: #AD2323;
