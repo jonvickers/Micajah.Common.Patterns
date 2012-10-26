@@ -434,13 +434,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 			.top-nav ul li a:hover {
 				background-color: #E5E5E5;
 				color: #222222 !important;
-				text-shadow: 0px 1px 0px #F1F1F1;
+				/* text-shadow: 0px 1px 0px #F1F1F1; */
 				border: 1px solid #dcdcdc;
 				}
 			.top-nav ul li a:active,
 			.top-nav ul li.active a:hover 
 			{
-			    text-shadow: -1px -1px 0 #058DC7;
+			    /* text-shadow: -1px -1px 0 #058DC7; */
 			    box-shadow: inset 0px 1px 0px 0px #63A8DD;
 				color: #ffffff !important;
 	            background-color: #09A0E1;
@@ -452,7 +452,7 @@ table { border-collapse: collapse; border-spacing: 0; }
                 font-weight: bold;
                 background-color: #2E7DBA;
                 border-color: #045F86;
-                text-shadow: -1px -1px 0 #045F86;
+                /* text-shadow: -1px -1px 0 #045F86; */
                 box-shadow: inset 0px 1px 0px 0px #63A8DD;
 			    }
 			
@@ -758,7 +758,7 @@ table { border-collapse: collapse; border-spacing: 0; }
         font-weight: bold;
         font-size: 14px;
         color: #633C16;
-        text-shadow: -1px -1px 0 white;
+        /* text-shadow: -1px -1px 0 white; */
         }
 .selected-controls .pillbutton 
 {
@@ -772,7 +772,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	border: 1px solid #b08357;
 	background-color: #f9d08b;
 	color: #633c16;
-	text-shadow: 1px 1px 0 #fce6b6;
+	/* text-shadow: 1px 1px 0 #fce6b6; */
 	box-shadow: inset 0px 1px 1px 0px #fce6b6;
     }
 
@@ -793,7 +793,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     color: #ffffff;
     background-color: #2E7DBA;
     border-color: #045f86;
-    text-shadow: -1px -1px 0 #045f86; 
+    /* text-shadow: -1px -1px 0 #045f86;  */
     box-shadow: inset 0px 1px 0px 0px #63a8dd;  
     }  
 
@@ -842,7 +842,7 @@ table { border-collapse: collapse; border-spacing: 0; }
         color: #633c16;
 	    background-color: #f9d08b;
 	    border-bottom: 1px solid #ffdea7;
-	    text-shadow: 1px 1px 0 #fce6b6;
+	    /* text-shadow: 1px 1px 0 #fce6b6; */
         }
         .selected-controls li ul li:last-child {border: none;}
         
@@ -1008,7 +1008,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-weight: bold;
     line-height: 18px;
     color: black;
-    text-shadow: 0 1px 0 white;
+    /* text-shadow: 0 1px 0 white; */
     opacity: 0.2;   
     }
 .time-logger 
@@ -1380,7 +1380,7 @@ ul.counters li
     font-size: 14px;
     background-color: #eeeeee !important;
     color: #222222;
-    text-shadow: 1px 1px 1px #ffffff;
+    /* text-shadow: 1px 1px 1px #ffffff; */
     padding: 6px;
     }
 .ticket-list table thead th 
@@ -1503,7 +1503,7 @@ tr.ticket-list-single-bot td
     font-size: 12px;
     background-color: #eeeeee !important;
     padding: 4px;
-    text-shadow: 1px 1px 1px #ffffff;
+    /* text-shadow: 1px 1px 1px #ffffff; */
     filter: dropshadow(color=#ffffff, offx=1, offy=1);
     }
     
@@ -1552,7 +1552,7 @@ img.avatar {
         border-bottom: 1px solid #d1d1d1;
         padding: 10px;
         margin: 0;
-        text-shadow: 1px 1px 1px #ffffff;
+        /* text-shadow: 1px 1px 1px #ffffff; */
         }
         
         .ticket-detail-left div.section a 
@@ -1615,7 +1615,7 @@ img.avatar {
         padding: 10px;
         background-color: #fff298;
         border: 1px solid #c99a1c;
-        text-shadow: 1px 1px 1px #f0e17a;
+        /* text-shadow: 1px 1px 1px #f0e17a; */
         margin-top: 8px;
           }
             
@@ -1626,7 +1626,7 @@ img.avatar {
             background-color: #004174;
             border-top: 1px solid #1a5b8f;
             border-bottom: 1px solid #083558;
-            text-shadow: 1px 1px 1px #083558;
+            /* text-shadow: 1px 1px 1px #083558; */
             overflow: hidden;
             }
         .ticket-detail-left div.section.ltblue 
@@ -1635,14 +1635,14 @@ img.avatar {
             background-color: #058dc7;
             border-top: 1px solid #006e9d;
             border-bottom: 1px solid #0184bc;
-            text-shadow: 1px 1px 1px #006e9d;
+            /* text-shadow: 1px 1px 1px #006e9d; */
             overflow: hidden;
             }
         .ticket-detail-left div.section.gold 
         {
             background-color: #fff298;
             border-bottom: 1px solid #c99a1c;
-            text-shadow: 1px 1px 1px #f0e17a;
+            /* text-shadow: 1px 1px 1px #f0e17a; */
             overflow: hidden;
             }
     
@@ -1678,7 +1678,7 @@ border-radius: 4px;
 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
 -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
 box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
-text-shadow: 1px 1px 0px #000000;
+/* text-shadow: 1px 1px 0px #000000; */
 }
 
 .ticket-detail .tooltip:hover
@@ -1744,7 +1744,8 @@ border-right:8px solid #454545;
     .tkt-navbar ul li a:hover, .tkt-navbar ul li.active a 
     {
         background-color: #0e90d2;
-        color: #ffffff !important;
+        color: #ffffff !important;			
+	    border: 1px solid #058DC7;
         }
         
     .tkt-navbar ul

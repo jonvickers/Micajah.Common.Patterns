@@ -13,7 +13,7 @@ Buttons and Links CSS
 	border: 1px solid #d4d4d4;
 	margin: 0;
 	text-decoration: none;
-	text-shadow: 1px 1px 0 #fff;
+	/* text-shadow: 1px 1px 0 #fff; */
 	font-family: arial, sans-serif;
 	color: #333;
 	white-space: nowrap;
@@ -28,7 +28,7 @@ Buttons and Links CSS
 .sdbutton:hover, .sdbutton:focus, .sdbutton:active , .sdbutton.active{
 	border-bottom-color: #2a65a0;
 	text-decoration: none;
-	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	/* text-shadow: -1px -1px 0 rgba(0,0,0,0.3); */
 	color: #fff;
 	background-color: #3072b3;
 	background-image: linear-gradient(#599bdc, #3072b3);
