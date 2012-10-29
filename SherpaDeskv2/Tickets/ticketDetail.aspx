@@ -75,10 +75,6 @@
             <p class="center">SLA Response Date: <strong>6/27/2012 09:11AM</strong> <small>(UTC-5)(-2h -3m)</small></p>
         </div>
 
-        <div class="section drkblue">
-            <p><strong>Time</strong> <a href="#"><img class="right" src="../images/plus-add.png" /></a></p>
-        </div>
-
         <div class="section ltblue">
             <div class="tkt-hours left">
                 <p>Hours</p>
@@ -149,22 +145,34 @@
         <div class="top-nav tkt-navbar">
             <ul>
                 <li class="active"><a href="views/ticketDetail.htm">Responses</a></li>
-                <li><a href="views/timeline.htm">Timeline</a></li>
-                <li><a href="views/pickup.htm">Pickup</a></li>
-                <li><a href="views/transfer.htm">Transfer</a></li>
                 <li><a href="views/time.htm">Time</a></li>
                 <li><a href="views/assignments.htm">Assignments</a></li>
                 <li><a href="views/related.htm">Related</a></li>
                 <li><a href="views/todos.htm">ToDos</a></li>
-                <li class="tkt-delete"><img src="../images/delete.png" /></li>
-                <li class="tkt-print"><img src="../images/printer.png" /></li>  
+                <li class="tkt-delete"><a href="#"><img src="../images/trash_box.png" title="Trash Ticket" /></a></li>
+                <li class="tkt-print"><a href="#"><img src="../images/printer.png" title="Print" /></a></li>  
             </ul>
         </div>
         
         <!-------------- Main Stage ------------------>     
-        <div class="tkt-main-stage">       	
-	        <div class="tkt-action">
-	            <a class="buttons info" href="views/closeTicket.htm">Close Ticket</a>
+        <div class="tkt-main-stage">               	
+	        <div class="tkt-main-head">
+                <div class="tkt-main-title">
+                    <h1>Page Help clean up sdfgsdfgsdgfsdfgsdfg sdfg sdgf sdfg sdf sdfg twth dfgbnwrth dfnfn <span>(Is it Me Your Looking For? <i> - 5 days ago</i>)</span></h1>
+                </div>
+	            <div class="add-item ticket-action">
+				    <ul>                        
+                	    <li class="buttons top-action-item"><a href="#">Ticket Action</a>
+                    	    <ul>
+							    <li><a href="#">Close</a></li>
+                                <li><a href="#">Place On Hold</a></li>
+			                    <li><a href="#">Pick Up</a></li>
+			                    <li><a href="#">Transfer</a></li>
+                                <li><a href="#">Convert to KB</a></li>
+						    </ul>
+                        </li>	                       
+				    </ul>
+			    </div>
 	        </div>        
 
             <!-- Initial Post -->
@@ -173,12 +181,19 @@
                 <!---- Gravatar ---->
                 <img class="avatar" src="../../Portalv1/img/gravatar.png" width="40" height="40" />	
 
-                <div class="post">
-                    <h1>Page Help clean up</h1>
-                    <p><small>Ben Pfohl <span>6/26/2012 03:11PM (UTC-5)</span></small></p>
-                    <p class="pill gray">Initial Post</p>
-                    <div class="clearfix"></div>
-                    <p class="tkt-post-txt">Houston, that may have seemed like a very long final phase. The autotargeting was taking us right into a ... crater, with a large number of big boulders and rocks ... and it required ... flying manually over the rock field to find a reasonably good area.</p>
+                <div class="post">                    
+                    <div class="name">
+						<p><a rel="external nofollow" href="#">Dr. Heinz Doofenshmirtz</a> </p>
+                        <p><span class="pill gray">Initial Post</span></p>
+					</div>
+                    <div class="user-meta">
+						15 December 2011 at 5:15 pm
+					</div>
+                    <div id="initial-post" class="comment-entry">
+						<p>Your support team has been incredible, truly… only a handful of others can come close to your speedy quality support. 
+						Pat especially has been invaluable to me, assisting with trouble-shooting. I really can not thank you guys enough!!! 
+						To the entire team &mdash;</p>						                
+					</div>
                 </div>
             
             </div>

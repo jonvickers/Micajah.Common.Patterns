@@ -194,6 +194,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 			border: 1px solid #F1F1F1;
 			padding: 1px;
 			border-radius: 2px 2px 2px 2px;
+			behavior: url(css/border-radius.htc);
 			background-color: #ffffff;
 			height: 24px;
 			margin: 10px 10px 0 0;
@@ -235,6 +236,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	            margin: 7px 0 0 25px;
 	            background-color: #058DC7;
 	            border-radius: 4px 4px 4px 4px;	
+	            behavior: url(css/border-radius.htc);
 	            padding: 4px;
 	            z-index: 999999999;
                 }      
@@ -280,12 +282,19 @@ table { border-collapse: collapse; border-spacing: 0; }
                     left: auto;
                     }	
 	
-	/*--- Home create New Button ---*/
+	/*--- Home create New Button and Ticket Action Button ---*/
 	
 	.add-item 
 	{
 	    margin-right: 20px;
 	    }
+	.ticket-action 
+	{
+	    position: absolute;
+        right: 0px;
+        top: 5px;
+	    }
+	
 	.add-item .top-item 
 	{	    
         background-image: url(../../SherpaDeskv2/images/home-new-drop.png);
@@ -293,10 +302,17 @@ table { border-collapse: collapse; border-spacing: 0; }
         width: 115px;
         padding: 10px 20px;
 	    }
+	    .add-item .top-action-item 
+	    {
+	        background-image: url(../../SherpaDeskv2/images/ticket-action-drop.png);
+	        width: 115px;
+	        padding: 10px 20px;
+	        } 
 	.add-item ul li a 
 	{
 	    color: #ffffff;
 	    }
+    .add-item ul li ul li {text-align: center;}
     .add-item ul li ul li a {color: #ffffff; font-weight: normal;}
     .add-item ul li ul li:last-child {border: none;}
 	
@@ -323,6 +339,7 @@ table { border-collapse: collapse; border-spacing: 0; }
                 margin: 11px 0 0 -14px;
                 background-color: #058DC7;
                 border-radius: 0px 0px 4px 4px;
+                behavior: url(css/border-radius.htc);
                 padding: 4px 15px;
                 z-index: 999999999;
                 } 
@@ -367,6 +384,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 		#global-search input {
 			padding: 7px 10px;
 			border-radius: 3px;
+			behavior: url(css/border-radius.htc);
 			-moz-border-radius: 3px;  
 			-webkit-border-radius: 3px;  
 			font: normal 12px/100% sans-serif;
@@ -425,6 +443,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 				-webkit-border-radius: 5px;
 				-moz-border-radius: 5px;
 				border-radius: 4px 4px 4px 4px;
+				behavior: url(css/border-radius.htc);
 				border: 1px solid transparent;
 				}
 				.top-nav.sub-nav ul li a 
@@ -564,6 +583,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px;
 		border-radius: 4px 4px 4px 4px; 
+		behavior: url(css/border-radius.htc);
 		}
 		.aside ul li a:hover, .aside ul li a.current {
 			background-color: #E9E9E9;
@@ -630,7 +650,8 @@ table { border-collapse: collapse; border-spacing: 0; }
     color: #ffffff;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px; 
+    border-radius: 10px 10px 10px 10px; 
+    behavior: url(css/border-radius.htc);
     }
 .gray-well 
 {
@@ -638,7 +659,8 @@ table { border-collapse: collapse; border-spacing: 0; }
     background-color: #f3f3f3;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px; 
+    border-radius: 10px 10px 10px 10px; 
+    behavior: url(css/border-radius.htc);
     }
 .white-well 
 {
@@ -647,7 +669,8 @@ table { border-collapse: collapse; border-spacing: 0; }
     background-color: #ffffff;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px; 
+    border-radius: 10px 10px 10px 10px; 
+    behavior: url(css/border-radius.htc);
     }
 
 
@@ -661,6 +684,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	-webkit-border-radius: 8px;
 	-moz-border-radius:8px;
 	border-radius: 8px 8px 8px 8px;
+	behavior: url(css/border-radius.htc);
 	text-transform: uppercase;
 	font-size: 10px;
 	font-weight: bold;
@@ -765,7 +789,8 @@ table { border-collapse: collapse; border-spacing: 0; }
     padding: 5px 10px;
 	margin: 0 5px;	
 	text-decoration: none !important;
-	border-radius: 3px;
+	border-radius: 3px 3px 3px 3px;
+	behavior: url(css/border-radius.htc);
 	font-size: 12px;
 	font-weight: bold;
 	text-align: center;
@@ -814,7 +839,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 	margin: 15px 0 0 5px;
 	background-color: #f9d08b;
 	box-shadow: 0px 0px 4px 0px #666666;
-	border-radius: 4px 4px 4px 4px;	
+	border-radius: 4px 4px 4px 4px;
+	behavior: url(css/border-radius.htc);	
 	border-top: 1px solid #ffdea7;
 	padding: 4px;
     }      
@@ -880,7 +906,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 		text-decoration: none;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
-		border-radius: 6px; 
+		border-radius: 6px 6px 6px 6px;
+		behavior: url(css/border-radius.htc); 
 		}
 	.bottom-table-control .table-page ul li a:hover,
 	.bottom-table-control .table-page ul li a.current {
@@ -923,7 +950,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	width:255px;
 	height:33px;
 	padding: 0;
-	border-radius: 0;
+	border-radius: 0 0 0 0;
 	font: 14px/100% Arial;
 	color: #999;
 	}
@@ -1017,7 +1044,8 @@ table { border-collapse: collapse; border-spacing: 0; }
     background-color: #fff298;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
+    behavior: url(css/border-radius.htc);
     border: 1px solid #c99a1c;
     min-height: 100px;
     width: 960px !important;
@@ -1049,7 +1077,8 @@ table { border-collapse: collapse; border-spacing: 0; }
         color: #ffffff;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
-        border-radius: 10px;
+        border-radius: 10px 10px 10px 10px;
+        behavior: url(css/border-radius.htc);
         margin-top: 22px;
         padding: 10px 0;
         }
@@ -1220,7 +1249,8 @@ ul.counters li
 				width: 100%;
 				-webkit-border-radius: 5px;
 				-moz-border-radius: 5px;
-				border-radius: 5px 5px 5px 5px; 				
+				border-radius: 5px 5px 5px 5px;
+				behavior: url(css/border-radius.htc); 				
 				}
 				
 				.ticket .top .status-info .ticket-number {
@@ -1532,6 +1562,7 @@ img.avatar {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #E4E4E4;
     border-radius: 3px 3px 3px 3px;
+    behavior: url(css/border-radius.htc);
     padding: 3px;
 }
 
@@ -1674,7 +1705,8 @@ padding: 10px;
 opacity: .9;
 background-color: #454545;
 -moz-border-radius: 4px;
-border-radius: 4px;
+border-radius: 4px 4px 4px 4px;
+behavior: url(css/border-radius.htc);
 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
 -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
 box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
@@ -1740,6 +1772,7 @@ border-right:8px solid #454545;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px 5px 5px 5px;
+        behavior: url(css/border-radius.htc);
         }
     .tkt-navbar ul li a:hover, .tkt-navbar ul li.active a 
     {
@@ -1767,15 +1800,34 @@ border-right:8px solid #454545;
             float: right;
             margin: -2px 0 -6px 15px;
             }
+            
+            .tkt-navbar ul li.tkt-delete a,
+            .tkt-navbar ul li.tkt-delete a:hover,
+            .tkt-navbar ul li.tkt-print a, 
+            .tkt-navbar ul li.tkt-print a:hover 
+            {
+                padding: 0;
+                margin:0;
+                background: transparent;
+                border: none;
+                }
 
-.tkt-action 
+.tkt-main-head 
 {
-    overflow: hidden;
-    margin: 15px 15px 0 0;
+    margin: 15px 15px 30px 0;
+    position: relative;
     }
-    .tkt-action .buttons 
+    
+.tkt-main-title 
+{
+    margin-right: 210px;
+    margin-left: 20px;
+    }
+    .tkt-main-title h1 span 
     {
-        float: right;
+        color: #777;
+        font-weight: normal;
+        font-size: 14px;
         }
     
 .tkt-initial-post 
@@ -1786,6 +1838,7 @@ border-right:8px solid #454545;
     padding: 15px;
     margin: 15px 0 20px 0;
     overflow: hidden;
+    position: relative;
     }
     
     .tkt-initial-post .avatar 
@@ -1860,17 +1913,20 @@ ol.commentlist  {
 	}
 
 .tkt-responses .gravatar {
-    background: url(images/bg-comment-tip.png) no-repeat scroll right 16px transparent;	
+    /* background: url(images/bg-comment-tip.png) no-repeat scroll right 16px transparent;	*/
 	left: 0;
     padding-right: 18px;
     position: absolute;
     top: 5px;
     z-index: 999;
+    width: 42px;
+    height: 42px;
+    border: none;
 }
     .tkt-responses .gravatar span 
     {
         position: absolute;
-        right: 16px;
+        right: 8px;
         top: -7px;
         }
     .tkt-responses .gravatar p
@@ -1889,6 +1945,7 @@ ol.commentlist  {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #E4E4E4;
     border-radius: 3px 3px 3px 3px;
+    behavior: url(css/border-radius.htc);
     padding: 3px;
 }
     .tkt-responses img.avatar.technician 
@@ -1900,21 +1957,25 @@ ol.commentlist  {
     background: none repeat scroll 0 0 #FAFAFA;
     border: 1px solid #E2E2E2;
     border-radius: 5px 5px 5px 5px;
+    behavior: url(css/border-radius.htc);
     margin-bottom: 20px;
     margin-left: 65px;
     padding: 15px;
     position: relative;
 }
 
+.tkt-initial-post .post .name,
 .tkt-responses .name {
     font-weight: bold;
     margin: 0 0 10px;
 }
+.tkt-initial-post .post .name a,
 .tkt-responses ol.commentlist .name a {
     font-size: 16px;
     text-decoration: none;
 	color: #000;
 }
+.tkt-initial-post .post .user-meta,
 .tkt-responses ol.commentlist .user-meta {
     color: #666666;
     font: italic 11px arial, sans-serif;
@@ -2033,6 +2094,7 @@ ol.commentlist  {
 			-webkit-border-radius: 5px;
 			-moz-border-radius: 5px;
 			border-radius: 5px 5px 5px 5px;
+			behavior: url(css/border-radius.htc);
 			border: 1px solid #105387; 
 			width: auto;
 			float: left;
