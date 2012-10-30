@@ -33,7 +33,7 @@
             </div>
         </div>
          
-        <div class="section ltblue">
+        <div class="section">
             <div class="tkt-start-date left">26-Jun-2012</div>
             <div class="tkt-last-date right"><small>Last Updated</small> Jun 27, 2012 10:20</div>
         </div> 
@@ -41,28 +41,19 @@
         <div class="section gold">
 
             <div class="tkt-account left">
-                <p>User Name / Account</p>
+                <p>User Name</p>
                 <h3>Ben Pfohl</h3>
-                <p><small>bigWebApps HelpDesk Support (Internal) | Atlanta</small></p>
+                <p><small>(Internal) | Atlanta</small></p>
             </div>
 
             <div class="tkt-tech right">
                 <p>Assigned to</p>
                 <h3>Igor Vladyka</h3>
-                <p><small>bigWebApps HelpDesk Support (Internal) | Atlanta</small></p>
+                <p><small>(Internal) | Atlanta</small></p>
             </div>
 
         </div> 
 
-        <div class="section">
-            <div class="tkt-detail-options">
-                <p class="item"><a href="#">Follow Up Date</a> <span>...</span></p>
-                <p class="item"><a href="#">Class</a> <span>HelpDesk</span></p>
-                <p class="item"><a href="#">Project</a> <span>...</span></p>
-                <p class="item"><a href="#">Folder</a> <span>...</span></p>
-            </div>
-        </div>
-         
         <div class="section">
             <div class="tkt-priority left">
                 <p><small>Priority</small></p>
@@ -75,7 +66,64 @@
             <p class="center">SLA Response Date: <strong>6/27/2012 09:11AM</strong> <small>(UTC-5)(-2h -3m)</small></p>
         </div>
 
-        <div class="section ltblue">
+        <div class="section">
+            <div class="tkt-detail-options">
+                <div class="dtl-row">
+                    <div class="item left">
+                        <a href="#">Follow Up Date</a>
+                    </div>
+                    <div class="item-det right">
+                        zdxfgasdgfsl;ksdhflghsldkjfhglkjsdhfguisertlkgjhlkidushfiusheltrjghsoliuhgljhklkjsehtlrgiuseghljsh
+                    </div>
+                </div>
+
+                <div class="dtl-row">
+                    <div class="item left">
+                        <a href="#">Class</a>
+                    </div>
+                    <div class="item-det right">
+                        <select>
+                            <option value="HelpDesk">HelpDesk</option>
+                        </select> 
+                    </div>
+                </div>
+
+                <div class="dtl-row">
+                    <div class="item left">
+                        <a href="#">Project</a>
+                    </div>
+                    <div class="item-det right">
+                        <select>
+                            <option value="HelpDesk">&nbsp;</option>
+                            <option value="HelpDesk">SherpaDesk</option>
+                            <option value="HelpDesk">HelpDesk</option>
+                        </select> 
+                    </div>
+                </div>
+                
+                <div class="dtl-row">
+                    <div class="item left">
+                        <a href="#">Folder</a>
+                    </div>
+                    <div class="item-det right">
+                        ...
+                    </div>
+                </div>           
+                
+                <div class="dtl-row">
+                    <div class="item left" title="Some long ass custom field">
+                        <a href="#">Some long ass custom field</a>
+                    </div>
+                    <div class="item-det right">
+                        <input type=text />
+                    </div>
+                </div> 
+            </div>
+        </div>
+         
+        
+
+        <div class="section drkblue">
             <div class="tkt-hours left">
                 <p>Hours</p>
                 <h2>1.51<span>hrs</span></h2>
@@ -142,15 +190,15 @@
     <div class="ticket-detail-right">
         
         <!-- Right Side Navbar -->
-        <div class="top-nav tkt-navbar">
+        <div class="selected-controls">
             <ul>
-                <li class="active"><a href="views/ticketDetail.htm">Responses</a></li>
-                <li><a href="views/time.htm">Time</a></li>
-                <li><a href="views/assignments.htm">Assignments</a></li>
-                <li><a href="views/related.htm">Related</a></li>
-                <li><a href="views/todos.htm">ToDos</a></li>
-                <li class="tkt-delete"><a href="#"><img src="../images/trash_box.png" title="Trash Ticket" /></a></li>
-                <li class="tkt-print"><a href="#"><img src="../images/printer.png" title="Print" /></a></li>  
+                <li><a class="pillbutton" href="views/ticketDetail.htm">Responses</a></li>
+                <li><a class="pillbutton" href="views/time.htm">Time</a></li>
+                <li><a class="pillbutton" href="views/assignments.htm">Assignments</a></li>
+                <li><a class="pillbutton" href="views/related.htm">Related</a></li>
+                <li><a class="pillbutton" href="views/todos.htm">ToDos</a></li>
+                <li class="tkt-delete right"><a href="#"><img src="../images/trash_box.png" title="Trash Ticket" /></a></li>
+                <li class="tkt-print right"><a href="#"><img src="../images/printer.png" title="Print" /></a></li>  
             </ul>
         </div>
         
@@ -158,7 +206,7 @@
         <div class="tkt-main-stage">               	
 	        <div class="tkt-main-head">
                 <div class="tkt-main-title">
-                    <h1>Page Help clean up sdfgsdfgsdgfsdfgsdfg sdfg sdgf sdfg sdf sdfg twth dfgbnwrth dfnfn <span>(Is it Me Your Looking For? <i> - 5 days ago</i>)</span></h1>
+                    <h1>Page Help clean up sdfgsdfgsdgfsdfgsdfg sdfg sdgf sdfg sdf sdfg twth dfgbnwrth dfnfn <br /><span>(Is it Me Your Looking For? <i> - 5 days ago</i>)</span></h1>
                 </div>
 	            <div class="add-item ticket-action">
 				    <ul>                        
@@ -226,7 +274,7 @@
 				    </li>					            
 				    <li>
 					    <div class="gravatar">
-                            <span><img src="../images/check-icon.png" /></span>
+                            <span><img src="../images/tech-ico.png" /></span>
 						    <img class="avatar technician" src="../images/gravatar.png" width="40" height="40">
                             <p>Technician</p>
 					    </div>

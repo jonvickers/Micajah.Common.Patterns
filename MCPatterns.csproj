@@ -280,6 +280,8 @@
     <Content Include="SherpaDeskv2\images\slider_center.png" />
     <Content Include="SherpaDeskv2\images\slider_left.png" />
     <Content Include="SherpaDeskv2\images\slider_right.png" />
+    <Content Include="SherpaDeskv2\images\tech-ico.png" />
+    <Content Include="SherpaDeskv2\images\ticket-action-drop.png" />
     <Content Include="SherpaDeskv2\images\ticket-icons.png" />
     <Content Include="SherpaDeskv2\images\Ticket.png" />
     <Content Include="SherpaDeskv2\images\tickets.png" />
@@ -287,6 +289,7 @@
     <Content Include="SherpaDeskv2\images\top-search\down.png" />
     <Content Include="SherpaDeskv2\images\top-search\search.png" />
     <Content Include="SherpaDeskv2\images\top-search\up.png" />
+    <Content Include="SherpaDeskv2\images\trash_box.png" />
     <Content Include="SherpaDeskv2\images\unconfirmed.png" />
     <Content Include="SherpaDeskv2\images\waiting.png" />
     <Content Include="SherpaDeskv2\js\checkboxes\on-off-checkboxes.css" />

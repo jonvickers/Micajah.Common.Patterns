@@ -1583,12 +1583,13 @@ img.avatar {
         border-bottom: 1px solid #d1d1d1;
         padding: 10px;
         margin: 0;
+        overflow: hidden;
         /* text-shadow: 1px 1px 1px #ffffff; */
         }
         
-        .ticket-detail-left div.section a 
+        /*.ticket-detail-left div.section a 
         {
-            text-decoration: underline;
+            
             }
         .ticket-detail-left div.section span 
         {
@@ -1597,7 +1598,7 @@ img.avatar {
             margin-left: 5px;
             }
         
-        .ticket-detail-left div.section .item {margin: 10px 0;}
+         .ticket-detail-left div.section .item {margin: 0 0 10px 0;} */
         
         .ticket-detail h1,
         .ticket-detail h2,
@@ -1640,6 +1641,48 @@ img.avatar {
         {
             font-weight: normal;
             }
+     
+     .dtl-row 
+     {
+        position:relative;
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box; 
+        box-sizing: border-box; 
+        overflow: hidden;
+        width: 100%;
+        padding-bottom: 5px;
+        margin: 0 0 5px 0;
+        border-bottom: 1px solid white;
+         }
+         .dtl-row .item 
+         {
+            width:30%;
+            padding: 0;
+            margin: 0;
+             }
+             .dtl-row .item a:hover {text-decoration: underline;}
+        .dtl-row .item-det 
+        {
+            text-align: left;
+            font-weight: bold;
+            font-size: 15px;
+            width:69%;
+            padding: 2px 0 0 0;
+            margin: -2px 0 0 0;
+            word-wrap: break-word;
+            }
+            .dtl-row .item-det input,
+            .dtl-row .item-det select 
+            {
+                width: 100%;
+                -webkit-box-sizing: border-box; 
+                -moz-box-sizing: border-box; 
+                box-sizing: border-box;
+                padding: 7px;
+                }
+     
+     
+     
       /* temp css to show where to edit sidebar items */      
       .itemEdit  
       {
@@ -1654,13 +1697,13 @@ img.avatar {
         .ticket-detail-left div.section.drkblue 
         {
             color: #ffffff;
-            background-color: #004174;
-            border-top: 1px solid #1a5b8f;
-            border-bottom: 1px solid #083558;
+            background-color: #2E7DBA !important;
+            border-top: 1px solid #60A3D7;
+            border-bottom: 1px solid #14619D;
             /* text-shadow: 1px 1px 1px #083558; */
             overflow: hidden;
             }
-        .ticket-detail-left div.section.ltblue 
+        .ticket-detail-left div.section.blue 
         {
             color: #ffffff;
             background-color: #058dc7;
@@ -1671,8 +1714,9 @@ img.avatar {
             }
         .ticket-detail-left div.section.gold 
         {
-            background-color: #fff298;
-            border-bottom: 1px solid #c99a1c;
+            background-color: #FFFAD5;
+            border-bottom: 1px solid #EDE4A2;
+            color: #222222;
             /* text-shadow: 1px 1px 1px #f0e17a; */
             overflow: hidden;
             }
@@ -1750,12 +1794,17 @@ border-right:8px solid #454545;
     min-height: 100px;       
     }
 
+.ticket-detail-right .selected-controls 
+{
+    border-bottom: 1px solid #EDE4A2;
+    }
+
 .tkt-navbar 
 {
     color: #ffffff;
-    background-color: #004174;
-    border-top: 1px solid #1a5b8f;
-    border-bottom: 1px solid #083558;
+    background-color: #2E7DBA !important;
+    border-top: 1px solid #60A3D7;
+    border-bottom: 1px solid #14619D;
     height: auto;
     margin: 0;
     overflow: hidden;
@@ -1794,10 +1843,9 @@ border-right:8px solid #454545;
             margin: 0;
             padding: 0; 
             }
-        .tkt-navbar ul li.tkt-delete,
-        .tkt-navbar ul li.tkt-print 
+        ul li.tkt-delete,
+        ul li.tkt-print 
         {
-            float: right;
             margin: -2px 0 -6px 15px;
             }
             
@@ -1984,8 +2032,9 @@ ol.commentlist  {
     right: 15px;
     top: 20px;
 }
-.tkt-responses ol.commentlist .comment-entry {
+.comment-entry {
     font-size: 13px;
+    line-height: 20px;
 }
 
 .tkt-responses .best-answer 
