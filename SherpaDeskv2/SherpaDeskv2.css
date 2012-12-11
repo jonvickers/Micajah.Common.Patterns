@@ -1480,26 +1480,51 @@ tr.ticket-list-single-top
 {
     font-weight: bold;
     font-size: 15px;
-    background-color: #007db3 !important; /* #004174 */
-    color: #FFFFFF;
+    background-color: #FAFAFA !important; /* #004174 */
+    color: #222222 !important;
     text-align: left;
-    border-bottom: 1px solid #006894 !important; /* #003157 */
-    border-top: 1px solid #0a89bf !important;
+    border-bottom: 1px solid #C9C9C9 !important; /* #003157 */
+    border-top: 1px solid #cccccc !important;
     }
     
 tr.ticket-list-single-top td a
 {
     font-weight: bold;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #222222;
+    padding: 4px 0px;
     }
 
-tr.ticket-list-single-top.closed 
+tr.ticket-list-single-top td div.tkt-status
 {
-    background-color: #aaaaaa !important;
-    border-bottom: 1px solid #8e8e8e !important;
-    border-top: 1px solid #cccccc !important;
+    padding: 4px 15px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid;
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    width: 75px;
+    text-align: center;
+    position:relative;
     }
+
+tr.ticket-list-single-top td div.tkt-status.open 
+{
+    background-color: #92C74F !important;
+    border-color: #79A541;
+    }
+tr.ticket-list-single-top td div.tkt-status.onhold 
+{
+    background-color: #ca7c16 !important;
+    border-color: #aa6102;
+    }
+tr.ticket-list-single-top td div.tkt-status.closed 
+{
+    background-color: #797979 !important;
+    border-color: #5a5a5a;
+    }
+
 
 table thead th a:hover,
 table.ticket-list-control td a:hover, 
@@ -1531,14 +1556,18 @@ tr.ticket-list-single-top td
 tr.ticket-list-single-bot td 
 {
     font-size: 12px;
-    background-color: #eeeeee !important;
-    padding: 4px;
-    /* text-shadow: 1px 1px 1px #ffffff; */
-    filter: dropshadow(color=#ffffff, offx=1, offy=1);
+    background-color: #2E7DBA !important;
+    padding: 8px;
+    color:#ffffff;
+    }
+
+tr.ticket-list-single-bot 
+{
+    border-top: 1px solid #ffffff !important;
+    border-bottom: 1px solid #135283 !important;
     }
     
-thead.ticket-list-header tr,
-tr.ticket-list-single-bot 
+thead.ticket-list-header tr
 {
     border-top: 1px solid #ffffff !important;
     border-bottom: 1px solid #d9d9d9 !important;
@@ -2233,6 +2262,27 @@ ol.commentlist  {
     text-align: right;
     width: 125px;
     }
+    
+/*------------------------------------- Error Pop up -------------------------------------*/
+.cc-error-content 
+    {
+        width: 400px;
+        overflow: hidden;
+        text-align: center;
+        padding: 20px;
+        }
+        .cc-error-content h2 
+        {
+            font-size: 28px;             
+            }
+            .cc-error-content h2 strong 
+            {
+                color: #ffc000;
+                }
+        .cc-error-content p 
+        {
+           font-size: 18px; 
+            }
 
 /* =============================================================================
    Non-semantic helper classes

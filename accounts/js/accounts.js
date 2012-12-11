@@ -20,23 +20,13 @@ $(document).ready(function () {
         'transitionIn': 'none',
         'transitionOut': 'none'
     });
-
-    // Progress bars - set values
-    $("#progressbar1").progressbar({
-
-        value: 60,
-        barImage: {
-            0: '../../accounts/css/images/ui-bg_gloss-wave_50_6eac2c_500x100',
-            50: '../../accounts/css/images/ui-bg_gloss-wave_50_6eac2c_500x100.png',
-            100: '../../accounts/css/images/ui-bg_gloss-wave_45_e14f1c_500x100.png'
-        },
+    $("#inline2").fancybox({       
+        'titlePosition': 'inside',
+        'transitionIn': 'none',
+        'transitionOut': 'none'
     });
-    $("#progressbar2").progressbar({ value: 50 });
-    $("#progressbar3").progressbar({ value: 04 });
-    $("#progressbar4").progressbar({ value: 40 });
-    $("#progressbar5").progressbar({ value: 25 });
-    $("#progressbar6").progressbar({ value: 100 });
-    $("#progressbar7").progressbar({ value: 50 });
+
+ 
 
     // set body tag for menu - active
     $("body").attr("id", "accounts");

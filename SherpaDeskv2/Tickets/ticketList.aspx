@@ -10,7 +10,8 @@
     <div class="top-nav sub-nav">
         <div class="wrapper">
             <ul>
-                <li class="active"><a href="ticketList.aspx">All Open</a></li>
+                <li class="active"><a href="ticketList.aspx">Open</a></li>
+                <li><a href="#">Closed</a></li>
                 <li><a href="#">Follow Ups</a></li>
                 <li><a href="#">Folders</a></li>
             </ul>
@@ -55,19 +56,20 @@
                 <li><a class="pillbutton" href="#">As Tech</a></li>
                 <li><a class="pillbutton" href="#">As Alt Tech</a></li>
                 <li><a class="pillbutton active" href="#">As User</a></li>
+                <li><a class="pillbutton" href="#">All Open</a></li>
 	        </ul>
 	    </div>
 	                        
 	    <div class="right">
 	        <ul>	            
-	            <li><a class="pillbutton" href="#">Columns</a></li>
+	            <li><a class="pillbutton" href="#">Print All</a></li>
+                <li><a class="pillbutton" href="#">Columns</a></li>
 	            <li><a class="pillbutton drop" href="#">Filters</a>
                     <ul>
                         <li>Edit</li>
                         <li>Enable</li>
                     </ul>
                 </li>
-                <li><strong>304</strong> Tickets</li>
 	        </ul>
 	    </div>
 	</div><!-- End selected Controls -->
@@ -83,18 +85,18 @@
                 <th><a href="#">Class</a></th>
                 <th><a href="#">Priority</a></th>
                 <th><a href="#">Level</a></th>
-                <th><a href="#">Status</a></th>
-                <th><a href="#">Workday Timer</a></th>
+                <th><a href="#">Status</a> | <a href="#">Timer</a></th>
             </tr>
             <tr class="ticket-list-single-seperator">
-                <td colspan="9"></td>
+                <td colspan="8"></td>
             </tr>
         </thead>
         <tbody>
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td align="center"><div class="tkt-status open">Open</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -104,17 +106,17 @@
                 <td>HelpDesk</td>
                 <td>P-5</td>
                 <td>L-3</td>
-                <td>Open</td>
                 <td>5h 16m</td>    
             </tr>
             <tr class="ticket-list-single-seperator">
-                <td colspan="9"></td>
+                <td colspan="8"></td>
             </tr>
 
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Something is wrong with the login</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Something is wrong with the login</a> <span><a href="#">Edit</a></span></td>
+                <td align="center"><div class="tkt-status open">Open</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -124,17 +126,17 @@
                 <td>HelpDesk</td>
                 <td>P-5</td>
                 <td>L-3</td>
-                <td>Open</td>
                 <td>5h 16m</td>    
             </tr>
             <tr class="ticket-list-single-seperator">
-                <td colspan="9"></td>
+                <td colspan="8"></td>
             </tr>
 
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm having problems with creating a new ticket</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm having problems with creating a new ticket</a> <span><a href="#">Edit</a></span></td>
+                <td align="center"><div class="tkt-status onhold">On Hold</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -144,17 +146,17 @@
                 <td>HelpDesk</td>
                 <td>P-5</td>
                 <td>L-3</td>
-                <td>Open</td>
                 <td>5h 16m</td>    
             </tr>
             <tr class="ticket-list-single-seperator">
-                <td colspan="9"></td>
+                <td colspan="8"></td>
             </tr>
 
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">What happened to the images I uploaded?</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">What happened to the images I uploaded?</a> <span><a href="#">Edit</a></span></td>
+                <td align="center"><div class="tkt-status closed">Closed</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -164,17 +166,17 @@
                 <td>HelpDesk</td>
                 <td>P-5</td>
                 <td>L-3</td>
-                <td>Open</td>
                 <td>5h 16m</td>    
             </tr>
             <tr class="ticket-list-single-seperator">
-                <td colspan="9"></td>
+                <td colspan="8"></td>
             </tr>
 
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="8"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm locked out of my account</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm locked out of my account</a> <span><a href="#">Edit</a></span></td>
+                <td align="center"><div class="tkt-status open">Open</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
                 <td><input type="checkbox" /></td>   
@@ -184,11 +186,10 @@
                 <td>HelpDesk</td>
                 <td>P-5</td>
                 <td>L-3</td>
-                <td>Open</td>
                 <td>5h 16m</td>    
             </tr>
             <tr class="ticket-list-single-seperator">
-                <td colspan="9"></td>
+                <td colspan="8"></td>
             </tr>
                 
         </tbody>

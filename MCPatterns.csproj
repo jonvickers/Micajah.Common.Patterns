@@ -222,6 +222,7 @@
     <Content Include="SherpaDeskv2\css\todoLists-temp.css" />
     <Content Include="SherpaDeskv2\default.aspx" />
     <Content Include="SherpaDeskv2\accounts-detail\accounts.aspx" />
+    <Content Include="SherpaDeskv2\example-popups.aspx" />
     <Content Include="SherpaDeskv2\images\account-details\charts-mockups.png" />
     <Content Include="SherpaDeskv2\images\arrow.gif" />
     <Content Include="SherpaDeskv2\images\bg-comment-tip.png" />
@@ -555,6 +556,13 @@
     </Compile>
     <Compile Include="SherpaDeskv2\accounts-detail\accounts.aspx.designer.cs">
       <DependentUpon>accounts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SherpaDeskv2\example-popups.aspx.cs">
+      <DependentUpon>example-popups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SherpaDeskv2\example-popups.aspx.designer.cs">
+      <DependentUpon>example-popups.aspx</DependentUpon>
     </Compile>
     <Compile Include="SherpaDeskv2\locations\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
