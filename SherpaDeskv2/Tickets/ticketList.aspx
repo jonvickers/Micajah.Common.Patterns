@@ -85,7 +85,8 @@
                 <th><a href="#">Class</a></th>
                 <th><a href="#">Priority</a></th>
                 <th><a href="#">Level</a></th>
-                <th><a href="#">Status</a> | <a href="#">Timer</a></th>
+                <th><a href="#">Timer</a></th>
+                <th><a href="#">Status</a></th>
             </tr>
             <tr class="ticket-list-single-seperator">
                 <td colspan="8"></td>
@@ -95,7 +96,7 @@
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="7"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Need a cost page</a> <span><a href="#">Edit</a></span></td>
                 <td align="center"><div class="tkt-status open">Open</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
@@ -106,7 +107,8 @@
                 <td>HelpDesk</td>
                 <td>P-5</td>
                 <td>L-3</td>
-                <td>5h 16m</td>    
+                <td>5h 16m</td>
+                <td></td>     
             </tr>
             <tr class="ticket-list-single-seperator">
                 <td colspan="8"></td>
@@ -115,7 +117,7 @@
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Something is wrong with the login</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="7"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">Something is wrong with the login</a> <span><a href="#">Edit</a></span></td>
                 <td align="center"><div class="tkt-status open">Open</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
@@ -126,7 +128,8 @@
                 <td>HelpDesk</td>
                 <td>P-5</td>
                 <td>L-3</td>
-                <td>5h 16m</td>    
+                <td>5h 16m</td>  
+                <td></td>   
             </tr>
             <tr class="ticket-list-single-seperator">
                 <td colspan="8"></td>
@@ -135,7 +138,7 @@
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm having problems with creating a new ticket</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="7"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm having problems with creating a new ticket</a> <span><a href="#">Edit</a></span></td>
                 <td align="center"><div class="tkt-status onhold">On Hold</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
@@ -146,7 +149,8 @@
                 <td>HelpDesk</td>
                 <td>P-5</td>
                 <td>L-3</td>
-                <td>5h 16m</td>    
+                <td>5h 16m</td> 
+                <td></td>    
             </tr>
             <tr class="ticket-list-single-seperator">
                 <td colspan="8"></td>
@@ -155,7 +159,7 @@
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">What happened to the images I uploaded?</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="7"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">What happened to the images I uploaded?</a> <span><a href="#">Edit</a></span></td>
                 <td align="center"><div class="tkt-status closed">Closed</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
@@ -165,8 +169,9 @@
                 <td></td>
                 <td>HelpDesk</td>
                 <td>P-5</td>
-                <td>L-3</td>
-                <td>5h 16m</td>    
+                <td>L-3</td>                
+                <td>5h 16m</td>
+                <td></td>    
             </tr>
             <tr class="ticket-list-single-seperator">
                 <td colspan="8"></td>
@@ -175,7 +180,7 @@
             <!-----------------------------------------One Ticket End----------------------------------------------------->
             <tr class="ticket-list-single-top">
                 <td class="ticket-list-single-num"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">14 106</a></td>
-                <td class="ticket-list-single-title" colspan="6"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm locked out of my account</a> <span><a href="#">Edit</a></span></td>
+                <td class="ticket-list-single-title" colspan="7"><a href="../../SherpaDeskv2/Tickets/ticketDetail.aspx">I'm locked out of my account</a> <span><a href="#">Edit</a></span></td>
                 <td align="center"><div class="tkt-status open">Open</div></td>
             </tr>
             <tr class="ticket-list-single-bot">
@@ -186,7 +191,8 @@
                 <td>HelpDesk</td>
                 <td>P-5</td>
                 <td>L-3</td>
-                <td>5h 16m</td>    
+                <td>5h 16m</td>
+                <td></td>     
             </tr>
             <tr class="ticket-list-single-seperator">
                 <td colspan="8"></td>
