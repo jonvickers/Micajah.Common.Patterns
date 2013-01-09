@@ -181,11 +181,18 @@
 </div>  End Bottom Container-->
 
 
-<div class="container">
-    <div class="grid_12">
-        
+
+<!-------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+--                                                                                         --
+--                                   Widgets section                                       --
+--                                                                                         --
+---------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------->
+
+<div class="container widgets-section">       
                 <!--Start Todos -->
-                <div class="widgets todo-widget">
+                <div class="grid_6 widgets todo-widget">
                     <h2>My ToDo List</h2>
                     <ul class="list-list">
     	                <li class="list-row">              
@@ -258,7 +265,7 @@
                 </div><!--End Todos -->
 
                 <!--Start Widget -->
-                <div class="widgets">
+                <div class="grid_3 widgets">
                     <div class="row">
                         <div class="span4">
                             <h2>Tickets in Queue(s)</h2>
@@ -293,29 +300,8 @@
                 </div><!--End widget -->
                 
                            
-                <!--Start Widget -->
-                <div class="widgets">
-                    <div class="row">
-                        <div class="span4">
-                            <h2>Audits</h2>
-                        </div>
-                        <table>
-                            <tr>
-                                <td><a href="#">Audit Dashboard</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="#">Audit History</a></td>
-                            </tr> 
-                            <tr>
-                                <td><a href="#">My Audit Assignments</a></td>
-                            </tr>                      
-                        </table>
-                    </div>                    
-                </div><!--End widget -->  
-                
-                            
-        
-    </div>
+               
+
 </div>
 
 </asp:Content>

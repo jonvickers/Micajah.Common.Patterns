@@ -30,31 +30,7 @@
 	        text-align: center;
 	        }
 	    
-	    /*  REMOVED FOR NEW POPUP
-	    .todo-list-control .add-list-form span.close {
-		        position: absolute;
-		        right: 10px;
-		        top: 10px;
-		        font-weight: bold;
-		        font-family: sans-serif;
-		        cursor: pointer;
-	        }
-	    .todo-list-control .add-list-name
-	    {
-	        float: left;
-	        margin: 0 20px 0 80px;
-	        
-	        }        
-	        
-	        .todo-list-control .add-list-name input 
-	        {
-	            width: 500px;
-	            padding: 0.625em;
-	            }
-	        .todo-list-control .add-list-name .add-list-submit 
-	        {
-	            
-	            } */
+	   
 	
 	.add-list 
 	{
@@ -122,8 +98,6 @@
                 width: 55% !important;
                 }
 			.list-asigned-to{
-				float: left;
-				margin-right: 20px;
 				width: 120px;
 				}
 				.list-asigned-to .pill 
@@ -131,7 +105,6 @@
 				    padding: 6px 8px;
 				    }
 			.list-date{
-				float: left;
 				margin: 0 10px 0;
 				}
 			.list-est-time{

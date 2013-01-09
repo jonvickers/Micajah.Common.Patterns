@@ -1189,23 +1189,38 @@ ul.counters li
         margin-top: 20px;
         }
 
-.widgets 
+
+/*---------------------  Widgets Sections   -----------------------------*/
+
+
+/* .widgets 
 {
     min-width: 250px;
     float: left;
     margin-right: 30px;
     margin-top: 40px;
-    }
+    }*/
 
-.widgets.todo-widget
+/*.widgets.todo-widget
 {
     width: 700px;
-    /* min-width: 696px; */
-    }
+    }*/
 
+.widgets 
+{
+    border: 1px solid #CCC;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    }
+.widgets-section {margin-top: 50px;}
 
 .widgets table {font-size: 14px;}
 .widgets table td:last-child span {float: right; font-size: 14px;}
+
+
+
+
 
 /*--------------------- Ticket List -----------------------------*/
 
