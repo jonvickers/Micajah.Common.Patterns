@@ -266,11 +266,7 @@
 
                 <!--Start Widget -->
                 <div class="grid_3 widgets">
-                    <div class="row">
-                        <div class="span4">
-                            <h2>Tickets in Queue(s)</h2>
-                        </div>
-                    </div>
+                    <h2>Tickets in Queue(s)</h2>
                     <table>
                         <tr>
                             <td>Configuration Updates Queue</td>
