@@ -67,6 +67,7 @@
         <div class="top-nav">
     	    <div class="wrapper">
                 <ul>                    
+                    <li><a href="../../SherpaDeskv2/">Home</a></li>
                     <li><a href="../../SherpaDeskv2/Tickets/ticketList.aspx">Tickets</a></li>
                     <li><a href="../../SherpaDeskv2/accounts-detail/accounts.aspx">Accounts</a></li>
                     <li><a href="../../SherpaDeskv2/projects/">Projects</a></li>
@@ -111,9 +112,7 @@
                 </div>
                 <div id="right-foot">
             	    <ul>
-                	    <li id="footer-logo"><img src="../../SherpaDeskv2/images/footer-logo.png" alt="SherpaDesk"></li>
-                        <li><strong><a href="https://login.bigwebapps.com/portal/?dept=6f5bg5&org=rn062f">Support</a> | (866) 996-1200 x2</strong></li>
-                        
+                	    <li id="footer-logo"><img src="../../SherpaDeskv2/images/footer-logo.png" alt="SherpaDesk"></li>                        
                     </ul>
                 </div>
             </div>

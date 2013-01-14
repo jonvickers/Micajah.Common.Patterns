@@ -3,6 +3,8 @@
 
     <link href="js/checkboxes/on-off-checkboxes.css" rel="stylesheet" type="text/css" />
     <link href="css/todoLists-temp.css" rel="stylesheet" type="text/css" />
+    <link href="../../accounts/css/tooltips_main.css" rel="stylesheet" type="text/css" />
+    <link href="../../accounts/css/tooltips_styles.css" rel="stylesheet" type="text/css" />
 
 </asp:Content>
 
@@ -11,26 +13,11 @@
 </asp:Content>
 
 <asp:Content ID="Content5" ContentPlaceHolderID="subMenu" runat="server">
-    <div class="top-nav sub-nav">
-        <div class="wrapper">
-            <ul>
-                <li><a href="#">End of Day Worksheet</a></li>
-                <li><a href="#">Folders</a></li>
-                <li><a href="#">Advanced Search</a></li>
-            </ul>
-        </div><!-- End Wrapper -->
-    </div><!-- End Nav -->   
+
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="announcement1" runat="server">
-    <div id="announcement">
-        <div class="wrapper notification success">
-		    <a href="#" class="close"><img src="../../notifications/img/cross_grey_small.png" title="Close this notification" alt="close" /></a>
-		    <div>
-			    <strong>Success notification.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero.
-		    </div>
-	    </div>
-    </div>
+    
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"><!-- Main Content -->
@@ -193,7 +180,8 @@
 <div class="container widgets-section">       
                 <!--Start Todos -->
                 <div class="grid_6 widgets todo-widget">
-                    <h2>My ToDo List</h2>
+                <div class="widget-head"><h2>My ToDo List</h2></div>
+                    
                     <ul class="list-list">
     	                <li class="list-row">              
         	                <div class="list-select">
@@ -265,32 +253,33 @@
                 </div><!--End Todos -->
 
                 <!--Start Widget -->
-                <div class="grid_3 widgets">
-                    <h2>Tickets in Queue(s)</h2>
+                <div class="grid_3 widgets queues">
+                    <div class="widget-head"><h2>Queue(s)</h2></div>
+                    
                     <table>
-                        <tr>
+                        <tr class="tooltip_right tooltip">
                             <td>Configuration Updates Queue</td>
-                            <td><span class="pill drkblue">0</span></td>
+                            <td><span>1st Tech is always FREE.<br />$9.00 / month for additional techs</span><div class="pill drkblue">0</div></td>
                         </tr>
                         <tr>
                             <td>Future Consideration Queue</td>
-                            <td><span class="pill drkblue">261</span></td>
+                            <td><div class="pill drkblue">261</div></td>
                         </tr>
                         <tr>
                             <td>New Ticket Queue</td>
-                            <td><span class="pill drkblue">0</span></td>
+                            <td><div class="pill drkblue">0</div></td>
                         </tr>
                         <tr>
                             <td>Pre-Development Queue</td>
-                            <td><span class="pill drkblue">36</span></td>
+                            <td><div class="pill drkblue">36</div></td>
                         </tr>
                         <tr>
                             <td>SherpaDesk Queue</td>
-                            <td><span class="pill drkblue">1</span></td>
+                            <td><div class="pill drkblue">1</div></td>
                         </tr>
                         <tr>
                             <td>WareHouse Queue</td>
-                            <td><span class="pill drkblue">9</span></td>
+                            <td><div class="pill drkblue">9</div></td>
                         </tr>
                     </table>
                 </div><!--End widget -->
@@ -319,6 +308,13 @@
         $('.time-close').click(function () {
             $('.time-logger').slideUp(300);
         });
+
+        //-- This is just for the Queues widget
+
+        $('div.queues table tr').hover(
+            function () { $this.append('<div class=addTicket>Add Ticket</div>'); },
+            function () { $this.remove()}
+        );
 
     </script>   
 

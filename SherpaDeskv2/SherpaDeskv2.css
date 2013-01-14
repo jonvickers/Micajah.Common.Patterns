@@ -1193,19 +1193,6 @@ ul.counters li
 /*---------------------  Widgets Sections   -----------------------------*/
 
 
-/* .widgets 
-{
-    min-width: 250px;
-    float: left;
-    margin-right: 30px;
-    margin-top: 40px;
-    }*/
-
-/*.widgets.todo-widget
-{
-    width: 700px;
-    }*/
-
 .widgets 
 {
     border: 1px solid #CCC;
@@ -1213,12 +1200,36 @@ ul.counters li
     box-sizing: border-box;
     border-radius: 10px;
     }
+.widgets h2 {font-size: 18px; margin: 0; float: left;}    
+.widgets .widget-head 
+{
+    padding: 10px 20px;
+    margin: -20px -20px 10px;
+    color: white;
+    background-color: #004174;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;    
+    }
+
 .widgets-section {margin-top: 50px;}
 
-.widgets table {font-size: 14px;}
+.widgets table {font-size: 14px; margin:0; padding:0;}
+
+.widgets table tr:first-child,
+.widgets table tbody,
+.widgets ul li:first-child,
+.widgets table tr:last-child,
+.widgets table tbody,
+.widgets ul li:last-child
+ {border: none;}
+
 .widgets table td:last-child span {float: right; font-size: 14px;}
 
 
+.widgets.queues tr:hover td div.addticket 
+{
+    
+    }
 
 
 
