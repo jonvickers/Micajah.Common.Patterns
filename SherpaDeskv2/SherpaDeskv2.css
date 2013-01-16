@@ -1210,6 +1210,20 @@ ul.counters li
     border-radius: 10px 10px 0 0;
     overflow: hidden;    
     }
+    
+    .widgets .widget-head p.widget-add 
+    {
+        float: right;
+        margin: 0;
+        padding: 4px 0 4px 30px;
+        background: url('../../SherpaDeskv2/images/plus-add.png') left center no-repeat;
+        }
+        
+        .widgets .widget-head p.widget-add a 
+        {
+            color: #ffffff;
+            font-weight: bold;
+            }
 
 .widgets-section {margin-top: 50px;}
 
@@ -1226,9 +1240,44 @@ ul.counters li
 .widgets table td:last-child span {float: right; font-size: 14px;}
 
 
-.widgets.queues tr:hover td div.addticket 
+.widgets.queues div.addticket 
 {
+    padding: 8px 15px 8px 30px;
+    background: rgba(139, 139, 139, 0.9) url('../../SherpaDeskv2/images/plus-add.png') 5px center no-repeat;
+    color: #ffffff;
+    border: 1px solid #4b4b4b;
+    -webkit-border-radius: 4px;    
+    border-radius: 4px;
+    position: absolute;
+    right: -95px;
+    margin-top: 5px;
+    }
     
+    .widgets.queues div.addticket::before 
+    {
+        content: " ";
+        display: block;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 7px 10px 7px 0;
+        border-color: transparent #4b4b4b transparent transparent;
+        position: absolute;
+        margin-top: 1px;
+        left: -10px;
+        z-index: 2;
+        }
+    
+    .widgets.queues div.addticket a 
+    {
+        color: #ffffff;
+        font-weight: bold;
+        }
+
+.widgets.queues .pill.drkblue 
+{
+    float: right;
+    font-size: 14px;
     }
 
 

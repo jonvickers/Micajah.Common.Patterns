@@ -180,7 +180,10 @@
 <div class="container widgets-section">       
                 <!--Start Todos -->
                 <div class="grid_6 widgets todo-widget">
-                <div class="widget-head"><h2>My ToDo List</h2></div>
+                <div class="widget-head">
+                    <h2>My ToDo List</h2>
+                    <p class="widget-add"><a href="#">Add ToDo List</a></p>
+                </div>
                     
                     <ul class="list-list">
     	                <li class="list-row">              
@@ -252,32 +255,35 @@
 
                 </div><!--End Todos -->
 
-                <!--Start Widget -->
+                <!--Start Widget -->                
                 <div class="grid_3 widgets queues">
-                    <div class="widget-head"><h2>Queue(s)</h2></div>
-                    
+                    <div class="widget-head">
+                        <h2>Queue(s)</h2>
+                        <p class="widget-add"><a href="#">Add Queue</a></p>
+                    </div>                   
                     <table>
-                        <tr class="tooltip_right tooltip">
+                        <tr data-queue="config_id">
                             <td>Configuration Updates Queue</td>
-                            <td><span>1st Tech is always FREE.<br />$9.00 / month for additional techs</span><div class="pill drkblue">0</div></td>
+                            <td><a href="#"><div class="pill drkblue">0</div></a></td>
+                            <div></div>
                         </tr>
-                        <tr>
+                        <tr data-queue="future_id">
                             <td>Future Consideration Queue</td>
                             <td><div class="pill drkblue">261</div></td>
                         </tr>
-                        <tr>
+                        <tr data-queue="newticket_id">
                             <td>New Ticket Queue</td>
                             <td><div class="pill drkblue">0</div></td>
                         </tr>
-                        <tr>
+                        <tr data-queue="predev_id">
                             <td>Pre-Development Queue</td>
                             <td><div class="pill drkblue">36</div></td>
                         </tr>
-                        <tr>
+                        <tr data-queue="sherpa_id">
                             <td>SherpaDesk Queue</td>
                             <td><div class="pill drkblue">1</div></td>
                         </tr>
-                        <tr>
+                        <tr data-queue="warehouse_id">
                             <td>WareHouse Queue</td>
                             <td><div class="pill drkblue">9</div></td>
                         </tr>
@@ -311,11 +317,12 @@
 
         //-- This is just for the Queues widget
 
-        $('div.queues table tr').hover(
-            function () { $this.append('<div class=addTicket>Add Ticket</div>'); },
-            function () { $this.remove()}
+        $('.widgets.queues table tr').hover(
+            function () { $(this).append('<div class="addticket"><a href="https://www.putLinkHere.com/' + $(this).data("queue") + '">Add Ticket</a></div>'); },
+            function () { $(this).find('div.addticket').remove(); }
         );
 
-    </script>   
+    </script>
+     
 
 </asp:Content>
