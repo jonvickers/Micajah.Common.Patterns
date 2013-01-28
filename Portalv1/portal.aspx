@@ -36,116 +36,64 @@
                  
              </div>
              
-             <div class="grid_12 alpha">
-            
-                <div class="grid_12 alpha omega">    
-                    
-                    <div class="grid_12 alpha omega category">
-                    	<h2>Getting Started</h2>
-                        <div class="grid_6 alpha">
-                        	<!-- Remove Sub-classes <h3>Initial Set-up</h3> -->
-                            <ul>
-                            	<li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="question.aspx">Question Title</a></li>
-                                <li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="question.aspx">Extra Extra Long Question Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
-                                <!-- Reove addisional More tag <li class="more"><a href="article-question.aspx">More...</a></li> -->
-                            </ul>
-                        </div>
-                        <div class="grid_6 omega">
-                        	<!-- <h3>Additional Examples</h3> -->
-                            <ul>
-                            	<li class="article"><a href="article-question.aspx">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id enim et leo laoreet vehicula</a></li>
-                            	<li class="question"><a href="question.aspx">Question Title</a></li>
-                                <li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="question.aspx">Question Title</a></li>
-                                <li class="more"><a href="article-question.aspx">More...</a></li>
-                            </ul>
-                        </div>
+            <div class="grid_12"><!-- This is the WRAPPER to keep it on the left -->
+                <div class="category-row"> <!-- This is the START of a row -->
+                    <div class="grid_6 alpha category">
+                    	<h2>Getting Started <span>Activity</span></h2>
+                        <ul>
+                            <li class="article"><a href="article-question.aspx"><span class="activity">5</span>Article Title</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">2</span>Question Title</a></li>
+                            <li class="article"><a href="article-question.aspx"><span class="activity">1</span>Article Title</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">>99</span>Extra Extra Long Question Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">1</span>Question Title</a></li>
+                            <li class="more"><a href="article-question.aspx">More...</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid_6 omega category">
+                        <h2>Email <span>Activity</span></h2>
+                        <ul>
+                            <li class="article"><a href="article-question.aspx"><span class="activity">5</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id enim et leo laoreet vehicula</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">0</span>Question Title</a></li>
+                            <li class="article"><a href="article-question.aspx"><span class="activity">23</span>Article Title</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">>99</span>Question Title</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">0</span>Question Title</a></li>
+                            <li class="more"><a href="article-question.aspx">More...</a></li>
+                        </ul>
+                    </div>
+	            </div><!-- This is the END of a row -->
+                <div class="category-row"> <!-- This is the START of a row -->
+                    <div class="grid_6 alpha category">
+                    	<h2>Portal <span>Activity</span></h2>
+                        <ul>
+                            <li class="article"><a href="article-question.aspx"><span class="activity">0</span>Article Title</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">0</span>Question Title</a></li>
+                            <li class="article"><a href="article-question.aspx"><span class="activity">0</span>Just Three in this Section</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid_6 omega category">
+                        <h2>Accounts <span>Activity</span></h2>
+                        <ul>
+                            <li class="article"><a href="article-question.aspx"><span class="activity">0</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id enim et leo laoreet vehicula</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">0</span>Just Two in this Section</a></li>
+                        </ul>
+                    </div>
+	            </div><!-- This is the END of a row -->
+                <div class="category-row"> <!-- This is the START of a row -->
+                    <div class="grid_6 alpha category">
+                    	<h2>Projects <span>Activity</span></h2>
+                        <ul>
+                            <li class="article"><a href="article-question.aspx"><span class="activity">0</span>Article Title</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">0</span>Question Title</a></li>
+                            <li class="article"><a href="article-question.aspx"><span class="activity">0</span>Article Title</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">0</span>Extra Extra Long Question Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">0</span>Question Title</a></li>
+                            <li class="more"><a href="article-question.aspx">More...</a></li>
+                        </ul>
                     </div>
                     
-                    <div class="clearfix"></div>
-                    
-                    <div class="grid_12 alpha omega category">
-                    	<h2>Category Title</h2>
-                        <div class="grid_6 alpha">
-                        	<!-- <h3>Sub-Category Title</h3> -->
-                            <ul>
-                            	<li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="question.aspx">Question Title</a></li>
-                                <li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="question.aspx">Question Title</a></li>
-                                <!-- <li class="more"><a href="article-question.aspx">More...</a></li> -->
-                            </ul>
-                        </div>
-                        <div class="grid_6 omega">
-                        	<!-- <h3>Sub-Category Title</h3> -->
-                            <ul>
-                            	<li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="question.aspx">Question Title</a></li>
-                                <li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="question.aspx">Question Title</a></li>
-                                <li class="more"><a href="article-question.aspx">More...</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="clearfix"></div>
-                    
-                    <div class="grid_12 alpha omega category">
-                    	<h2>Category Title</h2>
-                        <div class="grid_6 alpha">
-                        	<!-- <h3>Sub-Category Title</h3> -->
-                            <ul>
-                            	<li class="article"><a href="article-question.aspx">Article Title</a></li>
-                            	<li class="question"><a href="#">Question Title</a></li>
-                                <li class="article"><a href="#">Article Title</a></li>
-                            	<li class="question"><a href="#">Question Title</a></li>
-                                <!-- <li class="more"><a href="#">More...</a></li> -->
-                            </ul>
-                        </div>
-                        <div class="grid_6 omega">
-                        	<!-- <h3>Sub-Category Title</h3> -->
-                            <ul>
-                            	<li class="article"><a href="#">Article Title</a></li>
-                            	<li class="question"><a href="#">Question Title</a></li>
-                                <li class="article"><a href="#">Article Title</a></li>
-                            	<li class="question"><a href="#">Question Title</a></li>
-                                <li class="more"><a href="#">More...</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="clearfix"></div>
-                    
-                    <div class="grid_12 alpha omega category">
-                    	<h2>Category Title</h2>
-                        <div class="grid_6 alpha">
-                        	<!-- <h3>Sub-Category Title</h3> -->
-                            <ul>
-                            	<li class="article"><a href="#">Article Title</a></li>
-                            	<li class="question"><a href="#">Question Title</a></li>
-                                <li class="article"><a href="#">Article Title</a></li>
-                            	<li class="question"><a href="#">Question Title</a></li>
-                                <!-- <li class="more"><a href="#">More...</a></li> -->
-                            </ul>
-                        </div>
-                        <div class="grid_6 omega">
-                        	<!-- <h3>Sub-Category Title</h3> -->
-                            <ul>
-                            	<li class="article"><a href="#">Article Title</a></li>
-                            	<li class="question"><a href="#">Question Title</a></li>
-                                <li class="article"><a href="#">Article Title</a></li>
-                            	<li class="question"><a href="#">Question Title</a></li>
-                                <li class="more"><a href="#">More...</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="clearfix"></div>
-                    
-	            </div>
-        	</div>
+	            </div><!-- This is the END of a row -->
+            </div><!-- This is the END of the WRAPPER -->
+
             
             <div class="grid_4 omega">
                 <div class="portal-aside">
