@@ -4,14 +4,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-<div id="main" role="main">
-    	<!-- 
-        <div id="portal-title" class="container_16">
-        	<h1>Support Center</h1>
-        </div>
-        -->
-
-        <div class="container_16">	            
+<div id="main" role="main" class="kb">
+    	<div class="container_16">	            
 	    	<div class="grid_16 alpha omega top-search">
                         
                 <div class="grid_12 alpha">                
@@ -35,6 +29,12 @@
                  </div>
                  
              </div>
+ 
+             <!--------------------------------------------------------------
+             ----------------------------------------------------------------
+             ----                Main Knowledgebase loop                   --
+             ----------------------------------------------------------------
+             ---------------------------------------------------------------->
              
             <div class="grid_12"><!-- This is the WRAPPER to keep it on the left -->
                 <div class="category-row"> <!-- This is the START of a row -->
@@ -44,7 +44,7 @@
                             <li class="article"><a href="article-question.aspx"><span class="activity">5</span>Article Title</a></li>
                             <li class="question"><a href="question.aspx"><span class="activity">2</span>Question Title</a></li>
                             <li class="article"><a href="article-question.aspx"><span class="activity">1</span>Article Title</a></li>
-                            <li class="question"><a href="question.aspx"><span class="activity">>99</span>Extra Extra Long Question Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">99+</span>Extra Extra Long Question Title -> Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
                             <li class="question"><a href="question.aspx"><span class="activity">1</span>Question Title</a></li>
                             <li class="more"><a href="article-question.aspx">More...</a></li>
                         </ul>
@@ -55,7 +55,7 @@
                             <li class="article"><a href="article-question.aspx"><span class="activity">5</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id enim et leo laoreet vehicula</a></li>
                             <li class="question"><a href="question.aspx"><span class="activity">0</span>Question Title</a></li>
                             <li class="article"><a href="article-question.aspx"><span class="activity">23</span>Article Title</a></li>
-                            <li class="question"><a href="question.aspx"><span class="activity">>99</span>Question Title</a></li>
+                            <li class="question"><a href="question.aspx"><span class="activity">99+</span>Question Title</a></li>
                             <li class="question"><a href="question.aspx"><span class="activity">0</span>Question Title</a></li>
                             <li class="more"><a href="article-question.aspx">More...</a></li>
                         </ul>
